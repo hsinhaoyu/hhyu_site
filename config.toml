@@ -1,0 +1,88 @@
+baseurl = "http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/"
+languageCode = "en-us"
+Title = "Cortically Magnified"
+# Copyright notice. This is displayer in the footer.
+copyright = "(c) Hsin-Hoa Yu"
+theme = "hugo_theme_pickles"
+paginate = 5
+
+[params]
+  # Social accounts. Link to these accounts are displayed in the header and
+  # footer
+  instagram = "hhyu00"
+  linkedin = "hsin-hao-yu-165387110"
+  # Google Analytics API key.
+  ga_api_key = "UA-115187658-1"
+  author = "Hsin-Hao Yu"
+  authorwebsite = "example.com"
+  avatar = "/sitewide/logo.png"
+  contact = "mailto:hsinhaohh.yu@gmail.com"
+  bio = "A Taiwanese neuroscientist living in Melbourne"
+  # Short subtitle/tagline. This is displayed in the header.
+  subtitle = "Hsin-Hao Yu's website"
+  # Logo image. This is displayed ogp image.
+  logo = "logo.png"
+  favicon = "/path/to/favicon"
+
+  [[menu.main]]
+      name = "About"
+      url = "/about"
+      weight = 1
+
+[[menu.main]]
+    identifier = "Work"
+    name = "/Work"
+    weight = 2
+
+[[menu.main]]
+    parent = "Work"
+    name = "CV and Publications"
+    url = "publications"
+    weight = 1
+
+[[menu.main]]
+    parent = "Work"
+    name = "Visualization Gallery"
+    url = "gallery"
+    weight = 2
+
+[[menu.main]]
+    parent = "Work"
+    name = "Teaching"
+    url = "teaching"
+    weight = 3
+
+[[menu.main]]
+    name = "Blog"
+    url = "/"
+    weight = 3
+
+[[menu.main]]
+    name = "Tags"
+    url = "/tags"
+    weight = 4
+
+[related]
+    # Only include matches with rank >= threshold. This is a normalized rank between 0 and 100.
+    threshold = 40
+
+    # To get stable "See also" sections we, by default, exclude newer related pages.
+    includeNewer = false
+
+    # Will lower case keywords in both queries and in the indexes.
+    toLower = false
+
+    [[related.indices]]
+    name = "keywords"
+    weight = 150
+    [[related.indices]]
+    name  = "author"
+    toLower = true
+    weight = 30
+    [[related.indices]]
+    name  = "tags"
+    weight = 100
+    [[related.indices]]
+    name  = "date"
+    weight = 10
+    pattern = "2017"

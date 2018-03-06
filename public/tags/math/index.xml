@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Math on Cortically Magnified</title>
+    <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/tags/math/</link>
+    <description>Recent content in Math on Cortically Magnified</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) Hsin-Hoa Yu</copyright>
+    <lastBuildDate>Fri, 10 Nov 2017 22:06:25 +1100</lastBuildDate>
+    
+	<atom:link href="http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/tags/math/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The ingenious sundial of Professor Moppert</title>
+      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/sundial/</link>
+      <pubDate>Fri, 10 Nov 2017 22:06:25 +1100</pubDate>
+      
+      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/sundial/</guid>
+      <description>Left: Photo taken on the winter solstice (June 22, 2017). Right: Photo taken on the summer solstice (December 21, 2016). The wall approximately faces north. The right hand side of the photo points westward.   Installed on the northern wall of the Monash University student centre (Melbourne) is a curious geometrical object. If you don’t pay close attention, you might think it’s just a decorative sculpture. But it is actually a functional sundial — conceived and constructed by the mathematician Carl Moppert in the 80’s.</description>
+    </item>
+    
+    <item>
+      <title>A magic trick based on Fourier transform</title>
+      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/fourierdemonstration/</link>
+      <pubDate>Fri, 10 Nov 2017 19:40:13 +1100</pubDate>
+      
+      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/fourierdemonstration/</guid>
+      <description>Fourier analysis says that complex patterns can be created by adding up a large number of patterns as simple as sinusoidal waves. To make the idea more concrete, I like to use the following analogy in teaching: Imagine that you lived in the early 19th century. If you wanted to listen to a symphony, the only way to make it happen was to hire a few dozen highly-trained musicians to perform it for you.</description>
+    </item>
+    
+    <item>
+      <title>Mangarevan arithmetic</title>
+      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/mangarevan/</link>
+      <pubDate>Wed, 06 Apr 2016 18:37:27 +1100</pubDate>
+      
+      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/mangarevan/</guid>
+      <description>PNAS recently published a cognitive anthropology paper titled Mangarevan invention of binary steps for easier calculation. The paper describes an arithmetic system that had been used for hundreds of years by islanders living in Mangareva (a small island in French Polynesia) for the purpose of “counting a small group of highly valued objects such as turtles, fish, coconuts, octopuses, and breadfruits”. This system is not too different from the decimal system that we’re using today, except that a number in the Mangarevan language can contain a small segment of binary code, which employs four numerals to represent 10 multiplied by the first four powers of 2.</description>
+    </item>
+    
+  </channel>
+</rss>

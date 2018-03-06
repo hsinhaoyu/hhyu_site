@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teaching on Cortically Magnified</title>
+    <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/tags/teaching/</link>
+    <description>Recent content in Teaching on Cortically Magnified</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) Hsin-Hoa Yu</copyright>
+    <lastBuildDate>Fri, 10 Nov 2017 19:40:13 +1100</lastBuildDate>
+    
+	<atom:link href="http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/tags/teaching/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A magic trick based on Fourier transform</title>
+      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/fourierdemonstration/</link>
+      <pubDate>Fri, 10 Nov 2017 19:40:13 +1100</pubDate>
+      
+      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/fourierdemonstration/</guid>
+      <description>Fourier analysis says that complex patterns can be created by adding up a large number of patterns as simple as sinusoidal waves. To make the idea more concrete, I like to use the following analogy in teaching: Imagine that you lived in the early 19th century. If you wanted to listen to a symphony, the only way to make it happen was to hire a few dozen highly-trained musicians to perform it for you.</description>
+    </item>
+    
+    <item>
+      <title>Teaching Material: PSY3310/Human vision as frequency filters</title>
+      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/edupsy3310-fourier/</link>
+      <pubDate>Tue, 01 Jan 2008 14:32:20 +1100</pubDate>
+      
+      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/edupsy3310-fourier/</guid>
+      <description>Demonstrations:  The reconstruction of Mona Lisa video. A blog post I wrote about the Fourier transform trick. Youtube video: Nobel laureates David Hubel and Torsten Wiesel recording neurons in cat&amp;rsquo;s V1.  Suggested readings: Fourier transform  An introduction to two-dimensional fast Fourier transforms and their applications by Rzeszotarski et al. (1983). Fourier transforms and frequency-domain processing (Chapter 5 of Fundamentals of Digital Image Processing: A Practical Approach with Examples in Matlab by Solomon &amp;amp; Breckon, 2011)  Suggested readings: programming  See this web page from UCSB.</description>
+    </item>
+    
+    <item>
+      <title>Teaching Material: RAD2092/Physiology of Visual Pathways</title>
+      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/edurad2092-visual-cortex/</link>
+      <pubDate>Tue, 01 Jan 2008 14:26:30 +1100</pubDate>
+      
+      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/edurad2092-visual-cortex/</guid>
+      <description> Central disorders of vision in humans by Girkin &amp;amp; Miller (2001): a review of what happens if different parts of the visual cortex are damaged. &amp;ldquo;Superimposed hemifields in primary visual cortex of achiasmic individuals&amp;rdquo; by Sinha &amp;amp; Meng (2012, Neuron 75): Newton vs. Descartes on the organization of the optic chiasm. Youtube video demonstrating how Hubel &amp;amp; Wiesel mapped V1 receptive fields.  </description>
+    </item>
+    
+    <item>
+      <title>Teaching Material: RAD2092/The eye and the retina</title>
+      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/edurad2092-eye/</link>
+      <pubDate>Tue, 01 Jan 2008 14:23:49 +1100</pubDate>
+      
+      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/edurad2092-eye/</guid>
+      <description> Animal Eyes by Land &amp;amp; Nilsson is a very nice little book about the fascinating variety of eye structures found in nature. Youtube video about the &amp;ldquo;connectome&amp;rdquo; of the retina  </description>
+    </item>
+    
+    <item>
+      <title>Teaching Material: RAD2092/The Cerebral Cortex</title>
+      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/edurad2092-cortex/</link>
+      <pubDate>Tue, 01 Jan 2008 14:13:23 +1100</pubDate>
+      
+      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/edurad2092-cortex/</guid>
+      <description>General  Is the human cortex exceptionally large? See Herculano-Houzel (2009) The human brain in numbers: a linearly scaled-up primate brain. Frontiers in Neuroscience 3, e31. Tenor sings opera during craniotomy: I just think this is quite fascinating.  &amp;ldquo;Language areas&amp;rdquo;  The history of Broca&amp;rsquo;s area: Dronkers et al. (2007) Neuroimaging of Language: Why hasn&amp;rsquo;t a clear picture emerged? Fedorenko &amp;amp; Kanwisher (2009) Language and Linguistics Compass 3, 10.</description>
+    </item>
+    
+    <item>
+      <title>Teaching Material: PHY3012/Plasticity in the visual system in development</title>
+      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/eduphy3012-plasticity/</link>
+      <pubDate>Tue, 01 Jan 2008 14:02:22 +1100</pubDate>
+      
+      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/eduphy3012-plasticity/</guid>
+      <description>Interesting  A man with only half a brain A study of a man who recovered vision after decades of being blind: Fine et al. (2003) Long-term deprivation affects visual perception and cortex. Nat. Neurosci. 6, p915. How Utter Darkness Could Heal Lazy Eye: related to ocular dominance critical period. Giving blind people sight illuminates the brain’s secrets  General review  Anderson et al (2011) Do children really recover better?</description>
+    </item>
+    
+    <item>
+      <title>Teaching Material: PHY3111/Prac</title>
+      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/eduphy3111-prac/</link>
+      <pubDate>Tue, 01 Jan 2008 13:56:48 +1100</pubDate>
+      
+      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/eduphy3111-prac/</guid>
+      <description> More about extracellular recording  Wikipedia entry about single-unit recording Extracellular single-unit Recording Methods: a paper by Humphrey &amp;amp; Schmidt  </description>
+    </item>
+    
+    <item>
+      <title>Teaching Material: PHY3111/Color Vision</title>
+      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/eduphy3111-color/</link>
+      <pubDate>Tue, 01 Jan 2008 13:33:14 +1100</pubDate>
+      
+      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/eduphy3111-color/</guid>
+      <description>Interesting articles  Impossible colours: You can experience colours that you have never seen before. Some women are tetrachromatic. They can see more colours than most people can. The rainbow does not contain all the colours that we can see. For example, magenta.  Dressgate  Disrobing the dress:A very detailed webpage about the dress. Lessons from the dress: by vision scientist Pascal Wallisch. The science of why no one agrees on the color of this dress: an article on Wired.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Photo on Cortically Magnified</title>
+    <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/tags/photo/</link>
+    <description>Recent content in Photo on Cortically Magnified</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) Hsin-Hoa Yu</copyright>
+    <lastBuildDate>Tue, 04 Mar 2008 18:26:53 +1100</lastBuildDate>
+    
+	<atom:link href="http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/tags/photo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The California ground squirrel</title>
+      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/ground-squirrel/</link>
+      <pubDate>Tue, 04 Mar 2008 18:26:53 +1100</pubDate>
+      
+      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/ground-squirrel/</guid>
+      <description>I took these photos for a research project while I was a student at UC San Diego. They are the skull and the brain of the California ground squirrel (Spermophilus beecheyi)
+         </description>
+    </item>
+    
+  </channel>
+</rss>

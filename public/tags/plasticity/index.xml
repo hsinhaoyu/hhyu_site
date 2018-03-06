@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Plasticity on Cortically Magnified</title>
+    <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/tags/plasticity/</link>
+    <description>Recent content in Plasticity on Cortically Magnified</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) Hsin-Hoa Yu</copyright>
+    <lastBuildDate>Tue, 01 Jan 2008 14:02:22 +1100</lastBuildDate>
+    
+	<atom:link href="http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/tags/plasticity/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Teaching Material: PHY3012/Plasticity in the visual system in development</title>
+      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/eduphy3012-plasticity/</link>
+      <pubDate>Tue, 01 Jan 2008 14:02:22 +1100</pubDate>
+      
+      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/eduphy3012-plasticity/</guid>
+      <description>Interesting  A man with only half a brain A study of a man who recovered vision after decades of being blind: Fine et al. (2003) Long-term deprivation affects visual perception and cortex. Nat. Neurosci. 6, p915. How Utter Darkness Could Heal Lazy Eye: related to ocular dominance critical period. Giving blind people sight illuminates the brain’s secrets  General review  Anderson et al (2011) Do children really recover better?</description>
+    </item>
+    
+  </channel>
+</rss>
