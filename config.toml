@@ -4,7 +4,7 @@ Title = "Cortically Magnified"
 # Copyright notice. This is displayer in the footer.
 copyright = "(c) Hsin-Hoa Yu"
 theme = "hugo_theme_pickles"
-paginate = 5
+paginate = 4
 
 [params]
   # Social accounts. Link to these accounts are displayed in the header and
@@ -53,9 +53,21 @@ paginate = 5
     weight = 3
 
 [[menu.main]]
+    identifier = "Updates"
+    name = "/Updates"
+    weight = 3
+
+[[menu.main]]
+    parent = "Updates"
     name = "Blog"
     url = "/"
-    weight = 3
+    weight = 1
+
+[[menu.main]]
+    parent = "Updates"
+    name = "micro.blog"
+    url = "/categories/micro/"
+    weight = 2
 
 [[menu.main]]
     name = "Tags"

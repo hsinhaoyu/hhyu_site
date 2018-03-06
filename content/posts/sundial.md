@@ -2,7 +2,7 @@
 title: "The ingenious sundial of Professor Moppert"
 date: 2017-11-10T22:06:25+11:00
 draft: false
-category: [science]
+categories: ["science", "computation"]
 tags: ["general science", "math"]
 ---
 <figure style="display: table; width: 550px; align: middle">

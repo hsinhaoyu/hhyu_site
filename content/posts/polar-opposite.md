@@ -2,8 +2,8 @@
 title: "Polar opposite"
 date: 2009-03-04T17:28:52+11:00
 draft: false
-category: [neuroscience]
-tags: ["motion", "vision"]
+categories: ["science"]
+tags: ["motion", "vision", "data"]
 ---
 
 {{< figure src="/blog/opposite-directions.png">}}

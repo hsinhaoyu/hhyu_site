@@ -11,5 +11,41 @@
 	<atom:link href="http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Computation</title>
+      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/categories/computation/</link>
+      <pubDate>Fri, 10 Nov 2017 22:06:25 +1100</pubDate>
+      
+      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/categories/computation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Micro</title>
+      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/categories/micro/</link>
+      <pubDate>Tue, 06 Mar 2018 21:58:29 +1100</pubDate>
+      
+      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/categories/micro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Misc</title>
+      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/categories/misc/</link>
+      <pubDate>Fri, 10 Nov 2017 21:38:21 +1100</pubDate>
+      
+      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/categories/misc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Science</title>
+      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/categories/science/</link>
+      <pubDate>Fri, 10 Nov 2017 22:06:25 +1100</pubDate>
+      
+      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/categories/science/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

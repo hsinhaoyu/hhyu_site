@@ -2,7 +2,7 @@
 title: "Teaching Material: RAD2092/The Cerebral Cortex"
 date: 2008-01-01T14:13:23+11:00
 draft: false
-category: [teaching]
+categories: ["science"]
 tags: ["teaching"]
 ---
 ### General

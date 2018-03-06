@@ -2,7 +2,7 @@
 title: "Teaching Material: PSY3310/Human vision as frequency filters"
 date: 2008-01-01T14:32:20+11:00
 draft: False
-category: [teaching]
+categories: ["science"]
 tags: ["teaching", "vision"]
 ---
 ### Demonstrations:
@@ -30,4 +30,4 @@ tags: ["teaching", "vision"]
 - Bonnar et al (2002) [Understanding Dali's Slave market with the disappearing bust of Voltaire: a case study in the scale information driving perception](https://www.ncbi.nlm.nih.gov/pubmed/12092795). Perception 31, 683-691. This research uses the frequency adaptation technique that we discussed to study the perception of a painting by Salvador Dali.
 
 Review papers:
-- De Valois RL & De Valois KK (1980) Spatial vision. Ann. Rev. Psychol. 31, 309-41. 
+- De Valois RL & De Valois KK (1980) Spatial vision. Ann. Rev. Psychol. 31, 309-41.

@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/testmicro1/</loc>
+    <lastmod>2018-03-06T21:58:29+11:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/publications/</loc>
     <lastmod>2018-03-06T14:50:45+11:00</lastmod>
   </url>
@@ -125,8 +130,14 @@
   </url>
   
   <url>
+    <loc>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/categories/computation/</loc>
+    <lastmod>2017-11-10T22:06:25+11:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/</loc>
-    <lastmod>2018-03-06T14:50:45+11:00</lastmod>
+    <lastmod>2018-03-06T21:58:29+11:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -169,6 +180,24 @@
   <url>
     <loc>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/tags/math/</loc>
     <lastmod>2017-11-10T22:06:25+11:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/categories/micro/</loc>
+    <lastmod>2018-03-06T21:58:29+11:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/</loc>
+    <lastmod>2018-03-06T21:58:29+11:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/categories/misc/</loc>
+    <lastmod>2017-11-10T21:38:21+11:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -217,6 +246,12 @@
   <url>
     <loc>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/tags/psychophysics/</loc>
     <lastmod>2016-08-20T20:31:41+11:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/categories/science/</loc>
+    <lastmod>2017-11-10T22:06:25+11:00</lastmod>
     <priority>0</priority>
   </url>
   

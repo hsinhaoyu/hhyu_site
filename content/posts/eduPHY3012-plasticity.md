@@ -2,7 +2,7 @@
 title: "Teaching Material: PHY3012/Plasticity in the visual system in development"
 date: 2008-01-01T14:02:22+11:00
 draft: false
-category: [teaching]
+categories: ["science"]
 tags: ["teaching", "vision", "plasticity", "development"]
 ---
 ### Interesting

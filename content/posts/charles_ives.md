@@ -2,7 +2,7 @@
 title: "Several places in the music of Charles Ives"
 date: 2017-11-10T21:38:21+11:00
 draft: false
-category: [misc]
+categories: ["misc"]
 tags: ["music"]
 ---
 

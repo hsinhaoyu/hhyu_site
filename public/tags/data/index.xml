@@ -22,5 +22,14 @@
  Download ParaView, the open source 3D data visualization package.</description>
     </item>
     
+    <item>
+      <title>Polar opposite</title>
+      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/polar-opposite/</link>
+      <pubDate>Wed, 04 Mar 2009 17:28:52 +1100</pubDate>
+      
+      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/polar-opposite/</guid>
+      <description>This figure illustrates the direction tuning curves of two motion sensitive neurons recorded in the primary visual cortex. The two neurons were so close to each other that their activities could be picked up by the same electrode. Interestingly they preferred polar opposite directions.</description>
+    </item>
+    
   </channel>
 </rss>
