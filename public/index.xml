@@ -7,18 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>(c) Hsin-Hoa Yu</copyright>
-    <lastBuildDate>Tue, 06 Mar 2018 21:58:29 +1100</lastBuildDate>
+    <lastBuildDate>Thu, 08 Mar 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Testing the microblogging function</title>
-      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/testmicro1/</link>
-      <pubDate>Tue, 06 Mar 2018 21:58:29 +1100</pubDate>
+      <title></title>
+      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/new_site/</link>
+      <pubDate>Thu, 08 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/testmicro1/</guid>
-      <description>this is BLA BLA BLA!</description>
+      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/new_site/</guid>
+      <description>Looks like I have successfully migrated my website to AWS S3.</description>
     </item>
     
     <item>
@@ -48,6 +48,87 @@
       
       <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/about/</guid>
       <description>The painting in the background is &#34;4 doubles frames, traits minces&#34; by François Morellet (Centre Pompidou, Paris).   I&amp;rsquo;m a neuroscientist working at the Department of Physiology, Monash University (Melbourne). I received my Ph.D. degree from the Department of Cognitive Science in University of California San Diego in 2008. In the same year, I moved to Melbourne to work for Monash University. For my undergraduate degree, I studied Mathematics at the National Chiao Tung University (NCTU) in Hsin-Chu, Taiwan.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/dissembler/</link>
+      <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/dissembler/</guid>
+      <description>I am really liking an iOS puzzle game called Dissembler. The minimalist graphics is beautiful like a Bauhaus design. This is like a game that Paul Klee would have made.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/tori_amos/</link>
+      <pubDate>Fri, 09 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/tori_amos/</guid>
+      <description>“I don’t believe you are leaving cause me and Charles Manson like the same ice cream” - Tori Amos, Tears in Your Hands</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/testmicro1/</link>
+      <pubDate>Thu, 08 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/testmicro1/</guid>
+      <description>Anthropologists discovered that islanders in South Pacific have been using blockchains for thousands of years. All transactions are recorded by carving patterns on tree trunks, whose integrity is enforced by solving hard problems such as 12&amp;frasl;5.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/pynchon/</link>
+      <pubDate>Sun, 04 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/pynchon/</guid>
+      <description>Thomas Pynchon and Satoshi Nakamoto - the same person?</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/einsum/</link>
+      <pubDate>Mon, 29 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/einsum/</guid>
+      <description>Just discovered that python&amp;rsquo;s numerical package has a function for Einstein summation for tensors. In the past, you need that for cosmology. These days you use them for neural networks.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/pendulum/</link>
+      <pubDate>Tue, 09 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/pendulum/</guid>
+      <description>The plot of Umberto Eco&amp;rsquo;s novel Foucault&amp;rsquo;s Pendulum involves two publishers: Garamond and Manutius. Both refer to publishers of the 16 century: Claude Garamond and Aldus Manutius. Interestingly both names are relatable to Apple. The Garamond font was used in Apple&amp;rsquo;s logo, and Aldus Co. was the original developer of PageMaker (a killer app for the Macintosh) before it was acquired by Adobe.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/turing/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/turing/</guid>
+      <description>Turing once dreamed that he was a Turing machine. When he woke up, he wondered if it was him who dreamed of being a Turing machine, or if it was a Turning machine which dreamed that it was Turing (a koan from a programming book published in Taiwan)</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/shutterspeed/</link>
+      <pubDate>Sat, 16 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/shutterspeed/</guid>
+      <description>What is the shutter speed of human vision? A new paper claims that at extremely low light condition, it can be as long as 0.6 second.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/retina/</link>
+      <pubDate>Thu, 14 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/retina/</guid>
+      <description>Last week I went to see an optometrist. As he examined my eye with a strong light, I was amazed that I saw an image of the blood vessels on the retina. This phenomenon is called the entoptic image. It was first described by Purkinje about 200 years ago. I read about it in “How we perceive our own retina” by Kuno Kirschfeld (published in Proc. Bio. Sci.)</description>
     </item>
     
     <item>
@@ -116,12 +197,93 @@
     </item>
     
     <item>
+      <title></title>
+      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/don_quixote/</link>
+      <pubDate>Thu, 16 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/don_quixote/</guid>
+      <description>&amp;ldquo;The reason of the unreason with which my reason is afflicted so weakens my reason that with reason I murmur at your beauty&amp;rdquo; - Don Quixote</description>
+    </item>
+    
+    <item>
       <title>A historical note about color vision</title>
       <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/color-vision-historical/</link>
       <pubDate>Tue, 03 Mar 2015 19:04:44 +1100</pubDate>
       
       <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/color-vision-historical/</guid>
       <description>What was the first time that we know that non-human animals have color vision? From what I can find, the first person who scientifically came to that conclusion was John Lubbock in 1888. What was so strange about it was that he studied Daphnia - a plankton (!). He discovered that the plankton was attracted to yellow light, but not to white light. Lubbock also reasoned that insects must have color vision, but was not able to scientifically demonstrate it.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/beefheart/</link>
+      <pubDate>Fri, 16 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/beefheart/</guid>
+      <description>&amp;ldquo;Why don’t you drop your cool tom-foolery ‘n shed your nasty jewelry?&amp;rdquo; - Captain Beefheart</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/journal/</link>
+      <pubDate>Mon, 17 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/journal/</guid>
+      <description>We need a journal that publishes papers in the style of the 18th century: long title, flowery prose, kudos to King and church, and extreme modesty.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/analog/</link>
+      <pubDate>Fri, 31 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/analog/</guid>
+      <description>analogmuseum.org is a website about analog computers</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/visual_cortex/</link>
+      <pubDate>Thu, 30 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/visual_cortex/</guid>
+      <description>What is known as the visual cortex today was thought to be the site of &amp;ldquo;philoprogenitivty” (parental love) in phrenology.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/pynchon3/</link>
+      <pubDate>Sat, 25 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/pynchon3/</guid>
+      <description>“Really. Hey, like Godzilla always sez to Mothra—why don’t we go eat some place?”— Inherent Vice by Thomas Pynchon</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/bond/</link>
+      <pubDate>Wed, 08 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/bond/</guid>
+      <description>Choose your next private key carefully, Mr. Bond. It may be your last. Do you expect me to talk? No. I expect you to prime.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/pynchon2/</link>
+      <pubDate>Tue, 07 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/pynchon2/</guid>
+      <description>“No worries, it’s on the house, as the TV antenna man always sez” — Thomas Pynchon in Inherent Vice</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/siri/</link>
+      <pubDate>Mon, 29 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/siri/</guid>
+      <description>Hey Jude. Hey Bulldog. Hey Joe. Heh You. And now&amp;hellip; Hey Siri?</description>
     </item>
     
     <item>
