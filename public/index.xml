@@ -7,10 +7,29 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>(c) Hsin-Hoa Yu</copyright>
-    <lastBuildDate>Thu, 08 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Mar 2018 12:30:31 +1100</lastBuildDate>
     
 	<atom:link href="http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Research</title>
+      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/research/</link>
+      <pubDate>Wed, 14 Mar 2018 12:30:31 +1100</pubDate>
+      
+      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/research/</guid>
+      <description>Some of the topics in neuroscience that I have worked on:
+Brain Mapping In 2012, I identified a new component of the visual cortex called area prostriata using electrophysiological recordings. This area is weird. It seems to devote most of its resource to the processing of information in the far peripheral visual field (close to the edge of vision), and it seems to be a short-cut for visual information be integrated with non-visual areas in the brain, bypassing most of hierarchy of the visual cortex.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/frivolous/</link>
+      <pubDate>Fri, 09 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/frivolous/</guid>
+      <description>A mathematician friend mentioned Frivolous Theorem of Arithmetic, which apparently states that &amp;ldquo;Almost all natural numbers are very, very, very large&amp;rdquo;. Me: But isn&amp;rsquo;t that obvious? Friend: That&amp;rsquo;s why it&amp;rsquo;s called frivolous.</description>
+    </item>
     
     <item>
       <title></title>
@@ -27,7 +46,8 @@
       <pubDate>Tue, 06 Mar 2018 14:50:45 +1100</pubDate>
       
       <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/publications/</guid>
-      <description>Book chapters and reviews  Yu Hh &amp;amp; Rosa MGP (2017) The dosomedial cortex. In Encyclopedia of Animal Cognition and Behavior (Eds. Vonk J &amp;amp; Shackelford, TK). Springer. [link] Chaplin TA, Rosa MGP, Yu H-H (2016) Scaling up the simian primate cortex: a conserved pattern of expansion across brain sizes. In Evolution of Nervous Systems, 2nd edition (Eds. Kaas, JH), Vol. 4, Academic Press. [link] Yu H-H, Chaplin TA, Rosa MGP (2014) Representation of central and peripheral vision in the primate cerebral cortex: Insights from studies of the marmoset brain.</description>
+      <description>For full cv, see here.
+Awards  2013 Australian Research Council Discovery Early Career Researcher Award (DECRA) 2013 Best Postdoctoral Oral Presentation Award, Bosch Institute Annual Scientific Meeting 2013 2010 - School of Biomedical Sciences Travel Grant  Book chapters and reviews  Yu Hh &amp;amp; Rosa MGP (2017) The dosomedial cortex. In Encyclopedia of Animal Cognition and Behavior (Eds. Vonk J &amp;amp; Shackelford, TK). Springer. [link] Chaplin TA, Rosa MGP, Yu H-H (2016) Scaling up the simian primate cortex: a conserved pattern of expansion across brain sizes.</description>
     </item>
     
     <item>

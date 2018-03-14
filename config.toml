@@ -19,7 +19,7 @@ paginate = 4
   contact = "mailto:hsinhaohh.yu@gmail.com"
   bio = "A Taiwanese neuroscientist living in Melbourne"
   # Short subtitle/tagline. This is displayed in the header.
-  subtitle = "Hsin-Hao Yu's website"
+  subtitle = "Neuroscience, machine learning, and other interesting stuff"
   # Logo image. This is displayed ogp image.
   logo = "logo.png"
   favicon = "/path/to/favicon"
@@ -30,44 +30,55 @@ paginate = 4
       weight = 1
 
 [[menu.main]]
-    identifier = "Work"
-    name = "/Work"
+    identifier = "Science"
+    name = "/Science"
     weight = 2
 
 [[menu.main]]
-    parent = "Work"
-    name = "CV and Publications"
-    url = "publications"
+    parent = "Science"
+    name = "Research"
+    url = "research"
     weight = 1
 
 [[menu.main]]
-    parent = "Work"
-    name = "Visualization Gallery"
-    url = "gallery"
+    parent = "Science"
+    name = "CV and Publications"
+    url = "publications"
     weight = 2
 
 [[menu.main]]
-    parent = "Work"
+    parent = "Science"
+    name = "Visualization Gallery"
+    url = "gallery"
+    weight = 3
+
+[[menu.main]]
+    parent = "Science"
     name = "Teaching"
     url = "teaching"
+    weight = 4
+
+[[menu.main]]
+    identifier = "Writing"
+    name = "/Writing"
     weight = 3
 
 [[menu.main]]
-    identifier = "Updates"
-    name = "/Updates"
-    weight = 3
-
-[[menu.main]]
-    parent = "Updates"
+    parent = "Writing"
     name = "Blog"
     url = "/"
     weight = 1
 
 [[menu.main]]
-    parent = "Updates"
+    parent = "Writing"
     name = "micro.blog"
     url = "/categories/micro/"
     weight = 2
+[[menu.main]]
+    parent = "Writing"
+    name = "Popular Science"
+    url = "writing"
+    weight = 3
 
 [[menu.main]]
     name = "Tags"

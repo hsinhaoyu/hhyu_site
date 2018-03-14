@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>(c) Hsin-Hoa Yu</copyright>
-    <lastBuildDate>Thu, 08 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Mar 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title></title>
+      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/frivolous/</link>
+      <pubDate>Fri, 09 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/frivolous/</guid>
+      <description>A mathematician friend mentioned Frivolous Theorem of Arithmetic, which apparently states that &amp;ldquo;Almost all natural numbers are very, very, very large&amp;rdquo;. Me: But isn&amp;rsquo;t that obvious? Friend: That&amp;rsquo;s why it&amp;rsquo;s called frivolous.</description>
+    </item>
     
     <item>
       <title></title>
