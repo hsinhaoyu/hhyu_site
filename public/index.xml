@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>(c) Hsin-Hoa Yu</copyright>
-    <lastBuildDate>Wed, 14 Mar 2018 12:30:31 +1100</lastBuildDate>
+    <lastBuildDate>Wed, 14 Mar 2018 15:11:38 +1100</lastBuildDate>
     
 	<atom:link href="http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Popular Science</title>
+      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/writing/</link>
+      <pubDate>Wed, 14 Mar 2018 15:11:38 +1100</pubDate>
+      
+      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/writing/</guid>
+      <description>In addition to my website hhyu.org, I have been using Medium as the publishing platform for my general-audience writing. Interestingly, the most popular article that I have written has also been the most technical one. In How many photons get into your eyes?, I demonstrated how to estimate the number of photons emitted by various light sources. This article receives daily hits.
+From 2014-2017, I wrote a series of articles for the Chinese speaking communities.</description>
+    </item>
     
     <item>
       <title>Research</title>
@@ -19,7 +29,7 @@
       
       <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/research/</guid>
       <description>Some of the topics in neuroscience that I have worked on:
-Brain Mapping In 2012, I identified a new component of the visual cortex called area prostriata using electrophysiological recordings. This area is weird. It seems to devote most of its resource to the processing of information in the far peripheral visual field (close to the edge of vision), and it seems to be a short-cut for visual information be integrated with non-visual areas in the brain, bypassing most of hierarchy of the visual cortex.</description>
+Current Research: Machine Learning and Functional Brain Imaging In 2016, I was awarded research grants from the Australian Research Council and the National Health and Medical Research Council to use machine learning methods on the analysis of neurophysiolgical data. In addition, I am also working on new methodologies to imagine the activities of the visual cortex. Initial findings will be published in the near future.</description>
     </item>
     
     <item>

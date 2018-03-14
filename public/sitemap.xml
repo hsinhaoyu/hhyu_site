@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/writing/</loc>
+    <lastmod>2018-03-14T15:11:38+11:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/research/</loc>
     <lastmod>2018-03-14T12:30:31+11:00</lastmod>
   </url>
@@ -237,7 +242,7 @@
   
   <url>
     <loc>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/</loc>
-    <lastmod>2018-03-14T12:30:31+11:00</lastmod>
+    <lastmod>2018-03-14T15:11:38+11:00</lastmod>
     <priority>0</priority>
   </url>
   
