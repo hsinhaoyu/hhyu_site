@@ -10,12 +10,15 @@ This article describes an experiment to develop a version of the elastic net alg
 
 <!--more-->
 
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML'>
+</script>
+
+
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
 });
 </script>
-<script type="text/javascript" async src="path-to-mathjax/MathJax.js?config=TeX-AMS_CHTML"></script>
 
 The elastic net is a numerical algorithm for approximating the solution to the [travelling salesman problem](https://en.wikipedia.org/wiki/Travelling_salesman_problem#Heuristic_and_approximation_algorithms) [1]. It's an unsupervised learning algorithm that shares some of the features of Kohonen's self-organizing map. In neuroscience, it's typically used as a dimension reduction technique for modelling the development of topographic maps in the visual cortex [2]. In the traditional formulation of the travelling salesman problem, the cities that the salesman must visit are on a flat surface. That is assuming that the salesman is visiting cities confined to a relatively small region, so that the curvature of the Earth can be ignored. What if the salesman has to visit cities across the globe? I came up with the question when I was thinking about the mapping between the visual cortex and the retina, whose spherical geometry is very often ignored in neuroscience. But perhaps it would be interesting to take the spherical geometry into account?
 
