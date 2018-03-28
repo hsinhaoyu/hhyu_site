@@ -1,0 +1,15 @@
+<article class="c-article p-list-article">
+  <header>
+    <p class="c-article__meta">
+      <time datetime="{{ .Date.Format "2006-01-02" | safeHTML }}">
+        {{ .Date.Format "Jan 2, 2006" }}
+      </time>
+    </p>
+  </header>
+  <div class="c-article__summary">
+    {{ .Summary | plainify | safeHTML }}
+  </div>
+  {{ if .Truncated }}
+  <a href="{{ .Permalink }}" class="c-article__btn p-list-article__btn">Read more</a></li>
+  {{ end }}
+</article>
