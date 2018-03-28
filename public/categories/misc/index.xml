@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Misc on Cortically Magnified</title>
-    <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/categories/misc/</link>
+    <link>http://hhyu.org/categories/misc/</link>
     <description>Recent content in Misc on Cortically Magnified</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>(c) Hsin-Hoa Yu</copyright>
     <lastBuildDate>Fri, 10 Nov 2017 21:38:21 +1100</lastBuildDate>
     
-	<atom:link href="http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/categories/misc/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://hhyu.org/categories/misc/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Several places in the music of Charles Ives</title>
-      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/charles_ives/</link>
+      <link>http://hhyu.org/posts/charles_ives/</link>
       <pubDate>Fri, 10 Nov 2017 21:38:21 +1100</pubDate>
       
-      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/charles_ives/</guid>
+      <guid>http://hhyu.org/posts/charles_ives/</guid>
       <description>Charles Ives (1874–1954) is the quintessential American composer. Some of his compositions are as American as cherry pie. Take the Country Band March (1905), for example. It brings you straight to the turn-of-the century America:
   It’s a collage of folk tunes, patriotic songs, and marching band music, but you only hear a melody briefly, and then it’s either interrupted rudely or mutated gracefully into another. Very often two or three motifs are played simultaneously so you can’t decide which one to follow.</description>
     </item>

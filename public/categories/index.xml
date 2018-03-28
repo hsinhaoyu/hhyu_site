@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Cortically Magnified</title>
-    <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/categories/</link>
+    <link>http://hhyu.org/categories/</link>
     <description>Recent content in Categories on Cortically Magnified</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>(c) Hsin-Hoa Yu</copyright>
     
-	<atom:link href="http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://hhyu.org/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Computation</title>
-      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/categories/computation/</link>
-      <pubDate>Fri, 10 Nov 2017 22:06:25 +1100</pubDate>
+      <link>http://hhyu.org/categories/computation/</link>
+      <pubDate>Fri, 23 Mar 2018 12:23:25 +1100</pubDate>
       
-      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/categories/computation/</guid>
+      <guid>http://hhyu.org/categories/computation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Micro</title>
-      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/categories/micro/</link>
+      <link>http://hhyu.org/categories/micro/</link>
       <pubDate>Fri, 09 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/categories/micro/</guid>
+      <guid>http://hhyu.org/categories/micro/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Misc</title>
-      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/categories/misc/</link>
+      <link>http://hhyu.org/categories/misc/</link>
       <pubDate>Fri, 10 Nov 2017 21:38:21 +1100</pubDate>
       
-      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/categories/misc/</guid>
+      <guid>http://hhyu.org/categories/misc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Science</title>
-      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/categories/science/</link>
+      <link>http://hhyu.org/categories/science/</link>
       <pubDate>Fri, 10 Nov 2017 22:06:25 +1100</pubDate>
       
-      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/categories/science/</guid>
+      <guid>http://hhyu.org/categories/science/</guid>
       <description></description>
     </item>
     

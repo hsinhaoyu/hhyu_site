@@ -5,13 +5,15 @@ draft: false
 categories: ["science", "computation"]
 tags: ["general science", "math"]
 ---
+Installed on the northern wall of the Monash University student centre (Melbourne) is a curious geometrical object. If you don’t pay close attention, you might think it’s just a decorative sculpture. But it is actually a functional sundial — conceived and constructed by the mathematician Carl Moppert in the 80’s. This design appears to be unique. I browsed through many photos on Instagram tagged with #sundial, and I couldn’t find another one that looks quite like it.
+
+<!--more-->
+
 <figure style="display: table; width: 550px; align: middle">
   <img src="/blog/sundial/photos.jpg">
   <figcaption style="display: table-row;">
 Left: Photo taken on the winter solstice (June 22, 2017). Right: Photo taken on the summer solstice (December 21, 2016). The wall approximately faces north. The right hand side of the photo points westward.  </figcaption>
 </figure>
-
-Installed on the northern wall of the Monash University student centre (Melbourne) is a curious geometrical object. If you don’t pay close attention, you might think it’s just a decorative sculpture. But it is actually a functional sundial — conceived and constructed by the mathematician Carl Moppert in the 80’s. This design appears to be unique. I browsed through many photos on Instagram tagged with #sundial, and I couldn’t find another one that looks quite like it.
 
 {{< figure src="/blog/sundial/instructions.png">}}
 

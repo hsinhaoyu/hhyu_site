@@ -2,70 +2,83 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cortically Magnified</title>
-    <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/</link>
+    <link>http://hhyu.org/</link>
     <description>Recent content on Cortically Magnified</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>(c) Hsin-Hoa Yu</copyright>
-    <lastBuildDate>Wed, 14 Mar 2018 15:11:38 +1100</lastBuildDate>
+    <lastBuildDate>Fri, 23 Mar 2018 12:23:25 +1100</lastBuildDate>
     
-	<atom:link href="http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://hhyu.org/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Gradient descent on a non-Euclidean surface</title>
+      <link>http://hhyu.org/posts/elastic/</link>
+      <pubDate>Fri, 23 Mar 2018 12:23:25 +1100</pubDate>
+      
+      <guid>http://hhyu.org/posts/elastic/</guid>
+      <description>&lt;h4 id=&#34;is-the-salesman-travelling-on-foot-or-on-an-airplane&#34;&gt;Is the salesman travelling on foot or on an airplane?&lt;/h4&gt;
+
+&lt;p&gt;This article describes an experiment to develop a version of the elastic net algorithm that works on spherical surfaces. I needed it for a computational neuroscience problem, but for those who are mainly interested in machine learning, it also serves a simple and intuitive demonstration of using gradient descent on non-Euclidian surfaces. The Tensorflow source code is available on &lt;a href=&#34;https://github.com/hsinhaoyu/spherical_elastic_net&#34;&gt;GitHub&lt;/a&gt;. I also made a youtube &lt;a href=&#34;https://www.youtube.com/watch?v=uoZcTG_i2jQ&amp;amp;feature=youtu.be&#34;&gt;video&lt;/a&gt; showing the algorithm in action.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Popular Science</title>
-      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/writing/</link>
+      <link>http://hhyu.org/writing/</link>
       <pubDate>Wed, 14 Mar 2018 15:11:38 +1100</pubDate>
       
-      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/writing/</guid>
+      <guid>http://hhyu.org/writing/</guid>
       <description>In addition to my website hhyu.org, I have been using Medium as the publishing platform for my general-audience writing. Interestingly, the most popular article that I have written has also been the most technical one. In How many photons get into your eyes?, I demonstrated how to estimate the number of photons emitted by various light sources. This article receives daily hits.
 From 2014-2017, I wrote a series of articles for the Chinese speaking communities.</description>
     </item>
     
     <item>
       <title>Research</title>
-      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/research/</link>
+      <link>http://hhyu.org/research/</link>
       <pubDate>Wed, 14 Mar 2018 12:30:31 +1100</pubDate>
       
-      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/research/</guid>
+      <guid>http://hhyu.org/research/</guid>
       <description>Some of the topics in neuroscience that I have worked on:
 Current Research: Machine Learning and Functional Brain Imaging In 2016, I was awarded research grants from the Australian Research Council and the National Health and Medical Research Council to use machine learning methods on the analysis of neurophysiolgical data. In addition, I am also working on new methodologies to imagine the activities of the visual cortex. Initial findings will be published in the near future.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/frivolous/</link>
+      <link>http://hhyu.org/micro/frivolous/</link>
       <pubDate>Fri, 09 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/frivolous/</guid>
+      <guid>http://hhyu.org/micro/frivolous/</guid>
       <description>A mathematician friend mentioned Frivolous Theorem of Arithmetic, which apparently states that &amp;ldquo;Almost all natural numbers are very, very, very large&amp;rdquo;. Me: But isn&amp;rsquo;t that obvious? Friend: That&amp;rsquo;s why it&amp;rsquo;s called frivolous.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/new_site/</link>
+      <link>http://hhyu.org/micro/new_site/</link>
       <pubDate>Thu, 08 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/new_site/</guid>
+      <guid>http://hhyu.org/micro/new_site/</guid>
       <description>Looks like I have successfully migrated my website to AWS S3.</description>
     </item>
     
     <item>
       <title>CV &amp; publications</title>
-      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/publications/</link>
+      <link>http://hhyu.org/publications/</link>
       <pubDate>Tue, 06 Mar 2018 14:50:45 +1100</pubDate>
       
-      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/publications/</guid>
+      <guid>http://hhyu.org/publications/</guid>
       <description>For full cv, see here.
 Awards  2013 Australian Research Council Discovery Early Career Researcher Award (DECRA) 2013 Best Postdoctoral Oral Presentation Award, Bosch Institute Annual Scientific Meeting 2013 2010 - School of Biomedical Sciences Travel Grant  Book chapters and reviews  Yu Hh &amp;amp; Rosa MGP (2017) The dosomedial cortex. In Encyclopedia of Animal Cognition and Behavior (Eds. Vonk J &amp;amp; Shackelford, TK). Springer. [link] Chaplin TA, Rosa MGP, Yu H-H (2016) Scaling up the simian primate cortex: a conserved pattern of expansion across brain sizes.</description>
     </item>
     
     <item>
       <title>Visualization Gallery</title>
-      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/gallery/</link>
+      <link>http://hhyu.org/gallery/</link>
       <pubDate>Sun, 04 Mar 2018 13:09:16 +1100</pubDate>
       
-      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/gallery/</guid>
+      <guid>http://hhyu.org/gallery/</guid>
       <description>Here are some examples of the images that I have created (or helped to create) in research and in teaching. Click on the images for brief explanations.
                                 Areas in the medial surface of the posterior brain
       Representation of the visual field</description>
@@ -73,337 +86,339 @@ Awards  2013 Australian Research Council Discovery Early Career Researcher Award
     
     <item>
       <title>About</title>
-      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/about/</link>
+      <link>http://hhyu.org/about/</link>
       <pubDate>Sun, 04 Mar 2018 09:45:28 +1100</pubDate>
       
-      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/about/</guid>
+      <guid>http://hhyu.org/about/</guid>
       <description>The painting in the background is &#34;4 doubles frames, traits minces&#34; by François Morellet (Centre Pompidou, Paris).   I&amp;rsquo;m a neuroscientist working at the Department of Physiology, Monash University (Melbourne). I received my Ph.D. degree from the Department of Cognitive Science in University of California San Diego in 2008. In the same year, I moved to Melbourne to work for Monash University. For my undergraduate degree, I studied Mathematics at the National Chiao Tung University (NCTU) in Hsin-Chu, Taiwan.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/dissembler/</link>
+      <link>http://hhyu.org/micro/dissembler/</link>
       <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/dissembler/</guid>
+      <guid>http://hhyu.org/micro/dissembler/</guid>
       <description>I am really liking an iOS puzzle game called Dissembler. The minimalist graphics is beautiful like a Bauhaus design. This is like a game that Paul Klee would have made.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/tori_amos/</link>
+      <link>http://hhyu.org/micro/tori_amos/</link>
       <pubDate>Fri, 09 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/tori_amos/</guid>
+      <guid>http://hhyu.org/micro/tori_amos/</guid>
       <description>“I don’t believe you are leaving cause me and Charles Manson like the same ice cream” - Tori Amos, Tears in Your Hands</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/testmicro1/</link>
+      <link>http://hhyu.org/micro/testmicro1/</link>
       <pubDate>Thu, 08 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/testmicro1/</guid>
+      <guid>http://hhyu.org/micro/testmicro1/</guid>
       <description>Anthropologists discovered that islanders in South Pacific have been using blockchains for thousands of years. All transactions are recorded by carving patterns on tree trunks, whose integrity is enforced by solving hard problems such as 12&amp;frasl;5.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/pynchon/</link>
+      <link>http://hhyu.org/micro/pynchon/</link>
       <pubDate>Sun, 04 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/pynchon/</guid>
+      <guid>http://hhyu.org/micro/pynchon/</guid>
       <description>Thomas Pynchon and Satoshi Nakamoto - the same person?</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/einsum/</link>
+      <link>http://hhyu.org/micro/einsum/</link>
       <pubDate>Mon, 29 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/einsum/</guid>
+      <guid>http://hhyu.org/micro/einsum/</guid>
       <description>Just discovered that python&amp;rsquo;s numerical package has a function for Einstein summation for tensors. In the past, you need that for cosmology. These days you use them for neural networks.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/pendulum/</link>
+      <link>http://hhyu.org/micro/pendulum/</link>
       <pubDate>Tue, 09 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/pendulum/</guid>
+      <guid>http://hhyu.org/micro/pendulum/</guid>
       <description>The plot of Umberto Eco&amp;rsquo;s novel Foucault&amp;rsquo;s Pendulum involves two publishers: Garamond and Manutius. Both refer to publishers of the 16 century: Claude Garamond and Aldus Manutius. Interestingly both names are relatable to Apple. The Garamond font was used in Apple&amp;rsquo;s logo, and Aldus Co. was the original developer of PageMaker (a killer app for the Macintosh) before it was acquired by Adobe.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/turing/</link>
+      <link>http://hhyu.org/micro/turing/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/turing/</guid>
+      <guid>http://hhyu.org/micro/turing/</guid>
       <description>Turing once dreamed that he was a Turing machine. When he woke up, he wondered if it was him who dreamed of being a Turing machine, or if it was a Turning machine which dreamed that it was Turing (a koan from a programming book published in Taiwan)</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/shutterspeed/</link>
+      <link>http://hhyu.org/micro/shutterspeed/</link>
       <pubDate>Sat, 16 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/shutterspeed/</guid>
+      <guid>http://hhyu.org/micro/shutterspeed/</guid>
       <description>What is the shutter speed of human vision? A new paper claims that at extremely low light condition, it can be as long as 0.6 second.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/retina/</link>
+      <link>http://hhyu.org/micro/retina/</link>
       <pubDate>Thu, 14 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/retina/</guid>
+      <guid>http://hhyu.org/micro/retina/</guid>
       <description>Last week I went to see an optometrist. As he examined my eye with a strong light, I was amazed that I saw an image of the blood vessels on the retina. This phenomenon is called the entoptic image. It was first described by Purkinje about 200 years ago. I read about it in “How we perceive our own retina” by Kuno Kirschfeld (published in Proc. Bio. Sci.)</description>
     </item>
     
     <item>
       <title>The ingenious sundial of Professor Moppert</title>
-      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/sundial/</link>
+      <link>http://hhyu.org/posts/sundial/</link>
       <pubDate>Fri, 10 Nov 2017 22:06:25 +1100</pubDate>
       
-      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/sundial/</guid>
-      <description>Left: Photo taken on the winter solstice (June 22, 2017). Right: Photo taken on the summer solstice (December 21, 2016). The wall approximately faces north. The right hand side of the photo points westward.   Installed on the northern wall of the Monash University student centre (Melbourne) is a curious geometrical object. If you don’t pay close attention, you might think it’s just a decorative sculpture. But it is actually a functional sundial — conceived and constructed by the mathematician Carl Moppert in the 80’s.</description>
+      <guid>http://hhyu.org/posts/sundial/</guid>
+      <description>&lt;p&gt;Installed on the northern wall of the Monash University student centre (Melbourne) is a curious geometrical object. If you don’t pay close attention, you might think it’s just a decorative sculpture. But it is actually a functional sundial — conceived and constructed by the mathematician Carl Moppert in the 80’s. This design appears to be unique. I browsed through many photos on Instagram tagged with #sundial, and I couldn’t find another one that looks quite like it.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Several places in the music of Charles Ives</title>
-      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/charles_ives/</link>
+      <link>http://hhyu.org/posts/charles_ives/</link>
       <pubDate>Fri, 10 Nov 2017 21:38:21 +1100</pubDate>
       
-      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/charles_ives/</guid>
+      <guid>http://hhyu.org/posts/charles_ives/</guid>
       <description>Charles Ives (1874–1954) is the quintessential American composer. Some of his compositions are as American as cherry pie. Take the Country Band March (1905), for example. It brings you straight to the turn-of-the century America:
   It’s a collage of folk tunes, patriotic songs, and marching band music, but you only hear a melody briefly, and then it’s either interrupted rudely or mutated gracefully into another. Very often two or three motifs are played simultaneously so you can’t decide which one to follow.</description>
     </item>
     
     <item>
       <title>A magic trick based on Fourier transform</title>
-      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/fourierdemonstration/</link>
+      <link>http://hhyu.org/posts/fourierdemonstration/</link>
       <pubDate>Fri, 10 Nov 2017 19:40:13 +1100</pubDate>
       
-      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/fourierdemonstration/</guid>
+      <guid>http://hhyu.org/posts/fourierdemonstration/</guid>
       <description>Fourier analysis says that complex patterns can be created by adding up a large number of patterns as simple as sinusoidal waves. To make the idea more concrete, I like to use the following analogy in teaching: Imagine that you lived in the early 19th century. If you wanted to listen to a symphony, the only way to make it happen was to hire a few dozen highly-trained musicians to perform it for you.</description>
     </item>
     
     <item>
       <title>How many photons get into your eyes?</title>
-      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/photons/</link>
+      <link>http://hhyu.org/posts/photons/</link>
       <pubDate>Sat, 20 Aug 2016 20:31:41 +1100</pubDate>
       
-      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/photons/</guid>
+      <guid>http://hhyu.org/posts/photons/</guid>
       <description>A recent paper shows that our vision is so sensitive to light that human subjects can detect the presence of one single photon shot into their retinas. While scientists have been trying to establish the lower limit of visual sensitivity for a very long time, and it is generally accepted that a small number of photons are sufficient for detection since the 40’s, new advances in quantum optics finally allow us to manipulate light at single photon precision, and it is the first time that direct evidence for single photon sensitivity is demonstrated in a psychological experiment.</description>
     </item>
     
     <item>
       <title>The marmoset visual area DM for dummies</title>
-      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/areadm/</link>
+      <link>http://hhyu.org/posts/areadm/</link>
       <pubDate>Mon, 16 May 2016 20:07:26 +1100</pubDate>
       
-      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/areadm/</guid>
+      <guid>http://hhyu.org/posts/areadm/</guid>
       <description>The visuotopic map of the marmoset dorsomedial visual cortex (area DM; see references) is sufficiently complex that it is probably worthwhile to design a few visual aides to make it more intuitive. The figure above is my first attempt. In this figure, DM is divided into three segments, with the most medial segment representing central upper visual field (nose and eye of Sir Isaac Newton), the middle segment representing the entire lower visual field, and the medial segment representing the peripheral upper visual field (the forehead and hair of Newton).</description>
     </item>
     
     <item>
       <title>The retinotopic map of marmoset V1</title>
-      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/marmosetv1/</link>
+      <link>http://hhyu.org/posts/marmosetv1/</link>
       <pubDate>Sat, 07 May 2016 18:51:42 +1100</pubDate>
       
-      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/marmosetv1/</guid>
+      <guid>http://hhyu.org/posts/marmosetv1/</guid>
       <description>I created this figure to illustrate the retinotopic map of the primary visual cortex of the marmoset. The eccentricity contours are plotted in red, and polar angles are in blue. It&amp;rsquo;s very easy to create it in 3D so that you can rotate it around and see it from different angles. This is how you do it:
  Download ParaView, the open source 3D data visualization package.</description>
     </item>
     
     <item>
       <title>Mangarevan arithmetic</title>
-      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/mangarevan/</link>
+      <link>http://hhyu.org/posts/mangarevan/</link>
       <pubDate>Wed, 06 Apr 2016 18:37:27 +1100</pubDate>
       
-      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/mangarevan/</guid>
+      <guid>http://hhyu.org/posts/mangarevan/</guid>
       <description>PNAS recently published a cognitive anthropology paper titled Mangarevan invention of binary steps for easier calculation. The paper describes an arithmetic system that had been used for hundreds of years by islanders living in Mangareva (a small island in French Polynesia) for the purpose of “counting a small group of highly valued objects such as turtles, fish, coconuts, octopuses, and breadfruits”. This system is not too different from the decimal system that we’re using today, except that a number in the Mangarevan language can contain a small segment of binary code, which employs four numerals to represent 10 multiplied by the first four powers of 2.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/don_quixote/</link>
+      <link>http://hhyu.org/micro/don_quixote/</link>
       <pubDate>Thu, 16 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/don_quixote/</guid>
+      <guid>http://hhyu.org/micro/don_quixote/</guid>
       <description>&amp;ldquo;The reason of the unreason with which my reason is afflicted so weakens my reason that with reason I murmur at your beauty&amp;rdquo; - Don Quixote</description>
     </item>
     
     <item>
       <title>A historical note about color vision</title>
-      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/color-vision-historical/</link>
+      <link>http://hhyu.org/posts/color-vision-historical/</link>
       <pubDate>Tue, 03 Mar 2015 19:04:44 +1100</pubDate>
       
-      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/color-vision-historical/</guid>
+      <guid>http://hhyu.org/posts/color-vision-historical/</guid>
       <description>What was the first time that we know that non-human animals have color vision? From what I can find, the first person who scientifically came to that conclusion was John Lubbock in 1888. What was so strange about it was that he studied Daphnia - a plankton (!). He discovered that the plankton was attracted to yellow light, but not to white light. Lubbock also reasoned that insects must have color vision, but was not able to scientifically demonstrate it.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/beefheart/</link>
+      <link>http://hhyu.org/micro/beefheart/</link>
       <pubDate>Fri, 16 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/beefheart/</guid>
+      <guid>http://hhyu.org/micro/beefheart/</guid>
       <description>&amp;ldquo;Why don’t you drop your cool tom-foolery ‘n shed your nasty jewelry?&amp;rdquo; - Captain Beefheart</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/journal/</link>
+      <link>http://hhyu.org/micro/journal/</link>
       <pubDate>Mon, 17 Nov 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/journal/</guid>
+      <guid>http://hhyu.org/micro/journal/</guid>
       <description>We need a journal that publishes papers in the style of the 18th century: long title, flowery prose, kudos to King and church, and extreme modesty.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/analog/</link>
+      <link>http://hhyu.org/micro/analog/</link>
       <pubDate>Fri, 31 Oct 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/analog/</guid>
+      <guid>http://hhyu.org/micro/analog/</guid>
       <description>analogmuseum.org is a website about analog computers</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/visual_cortex/</link>
+      <link>http://hhyu.org/micro/visual_cortex/</link>
       <pubDate>Thu, 30 Oct 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/visual_cortex/</guid>
+      <guid>http://hhyu.org/micro/visual_cortex/</guid>
       <description>What is known as the visual cortex today was thought to be the site of &amp;ldquo;philoprogenitivty” (parental love) in phrenology.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/pynchon3/</link>
+      <link>http://hhyu.org/micro/pynchon3/</link>
       <pubDate>Sat, 25 Oct 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/pynchon3/</guid>
+      <guid>http://hhyu.org/micro/pynchon3/</guid>
       <description>“Really. Hey, like Godzilla always sez to Mothra—why don’t we go eat some place?”— Inherent Vice by Thomas Pynchon</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/bond/</link>
+      <link>http://hhyu.org/micro/bond/</link>
       <pubDate>Wed, 08 Oct 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/bond/</guid>
+      <guid>http://hhyu.org/micro/bond/</guid>
       <description>Choose your next private key carefully, Mr. Bond. It may be your last. Do you expect me to talk? No. I expect you to prime.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/pynchon2/</link>
+      <link>http://hhyu.org/micro/pynchon2/</link>
       <pubDate>Tue, 07 Oct 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/pynchon2/</guid>
+      <guid>http://hhyu.org/micro/pynchon2/</guid>
       <description>“No worries, it’s on the house, as the TV antenna man always sez” — Thomas Pynchon in Inherent Vice</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/siri/</link>
+      <link>http://hhyu.org/micro/siri/</link>
       <pubDate>Mon, 29 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/micro/siri/</guid>
+      <guid>http://hhyu.org/micro/siri/</guid>
       <description>Hey Jude. Hey Bulldog. Hey Joe. Heh You. And now&amp;hellip; Hey Siri?</description>
     </item>
     
     <item>
       <title>Polar opposite</title>
-      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/polar-opposite/</link>
+      <link>http://hhyu.org/posts/polar-opposite/</link>
       <pubDate>Wed, 04 Mar 2009 17:28:52 +1100</pubDate>
       
-      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/polar-opposite/</guid>
+      <guid>http://hhyu.org/posts/polar-opposite/</guid>
       <description>This figure illustrates the direction tuning curves of two motion sensitive neurons recorded in the primary visual cortex. The two neurons were so close to each other that their activities could be picked up by the same electrode. Interestingly they preferred polar opposite directions.</description>
     </item>
     
     <item>
       <title>The California ground squirrel</title>
-      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/ground-squirrel/</link>
+      <link>http://hhyu.org/posts/ground-squirrel/</link>
       <pubDate>Tue, 04 Mar 2008 18:26:53 +1100</pubDate>
       
-      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/ground-squirrel/</guid>
+      <guid>http://hhyu.org/posts/ground-squirrel/</guid>
       <description>I took these photos for a research project while I was a student at UC San Diego. They are the skull and the brain of the California ground squirrel (Spermophilus beecheyi)
          </description>
     </item>
     
     <item>
       <title>Teaching Material: PSY3310/Human vision as frequency filters</title>
-      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/edupsy3310-fourier/</link>
+      <link>http://hhyu.org/posts/edupsy3310-fourier/</link>
       <pubDate>Tue, 01 Jan 2008 14:32:20 +1100</pubDate>
       
-      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/edupsy3310-fourier/</guid>
+      <guid>http://hhyu.org/posts/edupsy3310-fourier/</guid>
       <description>Demonstrations:  The reconstruction of Mona Lisa video. A blog post I wrote about the Fourier transform trick. Youtube video: Nobel laureates David Hubel and Torsten Wiesel recording neurons in cat&amp;rsquo;s V1.  Suggested readings: Fourier transform  An introduction to two-dimensional fast Fourier transforms and their applications by Rzeszotarski et al. (1983). Fourier transforms and frequency-domain processing (Chapter 5 of Fundamentals of Digital Image Processing: A Practical Approach with Examples in Matlab by Solomon &amp;amp; Breckon, 2011)  Suggested readings: programming  See this web page from UCSB.</description>
     </item>
     
     <item>
       <title>Teaching Material: RAD2092/Physiology of Visual Pathways</title>
-      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/edurad2092-visual-cortex/</link>
+      <link>http://hhyu.org/posts/edurad2092-visual-cortex/</link>
       <pubDate>Tue, 01 Jan 2008 14:26:30 +1100</pubDate>
       
-      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/edurad2092-visual-cortex/</guid>
+      <guid>http://hhyu.org/posts/edurad2092-visual-cortex/</guid>
       <description> Central disorders of vision in humans by Girkin &amp;amp; Miller (2001): a review of what happens if different parts of the visual cortex are damaged. &amp;ldquo;Superimposed hemifields in primary visual cortex of achiasmic individuals&amp;rdquo; by Sinha &amp;amp; Meng (2012, Neuron 75): Newton vs. Descartes on the organization of the optic chiasm. Youtube video demonstrating how Hubel &amp;amp; Wiesel mapped V1 receptive fields.  </description>
     </item>
     
     <item>
       <title>Teaching Material: RAD2092/The eye and the retina</title>
-      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/edurad2092-eye/</link>
+      <link>http://hhyu.org/posts/edurad2092-eye/</link>
       <pubDate>Tue, 01 Jan 2008 14:23:49 +1100</pubDate>
       
-      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/edurad2092-eye/</guid>
+      <guid>http://hhyu.org/posts/edurad2092-eye/</guid>
       <description> Animal Eyes by Land &amp;amp; Nilsson is a very nice little book about the fascinating variety of eye structures found in nature. Youtube video about the &amp;ldquo;connectome&amp;rdquo; of the retina  </description>
     </item>
     
     <item>
       <title>Teaching Material: RAD2092/The Cerebral Cortex</title>
-      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/edurad2092-cortex/</link>
+      <link>http://hhyu.org/posts/edurad2092-cortex/</link>
       <pubDate>Tue, 01 Jan 2008 14:13:23 +1100</pubDate>
       
-      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/edurad2092-cortex/</guid>
+      <guid>http://hhyu.org/posts/edurad2092-cortex/</guid>
       <description>General  Is the human cortex exceptionally large? See Herculano-Houzel (2009) The human brain in numbers: a linearly scaled-up primate brain. Frontiers in Neuroscience 3, e31. Tenor sings opera during craniotomy: I just think this is quite fascinating.  &amp;ldquo;Language areas&amp;rdquo;  The history of Broca&amp;rsquo;s area: Dronkers et al. (2007) Neuroimaging of Language: Why hasn&amp;rsquo;t a clear picture emerged? Fedorenko &amp;amp; Kanwisher (2009) Language and Linguistics Compass 3, 10.</description>
     </item>
     
     <item>
       <title>Teaching Material: PHY3012/Plasticity in the visual system in development</title>
-      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/eduphy3012-plasticity/</link>
+      <link>http://hhyu.org/posts/eduphy3012-plasticity/</link>
       <pubDate>Tue, 01 Jan 2008 14:02:22 +1100</pubDate>
       
-      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/eduphy3012-plasticity/</guid>
+      <guid>http://hhyu.org/posts/eduphy3012-plasticity/</guid>
       <description>Interesting  A man with only half a brain A study of a man who recovered vision after decades of being blind: Fine et al. (2003) Long-term deprivation affects visual perception and cortex. Nat. Neurosci. 6, p915. How Utter Darkness Could Heal Lazy Eye: related to ocular dominance critical period. Giving blind people sight illuminates the brain’s secrets  General review  Anderson et al (2011) Do children really recover better?</description>
     </item>
     
     <item>
       <title>Teaching Material: PHY3111/Prac</title>
-      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/eduphy3111-prac/</link>
+      <link>http://hhyu.org/posts/eduphy3111-prac/</link>
       <pubDate>Tue, 01 Jan 2008 13:56:48 +1100</pubDate>
       
-      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/eduphy3111-prac/</guid>
+      <guid>http://hhyu.org/posts/eduphy3111-prac/</guid>
       <description> More about extracellular recording  Wikipedia entry about single-unit recording Extracellular single-unit Recording Methods: a paper by Humphrey &amp;amp; Schmidt  </description>
     </item>
     
     <item>
       <title>Teaching Material: PHY3111/Color Vision</title>
-      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/eduphy3111-color/</link>
+      <link>http://hhyu.org/posts/eduphy3111-color/</link>
       <pubDate>Tue, 01 Jan 2008 13:33:14 +1100</pubDate>
       
-      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/eduphy3111-color/</guid>
+      <guid>http://hhyu.org/posts/eduphy3111-color/</guid>
       <description>Interesting articles  Impossible colours: You can experience colours that you have never seen before. Some women are tetrachromatic. They can see more colours than most people can. The rainbow does not contain all the colours that we can see. For example, magenta.  Dressgate  Disrobing the dress:A very detailed webpage about the dress. Lessons from the dress: by vision scientist Pascal Wallisch. The science of why no one agrees on the color of this dress: an article on Wired.</description>
     </item>
     
     <item>
       <title>Supplementary materials for undegraduate lectures</title>
-      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/teaching/</link>
+      <link>http://hhyu.org/teaching/</link>
       <pubDate>Tue, 01 Jan 2008 13:20:52 +1100</pubDate>
       
-      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/teaching/</guid>
+      <guid>http://hhyu.org/teaching/</guid>
       <description> The followings are for students who want to learn more about the topics that I talk about in lectures. They are optional readings. You won&amp;rsquo;t be tested on them.
 PHY3111: Sensation and Movement (2014, 2015)  Colour Vision Prac class: Recording Electrophysiological Signals (cockroach recordings)  PHY3012: Integrative Neuroscience - Neuron to Brain (2015)  Plasticity in the visual system in development  RAD2092: Radiologic Biology 4 and Sectional Anatomy (2012-)  Organization of the Cerebral Cortex The Eye and the Retina Physiology of Visual Pathways  PSY3310: Introduction to Computational Neuroscience (2016, 2017)  Human vision as frequency filters The neural basis of frequency processing  </description>
     </item>

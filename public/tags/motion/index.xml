@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Motion on Cortically Magnified</title>
-    <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/tags/motion/</link>
+    <link>http://hhyu.org/tags/motion/</link>
     <description>Recent content in Motion on Cortically Magnified</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>(c) Hsin-Hoa Yu</copyright>
     <lastBuildDate>Wed, 04 Mar 2009 17:28:52 +1100</lastBuildDate>
     
-	<atom:link href="http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/tags/motion/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://hhyu.org/tags/motion/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Polar opposite</title>
-      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/polar-opposite/</link>
+      <link>http://hhyu.org/posts/polar-opposite/</link>
       <pubDate>Wed, 04 Mar 2009 17:28:52 +1100</pubDate>
       
-      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/polar-opposite/</guid>
+      <guid>http://hhyu.org/posts/polar-opposite/</guid>
       <description>This figure illustrates the direction tuning curves of two motion sensitive neurons recorded in the primary visual cortex. The two neurons were so close to each other that their activities could be picked up by the same electrode. Interestingly they preferred polar opposite directions.</description>
     </item>
     

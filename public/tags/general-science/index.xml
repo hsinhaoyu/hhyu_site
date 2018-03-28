@@ -2,49 +2,51 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>General Science on Cortically Magnified</title>
-    <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/tags/general-science/</link>
+    <link>http://hhyu.org/tags/general-science/</link>
     <description>Recent content in General Science on Cortically Magnified</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>(c) Hsin-Hoa Yu</copyright>
     <lastBuildDate>Fri, 10 Nov 2017 22:06:25 +1100</lastBuildDate>
     
-	<atom:link href="http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/tags/general-science/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://hhyu.org/tags/general-science/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The ingenious sundial of Professor Moppert</title>
-      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/sundial/</link>
+      <link>http://hhyu.org/posts/sundial/</link>
       <pubDate>Fri, 10 Nov 2017 22:06:25 +1100</pubDate>
       
-      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/sundial/</guid>
-      <description>Left: Photo taken on the winter solstice (June 22, 2017). Right: Photo taken on the summer solstice (December 21, 2016). The wall approximately faces north. The right hand side of the photo points westward.   Installed on the northern wall of the Monash University student centre (Melbourne) is a curious geometrical object. If you don’t pay close attention, you might think it’s just a decorative sculpture. But it is actually a functional sundial — conceived and constructed by the mathematician Carl Moppert in the 80’s.</description>
+      <guid>http://hhyu.org/posts/sundial/</guid>
+      <description>&lt;p&gt;Installed on the northern wall of the Monash University student centre (Melbourne) is a curious geometrical object. If you don’t pay close attention, you might think it’s just a decorative sculpture. But it is actually a functional sundial — conceived and constructed by the mathematician Carl Moppert in the 80’s. This design appears to be unique. I browsed through many photos on Instagram tagged with #sundial, and I couldn’t find another one that looks quite like it.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>A magic trick based on Fourier transform</title>
-      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/fourierdemonstration/</link>
+      <link>http://hhyu.org/posts/fourierdemonstration/</link>
       <pubDate>Fri, 10 Nov 2017 19:40:13 +1100</pubDate>
       
-      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/fourierdemonstration/</guid>
+      <guid>http://hhyu.org/posts/fourierdemonstration/</guid>
       <description>Fourier analysis says that complex patterns can be created by adding up a large number of patterns as simple as sinusoidal waves. To make the idea more concrete, I like to use the following analogy in teaching: Imagine that you lived in the early 19th century. If you wanted to listen to a symphony, the only way to make it happen was to hire a few dozen highly-trained musicians to perform it for you.</description>
     </item>
     
     <item>
       <title>How many photons get into your eyes?</title>
-      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/photons/</link>
+      <link>http://hhyu.org/posts/photons/</link>
       <pubDate>Sat, 20 Aug 2016 20:31:41 +1100</pubDate>
       
-      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/photons/</guid>
+      <guid>http://hhyu.org/posts/photons/</guid>
       <description>A recent paper shows that our vision is so sensitive to light that human subjects can detect the presence of one single photon shot into their retinas. While scientists have been trying to establish the lower limit of visual sensitivity for a very long time, and it is generally accepted that a small number of photons are sufficient for detection since the 40’s, new advances in quantum optics finally allow us to manipulate light at single photon precision, and it is the first time that direct evidence for single photon sensitivity is demonstrated in a psychological experiment.</description>
     </item>
     
     <item>
       <title>A historical note about color vision</title>
-      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/color-vision-historical/</link>
+      <link>http://hhyu.org/posts/color-vision-historical/</link>
       <pubDate>Tue, 03 Mar 2015 19:04:44 +1100</pubDate>
       
-      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/color-vision-historical/</guid>
+      <guid>http://hhyu.org/posts/color-vision-historical/</guid>
       <description>What was the first time that we know that non-human animals have color vision? From what I can find, the first person who scientifically came to that conclusion was John Lubbock in 1888. What was so strange about it was that he studied Daphnia - a plankton (!). He discovered that the plankton was attracted to yellow light, but not to white light. Lubbock also reasoned that insects must have color vision, but was not able to scientifically demonstrate it.</description>
     </item>
     

@@ -2,40 +2,55 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Computation on Cortically Magnified</title>
-    <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/categories/computation/</link>
+    <link>http://hhyu.org/categories/computation/</link>
     <description>Recent content in Computation on Cortically Magnified</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>(c) Hsin-Hoa Yu</copyright>
-    <lastBuildDate>Fri, 10 Nov 2017 22:06:25 +1100</lastBuildDate>
+    <lastBuildDate>Fri, 23 Mar 2018 12:23:25 +1100</lastBuildDate>
     
-	<atom:link href="http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/categories/computation/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://hhyu.org/categories/computation/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Gradient descent on a non-Euclidean surface</title>
+      <link>http://hhyu.org/posts/elastic/</link>
+      <pubDate>Fri, 23 Mar 2018 12:23:25 +1100</pubDate>
+      
+      <guid>http://hhyu.org/posts/elastic/</guid>
+      <description>&lt;h4 id=&#34;is-the-salesman-travelling-on-foot-or-on-an-airplane&#34;&gt;Is the salesman travelling on foot or on an airplane?&lt;/h4&gt;
+
+&lt;p&gt;This article describes an experiment to develop a version of the elastic net algorithm that works on spherical surfaces. I needed it for a computational neuroscience problem, but for those who are mainly interested in machine learning, it also serves a simple and intuitive demonstration of using gradient descent on non-Euclidian surfaces. The Tensorflow source code is available on &lt;a href=&#34;https://github.com/hsinhaoyu/spherical_elastic_net&#34;&gt;GitHub&lt;/a&gt;. I also made a youtube &lt;a href=&#34;https://www.youtube.com/watch?v=uoZcTG_i2jQ&amp;amp;feature=youtu.be&#34;&gt;video&lt;/a&gt; showing the algorithm in action.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>The ingenious sundial of Professor Moppert</title>
-      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/sundial/</link>
+      <link>http://hhyu.org/posts/sundial/</link>
       <pubDate>Fri, 10 Nov 2017 22:06:25 +1100</pubDate>
       
-      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/sundial/</guid>
-      <description>Left: Photo taken on the winter solstice (June 22, 2017). Right: Photo taken on the summer solstice (December 21, 2016). The wall approximately faces north. The right hand side of the photo points westward.   Installed on the northern wall of the Monash University student centre (Melbourne) is a curious geometrical object. If you don’t pay close attention, you might think it’s just a decorative sculpture. But it is actually a functional sundial — conceived and constructed by the mathematician Carl Moppert in the 80’s.</description>
+      <guid>http://hhyu.org/posts/sundial/</guid>
+      <description>&lt;p&gt;Installed on the northern wall of the Monash University student centre (Melbourne) is a curious geometrical object. If you don’t pay close attention, you might think it’s just a decorative sculpture. But it is actually a functional sundial — conceived and constructed by the mathematician Carl Moppert in the 80’s. This design appears to be unique. I browsed through many photos on Instagram tagged with #sundial, and I couldn’t find another one that looks quite like it.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>A magic trick based on Fourier transform</title>
-      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/fourierdemonstration/</link>
+      <link>http://hhyu.org/posts/fourierdemonstration/</link>
       <pubDate>Fri, 10 Nov 2017 19:40:13 +1100</pubDate>
       
-      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/fourierdemonstration/</guid>
+      <guid>http://hhyu.org/posts/fourierdemonstration/</guid>
       <description>Fourier analysis says that complex patterns can be created by adding up a large number of patterns as simple as sinusoidal waves. To make the idea more concrete, I like to use the following analogy in teaching: Imagine that you lived in the early 19th century. If you wanted to listen to a symphony, the only way to make it happen was to hire a few dozen highly-trained musicians to perform it for you.</description>
     </item>
     
     <item>
       <title>How many photons get into your eyes?</title>
-      <link>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/photons/</link>
+      <link>http://hhyu.org/posts/photons/</link>
       <pubDate>Sat, 20 Aug 2016 20:31:41 +1100</pubDate>
       
-      <guid>http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/posts/photons/</guid>
+      <guid>http://hhyu.org/posts/photons/</guid>
       <description>A recent paper shows that our vision is so sensitive to light that human subjects can detect the presence of one single photon shot into their retinas. While scientists have been trying to establish the lower limit of visual sensitivity for a very long time, and it is generally accepted that a small number of photons are sufficient for detection since the 40’s, new advances in quantum optics finally allow us to manipulate light at single photon precision, and it is the first time that direct evidence for single photon sensitivity is demonstrated in a psychological experiment.</description>
     </item>
     

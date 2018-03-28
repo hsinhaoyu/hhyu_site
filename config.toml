@@ -1,4 +1,4 @@
-baseurl = "http://hhyu-site.s3-website-ap-southeast-2.amazonaws.com/"
+baseurl = "http://hhyu.org/"
 languageCode = "en-us"
 Title = "Cortically Magnified"
 # Copyright notice. This is displayer in the footer.
@@ -11,6 +11,7 @@ paginate = 4
   # footer
   instagram = "hhyu00"
   linkedin = "hsin-hao-yu-165387110"
+  github = "hsinhaoyu"
   # Google Analytics API key.
   ga_api_key = "UA-115187658-1"
   author = "Hsin-Hao Yu"
@@ -19,7 +20,7 @@ paginate = 4
   contact = "mailto:hsinhaohh.yu@gmail.com"
   bio = "A Taiwanese neuroscientist living in Melbourne"
   # Short subtitle/tagline. This is displayed in the header.
-  subtitle = "Neuroscience, machine learning, and other interesting stuff"
+  subtitle = "Neuroscience, computation, and other interesting stuff"
   # Logo image. This is displayed ogp image.
   logo = "logo.png"
   favicon = "/path/to/favicon"
@@ -74,11 +75,6 @@ paginate = 4
     name = "micro.blog"
     url = "/categories/micro/"
     weight = 2
-[[menu.main]]
-    parent = "Writing"
-    name = "Popular Science"
-    url = "writing"
-    weight = 3
 
 [[menu.main]]
     name = "Tags"
