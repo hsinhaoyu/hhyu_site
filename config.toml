@@ -20,7 +20,7 @@ paginate = 4
   contact = "mailto:hsinhaohh.yu@gmail.com"
   bio = "A Taiwanese neuroscientist living in Melbourne"
   # Short subtitle/tagline. This is displayed in the header.
-  subtitle = "Neuroscience, computation, and other interesting stuff"
+  subtitle = "Neuroscience, vision, computation, and other interesting stuff"
   # Logo image. This is displayed ogp image.
   logo = "logo.png"
   favicon = "/path/to/favicon"
@@ -60,18 +60,18 @@ paginate = 4
     weight = 4
 
 [[menu.main]]
-    identifier = "Writing"
-    name = "/Writing"
+    identifier = "Update"
+    name = "/Update"
     weight = 3
 
 [[menu.main]]
-    parent = "Writing"
+    parent = "Update"
     name = "Blog"
     url = "/"
     weight = 1
 
 [[menu.main]]
-    parent = "Writing"
+    parent = "Update"
     name = "micro.blog"
     url = "/categories/micro/"
     weight = 2

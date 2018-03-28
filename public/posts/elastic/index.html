@@ -13,9 +13,9 @@
   
 
   
-  <meta name="description" content="Neuroscience, computation, and other interesting stuff">
-  <meta property="og:description" content="Neuroscience, computation, and other interesting stuff">
-  <meta name="twitter:description" content="Neuroscience, computation, and other interesting stuff">
+  <meta name="description" content="Neuroscience, vision, computation, and other interesting stuff">
+  <meta property="og:description" content="Neuroscience, vision, computation, and other interesting stuff">
+  <meta name="twitter:description" content="Neuroscience, vision, computation, and other interesting stuff">
   
 
   <meta name="author" content="Hsin-Hao Yu"/>
@@ -51,7 +51,7 @@
     
     
     <p class="p-subtitle">
-      Neuroscience, computation, and other interesting stuff
+      Neuroscience, vision, computation, and other interesting stuff
     </p>
     
   </header>
@@ -181,7 +181,7 @@ E = -\alpha \kappa \sum_{i}^{} log \sum_{j}^{}\Phi(x_i, y_j, \kappa) + \frac{\be
 
 <h4 id="the-elastic-net-on-the-sphere">The elastic net on the sphere</h4>
 
-<p>To adapt the algorithm to a context where the prototypes are on the sphere, we first need to rewrite the objective function such that distances are measured along the spherical surface. The first term is straightforward: we just replace the Gaussian with the Fisher-Bingham function that we&rsquo;ve met earlier. The second term measures the distances among neighboring $y_j$&rsquo;s. For $y_j$&rsquo;s on the sphere, it should be replaced with geodesic distances. The geodesic distance sounds complicated, but it is just $cos^{-1} (y_j \cdot y_k)$. Implementing this objective function is straightforward, but there is a small trick: the gradient of $cos^{-1}$ is unstable, because the derivative of $cos^{-1}$ becomes -∞ when $y_j$ and $y_k$ gets very close. It&rsquo;s possible to replace $cos^{-1}$ with the more well-behaving $tan^{-1}$, but for this particular application, I simply clipped $y_j \cdot y_k$ to the range $(-1.0+\epsilon, 1.0-\epsilon)$ for a small positive $\epsilon$. This prevents the gradient from blowing up. And, of course, the gradient needs to be calculated on the tangent planes.</p>
+<p>To adapt the algorithm to a context where the prototypes are on the sphere, we first need to rewrite the objective function such that distances are measured along the spherical surface. We already know how to rewrite the first term: we just replace the Gaussian with the Fisher-Bingham function that we&rsquo;ve met earlier. For the second term, we should replace Euclidean distances with geodesic distances. The geodesic distance sounds complicated, but for the sphere, it is just $cos^{-1} (y_j \cdot y_k)$. Implementing this objective function is straightforward, but there is a small trick: the gradient of $cos^{-1}$ is unstable, because the derivative of $cos^{-1}$ becomes -∞ when $y_j$ and $y_k$ gets very close. It&rsquo;s possible to replace $cos^{-1}$ with the more well-behaving $tan^{-1}$, but for this particular application, I simply clipped $y_j \cdot y_k$ to the range $(-1.0+\epsilon, 1.0-\epsilon)$ for a small positive $\epsilon$. This prevents the gradient from blowing up.</p>
 
 <figure style="display: table; width: 550px; align: middle">
   
@@ -196,7 +196,7 @@ The elastic net learning to map the hemisphere. The red dots (N=200) are the pro
 
 <p>The video above shows the algorithm in action. In the early phase of the training, because the Fisher-Bingham functions are broad, the attracting forces of $x_i$&rsquo;s act evenly on the $y_j$&rsquo;s, causing the entire net to shrink to a small region. This behavior is very typical for elastic nets. But eventually the symmetry is broken, and the net unfolds. The rate at which $\kappa$ decreases is very important for the success of the algorithm. Many trials and errors are needed to find the right schedule.</p>
 
-<p>This has been a simple demonstration, aiming to illustrate the basic principles of performing gradient descent in a context where geometry if important. I developed it to solve very specific problems. The more general case falls into the domain of information geometry. As I programmed this algorithm, I was thinking&hellip; maybe it would be interesting to train neural networks to learn to measure distances on arbitrary manifolds, and to find the gradient that reflects the geometry&hellip; This neural network will need to take cartesian gradients as its inputs&hellip;</p>
+<p>This has been a simple demonstration, aiming to illustrate the basic principles of performing gradient descent in a context where geometry is important. I developed it to solve  specific problems. The idea is generalized in a branch of mathematics called information geometry. As I programmed this algorithm, I was thinking&hellip; maybe it would be interesting to train neural networks to learn to measure distances on arbitrary manifolds, this neural network will need to take cartesian gradients as its inputs and transform them to reflect the underlying geometry&hellip;</p>
 
 <h4 id="references-and-notes">References and Notes</h4>
 
@@ -282,7 +282,7 @@ The elastic net learning to map the hemisphere. The red dots (N=200) are the pro
     
       
         <li class="p-menu__listitem p-menu__parent">
-          <span>/Writing</span>
+          <span>/Update</span>
           <ul>
             
               <li class="p-menu__listitem p-menu__child"><a href="/">Blog</a></li>
