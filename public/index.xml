@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>(c) Hsin-Hoa Yu</copyright>
-    <lastBuildDate>Fri, 23 Mar 2018 12:23:25 +1100</lastBuildDate>
+    <lastBuildDate>Wed, 11 Apr 2018 11:05:28 +1000</lastBuildDate>
     
 	<atom:link href="http://hhyu.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title></title>
+      <link>http://hhyu.org/micro/miles/</link>
+      <pubDate>Wed, 11 Apr 2018 11:05:28 +1000</pubDate>
+      
+      <guid>http://hhyu.org/micro/miles/</guid>
+      <description>A mini-review of the recently released &amp;ldquo;Miles Davis John Coltrane The Final Tour: The Bootleg Series, Vol. 6&amp;rdquo; album. The first track of the album, recorded in 1960 in a live show in Paris, documents a dramatic moment in the history of modern music. The European concert goers were expecting the dreamy world of Kind of Blue and some pleasant show tunes. They didn&amp;rsquo;t know that John Coltrane was going to unleash the furious sounds of the future to them.</description>
+    </item>
     
     <item>
       <title>Gradient descent on a non-Euclidean surface</title>
@@ -70,7 +79,7 @@ Current Research: Machine Learning and Functional Brain Imaging In 2016, I was a
       
       <guid>http://hhyu.org/publications/</guid>
       <description>For full cv, see here.
-Awards  2013 Australian Research Council Discovery Early Career Researcher Award (DECRA) 2013 Best Postdoctoral Oral Presentation Award, Bosch Institute Annual Scientific Meeting 2013 2010 - School of Biomedical Sciences Travel Grant  Book chapters and reviews  Yu Hh &amp;amp; Rosa MGP (2017) The dosomedial cortex. In Encyclopedia of Animal Cognition and Behavior (Eds. Vonk J &amp;amp; Shackelford, TK). Springer. [link] Chaplin TA, Rosa MGP, Yu H-H (2016) Scaling up the simian primate cortex: a conserved pattern of expansion across brain sizes.</description>
+Awards  2013: Australian Research Council Discovery Early Career Researcher Award (DECRA) 2013: Best Postdoctoral Oral Presentation Award, Bosch Institute Annual Scientific Meeting 2013 2010: School of Biomedical Sciences Travel Grant  Recent presentations  2018: Monash University Machine Learning Symposium. Title: The visual cortex as a deep neural network 2017: Monash Biomedicine Discovery Institute &amp;ldquo;Rising Stars&amp;rdquo; Seminar Series. Title: The physiological consequences of damages to the primate visual cortex in different development stages.</description>
     </item>
     
     <item>

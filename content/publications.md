@@ -6,8 +6,15 @@ draft: false
 For full cv, see [here](/cv.pdf).
 
 ### Awards
-- 2013 Australian Research Council Discovery Early Career Researcher Award (DECRA)
-- 2013 Best Postdoctoral Oral Presentation Award, Bosch Institute Annual Scientific Meeting 2013 2010 - School of Biomedical Sciences Travel Grant
+- 2013: Australian Research Council Discovery Early Career Researcher Award (DECRA)
+- 2013: Best Postdoctoral Oral Presentation Award, Bosch Institute Annual Scientific Meeting 2013
+- 2010: School of Biomedical Sciences Travel Grant
+
+### Recent presentations
+- 2018: Monash University Machine Learning Symposium. Title: The visual cortex as a deep neural network
+- 2017: Monash Biomedicine Discovery Institute "Rising Stars" Seminar Series. Title: The physiological consequences of damages to the primate visual cortex in different development stages.
+- 2017: Advances in Functional Studies of Marmoset Brain Mini-Symposium. Title: Where visual areas meet - The representation of the visual field in the dorsomedial cortex of the marmoset monkey.
+- 2016: Anderson Stuart Seminar Series (Department of Physiology, The University of Sydney). Title: New insights into the controversial "third-tier" areas of the primate visual cortex.
 
 ### Book chapters and reviews
 - Yu Hh & Rosa MGP (2017) The dosomedial cortex. In _Encyclopedia of Animal Cognition and Behavior_ (Eds. Vonk J & Shackelford, TK). Springer. [[link]](http://www.springer.com/gp/book/9783319550640)
