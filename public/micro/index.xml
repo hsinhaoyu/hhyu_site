@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>(c) Hsin-Hoa Yu</copyright>
-    <lastBuildDate>Wed, 11 Apr 2018 11:05:28 +1000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Apr 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://hhyu.org/micro/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title></title>
+      <link>http://hhyu.org/micro/borges/</link>
+      <pubDate>Fri, 20 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://hhyu.org/micro/borges/</guid>
+      <description>A parody of Jorge Luis Borges&amp;rsquo;s essay &amp;ldquo;A New Refutation of Time&amp;rdquo;: &amp;ldquo;The Third Refutation of Ordinality&amp;rdquo;. Or maybe &amp;ldquo;10 Arguments Against Cardinality&amp;rdquo;.</description>
+    </item>
     
     <item>
       <title></title>
@@ -90,7 +99,7 @@
       <pubDate>Tue, 09 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>http://hhyu.org/micro/pendulum/</guid>
-      <description>The plot of Umberto Eco&amp;rsquo;s novel Foucault&amp;rsquo;s Pendulum involves two publishers: Garamond and Manutius. Both refer to publishers of the 16 century: Claude Garamond and Aldus Manutius. Interestingly both names are relatable to Apple. The Garamond font was used in Apple&amp;rsquo;s logo, and Aldus Co. was the original developer of PageMaker (a killer app for the Macintosh) before it was acquired by Adobe.</description>
+      <description>The plot of Umberto Eco&amp;rsquo;s novel Foucault&amp;rsquo;s Pendulum involves two publishers: Garamond and Manutius. Both names refer to figures in the history of printing: Claude Garamond designed the Garamond font in the 16th century, while Aldus Manutius was a famous 15th century printer who invented italic type, a few punctuation marks, and the pocketbook format. This might be a joke because both names are relatable to Apple. The Garamond font was used in Apple&amp;rsquo;s logo, and Aldus Co.</description>
     </item>
     
     <item>
