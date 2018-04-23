@@ -22,8 +22,8 @@ In 2012, I identified a new component of the visual cortex called _area prostria
 From 2012 to 2017, I conducted a long-term study about how the visual pathways are altered by brain injuries, especially at the early stages of development. This research is related to a mysterious phenomenon called [blindsight](https://en.wikipedia.org/wiki/Blindsight).
 
 - Publications:
-  - Yu _et al._ (2018) Robust visual responses and normal retinotopy in primate lateral geniculate nucleus following long-term lesions of striate cortex. _Journal of Neuroscience_ (in press).
-  - Yu _et al._ (2013) Visually evoked responses in extrastriate area MT after lesions of striate cortex in early life. _Journal of Neuroscience_ 33, 12479-12489. [[link](https://www.ncbi.nlm.nih.gov/pubmed/23884952)]
+  - Yu _et al._ (2018) Robust visual responses and normal retinotopy in primate lateral geniculate nucleus following long-term lesions of striate cortex. _Journal of Neuroscience_ 38, 3955-3970. [[link]](http://www.jneurosci.org/content/38/16/3955)
+  - Yu _et al._ (2013) Visually evoked responses in extrastriate area MT after lesions of striate cortex in early life. _Journal of Neuroscience_ 33, 12479-12489. [[link]](https://www.ncbi.nlm.nih.gov/pubmed/23884952)
 - [Commentary](https://f1000.com/prime/718046975) on F1000Prime.
 
 ### Evolution
