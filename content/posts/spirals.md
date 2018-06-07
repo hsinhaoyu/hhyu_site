@@ -22,7 +22,7 @@ def spiral(c, r0, r1, n, shuffleP=True):
     """
         Make a spiral with n points using Vogel's method.
         the radius ranges from r0 to r1
-        the density of the points falls off according to r^c, where r radius
+        the density of the points falls off according to r^c, where r is radius
         c should be a negative number
     """
 
