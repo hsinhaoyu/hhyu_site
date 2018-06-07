@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://hhyu.org/posts/spirals/</loc>
+    <lastmod>2018-06-07T15:18:22+10:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://hhyu.org/micro/borges/</loc>
     <lastmod>2018-04-20T00:00:00+00:00</lastmod>
   </url>
@@ -244,6 +249,12 @@
   </url>
   
   <url>
+    <loc>http://hhyu.org/tags/code/</loc>
+    <lastmod>2018-06-07T15:18:22+10:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://hhyu.org/tags/color/</loc>
     <lastmod>2015-03-03T19:04:44+11:00</lastmod>
     <priority>0</priority>
@@ -251,7 +262,7 @@
   
   <url>
     <loc>http://hhyu.org/categories/computation/</loc>
-    <lastmod>2018-03-23T12:23:25+11:00</lastmod>
+    <lastmod>2018-06-07T15:18:22+10:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -263,7 +274,7 @@
   
   <url>
     <loc>http://hhyu.org/</loc>
-    <lastmod>2018-04-20T00:00:00+00:00</lastmod>
+    <lastmod>2018-06-07T15:18:22+10:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -299,7 +310,7 @@
   
   <url>
     <loc>http://hhyu.org/tags/hack/</loc>
-    <lastmod>2016-04-06T18:37:27+11:00</lastmod>
+    <lastmod>2018-06-07T15:18:22+10:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -317,7 +328,7 @@
   
   <url>
     <loc>http://hhyu.org/tags/math/</loc>
-    <lastmod>2018-03-23T12:23:25+11:00</lastmod>
+    <lastmod>2018-06-07T15:18:22+10:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -377,7 +388,7 @@
   
   <url>
     <loc>http://hhyu.org/posts/</loc>
-    <lastmod>2018-03-23T12:23:25+11:00</lastmod>
+    <lastmod>2018-06-07T15:18:22+10:00</lastmod>
     <priority>0</priority>
   </url>
   

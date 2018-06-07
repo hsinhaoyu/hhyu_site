@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>(c) Hsin-Hoa Yu</copyright>
-    <lastBuildDate>Fri, 23 Mar 2018 12:23:25 +1100</lastBuildDate>
+    <lastBuildDate>Thu, 07 Jun 2018 15:18:22 +1000</lastBuildDate>
     
 	<atom:link href="http://hhyu.org/tags/math/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Let&#39;s make some spirals</title>
+      <link>http://hhyu.org/posts/spirals/</link>
+      <pubDate>Thu, 07 Jun 2018 15:18:22 +1000</pubDate>
+      
+      <guid>http://hhyu.org/posts/spirals/</guid>
+      <description>Disk point picking is an elementary problem in geometry. To evenly distribute points on a disk, an intuitive idea is to sample pairs of numbers in polar coordinate (radius and angle) randomly from uniform distributions. After all, &amp;ldquo;uniformly&amp;rdquo; is just another word for &amp;ldquo;evenly&amp;rdquo;, isn&amp;rsquo;t it? But it doesn&amp;rsquo;t work. When the points are sampled this way, the density of the dots fall off linearly with the distance to the origin.</description>
+    </item>
     
     <item>
       <title>Gradient descent on a non-Euclidean surface</title>
