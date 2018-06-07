@@ -20,9 +20,9 @@ import numpy as np
 
 def spiral(c, r0, r1, n, shuffleP=True):
     """
-        Make a spiral with n points.
-        the distance from these points to (0, 0) ranges from r0 to r1
-        the density of the dots falls off accoridng to r^c, where r is the distance to (0, 0)
+        Make a spiral with n points using Vogel's method.
+        the radius ranges from r0 to r1
+        the density of the points falls off according to r^c, where r radius
         c should be a negative number
     """
 
