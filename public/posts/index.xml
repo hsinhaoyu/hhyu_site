@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>(c) Hsin-Hao Yu</copyright>
-    <lastBuildDate>Thu, 07 Jun 2018 15:18:22 +1000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Apr 2020 08:49:22 +1000</lastBuildDate>
     
 	<atom:link href="http://hhyu.org/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Notes for Collection of Sand - essays by Italo Calvino</title>
+      <link>http://hhyu.org/posts/calvino_sand/</link>
+      <pubDate>Sat, 11 Apr 2020 08:49:22 +1000</pubDate>
+      
+      <guid>http://hhyu.org/posts/calvino_sand/</guid>
+      <description>Collection of Sand is a collection of book reviews, exhibition reviews and travelogues that Italo Calvino wrote in the 70&amp;rsquo;s and 80&amp;rsquo;s. The quality varies. The best of them are unsurprisingly ekphrastic essays where Calvino described gardens, historical sites, and paintings in exquisite details. Those where he tried to regurgitate scientific or historical knowledge from academic books are less inspiring. But still, it is the variety of things that Calvino cared to write about that charms.</description>
+    </item>
+    
+    <item>
+      <title>Who did the first computer simulation of a biological neuron?</title>
+      <link>http://hhyu.org/posts/hodgkinhuxley/</link>
+      <pubDate>Wed, 18 Sep 2019 20:42:52 +1000</pubDate>
+      
+      <guid>http://hhyu.org/posts/hodgkinhuxley/</guid>
+      <description>Nobel laureates Alan Hodgkin and Andrew Huxley are sometimes called the fathers of computational neuroscience, because they developed the first mathematical theory to explain how neurons communicate with each other with electrical signals. I read in a textbook that when they published their model in 1952, all the numerical calculations were done manually, because the computer at Cambridge was not working. It was &amp;ldquo;computational&amp;rdquo; all right, but it was the labour intensive variety.</description>
+    </item>
     
     <item>
       <title>Let&#39;s make some spirals</title>
@@ -29,9 +47,7 @@
       <guid>http://hhyu.org/posts/elastic/</guid>
       <description>&lt;h4 id=&#34;is-the-salesman-travelling-on-foot-or-on-an-airplane&#34;&gt;Is the salesman travelling on foot or on an airplane?&lt;/h4&gt;
 
-&lt;p&gt;This article describes an experiment to develop a version of the elastic net algorithm that works on spherical surfaces. I needed it for a computational neuroscience problem, but for those who are mainly interested in machine learning, it also serves a simple and intuitive demonstration of using gradient descent on non-Euclidian surfaces. The Tensorflow source code is available on &lt;a href=&#34;https://github.com/hsinhaoyu/spherical_elastic_net&#34;&gt;GitHub&lt;/a&gt;. I also made a youtube &lt;a href=&#34;https://www.youtube.com/watch?v=uoZcTG_i2jQ&amp;amp;feature=youtu.be&#34;&gt;video&lt;/a&gt; showing the algorithm in action.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;This article describes an experiment to develop a version of the elastic net algorithm that works on spherical surfaces. I needed it for a computational neuroscience problem, but for those who are mainly interested in machine learning, it also serves a simple and intuitive demonstration of using gradient descent on non-Euclidian surfaces. The Tensorflow source code is available on &lt;a href=&#34;https://github.com/hsinhaoyu/spherical_elastic_net&#34;&gt;GitHub&lt;/a&gt;. I also made a youtube &lt;a href=&#34;https://www.youtube.com/watch?v=uoZcTG_i2jQ&amp;amp;feature=youtu.be&#34;&gt;video&lt;/a&gt; showing the algorithm in action.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -40,9 +56,7 @@
       <pubDate>Fri, 10 Nov 2017 22:06:25 +1100</pubDate>
       
       <guid>http://hhyu.org/posts/sundial/</guid>
-      <description>&lt;p&gt;Installed on the northern wall of the Monash University student centre (Melbourne) is a curious geometrical object. If you don’t pay close attention, you might think it’s just a decorative sculpture. But it is actually a functional sundial — conceived and constructed by the mathematician Carl Moppert in the 80’s. This design appears to be unique. I browsed through many photos on Instagram tagged with #sundial, and I couldn’t find another one that looks quite like it.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Installed on the northern wall of the Monash University student centre (Melbourne) is a curious geometrical object. If you don’t pay close attention, you might think it’s just a decorative sculpture. But it is actually a functional sundial — conceived and constructed by the mathematician Carl Moppert in the 80’s. This design appears to be unique. I browsed through many photos on Instagram tagged with #sundial, and I couldn’t find another one that looks quite like it.&lt;/p&gt;</description>
     </item>
     
     <item>

@@ -11,8 +11,8 @@ draft: false
   </figcaption>
 </figure>
 
-I'm a neuroscientist working at the Department of Physiology, Monash University (Melbourne).  I received my Ph.D. degree from the Department of Cognitive Science in University of California San Diego in 2008. In the same year, I moved to Melbourne to work for Monash University. For my undergraduate degree, I studied Mathematics at the National Chiao Tung University (NCTU) in Hsin-Chu, Taiwan.
+I'm a research scientist at IBM Research Australia. My work is focused on artificial intelligence and biomedical image analysis. I received my Ph.D. degree from the Department of Cognitive Science in University of California San Diego in 2008. In the same year, I moved to Melbourne to work for Monash University. For my undergraduate degree, I studied Mathematics at the National Chiao Tung University (NCTU) in Hsin-Chu, Taiwan.
 
-My primary research interest is the architetcure of the primate visual cortex. I have stduied a diverse range of topics, including brain mapping, evolution, neuroanatomy, computational neuroscience, and machine learning.
+Prior to September 2018, I was a neuroscientist working at the Department of Physiology, Monash University (Melbourne). I had worked a diverse range of topics, including brain mapping, evolution, neuroanatomy, computational neuroscience, and machine learning.
 
 This website is generated with [Hugo](https://gohugo.io) using (slightly modified) [Pickles](https://themes.gohugo.io/hugo_theme_pickles/) theme. I use the [Hugo Easy Gallery](https://www.liwen.id.au/heg/) package by Li-Wen Yip for this site.

@@ -32,7 +32,7 @@
   
   
   
-  <meta name="generator" content="Hugo 0.37" /><link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+  <meta name="generator" content="Hugo 0.53" /><link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
   <link rel="stylesheet" href="http://hhyu.org/css/style.css" />
   <link rel='icon' type='image/x-icon' href="http://hhyu.org/path/to/favicon" />
   <script type="text/javascript" src="http://hhyu.org/js/bundle.js"></script>
@@ -84,9 +84,9 @@
 <p>The same idea also applies to images. Fourier analysis says that you don’t necessarily need Leonardo da Vinci’s masterful control of the brush to paint Mona Lisa. A mediocre, but mathematically gifted, painter who knows nothing more than painting stripes is sufficient for the task. Many people find the idea hard to digest, because, intuitively, superimposing many stripe-y patterns together only leads to plaid-y patterns. To demonstrate that this is not the case, I created the following video to illustrate that the accumulation of weighted Fourier components (sinusoidal gratings) does lead to complex images:</p>
 
 
-<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
-  <iframe src="//www.youtube.com/embed/BTSUjf6xQKQ" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0" title="YouTube Video"></iframe>
- </div>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/BTSUjf6xQKQ" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
 
 
 <p>As the video plays, more and more Fourier components are accumulated to reconstruct a 41x41 sampled image of Mona Lisa. The Fourier component that is most recently added to the sequence is displayed on the upper-right side. I programmed the animation so that Fourier components with lower spatial frequencies (i.e., coarser sinusoidal patterns) are added before those with higher spatial frequencies are. You can see that curvy blobs emerge with the superimposition of just a couple of components. A small number of components, about 20~30, are sufficient for creating something vaguely face-like, but it takes a lot more (hundreds) to see Mona Lisa’s elusive smile.</p>

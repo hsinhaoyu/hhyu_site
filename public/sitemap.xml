@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://hhyu.org/posts/calvino_sand/</loc>
+    <lastmod>2020-04-11T08:49:22+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hhyu.org/posts/hodgkinhuxley/</loc>
+    <lastmod>2019-09-18T20:42:52+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hhyu.org/micro/hemingway/</loc>
+    <lastmod>2018-08-19T23:26:05+10:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://hhyu.org/posts/spirals/</loc>
     <lastmod>2018-06-07T15:18:22+10:00</lastmod>
   </url>
@@ -274,7 +289,7 @@
   
   <url>
     <loc>http://hhyu.org/</loc>
-    <lastmod>2018-06-07T15:18:22+10:00</lastmod>
+    <lastmod>2020-04-11T08:49:22+10:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -291,7 +306,7 @@
   </url>
   
   <url>
-    <loc>http://hhyu.org/tags/fauna/flora/</loc>
+    <loc>http://hhyu.org/tags/fauna-flora/</loc>
     <lastmod>2008-03-04T18:26:53+11:00</lastmod>
     <priority>0</priority>
   </url>
@@ -316,7 +331,7 @@
   
   <url>
     <loc>http://hhyu.org/tags/history/</loc>
-    <lastmod>2015-03-03T19:04:44+11:00</lastmod>
+    <lastmod>2020-04-11T08:49:22+10:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -334,19 +349,19 @@
   
   <url>
     <loc>http://hhyu.org/categories/micro/</loc>
-    <lastmod>2018-04-20T00:00:00+00:00</lastmod>
+    <lastmod>2018-08-19T23:26:05+10:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://hhyu.org/micro/</loc>
-    <lastmod>2018-04-20T00:00:00+00:00</lastmod>
+    <lastmod>2018-08-19T23:26:05+10:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://hhyu.org/categories/misc/</loc>
-    <lastmod>2017-11-10T21:38:21+11:00</lastmod>
+    <lastmod>2020-04-11T08:49:22+10:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -388,7 +403,7 @@
   
   <url>
     <loc>http://hhyu.org/posts/</loc>
-    <lastmod>2018-06-07T15:18:22+10:00</lastmod>
+    <lastmod>2020-04-11T08:49:22+10:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -400,7 +415,7 @@
   
   <url>
     <loc>http://hhyu.org/categories/science/</loc>
-    <lastmod>2017-11-10T22:06:25+11:00</lastmod>
+    <lastmod>2019-09-18T20:42:52+10:00</lastmod>
     <priority>0</priority>
   </url>
   
