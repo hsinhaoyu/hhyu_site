@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://hhyu.org/micro/diderot/</loc>
+    <lastmod>2020-04-12T10:56:04+10:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://hhyu.org/posts/calvino_sand/</loc>
     <lastmod>2020-04-11T08:49:22+10:00</lastmod>
   </url>
@@ -289,7 +294,7 @@
   
   <url>
     <loc>http://hhyu.org/</loc>
-    <lastmod>2020-04-11T08:49:22+10:00</lastmod>
+    <lastmod>2020-04-12T10:56:04+10:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -349,13 +354,13 @@
   
   <url>
     <loc>http://hhyu.org/categories/micro/</loc>
-    <lastmod>2018-08-19T23:26:05+10:00</lastmod>
+    <lastmod>2020-04-12T10:56:04+10:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://hhyu.org/micro/</loc>
-    <lastmod>2018-08-19T23:26:05+10:00</lastmod>
+    <lastmod>2020-04-12T10:56:04+10:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -379,7 +384,7 @@
   
   <url>
     <loc>http://hhyu.org/tags/obscura/</loc>
-    <lastmod>2016-04-06T18:37:27+11:00</lastmod>
+    <lastmod>2020-04-11T08:49:22+10:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -445,7 +450,7 @@
   
   <url>
     <loc>http://hhyu.org/tags/vision/</loc>
-    <lastmod>2016-08-20T20:31:41+11:00</lastmod>
+    <lastmod>2020-04-11T08:49:22+10:00</lastmod>
     <priority>0</priority>
   </url>
   

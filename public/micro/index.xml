@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>(c) Hsin-Hao Yu</copyright>
-    <lastBuildDate>Sun, 19 Aug 2018 23:26:05 +1000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Apr 2020 10:56:04 +1000</lastBuildDate>
     
 	<atom:link href="http://hhyu.org/micro/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Diderot</title>
+      <link>http://hhyu.org/micro/diderot/</link>
+      <pubDate>Sun, 12 Apr 2020 10:56:04 +1000</pubDate>
+      
+      <guid>http://hhyu.org/micro/diderot/</guid>
+      <description>&amp;ldquo;The loom for making stockings is one of the most complicated and rigorously logical machines that we have&amp;hellip; one could consider it as just one single piece of reasoning whose conclusion is the making of the stockings&amp;rdquo; - Denis Diderot, quoted in Italo Calvino&amp;rsquo;s Collection of Sand.</description>
+    </item>
     
     <item>
       <title></title>
