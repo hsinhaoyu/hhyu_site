@@ -149,7 +149,7 @@ Calvino was (unsurprisingly) fascinated by optics and vision. He tried to summar
 - It was Newton who introduced [indigo](https://en.wikipedia.org/wiki/Indigo?wprov=sfti1) as a basic color
 - [Ernst Gombrich](https://en.wikipedia.org/wiki/Ernst_Gombrich?wprov=sfti1) - art historian who wrote about art and perception
 - [Leon Battista Alberti](https://en.wikipedia.org/wiki/Leon_Battista_Alberti?wprov=sfti1) - Italian humanist
-- [Leonardo da Vinci in vision ](https://journals.sagepub.com/doi/pdf/10.1177/003591575504800512)
+- [Leonardo da Vinci on vision ](https://journals.sagepub.com/doi/pdf/10.1177/003591575504800512)
 - [Christoph Scheiner](https://en.wikipedia.org/wiki/Christoph_Scheiner?wprov=sfti1) - 17th century Jesuit priest and physicist who studied the retina and the optic nerve
 - The way Albrecht Dürer painted the [Young Hare](https://en.wikipedia.org/wiki/Young_Hare?wprov=sfti1) was apparently influenced by discoveries about the retina
 - [Claude Lorrain](https://en.wikipedia.org/wiki/Claude_Lorrain?wprov=sfti1) - French painter, who apparently painted landscapes looking into a convex mirror
