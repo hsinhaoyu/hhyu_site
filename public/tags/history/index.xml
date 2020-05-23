@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>History on Cortically Magnified</title>
-    <link>http://hhyu.org/tags/history/</link>
+    <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/history/</link>
     <description>Recent content in History on Cortically Magnified</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>(c) Hsin-Hao Yu</copyright>
     <lastBuildDate>Sat, 11 Apr 2020 08:49:22 +1000</lastBuildDate>
     
-	<atom:link href="http://hhyu.org/tags/history/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/history/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Notes for Collection of Sand - essays by Italo Calvino</title>
-      <link>http://hhyu.org/posts/calvino_sand/</link>
+      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/posts/calvino_sand/</link>
       <pubDate>Sat, 11 Apr 2020 08:49:22 +1000</pubDate>
       
-      <guid>http://hhyu.org/posts/calvino_sand/</guid>
+      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/posts/calvino_sand/</guid>
       <description>Collection of Sand is a collection of book reviews, exhibition reviews and travelogues that Italo Calvino wrote in the 70&amp;rsquo;s and 80&amp;rsquo;s. The quality varies. The best of them are unsurprisingly ekphrastic essays where Calvino described gardens, historical sites, and paintings in exquisite details. Those where he tried to regurgitate scientific or historical knowledge from academic books are less inspiring. But still, it is the variety of things that Calvino cared to write about that charms.</description>
     </item>
     
     <item>
       <title>Who did the first computer simulation of a biological neuron?</title>
-      <link>http://hhyu.org/posts/hodgkinhuxley/</link>
+      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/posts/hodgkinhuxley/</link>
       <pubDate>Wed, 18 Sep 2019 20:42:52 +1000</pubDate>
       
-      <guid>http://hhyu.org/posts/hodgkinhuxley/</guid>
+      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/posts/hodgkinhuxley/</guid>
       <description>Nobel laureates Alan Hodgkin and Andrew Huxley are sometimes called the fathers of computational neuroscience, because they developed the first mathematical theory to explain how neurons communicate with each other with electrical signals. I read in a textbook that when they published their model in 1952, all the numerical calculations were done manually, because the computer at Cambridge was not working. It was &amp;ldquo;computational&amp;rdquo; all right, but it was the labour intensive variety.</description>
     </item>
     
     <item>
       <title>A historical note about color vision</title>
-      <link>http://hhyu.org/posts/color-vision-historical/</link>
+      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/posts/color-vision-historical/</link>
       <pubDate>Tue, 03 Mar 2015 19:04:44 +1100</pubDate>
       
-      <guid>http://hhyu.org/posts/color-vision-historical/</guid>
+      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/posts/color-vision-historical/</guid>
       <description>What was the first time that we know that non-human animals have color vision? From what I can find, the first person who scientifically came to that conclusion was John Lubbock in 1888. What was so strange about it was that he studied Daphnia - a plankton (!). He discovered that the plankton was attracted to yellow light, but not to white light. Lubbock also reasoned that insects must have color vision, but was not able to scientifically demonstrate it.</description>
     </item>
     

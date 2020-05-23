@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Code on Cortically Magnified</title>
-    <link>http://hhyu.org/tags/code/</link>
+    <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/code/</link>
     <description>Recent content in Code on Cortically Magnified</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>(c) Hsin-Hao Yu</copyright>
     <lastBuildDate>Thu, 07 Jun 2018 15:18:22 +1000</lastBuildDate>
     
-	<atom:link href="http://hhyu.org/tags/code/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/code/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Let&#39;s make some spirals</title>
-      <link>http://hhyu.org/posts/spirals/</link>
+      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/posts/spirals/</link>
       <pubDate>Thu, 07 Jun 2018 15:18:22 +1000</pubDate>
       
-      <guid>http://hhyu.org/posts/spirals/</guid>
+      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/posts/spirals/</guid>
       <description>Disk point picking is an elementary problem in geometry. To evenly distribute points on a disk, an intuitive idea is to sample pairs of numbers in polar coordinate (radius and angle) randomly from uniform distributions. After all, &amp;ldquo;uniformly&amp;rdquo; is just another word for &amp;ldquo;evenly&amp;rdquo;, isn&amp;rsquo;t it? But it doesn&amp;rsquo;t work. When the points are sampled this way, the density of the dots fall off linearly with the distance to the origin.</description>
     </item>
     

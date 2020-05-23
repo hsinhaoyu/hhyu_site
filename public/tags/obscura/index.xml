@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Obscura on Cortically Magnified</title>
-    <link>http://hhyu.org/tags/obscura/</link>
+    <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/obscura/</link>
     <description>Recent content in Obscura on Cortically Magnified</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>(c) Hsin-Hao Yu</copyright>
     <lastBuildDate>Sat, 11 Apr 2020 08:49:22 +1000</lastBuildDate>
     
-	<atom:link href="http://hhyu.org/tags/obscura/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/obscura/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Notes for Collection of Sand - essays by Italo Calvino</title>
-      <link>http://hhyu.org/posts/calvino_sand/</link>
+      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/posts/calvino_sand/</link>
       <pubDate>Sat, 11 Apr 2020 08:49:22 +1000</pubDate>
       
-      <guid>http://hhyu.org/posts/calvino_sand/</guid>
+      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/posts/calvino_sand/</guid>
       <description>Collection of Sand is a collection of book reviews, exhibition reviews and travelogues that Italo Calvino wrote in the 70&amp;rsquo;s and 80&amp;rsquo;s. The quality varies. The best of them are unsurprisingly ekphrastic essays where Calvino described gardens, historical sites, and paintings in exquisite details. Those where he tried to regurgitate scientific or historical knowledge from academic books are less inspiring. But still, it is the variety of things that Calvino cared to write about that charms.</description>
     </item>
     
     <item>
       <title>Mangarevan arithmetic</title>
-      <link>http://hhyu.org/posts/mangarevan/</link>
+      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/posts/mangarevan/</link>
       <pubDate>Wed, 06 Apr 2016 18:37:27 +1100</pubDate>
       
-      <guid>http://hhyu.org/posts/mangarevan/</guid>
+      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/posts/mangarevan/</guid>
       <description>PNAS recently published a cognitive anthropology paper titled Mangarevan invention of binary steps for easier calculation. The paper describes an arithmetic system that had been used for hundreds of years by islanders living in Mangareva (a small island in French Polynesia) for the purpose of “counting a small group of highly valued objects such as turtles, fish, coconuts, octopuses, and breadfruits”. This system is not too different from the decimal system that we’re using today, except that a number in the Mangarevan language can contain a small segment of binary code, which employs four numerals to represent 10 multiplied by the first four powers of 2.</description>
     </item>
     

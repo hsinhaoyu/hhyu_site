@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Cortically Magnified</title>
-    <link>http://hhyu.org/categories/</link>
+    <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/categories/</link>
     <description>Recent content in Categories on Cortically Magnified</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>(c) Hsin-Hao Yu</copyright>
     
-	<atom:link href="http://hhyu.org/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://hhyu2020.s3-ap-southeast-2.amazonaws.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Computation</title>
-      <link>http://hhyu.org/categories/computation/</link>
+      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/categories/computation/</link>
       <pubDate>Thu, 07 Jun 2018 15:18:22 +1000</pubDate>
       
-      <guid>http://hhyu.org/categories/computation/</guid>
+      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/categories/computation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Micro</title>
-      <link>http://hhyu.org/categories/micro/</link>
+      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/categories/micro/</link>
       <pubDate>Sun, 12 Apr 2020 10:56:04 +1000</pubDate>
       
-      <guid>http://hhyu.org/categories/micro/</guid>
+      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/categories/micro/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Misc</title>
-      <link>http://hhyu.org/categories/misc/</link>
+      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/categories/misc/</link>
       <pubDate>Sat, 11 Apr 2020 08:49:22 +1000</pubDate>
       
-      <guid>http://hhyu.org/categories/misc/</guid>
+      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/categories/misc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Science</title>
-      <link>http://hhyu.org/categories/science/</link>
+      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/categories/science/</link>
       <pubDate>Wed, 18 Sep 2019 20:42:52 +1000</pubDate>
       
-      <guid>http://hhyu.org/categories/science/</guid>
+      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/categories/science/</guid>
       <description></description>
     </item>
     

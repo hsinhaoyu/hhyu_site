@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Data on Cortically Magnified</title>
-    <link>http://hhyu.org/tags/data/</link>
+    <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/data/</link>
     <description>Recent content in Data on Cortically Magnified</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>(c) Hsin-Hao Yu</copyright>
     <lastBuildDate>Sat, 07 May 2016 18:51:42 +1100</lastBuildDate>
     
-	<atom:link href="http://hhyu.org/tags/data/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/data/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The retinotopic map of marmoset V1</title>
-      <link>http://hhyu.org/posts/marmosetv1/</link>
+      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/posts/marmosetv1/</link>
       <pubDate>Sat, 07 May 2016 18:51:42 +1100</pubDate>
       
-      <guid>http://hhyu.org/posts/marmosetv1/</guid>
+      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/posts/marmosetv1/</guid>
       <description>I created this figure to illustrate the retinotopic map of the primary visual cortex of the marmoset. The eccentricity contours are plotted in red, and polar angles are in blue. It&amp;rsquo;s very easy to create it in 3D so that you can rotate it around and see it from different angles. This is how you do it:
  Download ParaView, the open source 3D data visualization package.</description>
     </item>
     
     <item>
       <title>Polar opposite</title>
-      <link>http://hhyu.org/posts/polar-opposite/</link>
+      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/posts/polar-opposite/</link>
       <pubDate>Wed, 04 Mar 2009 17:28:52 +1100</pubDate>
       
-      <guid>http://hhyu.org/posts/polar-opposite/</guid>
+      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/posts/polar-opposite/</guid>
       <description>This figure illustrates the direction tuning curves of two motion sensitive neurons recorded in the primary visual cortex. The two neurons were so close to each other that their activities could be picked up by the same electrode. Interestingly they preferred polar opposite directions.</description>
     </item>
     

@@ -2,238 +2,238 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Cortically Magnified</title>
-    <link>http://hhyu.org/tags/</link>
+    <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/</link>
     <description>Recent content in Tags on Cortically Magnified</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>(c) Hsin-Hao Yu</copyright>
     <lastBuildDate>Mon, 16 May 2016 20:07:26 +1100</lastBuildDate>
     
-	<atom:link href="http://hhyu.org/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Brain Mapping</title>
-      <link>http://hhyu.org/tags/brain-mapping/</link>
+      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/brain-mapping/</link>
       <pubDate>Mon, 16 May 2016 20:07:26 +1100</pubDate>
       
-      <guid>http://hhyu.org/tags/brain-mapping/</guid>
+      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/brain-mapping/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Code</title>
-      <link>http://hhyu.org/tags/code/</link>
+      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/code/</link>
       <pubDate>Thu, 07 Jun 2018 15:18:22 +1000</pubDate>
       
-      <guid>http://hhyu.org/tags/code/</guid>
+      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/code/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Color</title>
-      <link>http://hhyu.org/tags/color/</link>
+      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/color/</link>
       <pubDate>Tue, 03 Mar 2015 19:04:44 +1100</pubDate>
       
-      <guid>http://hhyu.org/tags/color/</guid>
+      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/color/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Computational Neuroscience</title>
-      <link>http://hhyu.org/tags/computational-neuroscience/</link>
+      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/computational-neuroscience/</link>
       <pubDate>Fri, 23 Mar 2018 12:23:25 +1100</pubDate>
       
-      <guid>http://hhyu.org/tags/computational-neuroscience/</guid>
+      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/computational-neuroscience/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Data</title>
-      <link>http://hhyu.org/tags/data/</link>
+      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/data/</link>
       <pubDate>Sat, 07 May 2016 18:51:42 +1100</pubDate>
       
-      <guid>http://hhyu.org/tags/data/</guid>
+      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/data/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Development</title>
-      <link>http://hhyu.org/tags/development/</link>
+      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/development/</link>
       <pubDate>Tue, 01 Jan 2008 14:02:22 +1100</pubDate>
       
-      <guid>http://hhyu.org/tags/development/</guid>
+      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Fauna/Flora</title>
-      <link>http://hhyu.org/tags/fauna-flora/</link>
+      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/fauna-flora/</link>
       <pubDate>Tue, 04 Mar 2008 18:26:53 +1100</pubDate>
       
-      <guid>http://hhyu.org/tags/fauna-flora/</guid>
+      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/fauna-flora/</guid>
       <description></description>
     </item>
     
     <item>
       <title>General Science</title>
-      <link>http://hhyu.org/tags/general-science/</link>
+      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/general-science/</link>
       <pubDate>Fri, 10 Nov 2017 22:06:25 +1100</pubDate>
       
-      <guid>http://hhyu.org/tags/general-science/</guid>
+      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/general-science/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Geometry</title>
-      <link>http://hhyu.org/tags/geometry/</link>
+      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/geometry/</link>
       <pubDate>Fri, 23 Mar 2018 12:23:25 +1100</pubDate>
       
-      <guid>http://hhyu.org/tags/geometry/</guid>
+      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/geometry/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hack</title>
-      <link>http://hhyu.org/tags/hack/</link>
+      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/hack/</link>
       <pubDate>Thu, 07 Jun 2018 15:18:22 +1000</pubDate>
       
-      <guid>http://hhyu.org/tags/hack/</guid>
+      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/hack/</guid>
       <description></description>
     </item>
     
     <item>
       <title>History</title>
-      <link>http://hhyu.org/tags/history/</link>
+      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/history/</link>
       <pubDate>Sat, 11 Apr 2020 08:49:22 +1000</pubDate>
       
-      <guid>http://hhyu.org/tags/history/</guid>
+      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/history/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Machine Learning</title>
-      <link>http://hhyu.org/tags/machine-learning/</link>
+      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/machine-learning/</link>
       <pubDate>Fri, 23 Mar 2018 12:23:25 +1100</pubDate>
       
-      <guid>http://hhyu.org/tags/machine-learning/</guid>
+      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/machine-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Math</title>
-      <link>http://hhyu.org/tags/math/</link>
+      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/math/</link>
       <pubDate>Thu, 07 Jun 2018 15:18:22 +1000</pubDate>
       
-      <guid>http://hhyu.org/tags/math/</guid>
+      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/math/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Motion</title>
-      <link>http://hhyu.org/tags/motion/</link>
+      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/motion/</link>
       <pubDate>Wed, 04 Mar 2009 17:28:52 +1100</pubDate>
       
-      <guid>http://hhyu.org/tags/motion/</guid>
+      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/motion/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Music</title>
-      <link>http://hhyu.org/tags/music/</link>
+      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/music/</link>
       <pubDate>Fri, 10 Nov 2017 21:38:21 +1100</pubDate>
       
-      <guid>http://hhyu.org/tags/music/</guid>
+      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/music/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Obscura</title>
-      <link>http://hhyu.org/tags/obscura/</link>
+      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/obscura/</link>
       <pubDate>Sat, 11 Apr 2020 08:49:22 +1000</pubDate>
       
-      <guid>http://hhyu.org/tags/obscura/</guid>
+      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/obscura/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Photo</title>
-      <link>http://hhyu.org/tags/photo/</link>
+      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/photo/</link>
       <pubDate>Tue, 04 Mar 2008 18:26:53 +1100</pubDate>
       
-      <guid>http://hhyu.org/tags/photo/</guid>
+      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/photo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Physics</title>
-      <link>http://hhyu.org/tags/physics/</link>
+      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/physics/</link>
       <pubDate>Sat, 20 Aug 2016 20:31:41 +1100</pubDate>
       
-      <guid>http://hhyu.org/tags/physics/</guid>
+      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/physics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Plasticity</title>
-      <link>http://hhyu.org/tags/plasticity/</link>
+      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/plasticity/</link>
       <pubDate>Tue, 01 Jan 2008 14:02:22 +1100</pubDate>
       
-      <guid>http://hhyu.org/tags/plasticity/</guid>
+      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/plasticity/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Psychophysics</title>
-      <link>http://hhyu.org/tags/psychophysics/</link>
+      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/psychophysics/</link>
       <pubDate>Sat, 20 Aug 2016 20:31:41 +1100</pubDate>
       
-      <guid>http://hhyu.org/tags/psychophysics/</guid>
+      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/psychophysics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Teaching</title>
-      <link>http://hhyu.org/tags/teaching/</link>
+      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/teaching/</link>
       <pubDate>Fri, 10 Nov 2017 19:40:13 +1100</pubDate>
       
-      <guid>http://hhyu.org/tags/teaching/</guid>
+      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/teaching/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tensorflow</title>
-      <link>http://hhyu.org/tags/tensorflow/</link>
+      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/tensorflow/</link>
       <pubDate>Fri, 23 Mar 2018 12:23:25 +1100</pubDate>
       
-      <guid>http://hhyu.org/tags/tensorflow/</guid>
+      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/tensorflow/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tutorial</title>
-      <link>http://hhyu.org/tags/tutorial/</link>
+      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/tutorial/</link>
       <pubDate>Sat, 20 Aug 2016 20:31:41 +1100</pubDate>
       
-      <guid>http://hhyu.org/tags/tutorial/</guid>
+      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/tutorial/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Vision</title>
-      <link>http://hhyu.org/tags/vision/</link>
+      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/vision/</link>
       <pubDate>Sat, 11 Apr 2020 08:49:22 +1000</pubDate>
       
-      <guid>http://hhyu.org/tags/vision/</guid>
+      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/vision/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Visualization</title>
-      <link>http://hhyu.org/tags/visualization/</link>
+      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/visualization/</link>
       <pubDate>Fri, 10 Nov 2017 19:40:13 +1100</pubDate>
       
-      <guid>http://hhyu.org/tags/visualization/</guid>
+      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/visualization/</guid>
       <description></description>
     </item>
     
