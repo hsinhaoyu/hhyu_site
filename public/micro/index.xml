@@ -2,229 +2,229 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Micros on Cortically Magnified</title>
-    <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/micro/</link>
+    <link>https://www.hhyu.org/micro/</link>
     <description>Recent content in Micros on Cortically Magnified</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>(c) Hsin-Hao Yu</copyright>
     <lastBuildDate>Sun, 12 Apr 2020 10:56:04 +1000</lastBuildDate>
     
-	<atom:link href="http://hhyu2020.s3-ap-southeast-2.amazonaws.com/micro/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.hhyu.org/micro/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Diderot</title>
-      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/micro/diderot/</link>
+      <link>https://www.hhyu.org/micro/diderot/</link>
       <pubDate>Sun, 12 Apr 2020 10:56:04 +1000</pubDate>
       
-      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/micro/diderot/</guid>
+      <guid>https://www.hhyu.org/micro/diderot/</guid>
       <description>&amp;ldquo;The loom for making stockings is one of the most complicated and rigorously logical machines that we have&amp;hellip; one could consider it as just one single piece of reasoning whose conclusion is the making of the stockings&amp;rdquo; - Denis Diderot, quoted in Italo Calvino&amp;rsquo;s Collection of Sand.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/micro/hemingway/</link>
+      <link>https://www.hhyu.org/micro/hemingway/</link>
       <pubDate>Sun, 19 Aug 2018 23:26:05 +1000</pubDate>
       
-      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/micro/hemingway/</guid>
+      <guid>https://www.hhyu.org/micro/hemingway/</guid>
       <description>One of the productivity tips that I have found useful is oddly from Ernest Hemingway (hardly a man of high productivity). He said that he always worked to a point where he knew how to continue, and then stopped working for the day. This way, he always had a good start the next day. I read about it in an article on creativity but didn&amp;rsquo;t know where it was from. I just discovered it’s from Hemingway’s memoir A Movable Feast, in a chapter about his interactions with Gertrude Stein (&amp;ldquo;Miss Stein Instructs).</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/micro/borges/</link>
+      <link>https://www.hhyu.org/micro/borges/</link>
       <pubDate>Fri, 20 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/micro/borges/</guid>
+      <guid>https://www.hhyu.org/micro/borges/</guid>
       <description>A parody of Jorge Luis Borges&amp;rsquo;s essay &amp;ldquo;A New Refutation of Time&amp;rdquo;: &amp;ldquo;The Third Refutation of Ordinality&amp;rdquo;. Or maybe &amp;ldquo;10 Arguments Against Cardinality&amp;rdquo;.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/micro/miles/</link>
+      <link>https://www.hhyu.org/micro/miles/</link>
       <pubDate>Wed, 11 Apr 2018 11:05:28 +1000</pubDate>
       
-      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/micro/miles/</guid>
+      <guid>https://www.hhyu.org/micro/miles/</guid>
       <description>A mini-review of the recently released &amp;ldquo;Miles Davis John Coltrane The Final Tour: The Bootleg Series, Vol. 6&amp;rdquo; album. The first track of the album, recorded in 1960 in a live show in Paris, documents a dramatic moment in the history of modern music. The European concert goers were expecting the dreamy world of Kind of Blue and some pleasant show tunes. They didn&amp;rsquo;t know that John Coltrane was going to unleash the furious sounds of the future to them.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/micro/frivolous/</link>
+      <link>https://www.hhyu.org/micro/frivolous/</link>
       <pubDate>Fri, 09 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/micro/frivolous/</guid>
+      <guid>https://www.hhyu.org/micro/frivolous/</guid>
       <description>A mathematician friend mentioned Frivolous Theorem of Arithmetic, which apparently states that &amp;ldquo;Almost all natural numbers are very, very, very large&amp;rdquo;. Me: But isn&amp;rsquo;t that obvious? Friend: That&amp;rsquo;s why it&amp;rsquo;s called frivolous.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/micro/new_site/</link>
+      <link>https://www.hhyu.org/micro/new_site/</link>
       <pubDate>Thu, 08 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/micro/new_site/</guid>
+      <guid>https://www.hhyu.org/micro/new_site/</guid>
       <description>Looks like I have successfully migrated my website to AWS S3.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/micro/dissembler/</link>
+      <link>https://www.hhyu.org/micro/dissembler/</link>
       <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/micro/dissembler/</guid>
+      <guid>https://www.hhyu.org/micro/dissembler/</guid>
       <description>I am really liking an iOS puzzle game called Dissembler. The minimalist graphics is beautiful like a Bauhaus design. This is like a game that Paul Klee would have made.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/micro/tori_amos/</link>
+      <link>https://www.hhyu.org/micro/tori_amos/</link>
       <pubDate>Fri, 09 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/micro/tori_amos/</guid>
+      <guid>https://www.hhyu.org/micro/tori_amos/</guid>
       <description>“I don’t believe you are leaving cause me and Charles Manson like the same ice cream” - Tori Amos, Tears in Your Hands</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/micro/testmicro1/</link>
+      <link>https://www.hhyu.org/micro/testmicro1/</link>
       <pubDate>Thu, 08 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/micro/testmicro1/</guid>
+      <guid>https://www.hhyu.org/micro/testmicro1/</guid>
       <description>Anthropologists discovered that islanders in South Pacific have been using blockchains for thousands of years. All transactions are recorded by carving patterns on tree trunks, whose integrity is enforced by solving hard problems such as 12&amp;frasl;5.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/micro/pynchon/</link>
+      <link>https://www.hhyu.org/micro/pynchon/</link>
       <pubDate>Sun, 04 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/micro/pynchon/</guid>
+      <guid>https://www.hhyu.org/micro/pynchon/</guid>
       <description>Thomas Pynchon and Satoshi Nakamoto - the same person?</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/micro/einsum/</link>
+      <link>https://www.hhyu.org/micro/einsum/</link>
       <pubDate>Mon, 29 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/micro/einsum/</guid>
+      <guid>https://www.hhyu.org/micro/einsum/</guid>
       <description>Just discovered that python&amp;rsquo;s numerical package has a function for Einstein summation for tensors. In the past, you need that for cosmology. These days you use them for neural networks.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/micro/pendulum/</link>
+      <link>https://www.hhyu.org/micro/pendulum/</link>
       <pubDate>Tue, 09 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/micro/pendulum/</guid>
+      <guid>https://www.hhyu.org/micro/pendulum/</guid>
       <description>The plot of Umberto Eco&amp;rsquo;s novel Foucault&amp;rsquo;s Pendulum involves two publishers: Garamond and Manutius. Both names refer to figures in the history of printing: Claude Garamond designed the Garamond font in the 16th century, while Aldus Manutius was a famous 15th century printer who invented italic type, a few punctuation marks, and the pocketbook format. This might be a joke because both names are relatable to Apple. The Garamond font was used in Apple&amp;rsquo;s logo, and Aldus Co.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/micro/turing/</link>
+      <link>https://www.hhyu.org/micro/turing/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/micro/turing/</guid>
+      <guid>https://www.hhyu.org/micro/turing/</guid>
       <description>Turing once dreamed that he was a Turing machine. When he woke up, he wondered if it was him who dreamed of being a Turing machine, or if it was a Turning machine which dreamed that it was Turing (a koan from a programming book published in Taiwan)</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/micro/shutterspeed/</link>
+      <link>https://www.hhyu.org/micro/shutterspeed/</link>
       <pubDate>Sat, 16 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/micro/shutterspeed/</guid>
+      <guid>https://www.hhyu.org/micro/shutterspeed/</guid>
       <description>What is the shutter speed of human vision? A new paper claims that at extremely low light condition, it can be as long as 0.6 second.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/micro/retina/</link>
+      <link>https://www.hhyu.org/micro/retina/</link>
       <pubDate>Thu, 14 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/micro/retina/</guid>
+      <guid>https://www.hhyu.org/micro/retina/</guid>
       <description>Last week I went to see an optometrist. As he examined my eye with a strong light, I was amazed that I saw an image of the blood vessels on the retina. This phenomenon is called the entoptic image. It was first described by Purkinje about 200 years ago. I read about it in “How we perceive our own retina” by Kuno Kirschfeld (published in Proc. Bio. Sci.)</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/micro/don_quixote/</link>
+      <link>https://www.hhyu.org/micro/don_quixote/</link>
       <pubDate>Thu, 16 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/micro/don_quixote/</guid>
+      <guid>https://www.hhyu.org/micro/don_quixote/</guid>
       <description>&amp;ldquo;The reason of the unreason with which my reason is afflicted so weakens my reason that with reason I murmur at your beauty&amp;rdquo; - Don Quixote</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/micro/beefheart/</link>
+      <link>https://www.hhyu.org/micro/beefheart/</link>
       <pubDate>Fri, 16 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/micro/beefheart/</guid>
+      <guid>https://www.hhyu.org/micro/beefheart/</guid>
       <description>&amp;ldquo;Why don’t you drop your cool tom-foolery ‘n shed your nasty jewelry?&amp;rdquo; - Captain Beefheart</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/micro/journal/</link>
+      <link>https://www.hhyu.org/micro/journal/</link>
       <pubDate>Mon, 17 Nov 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/micro/journal/</guid>
+      <guid>https://www.hhyu.org/micro/journal/</guid>
       <description>We need a journal that publishes papers in the style of the 18th century: long title, flowery prose, kudos to King and church, and extreme modesty.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/micro/analog/</link>
+      <link>https://www.hhyu.org/micro/analog/</link>
       <pubDate>Fri, 31 Oct 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/micro/analog/</guid>
+      <guid>https://www.hhyu.org/micro/analog/</guid>
       <description>analogmuseum.org is a website about analog computers</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/micro/visual_cortex/</link>
+      <link>https://www.hhyu.org/micro/visual_cortex/</link>
       <pubDate>Thu, 30 Oct 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/micro/visual_cortex/</guid>
+      <guid>https://www.hhyu.org/micro/visual_cortex/</guid>
       <description>What is known as the visual cortex today was thought to be the site of &amp;ldquo;philoprogenitivty” (parental love) in phrenology.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/micro/pynchon3/</link>
+      <link>https://www.hhyu.org/micro/pynchon3/</link>
       <pubDate>Sat, 25 Oct 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/micro/pynchon3/</guid>
+      <guid>https://www.hhyu.org/micro/pynchon3/</guid>
       <description>“Really. Hey, like Godzilla always sez to Mothra—why don’t we go eat some place?”— Inherent Vice by Thomas Pynchon</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/micro/bond/</link>
+      <link>https://www.hhyu.org/micro/bond/</link>
       <pubDate>Wed, 08 Oct 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/micro/bond/</guid>
+      <guid>https://www.hhyu.org/micro/bond/</guid>
       <description>Choose your next private key carefully, Mr. Bond. It may be your last. Do you expect me to talk? No. I expect you to prime.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/micro/pynchon2/</link>
+      <link>https://www.hhyu.org/micro/pynchon2/</link>
       <pubDate>Tue, 07 Oct 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/micro/pynchon2/</guid>
+      <guid>https://www.hhyu.org/micro/pynchon2/</guid>
       <description>“No worries, it’s on the house, as the TV antenna man always sez” — Thomas Pynchon in Inherent Vice</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/micro/siri/</link>
+      <link>https://www.hhyu.org/micro/siri/</link>
       <pubDate>Mon, 29 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/micro/siri/</guid>
+      <guid>https://www.hhyu.org/micro/siri/</guid>
       <description>Hey Jude. Hey Bulldog. Hey Joe. Heh You. And now&amp;hellip; Hey Siri?</description>
     </item>
     

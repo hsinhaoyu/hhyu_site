@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hack on Cortically Magnified</title>
-    <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/hack/</link>
+    <link>https://www.hhyu.org/tags/hack/</link>
     <description>Recent content in Hack on Cortically Magnified</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>(c) Hsin-Hao Yu</copyright>
     <lastBuildDate>Thu, 07 Jun 2018 15:18:22 +1000</lastBuildDate>
     
-	<atom:link href="http://hhyu2020.s3-ap-southeast-2.amazonaws.com/tags/hack/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.hhyu.org/tags/hack/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Let&#39;s make some spirals</title>
-      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/posts/spirals/</link>
+      <link>https://www.hhyu.org/posts/spirals/</link>
       <pubDate>Thu, 07 Jun 2018 15:18:22 +1000</pubDate>
       
-      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/posts/spirals/</guid>
+      <guid>https://www.hhyu.org/posts/spirals/</guid>
       <description>Disk point picking is an elementary problem in geometry. To evenly distribute points on a disk, an intuitive idea is to sample pairs of numbers in polar coordinate (radius and angle) randomly from uniform distributions. After all, &amp;ldquo;uniformly&amp;rdquo; is just another word for &amp;ldquo;evenly&amp;rdquo;, isn&amp;rsquo;t it? But it doesn&amp;rsquo;t work. When the points are sampled this way, the density of the dots fall off linearly with the distance to the origin.</description>
     </item>
     
     <item>
       <title>Mangarevan arithmetic</title>
-      <link>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/posts/mangarevan/</link>
+      <link>https://www.hhyu.org/posts/mangarevan/</link>
       <pubDate>Wed, 06 Apr 2016 18:37:27 +1100</pubDate>
       
-      <guid>http://hhyu2020.s3-ap-southeast-2.amazonaws.com/posts/mangarevan/</guid>
+      <guid>https://www.hhyu.org/posts/mangarevan/</guid>
       <description>PNAS recently published a cognitive anthropology paper titled Mangarevan invention of binary steps for easier calculation. The paper describes an arithmetic system that had been used for hundreds of years by islanders living in Mangareva (a small island in French Polynesia) for the purpose of “counting a small group of highly valued objects such as turtles, fish, coconuts, octopuses, and breadfruits”. This system is not too different from the decimal system that we’re using today, except that a number in the Mangarevan language can contain a small segment of binary code, which employs four numerals to represent 10 multiplied by the first four powers of 2.</description>
     </item>
     

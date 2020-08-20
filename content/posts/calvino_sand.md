@@ -3,7 +3,7 @@ title: "Notes for Collection of Sand - essays by Italo Calvino"
 date: 2020-04-11T08:49:22+10:00
 draft: false
 categories: ["misc"]
-tags: ["history", "obscura", "vision"]
+tags: ["history", "obscura", "vision", "books"]
 ---
 
 _Collection of Sand_ is a collection of book reviews, exhibition reviews and travelogues that Italo Calvino wrote in the 70's and 80's. The quality varies. The best of them are unsurprisingly ekphrastic essays where Calvino described gardens, historical sites, and paintings in exquisite details. Those where he tried to regurgitate scientific or historical knowledge from academic books are less inspiring. But still, it is the variety of things that Calvino cared to write about that charms. I haven't encountered another book that talks about so many arcane things in one place. The vast majority of the notes that I made below have no relevance to anything that I do. Sometimes it just feels good to indulge myself to read about random subjects such as... the first giraffe in Paris...

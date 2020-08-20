@@ -1,4 +1,4 @@
-baseurl = "http://hhyu2020.s3-ap-southeast-2.amazonaws.com/"
+baseurl = "https://www.hhyu.org/"
 languageCode = "en-us"
 Title = "Cortically Magnified"
 # Copyright notice. This is displayer in the footer.
