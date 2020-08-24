@@ -19,7 +19,7 @@ paginate = 4
   authorwebsite = "example.com"
   avatar = "/sitewide/logo.png"
   contact = "mailto:hsinhaohh.yu@gmail.com"
-  bio = "A Taiwanese neuroscientist living in Melbourne"
+  bio = "A Taiwanese scientist living in Melbourne"
   # Short subtitle/tagline. This is displayed in the header.
   subtitle = "Neuroscience, vision, computation, and other interesting stuff"
   # Logo image. This is displayed ogp image.
