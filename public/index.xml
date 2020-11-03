@@ -121,8 +121,8 @@ From 2014-2017, I wrote a series of articles for the Chinese speaking communitie
       <pubDate>Wed, 14 Mar 2018 12:30:31 +1100</pubDate>
       
       <guid>https://www.hhyu.org/research/</guid>
-      <description>Some of the topics in neuroscience that I have worked on:
-Current Research: Machine Learning and Functional Brain Imaging In 2016, I was awarded research grants from the Australian Research Council and the National Health and Medical Research Council to use machine learning methods on the analysis of neurophysiolgical data. In addition, I am also working on new methodologies to imagine the activities of the visual cortex. Initial findings will be published in the near future.</description>
+      <description>Computational neuroscience The formation of retinotopic maps in the visual cortex
+In early visual cortex, adjacent retinotopic maps tend to be mirror images of each other, but does this organization extend to higher-order areas? In order to understand the general principles of the organization of adjacent maps, I used computational models to study how the development of a retinotopic map could be influenced by its neighbors. The result suggests a novel arrangement can emerge, which can explain the unconventional retinotopy of the dorsal visual cortex.</description>
     </item>
     
     <item>
@@ -151,7 +151,7 @@ Current Research: Machine Learning and Functional Brain Imaging In 2016, I was a
       <guid>https://www.hhyu.org/publications/</guid>
       <description>For full cv, see here.
 For full list of publications, see Google Scholar and Publons
-Awards  2013: Australian Research Council Discovery Early Career Researcher Award (DECRA) 2013: Best Postdoctoral Oral Presentation Award, Bosch Institute Annual Scientific Meeting 2013 2010: School of Biomedical Sciences Travel Grant  Recent presentations  2020: IBM Research Australia Seminar: Title: The traveling salesman in the brain: modeling the formation of topographical maps in the visual cortex using self-organization principles.</description>
+Awards  2019: Amanda Caples Award for Outstanding Alumnus, Centre of Excellence for Integrated Brain Function 2013: Australian Research Council Discovery Early Career Researcher Award (DECRA) 2013: Best Postdoctoral Oral Presentation Award, Bosch Institute Annual Scientific Meeting 2013 2010: School of Biomedical Sciences Travel Grant  Recent presentations  2020: IBM Research Australia Seminar: Title: The traveling salesman in the brain: modeling the formation of topographical maps in the visual cortex using self-organization principles.</description>
     </item>
     
     <item>
