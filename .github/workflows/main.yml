@@ -1,7 +1,7 @@
 # Workflow to build and deploy site to Github Pages using Hugo
 # based on https://github.com/peaceiris/actions-hugo
 
-name: github pages
+name: update Hugo website and deploy
 
 on:
   push:
