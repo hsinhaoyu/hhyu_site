@@ -14,8 +14,8 @@
       <pubDate>Mon, 30 Nov 2020 13:21:26 +1100</pubDate>
       
       <guid>https://www.hhyu.org/posts/emacs_clientserver/</guid>
-      <description>There are many articles you can find about running Emacs in client/server mode. However, when I tried to do it on my particular environment (macOS 11.0.1 Big Sur, using zsh), some tweaks were still needed. So, I decided to describe my setup.
-In macOS, the Emacs executable is /Applications/Emacs.app/Contents/MacOS/Emacs. To run Emacs in its non-server mode of operation, I defined two shell commands in .zshrc: emacs runs Emacs in its own macOS window, whereas emacsnw runs Emacs within the terminal.</description>
+      <description>Many articles are available about running Emacs in client/server mode. However, when I tried to do it in my particular environment (macOS 11.0.1 Big Sur, using zsh), some tweaks were still needed. So I figured that it&amp;rsquo;s probably useful to document my setup.
+In macOS, the Emacs executable is /Applications/Emacs.app/Contents/MacOS/Emacs. To run Emacs in its regular (non-server) operation mode, I defined two shell commands in .zshrc: emacs runs Emacs in GUI mode in a macOS window, whereas emacsnw runs Emacs in text mode within the terminal.</description>
     </item>
     
   </channel>
