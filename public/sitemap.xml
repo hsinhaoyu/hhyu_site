@@ -1,6 +1,41 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://www.hhyu.org/</loc>
+    <lastmod>2020-11-30T13:21:26+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/emacs/</loc>
+    <lastmod>2020-11-30T13:21:26+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/posts/emacs_clientserver/</loc>
+    <lastmod>2020-11-30T13:21:26+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/howto/</loc>
+    <lastmod>2020-11-30T13:21:26+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/posts/</loc>
+    <lastmod>2020-11-30T13:21:26+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/</loc>
+    <lastmod>2020-11-30T13:21:26+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/categories/</loc>
+    <lastmod>2020-08-24T21:39:50+10:00</lastmod>
+  </url>
   
   <url>
     <loc>https://www.hhyu.org/micro/kerouac/</loc>
@@ -8,7 +43,27 @@
   </url>
   
   <url>
+    <loc>https://www.hhyu.org/categories/micro/</loc>
+    <lastmod>2020-08-24T21:39:50+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/micro/</loc>
+    <lastmod>2020-08-24T21:39:50+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/categories/misc/</loc>
+    <lastmod>2020-06-22T18:19:51+10:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.hhyu.org/posts/clockface/</loc>
+    <lastmod>2020-06-22T18:19:51+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/whimsical/</loc>
     <lastmod>2020-06-22T18:19:51+10:00</lastmod>
   </url>
   
@@ -18,8 +73,33 @@
   </url>
   
   <url>
+    <loc>https://www.hhyu.org/tags/books/</loc>
+    <lastmod>2020-04-11T08:49:22+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/history/</loc>
+    <lastmod>2020-04-11T08:49:22+10:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.hhyu.org/posts/calvino_sand/</loc>
     <lastmod>2020-04-11T08:49:22+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/obscura/</loc>
+    <lastmod>2020-04-11T08:49:22+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/vision/</loc>
+    <lastmod>2020-04-11T08:49:22+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/categories/science/</loc>
+    <lastmod>2019-09-18T20:42:52+10:00</lastmod>
   </url>
   
   <url>
@@ -33,7 +113,27 @@
   </url>
   
   <url>
+    <loc>https://www.hhyu.org/tags/code/</loc>
+    <lastmod>2018-06-07T15:18:22+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/categories/computation/</loc>
+    <lastmod>2018-06-07T15:18:22+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/hack/</loc>
+    <lastmod>2018-06-07T15:18:22+10:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.hhyu.org/posts/spirals/</loc>
+    <lastmod>2018-06-07T15:18:22+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/math/</loc>
     <lastmod>2018-06-07T15:18:22+10:00</lastmod>
   </url>
   
@@ -48,7 +148,27 @@
   </url>
   
   <url>
+    <loc>https://www.hhyu.org/tags/computational-neuroscience/</loc>
+    <lastmod>2018-03-23T12:23:25+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/geometry/</loc>
+    <lastmod>2018-03-23T12:23:25+11:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.hhyu.org/posts/elastic/</loc>
+    <lastmod>2018-03-23T12:23:25+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/machine-learning/</loc>
+    <lastmod>2018-03-23T12:23:25+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/tensorflow/</loc>
     <lastmod>2018-03-23T12:23:25+11:00</lastmod>
   </url>
   
@@ -133,8 +253,18 @@
   </url>
   
   <url>
+    <loc>https://www.hhyu.org/tags/general-science/</loc>
+    <lastmod>2017-11-10T22:06:25+11:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.hhyu.org/posts/sundial/</loc>
     <lastmod>2017-11-10T22:06:25+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/music/</loc>
+    <lastmod>2017-11-10T21:38:21+11:00</lastmod>
   </url>
   
   <url>
@@ -148,13 +278,48 @@
   </url>
   
   <url>
+    <loc>https://www.hhyu.org/tags/teaching/</loc>
+    <lastmod>2017-11-10T19:40:13+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/visualization/</loc>
+    <lastmod>2017-11-10T19:40:13+11:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.hhyu.org/posts/photons/</loc>
     <lastmod>2016-08-20T20:31:41+11:00</lastmod>
   </url>
   
   <url>
+    <loc>https://www.hhyu.org/tags/physics/</loc>
+    <lastmod>2016-08-20T20:31:41+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/psychophysics/</loc>
+    <lastmod>2016-08-20T20:31:41+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/tutorial/</loc>
+    <lastmod>2016-08-20T20:31:41+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/brain-mapping/</loc>
+    <lastmod>2016-05-16T20:07:26+11:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.hhyu.org/posts/areadm/</loc>
     <lastmod>2016-05-16T20:07:26+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/data/</loc>
+    <lastmod>2016-05-07T18:51:42+11:00</lastmod>
   </url>
   
   <url>
@@ -174,6 +339,11 @@
   
   <url>
     <loc>https://www.hhyu.org/posts/color-vision-historical/</loc>
+    <lastmod>2015-03-03T19:04:44+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/color/</loc>
     <lastmod>2015-03-03T19:04:44+11:00</lastmod>
   </url>
   
@@ -218,8 +388,18 @@
   </url>
   
   <url>
+    <loc>https://www.hhyu.org/tags/motion/</loc>
+    <lastmod>2009-03-04T17:28:52+11:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.hhyu.org/posts/polar-opposite/</loc>
     <lastmod>2009-03-04T17:28:52+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/photo/</loc>
+    <lastmod>2008-03-04T18:26:53+11:00</lastmod>
   </url>
   
   <url>
@@ -248,6 +428,16 @@
   </url>
   
   <url>
+    <loc>https://www.hhyu.org/tags/development/</loc>
+    <lastmod>2008-01-01T14:02:22+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/plasticity/</loc>
+    <lastmod>2008-01-01T14:02:22+11:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.hhyu.org/posts/eduphy3012-plasticity/</loc>
     <lastmod>2008-01-01T14:02:22+11:00</lastmod>
   </url>
@@ -268,218 +458,7 @@
   </url>
   
   <url>
-    <loc>https://www.hhyu.org/tags/books/</loc>
-    <lastmod>2020-04-11T08:49:22+10:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/tags/brain-mapping/</loc>
-    <lastmod>2016-05-16T20:07:26+11:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/tags/code/</loc>
-    <lastmod>2018-06-07T15:18:22+10:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/tags/color/</loc>
-    <lastmod>2015-03-03T19:04:44+11:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/categories/computation/</loc>
-    <lastmod>2018-06-07T15:18:22+10:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/tags/computational-neuroscience/</loc>
-    <lastmod>2018-03-23T12:23:25+11:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/</loc>
-    <lastmod>2020-08-24T21:39:50+10:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/tags/data/</loc>
-    <lastmod>2016-05-07T18:51:42+11:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/tags/development/</loc>
-    <lastmod>2008-01-01T14:02:22+11:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/tags/fauna-flora/</loc>
-    <lastmod>2008-03-04T18:26:53+11:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/tags/general-science/</loc>
-    <lastmod>2017-11-10T22:06:25+11:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/tags/geometry/</loc>
-    <lastmod>2018-03-23T12:23:25+11:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/tags/hack/</loc>
-    <lastmod>2018-06-07T15:18:22+10:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/tags/history/</loc>
-    <lastmod>2020-04-11T08:49:22+10:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/tags/machine-learning/</loc>
-    <lastmod>2018-03-23T12:23:25+11:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/tags/math/</loc>
-    <lastmod>2018-06-07T15:18:22+10:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/categories/micro/</loc>
-    <lastmod>2020-08-24T21:39:50+10:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/micro/</loc>
-    <lastmod>2020-08-24T21:39:50+10:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/categories/misc/</loc>
-    <lastmod>2020-06-22T18:19:51+10:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/tags/motion/</loc>
-    <lastmod>2009-03-04T17:28:52+11:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/tags/music/</loc>
-    <lastmod>2017-11-10T21:38:21+11:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/tags/obscura/</loc>
-    <lastmod>2020-04-11T08:49:22+10:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/tags/photo/</loc>
-    <lastmod>2008-03-04T18:26:53+11:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/tags/physics/</loc>
-    <lastmod>2016-08-20T20:31:41+11:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/tags/plasticity/</loc>
-    <lastmod>2008-01-01T14:02:22+11:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/posts/</loc>
-    <lastmod>2020-06-22T18:19:51+10:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/tags/psychophysics/</loc>
-    <lastmod>2016-08-20T20:31:41+11:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/categories/science/</loc>
-    <lastmod>2019-09-18T20:42:52+10:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/tags/</loc>
-    <lastmod>2020-04-11T08:49:22+10:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/tags/teaching/</loc>
-    <lastmod>2017-11-10T19:40:13+11:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/tags/tensorflow/</loc>
-    <lastmod>2018-03-23T12:23:25+11:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/tags/tutorial/</loc>
-    <lastmod>2016-08-20T20:31:41+11:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/tags/vision/</loc>
-    <lastmod>2020-04-11T08:49:22+10:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/tags/visualization/</loc>
-    <lastmod>2017-11-10T19:40:13+11:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/tags/whimsical/</loc>
-    <lastmod>2020-06-22T18:19:51+10:00</lastmod>
-    <priority>0</priority>
+    <loc>https://www.hhyu.org/tags/fauna/flora/</loc>
   </url>
   
 </urlset>

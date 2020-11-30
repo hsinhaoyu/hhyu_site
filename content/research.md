@@ -26,7 +26,7 @@ Publications:
 
 **Controversies surrounding the third-tier primate visual areas**
 
-Which visual area lies rostral to area V2? The conventional answer is area V3, but many controversies remain (see [this review](https://pubmed.ncbi.nlm.nih.gov/26241792/)). My colleagues and I mapped the dorsomedial (DM) region of the marmoset visual cortex using high-resolution electrode arrays, and showed that the retinotopy was consistent with the organization described in [Rosa & Schmid (1995)](https://pubmed.ncbi.nlm.nih.gov/7499529/), [Sereno et al. (2015)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4733890/), and [Zhu et al. (2019)](https://www.pnas.org/content/116/6/2306.abstract). 
+Which visual area lies rostral to area V2? The conventional answer is area V3, but many controversies remain (see [this review paper](https://pubmed.ncbi.nlm.nih.gov/26241792/) and [this chapter that I wrote](http://www.springer.com/gp/book/9783319550640)). My colleagues and I mapped the dorsomedial (DM) region of the marmoset visual cortex using high-resolution electrode arrays, and showed that the retinotopy was consistent with the organization described in [Rosa & Schmid (1995)](https://pubmed.ncbi.nlm.nih.gov/7499529/), [Sereno et al. (2015)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4733890/), and [Zhu et al. (2019)](https://www.pnas.org/content/116/6/2306.abstract). 
 
 Publication:
 

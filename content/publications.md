@@ -22,7 +22,7 @@ For full list of publications, see [Google Scholar](https://scholar.google.com/c
 - 2016: Anderson Stuart Seminar Series (Department of Physiology, The University of Sydney). Title: New insights into the controversial "third-tier" areas of the primate visual cortex.
 
 ### Book chapters and reviews
-- Yu Hh & Rosa MGP (2017) The dosomedial cortex. In _Encyclopedia of Animal Cognition and Behavior_ (Eds. Vonk J & Shackelford, TK). Springer. [[link]](http://www.springer.com/gp/book/9783319550640)
+- Yu HH & Rosa MGP (2017) The dosomedial cortex. In _Encyclopedia of Animal Cognition and Behavior_ (Eds. Vonk J & Shackelford, TK). Springer. [[link]](http://www.springer.com/gp/book/9783319550640)
 - Chaplin TA, Rosa MGP, Yu H-H (2016) Scaling up the simian primate cortex: a conserved pattern of expansion across brain sizes. In _Evolution of Nervous Systems_, 2nd edition (Eds. Kaas, JH), Vol. 4, Academic Press. [[link]](https://www.sciencedirect.com/science/referenceworks/9780128040966)
 - Yu H-H, Chaplin TA, Rosa MGP (2014) Representation of central and peripheral vision in the primate cerebral cortex: Insights from studies of the marmoset brain. _Neuroscience Research_ 93, 47-61. [[link]](https://www.sciencedirect.com/science/article/pii/S0168010214002156)
 

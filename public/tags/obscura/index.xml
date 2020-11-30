@@ -1,17 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Obscura on Cortically Magnified</title>
+    <title>obscura on Cortically Magnified</title>
     <link>https://www.hhyu.org/tags/obscura/</link>
-    <description>Recent content in Obscura on Cortically Magnified</description>
+    <description>Recent content in obscura on Cortically Magnified</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>(c) Hsin-Hao Yu</copyright>
-    <lastBuildDate>Sat, 11 Apr 2020 08:49:22 +1000</lastBuildDate>
-    
-	<atom:link href="https://www.hhyu.org/tags/obscura/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 11 Apr 2020 08:49:22 +1000</lastBuildDate><atom:link href="https://www.hhyu.org/tags/obscura/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Notes for Collection of Sand - essays by Italo Calvino</title>
       <link>https://www.hhyu.org/posts/calvino_sand/</link>
