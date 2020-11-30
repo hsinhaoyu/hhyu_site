@@ -1,20 +1,15 @@
-# Workflow to build and deploy site to Github Pages using Hugo
-# based on https://github.com/peaceiris/actions-hugo
-
-name: update Hugo website and deploy
+name: github pages
 
 on:
   push:
     branches:
-      - main
+      - main  # Set a branch to deploy
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest
-    
+    runs-on: ubuntu-18.04
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v2
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
@@ -27,3 +22,9 @@ jobs:
 
       - name: Build
         run: hugo --minify
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
