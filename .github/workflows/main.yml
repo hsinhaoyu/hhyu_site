@@ -6,7 +6,7 @@ name: update Hugo website and deploy
 on:
   push:
     branches:
-      - main  # Set a branch to deploy
+      - main
 
 jobs:
   deploy:
