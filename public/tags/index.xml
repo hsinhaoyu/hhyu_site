@@ -7,7 +7,88 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>(c) Hsin-Hao Yu</copyright>
-    <lastBuildDate>Mon, 30 Nov 2020 13:21:26 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Dec 2020 00:44:40 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>website</title>
+      <link>https://www.hhyu.org/tags/website/</link>
+      <pubDate>Sat, 05 Dec 2020 00:44:40 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/tags/website/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>joke</title>
+      <link>https://www.hhyu.org/tags/joke/</link>
+      <pubDate>Wed, 02 Dec 2020 00:54:56 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/tags/joke/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>programming</title>
+      <link>https://www.hhyu.org/tags/programming/</link>
+      <pubDate>Wed, 02 Dec 2020 00:54:56 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/tags/programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>book</title>
+      <link>https://www.hhyu.org/tags/book/</link>
+      <pubDate>Wed, 02 Dec 2020 00:42:34 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/tags/book/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>evolution</title>
+      <link>https://www.hhyu.org/tags/evolution/</link>
+      <pubDate>Tue, 01 Dec 2020 00:57:48 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/tags/evolution/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>history</title>
+      <link>https://www.hhyu.org/tags/history/</link>
+      <pubDate>Tue, 01 Dec 2020 00:57:48 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/tags/history/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>intelligence</title>
+      <link>https://www.hhyu.org/tags/intelligence/</link>
+      <pubDate>Tue, 01 Dec 2020 00:57:48 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/tags/intelligence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>neuroscience</title>
+      <link>https://www.hhyu.org/tags/neuroscience/</link>
+      <pubDate>Tue, 01 Dec 2020 00:57:48 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/tags/neuroscience/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>parenting</title>
+      <link>https://www.hhyu.org/tags/parenting/</link>
+      <pubDate>Tue, 01 Dec 2020 00:57:48 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/tags/parenting/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>emacs</title>
       <link>https://www.hhyu.org/tags/emacs/</link>
@@ -27,29 +108,11 @@
     </item>
     
     <item>
-      <title>programming</title>
-      <link>https://www.hhyu.org/tags/programming/</link>
-      <pubDate>Sun, 08 Nov 2020 23:29:00 +1100</pubDate>
+      <title>language</title>
+      <link>https://www.hhyu.org/tags/language/</link>
+      <pubDate>Thu, 19 Nov 2020 01:03:30 +1100</pubDate>
       
-      <guid>https://www.hhyu.org/tags/programming/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>book</title>
-      <link>https://www.hhyu.org/tags/book/</link>
-      <pubDate>Tue, 03 Nov 2020 23:32:45 +1100</pubDate>
-      
-      <guid>https://www.hhyu.org/tags/book/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>history</title>
-      <link>https://www.hhyu.org/tags/history/</link>
-      <pubDate>Tue, 03 Nov 2020 23:32:45 +1100</pubDate>
-      
-      <guid>https://www.hhyu.org/tags/history/</guid>
+      <guid>https://www.hhyu.org/tags/language/</guid>
       <description></description>
     </item>
     
@@ -153,15 +216,6 @@
     </item>
     
     <item>
-      <title>joke</title>
-      <link>https://www.hhyu.org/tags/joke/</link>
-      <pubDate>Fri, 20 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.hhyu.org/tags/joke/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>music</title>
       <link>https://www.hhyu.org/tags/music/</link>
       <pubDate>Wed, 11 Apr 2018 11:05:28 +1000</pubDate>
@@ -221,15 +275,6 @@
       <pubDate>Sat, 06 Jan 2018 01:19:11 +1100</pubDate>
       
       <guid>https://www.hhyu.org/tags/photo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>neuroscience</title>
-      <link>https://www.hhyu.org/tags/neuroscience/</link>
-      <pubDate>Thu, 14 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.hhyu.org/tags/neuroscience/</guid>
       <description></description>
     </item>
     

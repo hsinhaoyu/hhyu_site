@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>retrocomputing on Cortically Magnified</title>
+    <link>https://www.hhyu.org/tags/retrocomputing/</link>
+    <description>Recent content in retrocomputing on Cortically Magnified</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) Hsin-Hao Yu</copyright>
+    <lastBuildDate>Thu, 16 Nov 2017 23:01:17 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/tags/retrocomputing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Which department threw out a freaking VAX?</title>
+      <link>https://www.hhyu.org/micro/vax/</link>
+      <pubDate>Thu, 16 Nov 2017 23:01:17 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/micro/vax/</guid>
+      <description>On university corridors, you inevitably see old equipments lying around. But which department threw out an entire freaking VAX?
+    Those must be the famous &amp;ldquo;blinkenlights&amp;rdquo;&amp;hellip;
+    </description>
+    </item>
+    
+    <item>
+      <title>The old man and the vacuum tubes</title>
+      <link>https://www.hhyu.org/posts/akihabara/</link>
+      <pubDate>Fri, 10 Nov 2017 00:59:52 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/akihabara/</guid>
+      <description>During a trip to Tokyo in 2013, I found an opportunity to visit the Akihabara district. This area is world famous for its high concentration of shops selling the latest models of computers, game consoles, gadgets, and other geeky items.</description>
+    </item>
+    
+  </channel>
+</rss>

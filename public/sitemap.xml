@@ -3,8 +3,83 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.hhyu.org/micro/githubtrigger/</loc>
+    <lastmod>2020-12-05T00:44:40+11:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.hhyu.org/</loc>
-    <lastmod>2020-11-30T13:21:26+11:00</lastmod>
+    <lastmod>2020-12-05T00:44:40+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/micro/</loc>
+    <lastmod>2020-12-05T00:44:40+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/</loc>
+    <lastmod>2020-12-05T00:44:40+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/website/</loc>
+    <lastmod>2020-12-05T00:44:40+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/micro/pythonpynchon/</loc>
+    <lastmod>2020-12-02T00:54:56+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/joke/</loc>
+    <lastmod>2020-12-02T00:54:56+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/programming/</loc>
+    <lastmod>2020-12-02T00:54:56+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/micro/finished_v/</loc>
+    <lastmod>2020-12-02T00:42:34+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/book/</loc>
+    <lastmod>2020-12-02T00:42:34+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/micro/humphrey/</loc>
+    <lastmod>2020-12-01T00:57:48+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/evolution/</loc>
+    <lastmod>2020-12-01T00:57:48+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/history/</loc>
+    <lastmod>2020-12-01T00:57:48+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/intelligence/</loc>
+    <lastmod>2020-12-01T00:57:48+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/neuroscience/</loc>
+    <lastmod>2020-12-01T00:57:48+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/parenting/</loc>
+    <lastmod>2020-12-01T00:57:48+11:00</lastmod>
   </url>
   
   <url>
@@ -28,8 +103,13 @@
   </url>
   
   <url>
-    <loc>https://www.hhyu.org/tags/</loc>
-    <lastmod>2020-11-30T13:21:26+11:00</lastmod>
+    <loc>https://www.hhyu.org/micro/childcare_culture/</loc>
+    <lastmod>2020-11-19T01:03:30+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/language/</loc>
+    <lastmod>2020-11-19T01:03:30+11:00</lastmod>
   </url>
   
   <url>
@@ -38,27 +118,7 @@
   </url>
   
   <url>
-    <loc>https://www.hhyu.org/micro/</loc>
-    <lastmod>2020-11-08T23:29:00+11:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/tags/programming/</loc>
-    <lastmod>2020-11-08T23:29:00+11:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.hhyu.org/micro/tagliacozzi/</loc>
-    <lastmod>2020-11-03T23:32:45+11:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/tags/book/</loc>
-    <lastmod>2020-11-03T23:32:45+11:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/tags/history/</loc>
     <lastmod>2020-11-03T23:32:45+11:00</lastmod>
   </url>
   
@@ -164,11 +224,6 @@
   
   <url>
     <loc>https://www.hhyu.org/micro/borges/</loc>
-    <lastmod>2018-04-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/tags/joke/</loc>
     <lastmod>2018-04-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -289,11 +344,6 @@
   
   <url>
     <loc>https://www.hhyu.org/micro/retina/</loc>
-    <lastmod>2017-12-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/tags/neuroscience/</loc>
     <lastmod>2017-12-14T00:00:00+00:00</lastmod>
   </url>
   
