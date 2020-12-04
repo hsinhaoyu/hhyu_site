@@ -2,7 +2,6 @@
 title: "A magic trick based on Fourier transform"
 date: 2017-11-10T19:40:13+11:00
 draft: false
-categories: ["science", "computation"]
 tags: ["math", "visualization", "teaching", "general science"]
 ---
 Fourier analysis says that complex patterns can be created by adding up a large number of patterns as simple as sinusoidal waves. To make the idea more concrete, I like to use the following analogy in teaching: Imagine that you lived in the early 19th century. If you wanted to listen to a symphony, the only way to make it happen was to hire a few dozen highly-trained musicians to perform it for you. If you wanted to listen to the symphony anytime you like, and as often as you like, it would have appeared that the only way to realize this luxury was to create mechanical robots that duplicated the virtuosity of the musicians — an inconceivable feat given the technology of the day. But Monsieur Fourier came along and said, “Non non! All you have to do is to create simple devices that buzz at different frequencies. Give me a large number of such simple devices, maybe hundred thousands of them, and I will assign loudness to individual devices in a way so ingenious that when they buzz together, you hear the symphony!” That claim might have sounded crazy, but at least you could see that such an engineering project was conceivable. Of course, it took engineers more than a century to bring the idea to reality, but Fourier’s insight was conceptually crucial.

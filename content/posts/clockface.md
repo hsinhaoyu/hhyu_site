@@ -2,7 +2,6 @@
 title: "So, I designed a clock face"
 date: 2020-06-22T18:19:51+10:00
 draft: false
-categories: ["misc"]
 tags: ["whimsical"]
 ---
 I got the idea from a photo of a clock that I found randomly on eBay. I thought that it was a novelty clock with a very unusual industrial design, but after a little while, I realized that what happened was that the seller took the hands part, and placed them haphazardly on the clock face. 

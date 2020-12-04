@@ -2,7 +2,6 @@
 title: "Teaching Material: PHY3111/Color Vision"
 date: 2008-01-01T13:33:14+11:00
 draft: False
-categories: ["science"]
 tags: ["teaching", "vision", "color"]
 ---
 

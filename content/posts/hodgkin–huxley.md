@@ -2,7 +2,6 @@
 title: "Who did the first computer simulation of a biological neuron?"
 date: 2019-09-18T20:42:52+10:00
 draft: False
-categories: ["science"]
 tags: ["history"]
 ---
 Nobel laureates Alan Hodgkin and Andrew Huxley are sometimes called the fathers of computational neuroscience, because they developed the first mathematical theory to explain how neurons communicate with each other with electrical signals. I read in a textbook that when they published their model in 1952, all the numerical calculations were done manually, because the computer at Cambridge was not working. It was "computational" all right, but it was the labour intensive variety. I can see that scientists quickly realized that they needed some help to speed up the computation, but I hadn't wondered who it was who did the first Hodgkin-Huxley simulation on a computer.

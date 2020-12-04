@@ -2,7 +2,6 @@
 title: "Gradient descent on a non-Euclidean surface"
 date: 2018-03-23T12:23:25+11:00
 draft: false
-categories: ["computation"]
 tags: ["geometry", "machine learning", "tensorflow", "math", "computational neuroscience"]
 ---
 #### Is the salesman travelling on foot or on an airplane?

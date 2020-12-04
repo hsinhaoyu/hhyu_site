@@ -2,7 +2,6 @@
 title: "Notes for Collection of Sand - essays by Italo Calvino"
 date: 2020-04-11T08:49:22+10:00
 draft: false
-categories: ["misc"]
 tags: ["history", "obscura", "vision", "book"]
 ---
 

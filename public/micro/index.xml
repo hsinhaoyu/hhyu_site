@@ -7,9 +7,47 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>(c) Hsin-Hao Yu</copyright>
-    <lastBuildDate>Mon, 24 Aug 2020 21:39:50 +1000</lastBuildDate><atom:link href="https://www.hhyu.org/micro/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Nov 2020 23:29:00 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/micro/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Kerouac</title>
+      <title></title>
+      <link>https://www.hhyu.org/micro/orgmode_literate/</link>
+      <pubDate>Sun, 08 Nov 2020 23:29:00 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/micro/orgmode_literate/</guid>
+      <description>About a month ago, I rewrote my Emacs config script in the style of literate programming. Emacs has a markup language (org-mode) that makes it easy to mix rich text with code. I did it mostly out of curiosity. At that time, I didn’t know if writing something as trivial as a config file this way was a good idea in terms of practicality. After a month of tweaking, I am now convinced that It was helpful.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.hhyu.org/micro/tagliacozzi/</link>
+      <pubDate>Tue, 03 Nov 2020 23:32:45 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/micro/tagliacozzi/</guid>
+      <description>In Thomas Pynchon&amp;rsquo;s first novel V., there is a subplot involving rhinoplasty. A surgeon in the story (“being a conservative”) refers to his own profession as the “Art of Tagliacozzi”. This is reference to the 16th century surgeon Gaspare Tagliacozzi, who pioneered surgical techniques for nasal reconstruction. He was a professor of anatomy at the Archiginnasio of Bologna, whose famous anatomical theatre houses a statue of Tagliacozzi holding a nose. I visited Bologna in 2015.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.hhyu.org/micro/color_book/</link>
+      <pubDate>Sun, 01 Nov 2020 23:23:13 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/micro/color_book/</guid>
+      <description>Bright Earth by Philip Ball is a remarkably multidisciplinary book about color. In a chapter about renaissance art, he described the technique of cangiantismo, which is most famously associated with the work of Michangelo. Wikipedia’s entry explains: “Cangiante is characterized by a change in color necessitated by an original color&amp;rsquo;s darkness or lightness limitation”. The effect is unnatural but it’s what fascinates me most about Michangelo’s paintings.
+This article explains how the technique was used in contemporary art such as Monster Inc.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.hhyu.org/micro/bowles/</link>
+      <pubDate>Sat, 24 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.hhyu.org/micro/bowles/</guid>
+      <description> In other parts of Africa, you are aware of the earth beneath your feet, of the vegetation and the animals; all power seems concentrated in the earth. In North Africa the earth becomes the less important part of the landscape because you find yourself constantly raising your eyes to look at the sky. In the arid landscape the sky is the final arbiter. - Paul Bowles
+ </description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://www.hhyu.org/micro/kerouac/</link>
       <pubDate>Mon, 24 Aug 2020 21:39:50 +1000</pubDate>
       
@@ -18,12 +56,13 @@
     </item>
     
     <item>
-      <title>Diderot</title>
+      <title></title>
       <link>https://www.hhyu.org/micro/diderot/</link>
       <pubDate>Sun, 12 Apr 2020 10:56:04 +1000</pubDate>
       
       <guid>https://www.hhyu.org/micro/diderot/</guid>
-      <description>&amp;ldquo;The loom for making stockings is one of the most complicated and rigorously logical machines that we have&amp;hellip; one could consider it as just one single piece of reasoning whose conclusion is the making of the stockings&amp;rdquo; - Denis Diderot, quoted in Italo Calvino&amp;rsquo;s Collection of Sand.</description>
+      <description> The loom for making stockings is one of the most complicated and rigorously logical machines that we have&amp;hellip; one could consider it as just one single piece of reasoning whose conclusion is the making of the stockings - Denis Diderot, quoted in Italo Calvino&amp;rsquo;s Collection of Sand.
+ </description>
     </item>
     
     <item>
@@ -55,29 +94,12 @@
     
     <item>
       <title></title>
-      <link>https://www.hhyu.org/micro/frivolous/</link>
-      <pubDate>Fri, 09 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.hhyu.org/micro/frivolous/</guid>
-      <description>A mathematician friend mentioned Frivolous Theorem of Arithmetic, which apparently states that &amp;ldquo;Almost all natural numbers are very, very, very large&amp;rdquo;. Me: But isn&amp;rsquo;t that obvious? Friend: That&amp;rsquo;s why it&amp;rsquo;s called frivolous.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://www.hhyu.org/micro/dissembler/</link>
-      <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.hhyu.org/micro/dissembler/</guid>
-      <description>I am really liking an iOS puzzle game called Dissembler. The minimalist graphics is beautiful like a Bauhaus design. This is like a game that Paul Klee would have made.</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>https://www.hhyu.org/micro/tori_amos/</link>
       <pubDate>Fri, 09 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>https://www.hhyu.org/micro/tori_amos/</guid>
-      <description>“I don’t believe you are leaving cause me and Charles Manson like the same ice cream” - Tori Amos, Tears in Your Hands</description>
+      <description> I don’t believe you are leaving cause me and Charles Manson like the same ice cream - Tori Amos, Tears in Your Hands
+ </description>
     </item>
     
     <item>
@@ -91,20 +113,20 @@
     
     <item>
       <title></title>
-      <link>https://www.hhyu.org/micro/pynchon/</link>
-      <pubDate>Sun, 04 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.hhyu.org/micro/pynchon/</guid>
-      <description>Thomas Pynchon and Satoshi Nakamoto - the same person?</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>https://www.hhyu.org/micro/einsum/</link>
       <pubDate>Mon, 29 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://www.hhyu.org/micro/einsum/</guid>
       <description>Just discovered that python&amp;rsquo;s numerical package has a function for Einstein summation for tensors. In the past, you need that for cosmology. These days you use them for neural networks.</description>
+    </item>
+    
+    <item>
+      <title>Reading comic books as brain lesions</title>
+      <link>https://www.hhyu.org/micro/comic/</link>
+      <pubDate>Tue, 09 Jan 2018 23:10:25 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/micro/comic/</guid>
+      <description>I can’t be the only one who has trouble reading comic books. I have problems interpolating between the panels, and I find it hard to recognise the characters. In other words, I don’t know how one panel is related to the next, and I don’t know who’s who. Reading comic books to me is like a simulation of cortical lesions. It induces a mild form of akinetopsia(deficit in the perception of motion) and prosopagnosia (deficit in the perception of faces).</description>
     </item>
     
     <item>
@@ -122,7 +144,17 @@
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://www.hhyu.org/micro/turing/</guid>
-      <description>Turing once dreamed that he was a Turing machine. When he woke up, he wondered if it was him who dreamed of being a Turing machine, or if it was a Turning machine which dreamed that it was Turing (a koan from a programming book published in Taiwan)</description>
+      <description> Turing once dreamed that he was a Turing machine. When he woke up, he wondered if it was him who dreamed of being a Turing machine, or if it was a Turning machine which dreamed that it was Turing - a koan from a programming book published in Taiwan)
+ </description>
+    </item>
+    
+    <item>
+      <title>Paying tribute to Henri Poincaré in Paris</title>
+      <link>https://www.hhyu.org/micro/poincare/</link>
+      <pubDate>Sun, 17 Dec 2017 22:45:48 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/micro/poincare/</guid>
+      <description>In a recent trip to Paris, my wife and I visited the Montparnasse Cemetery, hoping to find the tomb of the mathematician Évariste Galois. We were disappointed to learn that although Galois was indeed buried in the cemetery, he was buried in a common grave and the burial site can no longer be identified. However, we were delighted to have found the family tomb of Henri Poincaré.</description>
     </item>
     
     <item>
@@ -144,21 +176,51 @@
     </item>
     
     <item>
+      <title>You call that Chinese?</title>
+      <link>https://www.hhyu.org/micro/chinese/</link>
+      <pubDate>Thu, 16 Nov 2017 23:25:27 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/micro/chinese/</guid>
+      <description>I saw this book in the Melbourne Rare Book Fair. To anyone who can read Chinese, this looks like the practice book of a young child starting to learn to write. The characters are intelligible, but the writer clearly has not mastered the basic principles. If Chinese characters are people, these little guys are seriously deformed. Some have really big heads, some have tiny feet, most of them look like zombies walking with their body parts dangling, ready to fall off.</description>
+    </item>
+    
+    <item>
+      <title>The ship of fools</title>
+      <link>https://www.hhyu.org/micro/fools/</link>
+      <pubDate>Thu, 16 Nov 2017 23:18:50 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/micro/fools/</guid>
+      <description>Michel Foucault’s Madness and Civilization opens with the poetic imagery of Ship of Fools. But what is the ship of fools? Apparently it all started with this book. I saw it in an exhibition of books sharing the theme of traveling at the library of Monash University. This is the latin edition of Ship of Fools by German humanist Sebastian Brant, published in 1497. The illustrations are by Albretch Durer (!</description>
+    </item>
+    
+    <item>
+      <title>Which department threw out a freaking VAX?</title>
+      <link>https://www.hhyu.org/micro/vax/</link>
+      <pubDate>Thu, 16 Nov 2017 23:01:17 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/micro/vax/</guid>
+      <description>On university corridors, you inevitably see old equipments lying around. But which department threw out an entire freaking VAX?
+    Those must be the famous &amp;ldquo;blinkenlights&amp;rdquo;&amp;hellip;
+    </description>
+    </item>
+    
+    <item>
+      <title>Stereoscopic photography on the cheap</title>
+      <link>https://www.hhyu.org/micro/2ds/</link>
+      <pubDate>Fri, 10 Nov 2017 23:45:36 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/micro/2ds/</guid>
+      <description>I received a Nintendo 2DS as a gift. The 2DS is a downgraded version of the Nintendo 3DS handheld game console. To cut price (2DS retails at about $150 AUD), Nintendo removed the 3D display but interestingly it still has a pair of front facing cameras. The photos are saved into the .MPO format, and can be loaded and processed by many programs running on computers.</description>
+    </item>
+    
+    <item>
       <title></title>
       <link>https://www.hhyu.org/micro/don_quixote/</link>
       <pubDate>Thu, 16 Jul 2015 00:00:00 +0000</pubDate>
       
       <guid>https://www.hhyu.org/micro/don_quixote/</guid>
-      <description>&amp;ldquo;The reason of the unreason with which my reason is afflicted so weakens my reason that with reason I murmur at your beauty&amp;rdquo; - Don Quixote</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://www.hhyu.org/micro/beefheart/</link>
-      <pubDate>Fri, 16 Jan 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.hhyu.org/micro/beefheart/</guid>
-      <description>&amp;ldquo;Why don’t you drop your cool tom-foolery ‘n shed your nasty jewelry?&amp;rdquo; - Captain Beefheart</description>
+      <description> The reason of the unreason with which my reason is afflicted so weakens my reason that with reason I murmur at your beauty - Don Quixote
+ </description>
     </item>
     
     <item>
@@ -194,7 +256,8 @@
       <pubDate>Sat, 25 Oct 2014 00:00:00 +0000</pubDate>
       
       <guid>https://www.hhyu.org/micro/pynchon3/</guid>
-      <description>“Really. Hey, like Godzilla always sez to Mothra—why don’t we go eat some place?”— Inherent Vice by Thomas Pynchon</description>
+      <description> Really. Hey, like Godzilla always sez to Mothra — why don’t we go eat some place? — Inherent Vice by Thomas Pynchon
+ </description>
     </item>
     
     <item>
@@ -212,16 +275,18 @@
       <pubDate>Tue, 07 Oct 2014 00:00:00 +0000</pubDate>
       
       <guid>https://www.hhyu.org/micro/pynchon2/</guid>
-      <description>“No worries, it’s on the house, as the TV antenna man always sez” — Thomas Pynchon in Inherent Vice</description>
+      <description> No worries, it’s on the house, as the TV antenna man always sez — Thomas Pynchon in Inherent Vice
+ </description>
     </item>
     
     <item>
-      <title></title>
-      <link>https://www.hhyu.org/micro/siri/</link>
-      <pubDate>Mon, 29 Sep 2014 00:00:00 +0000</pubDate>
+      <title>The California ground squirrel</title>
+      <link>https://www.hhyu.org/micro/ground-squirrel/</link>
+      <pubDate>Tue, 04 Mar 2008 18:26:53 +1100</pubDate>
       
-      <guid>https://www.hhyu.org/micro/siri/</guid>
-      <description>Hey Jude. Hey Bulldog. Hey Joe. Heh You. And now&amp;hellip; Hey Siri?</description>
+      <guid>https://www.hhyu.org/micro/ground-squirrel/</guid>
+      <description>I took these photos for a research project while I was a student at UC San Diego. They are the skull and the brain of the California ground squirrel (Spermophilus beecheyi)
+         </description>
     </item>
     
   </channel>

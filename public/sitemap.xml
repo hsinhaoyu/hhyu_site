@@ -33,28 +33,83 @@
   </url>
   
   <url>
-    <loc>https://www.hhyu.org/categories/</loc>
-    <lastmod>2020-08-24T21:39:50+10:00</lastmod>
+    <loc>https://www.hhyu.org/micro/orgmode_literate/</loc>
+    <lastmod>2020-11-08T23:29:00+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/micro/</loc>
+    <lastmod>2020-11-08T23:29:00+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/programming/</loc>
+    <lastmod>2020-11-08T23:29:00+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/micro/tagliacozzi/</loc>
+    <lastmod>2020-11-03T23:32:45+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/book/</loc>
+    <lastmod>2020-11-03T23:32:45+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/history/</loc>
+    <lastmod>2020-11-03T23:32:45+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/obscura/</loc>
+    <lastmod>2020-11-03T23:32:45+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/travel/</loc>
+    <lastmod>2020-11-03T23:32:45+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/micro/color_book/</loc>
+    <lastmod>2020-11-01T23:23:13+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/art/</loc>
+    <lastmod>2020-11-01T23:23:13+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/color/</loc>
+    <lastmod>2020-11-01T23:23:13+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/link/</loc>
+    <lastmod>2020-11-01T23:23:13+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/vision/</loc>
+    <lastmod>2020-11-01T23:23:13+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/micro/bowles/</loc>
+    <lastmod>2020-10-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/quote/</loc>
+    <lastmod>2020-10-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.hhyu.org/micro/kerouac/</loc>
     <lastmod>2020-08-24T21:39:50+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/categories/micro/</loc>
-    <lastmod>2020-08-24T21:39:50+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/micro/</loc>
-    <lastmod>2020-08-24T21:39:50+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/categories/misc/</loc>
-    <lastmod>2020-06-22T18:19:51+10:00</lastmod>
   </url>
   
   <url>
@@ -73,33 +128,8 @@
   </url>
   
   <url>
-    <loc>https://www.hhyu.org/tags/book/</loc>
-    <lastmod>2020-04-11T08:49:22+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/tags/history/</loc>
-    <lastmod>2020-04-11T08:49:22+10:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.hhyu.org/posts/calvino_sand/</loc>
     <lastmod>2020-04-11T08:49:22+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/tags/obscura/</loc>
-    <lastmod>2020-04-11T08:49:22+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/tags/vision/</loc>
-    <lastmod>2020-04-11T08:49:22+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/categories/science/</loc>
-    <lastmod>2019-09-18T20:42:52+10:00</lastmod>
   </url>
   
   <url>
@@ -114,11 +144,6 @@
   
   <url>
     <loc>https://www.hhyu.org/tags/code/</loc>
-    <lastmod>2018-06-07T15:18:22+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/categories/computation/</loc>
     <lastmod>2018-06-07T15:18:22+10:00</lastmod>
   </url>
   
@@ -143,7 +168,22 @@
   </url>
   
   <url>
+    <loc>https://www.hhyu.org/tags/joke/</loc>
+    <lastmod>2018-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.hhyu.org/micro/miles/</loc>
+    <lastmod>2018-04-11T11:05:28+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/music/</loc>
+    <lastmod>2018-04-11T11:05:28+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/review/</loc>
     <lastmod>2018-04-11T11:05:28+10:00</lastmod>
   </url>
   
@@ -183,11 +223,6 @@
   </url>
   
   <url>
-    <loc>https://www.hhyu.org/micro/frivolous/</loc>
-    <lastmod>2018-03-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.hhyu.org/publications/</loc>
     <lastmod>2018-03-06T14:50:45+11:00</lastmod>
   </url>
@@ -203,11 +238,6 @@
   </url>
   
   <url>
-    <loc>https://www.hhyu.org/micro/dissembler/</loc>
-    <lastmod>2018-02-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.hhyu.org/micro/tori_amos/</loc>
     <lastmod>2018-02-09T00:00:00+00:00</lastmod>
   </url>
@@ -218,17 +248,12 @@
   </url>
   
   <url>
-    <loc>https://www.hhyu.org/micro/pynchon/</loc>
-    <lastmod>2018-02-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.hhyu.org/micro/einsum/</loc>
     <lastmod>2018-01-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.hhyu.org/posts/comic/</loc>
+    <loc>https://www.hhyu.org/micro/comic/</loc>
     <lastmod>2018-01-09T23:10:25+11:00</lastmod>
   </url>
   
@@ -248,17 +273,12 @@
   </url>
   
   <url>
-    <loc>https://www.hhyu.org/tags/travel/</loc>
-    <lastmod>2018-01-06T01:19:11+11:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.hhyu.org/micro/turing/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.hhyu.org/posts/poincare/</loc>
+    <loc>https://www.hhyu.org/micro/poincare/</loc>
     <lastmod>2017-12-17T22:45:48+11:00</lastmod>
   </url>
   
@@ -269,6 +289,16 @@
   
   <url>
     <loc>https://www.hhyu.org/micro/retina/</loc>
+    <lastmod>2017-12-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/neuroscience/</loc>
+    <lastmod>2017-12-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/retina/</loc>
     <lastmod>2017-12-14T00:00:00+00:00</lastmod>
   </url>
   
@@ -293,12 +323,12 @@
   </url>
   
   <url>
-    <loc>https://www.hhyu.org/posts/chinese/</loc>
+    <loc>https://www.hhyu.org/micro/chinese/</loc>
     <lastmod>2017-11-16T23:25:27+11:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.hhyu.org/posts/fools/</loc>
+    <loc>https://www.hhyu.org/micro/fools/</loc>
     <lastmod>2017-11-16T23:18:50+11:00</lastmod>
   </url>
   
@@ -308,7 +338,7 @@
   </url>
   
   <url>
-    <loc>https://www.hhyu.org/posts/vax/</loc>
+    <loc>https://www.hhyu.org/micro/vax/</loc>
     <lastmod>2017-11-16T23:01:17+11:00</lastmod>
   </url>
   
@@ -323,7 +353,7 @@
   </url>
   
   <url>
-    <loc>https://www.hhyu.org/posts/2ds/</loc>
+    <loc>https://www.hhyu.org/micro/2ds/</loc>
     <lastmod>2017-11-10T23:45:36+11:00</lastmod>
   </url>
   
@@ -335,11 +365,6 @@
   <url>
     <loc>https://www.hhyu.org/posts/sundial/</loc>
     <lastmod>2017-11-10T22:06:25+11:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/tags/music/</loc>
-    <lastmod>2017-11-10T21:38:21+11:00</lastmod>
   </url>
   
   <url>
@@ -448,16 +473,6 @@
   </url>
   
   <url>
-    <loc>https://www.hhyu.org/tags/color/</loc>
-    <lastmod>2015-03-03T19:04:44+11:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/micro/beefheart/</loc>
-    <lastmod>2015-01-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.hhyu.org/micro/journal/</loc>
     <lastmod>2014-11-17T00:00:00+00:00</lastmod>
   </url>
@@ -488,11 +503,6 @@
   </url>
   
   <url>
-    <loc>https://www.hhyu.org/micro/siri/</loc>
-    <lastmod>2014-09-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.hhyu.org/tags/motion/</loc>
     <lastmod>2009-03-04T17:28:52+11:00</lastmod>
   </url>
@@ -503,7 +513,7 @@
   </url>
   
   <url>
-    <loc>https://www.hhyu.org/posts/ground-squirrel/</loc>
+    <loc>https://www.hhyu.org/micro/ground-squirrel/</loc>
     <lastmod>2008-03-04T18:26:53+11:00</lastmod>
   </url>
   
@@ -555,6 +565,10 @@
   <url>
     <loc>https://www.hhyu.org/teaching/</loc>
     <lastmod>2008-01-01T13:20:52+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/categories/</loc>
   </url>
   
   <url>

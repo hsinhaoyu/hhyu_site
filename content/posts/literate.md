@@ -2,7 +2,6 @@
 title: "Literate programming as a medium of experimental literature"
 date: 2020-10-06T14:34:22+11:00
 draft: true
-categories: ["misc"]
 tags: ["programming", "whimsical", "literature"]
 ---
 [Literate programming](https://en.wikipedia.org/wiki/Literate_programming) is a method of software engineering that emphasizes the narrative aspect of programming. The concept was first introduced by Donald Knuth in the 80's. I don't use it at all in my work, but can I do something interesting with it? How about we take the "literate" part literally, and try to imagine a way to write some sort of novel with this method?

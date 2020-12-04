@@ -2,7 +2,6 @@
 title: "How many photons get into your eyes?"
 date: 2016-08-20T20:31:41+11:00
 draft: false
-categories: ["science", "computation"]
 tags: ["physics", "vision", "psychophysics", "tutorial", "general science"]
 ---
 A recent [paper](https://idp.nature.com/authorize?response_type=cookie&client_id=grover&redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fncomms12172) shows that our vision is so sensitive to light that human subjects can detect the presence of one single photon shot into their retinas. While scientists have been trying to establish the lower limit of visual sensitivity for a very long time, and it is generally accepted that a small number of photons are sufficient for detection since the 40’s, new advances in quantum optics finally allow us to manipulate light at single photon precision, and it is the first time that direct evidence for single photon sensitivity is demonstrated in a psychological experiment.

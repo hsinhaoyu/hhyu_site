@@ -3,7 +3,7 @@ languageCode = "en-us"
 Title = "Cortically Magnified"
 # Copyright notice. This is displayer in the footer.
 copyright = "(c) Hsin-Hao Yu"
-theme = "hugo_theme_pickles"
+theme = "pickles_hhyu"
 paginate = 4
 
 [params]
@@ -62,7 +62,7 @@ paginate = 4
 
 [[menu.main]]
     identifier = "Update"
-    name = "/Update"
+    name = "/Updates"
     weight = 3
 
 [[menu.main]]
@@ -73,8 +73,8 @@ paginate = 4
 
 [[menu.main]]
     parent = "Update"
-    name = "micro.blog"
-    url = "/categories/micro/"
+    name = "Notes"
+    url = "/micro/"
     weight = 2
 
 [[menu.main]]

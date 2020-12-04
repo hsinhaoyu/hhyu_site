@@ -2,7 +2,6 @@
 title: "Teaching Material: PHY3111/Prac"
 date: 2008-01-01T13:56:48+11:00
 draft: False
-categories: ["science"]
 tags: ["teaching"]
 ---
 ### More about extracellular recording
