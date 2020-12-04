@@ -73,7 +73,7 @@
   </url>
   
   <url>
-    <loc>https://www.hhyu.org/tags/books/</loc>
+    <loc>https://www.hhyu.org/tags/book/</loc>
     <lastmod>2020-04-11T08:49:22+10:00</lastmod>
   </url>
   
@@ -228,13 +228,38 @@
   </url>
   
   <url>
+    <loc>https://www.hhyu.org/posts/comic/</loc>
+    <lastmod>2018-01-09T23:10:25+11:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.hhyu.org/micro/pendulum/</loc>
     <lastmod>2018-01-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
+    <loc>https://www.hhyu.org/tags/photo/</loc>
+    <lastmod>2018-01-06T01:19:11+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/posts/cobbler/</loc>
+    <lastmod>2018-01-06T01:19:11+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/travel/</loc>
+    <lastmod>2018-01-06T01:19:11+11:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.hhyu.org/micro/turing/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/posts/poincare/</loc>
+    <lastmod>2017-12-17T22:45:48+11:00</lastmod>
   </url>
   
   <url>
@@ -245,6 +270,61 @@
   <url>
     <loc>https://www.hhyu.org/micro/retina/</loc>
     <lastmod>2017-12-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/chinese/</loc>
+    <lastmod>2017-11-21T23:35:30+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/pun/</loc>
+    <lastmod>2017-11-21T23:35:30+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/posts/chinese_punning/</loc>
+    <lastmod>2017-11-21T23:35:30+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/exhibition/</loc>
+    <lastmod>2017-11-16T23:25:27+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/posts/chinese/</loc>
+    <lastmod>2017-11-16T23:25:27+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/posts/fools/</loc>
+    <lastmod>2017-11-16T23:18:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/retrocomputing/</loc>
+    <lastmod>2017-11-16T23:01:17+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/posts/vax/</loc>
+    <lastmod>2017-11-16T23:01:17+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/painting/</loc>
+    <lastmod>2017-11-10T23:55:20+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/posts/photoshop/</loc>
+    <lastmod>2017-11-10T23:55:20+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/posts/2ds/</loc>
+    <lastmod>2017-11-10T23:45:36+11:00</lastmod>
   </url>
   
   <url>
@@ -280,6 +360,36 @@
   <url>
     <loc>https://www.hhyu.org/tags/visualization/</loc>
     <lastmod>2017-11-10T19:40:13+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/posts/panorama/</loc>
+    <lastmod>2017-11-10T01:38:22+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/posts/akihabara/</loc>
+    <lastmod>2017-11-10T00:59:52+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/posts/norwegian/</loc>
+    <lastmod>2017-11-10T00:28:23+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/posts/maruko/</loc>
+    <lastmod>2017-11-10T00:09:14+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/tv/</loc>
+    <lastmod>2017-11-10T00:09:14+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/posts/quandong/</loc>
+    <lastmod>2016-10-04T01:29:16+11:00</lastmod>
   </url>
   
   <url>
@@ -390,11 +500,6 @@
   <url>
     <loc>https://www.hhyu.org/posts/polar-opposite/</loc>
     <lastmod>2009-03-04T17:28:52+11:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/tags/photo/</loc>
-    <lastmod>2008-03-04T18:26:53+11:00</lastmod>
   </url>
   
   <url>

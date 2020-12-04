@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>machine learning on Cortically Magnified</title>
+    <link>https://www.hhyu.org/tags/machine-learning/</link>
+    <description>Recent content in machine learning on Cortically Magnified</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) Hsin-Hao Yu</copyright>
+    <lastBuildDate>Fri, 23 Mar 2018 12:23:25 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gradient descent on a non-Euclidean surface</title>
+      <link>https://www.hhyu.org/posts/elastic/</link>
+      <pubDate>Fri, 23 Mar 2018 12:23:25 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/elastic/</guid>
+      <description>&lt;h4 id=&#34;is-the-salesman-travelling-on-foot-or-on-an-airplane&#34;&gt;Is the salesman travelling on foot or on an airplane?&lt;/h4&gt;
+&lt;p&gt;This article describes an experiment to develop a version of the elastic net algorithm that works on spherical surfaces. I needed it for a computational neuroscience problem, but for those who are mainly interested in machine learning, it also serves a simple and intuitive demonstration of using gradient descent on non-Euclidian surfaces. The Tensorflow source code is available on &lt;a href=&#34;https://github.com/hsinhaoyu/spherical_elastic_net&#34;&gt;GitHub&lt;/a&gt;. I also made a youtube &lt;a href=&#34;https://www.youtube.com/watch?v=uoZcTG_i2jQ&amp;amp;feature=youtu.be&#34;&gt;video&lt;/a&gt; showing the algorithm in action.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
