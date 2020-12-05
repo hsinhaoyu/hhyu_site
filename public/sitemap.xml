@@ -103,6 +103,26 @@
   </url>
   
   <url>
+    <loc>https://www.hhyu.org/micro/incomplete/</loc>
+    <lastmod>2020-11-27T01:31:22+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/link/</loc>
+    <lastmod>2020-11-27T01:31:22+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/math/</loc>
+    <lastmod>2020-11-27T01:31:22+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/micro/mallorca/</loc>
+    <lastmod>2020-11-23T01:35:12+11:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.hhyu.org/micro/childcare_culture/</loc>
     <lastmod>2020-11-19T01:03:30+11:00</lastmod>
   </url>
@@ -110,6 +130,21 @@
   <url>
     <loc>https://www.hhyu.org/tags/language/</loc>
     <lastmod>2020-11-19T01:03:30+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/micro/perec/</loc>
+    <lastmod>2020-11-17T01:32:57+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/micro/github_literature/</loc>
+    <lastmod>2020-11-12T01:28:18+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/story/</loc>
+    <lastmod>2020-11-12T01:28:18+11:00</lastmod>
   </url>
   
   <url>
@@ -148,13 +183,18 @@
   </url>
   
   <url>
-    <loc>https://www.hhyu.org/tags/link/</loc>
+    <loc>https://www.hhyu.org/tags/vision/</loc>
     <lastmod>2020-11-01T23:23:13+11:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.hhyu.org/tags/vision/</loc>
-    <lastmod>2020-11-01T23:23:13+11:00</lastmod>
+    <loc>https://www.hhyu.org/micro/feynmann/</loc>
+    <lastmod>2020-10-27T01:23:12+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/micro/vonnegut_pynchon/</loc>
+    <lastmod>2020-10-27T01:13:36+11:00</lastmod>
   </url>
   
   <url>
@@ -165,6 +205,16 @@
   <url>
     <loc>https://www.hhyu.org/tags/quote/</loc>
     <lastmod>2020-10-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/micro/story_language/</loc>
+    <lastmod>2020-10-24T01:17:25+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/micro/p_adics/</loc>
+    <lastmod>2020-10-23T01:09:58+11:00</lastmod>
   </url>
   
   <url>
@@ -214,11 +264,6 @@
   
   <url>
     <loc>https://www.hhyu.org/posts/spirals/</loc>
-    <lastmod>2018-06-07T15:18:22+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/tags/math/</loc>
     <lastmod>2018-06-07T15:18:22+10:00</lastmod>
   </url>
   

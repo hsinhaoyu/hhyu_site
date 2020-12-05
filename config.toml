@@ -26,6 +26,8 @@ paginate = 4
   logo = "logo.png"
   favicon = "/path/to/favicon"
 
+  micropaginate = 10
+
   [[menu.main]]
       name = "About"
       url = "/about"

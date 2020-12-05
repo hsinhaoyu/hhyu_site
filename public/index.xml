@@ -56,11 +56,47 @@ In macOS, the Emacs executable is /Applications/Emacs.app/Contents/MacOS/Emacs. 
     
     <item>
       <title></title>
+      <link>https://www.hhyu.org/micro/incomplete/</link>
+      <pubDate>Fri, 27 Nov 2020 01:31:22 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/micro/incomplete/</guid>
+      <description>This is a good article about Gödel’s incompleteness theorem.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.hhyu.org/micro/mallorca/</link>
+      <pubDate>Mon, 23 Nov 2020 01:35:12 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/micro/mallorca/</guid>
+      <description>An obscure historical note from Thomas Pyhcon’s novel V.: there is a Chopin museum in the Spanish island of Mallorca, where you can see a cast of Frédéric Chopin’s hand. Chopin spent a winter there in 1838.</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://www.hhyu.org/micro/childcare_culture/</link>
       <pubDate>Thu, 19 Nov 2020 01:03:30 +1100</pubDate>
       
       <guid>https://www.hhyu.org/micro/childcare_culture/</guid>
       <description>An interesting topic I studied in an animal behaviour class was about the concept of culture in animal societies. I started to think about the transmission of culture recently because I noticed that my 4yo daughter Zoe&amp;rsquo;s childcare playgroup has developed their own culture. When Zoe started to use a new word, I used to assumed that she learned it from the childcare educators. But recently I noticed that the children are teaching each other.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.hhyu.org/micro/perec/</link>
+      <pubDate>Tue, 17 Nov 2020 01:32:57 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/micro/perec/</guid>
+      <description>I found this 2019 New York Times article about the fascinating work of French writer Georges Perec. Note that Donald Kunth called his Life: A User&amp;rsquo;s Manual “perhaps the greatest 20th century novel”.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.hhyu.org/micro/github_literature/</link>
+      <pubDate>Thu, 12 Nov 2020 01:28:18 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/micro/github_literature/</guid>
+      <description>I want to see writers use GitHub for literary experimentation. It can be a new form of ergodic literature. Imagine a novel released as a GitHub repo. Readers can read it. They can check out all the branches to explore parallel universes of alternative plots. They can read the revision history as a meta-novel, to learn about the writing process. And of course, they can make new versions of the novel by merging branches.</description>
     </item>
     
     <item>
@@ -93,12 +129,48 @@ This article explains how the technique was used in contemporary art such as Mon
     
     <item>
       <title></title>
+      <link>https://www.hhyu.org/micro/feynmann/</link>
+      <pubDate>Tue, 27 Oct 2020 01:23:12 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/micro/feynmann/</guid>
+      <description>Richard Feynman’s Integral Trick: I remember that in Surely You Are Joking, Mr. Feynman, Feynman talked about an obscure trick for doing integrals. What was he talking about? This article explains it.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.hhyu.org/micro/vonnegut_pynchon/</link>
+      <pubDate>Tue, 27 Oct 2020 01:13:36 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/micro/vonnegut_pynchon/</guid>
+      <description>It’s interesting that two favourite writers of mine had worked for big tech companies. Kurt Vonnegut worked for the PR department of GE. His portrayal of the genius scientist in Cat’s Cradle was based on his interview of Nobel Laureate Irving Langmuir of GE Research. Thomas Pynchon was a tech writer for Boeing. Yoyodyne, a defence contractor in The Crying of Lot 49, is a caricature of Boeing.</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://www.hhyu.org/micro/bowles/</link>
       <pubDate>Sat, 24 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.hhyu.org/micro/bowles/</guid>
       <description> In other parts of Africa, you are aware of the earth beneath your feet, of the vegetation and the animals; all power seems concentrated in the earth. In North Africa the earth becomes the less important part of the landscape because you find yourself constantly raising your eyes to look at the sky. In the arid landscape the sky is the final arbiter. - Paul Bowles
  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.hhyu.org/micro/story_language/</link>
+      <pubDate>Sat, 24 Oct 2020 01:17:25 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/micro/story_language/</guid>
+      <description>Idea for a short story: linguists have been puzzled by a mysterious ancient manuscript written in a unknown language. It was deciphered after a computer scientist realized that the manuscript is a definition of the language that it’s written in.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.hhyu.org/micro/p_adics/</link>
+      <pubDate>Fri, 23 Oct 2020 01:09:58 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/micro/p_adics/</guid>
+      <description>An Infinite Universe of Number Systems - The p-adics seem to be a fanciful formalism of numbers. What’s interesting about it is that it provides a way to study an entire university of number systems.</description>
     </item>
     
     <item>
