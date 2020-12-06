@@ -8,7 +8,7 @@ hugo new micro/filename.md
 
 ## added figure
 ```sh
-{{< figure src="/blog/cobbler1.jpeg">}}
+{{< figure src="/blog/spiral.gif" link="blog/spiral.gif" >}}
 ```
 
 ## development

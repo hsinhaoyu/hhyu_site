@@ -9,15 +9,16 @@ Grid Layout Styles
 */
 .gallery {
     overflow: hidden;
-    margin: 10px;
-    max-width: 800px;
+    margin: 2px;
+    /*max-width: 768px;*/
+    max-width: 1000px;
 }
 .gallery .box {
     float: left;
     position: relative;
     /* Default: 1 tile wide */
     width: 100%;
-    padding-bottom: 100%;
+    padding-bottom: 100%; 
 }
 @media only screen and (min-width : 365px) {
     /* Tablet view: 2 tiles */
@@ -29,15 +30,15 @@ Grid Layout Styles
 @media only screen and (min-width : 480px) {
     /* Small desktop / ipad view: 3 tiles */
     .gallery .box {
-        width: 50.0%;
-        padding-bottom: 30.0%; /*  */
+        width: 33.3%;
+        padding-bottom: 33.3%; /*  */
     }
 }
-@media only screen and (min-width : 9999px) {
+@media only screen and (min-width : 2000px) {
    /* Medium desktop: 4 tiles */
    .box {
-      width: 50.0%;
-      padding-bottom: 30.0%;
+      width: 25%;
+      padding-bottom: 25%;
    }
 }
 
@@ -45,7 +46,7 @@ Grid Layout Styles
 Transition styles
 */
 .gallery.hover-transition figure,
-.gallery.hover-effect-zoom .img,
+.gallery.hover-effect-zoom .img, 
 .gallery:not(.caption-effect-appear) figcaption,
 .fancy-figure:not(.caption-effect-appear) figcaption {
     -webkit-transition: all 0.3s ease-in-out;
@@ -156,3 +157,4 @@ figcaption styles
 figcaption p {
     margin: auto; /* override style in theme */
 }
+

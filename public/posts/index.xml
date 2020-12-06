@@ -61,7 +61,7 @@ But it got me thinking, clock hands don&amp;rsquo;t have to rotate around the ce
       <pubDate>Fri, 23 Mar 2018 12:23:25 +1100</pubDate>
       
       <guid>https://www.hhyu.org/posts/elastic/</guid>
-      <description>&lt;h4 id=&#34;is-the-salesman-travelling-on-foot-or-on-an-airplane&#34;&gt;Is the salesman travelling on foot or on an airplane?&lt;/h4&gt;
+      <description>&lt;h3 id=&#34;is-the-salesman-travelling-on-foot-or-on-an-airplane&#34;&gt;Is the salesman travelling on foot or on an airplane?&lt;/h3&gt;
 &lt;p&gt;This article describes an experiment to develop a version of the elastic net algorithm that works on spherical surfaces. I needed it for a computational neuroscience problem, but for those who are mainly interested in machine learning, it also serves a simple and intuitive demonstration of using gradient descent on non-Euclidian surfaces. The Tensorflow source code is available on &lt;a href=&#34;https://github.com/hsinhaoyu/spherical_elastic_net&#34;&gt;GitHub&lt;/a&gt;. I also made a youtube &lt;a href=&#34;https://www.youtube.com/watch?v=uoZcTG_i2jQ&amp;amp;feature=youtu.be&#34;&gt;video&lt;/a&gt; showing the algorithm in action.&lt;/p&gt;</description>
     </item>
     
@@ -121,6 +121,27 @@ But it got me thinking, clock hands don&amp;rsquo;t have to rotate around the ce
       
       <guid>https://www.hhyu.org/posts/fourierdemonstration/</guid>
       <description>Fourier analysis says that complex patterns can be created by adding up a large number of patterns as simple as sinusoidal waves. To make the idea more concrete, I like to use the following analogy in teaching: Imagine that you lived in the early 19th century. If you wanted to listen to a symphony, the only way to make it happen was to hire a few dozen highly-trained musicians to perform it for you.</description>
+    </item>
+    
+    <item>
+      <title>The invasion of the golden elm seeds</title>
+      <link>https://www.hhyu.org/posts/elm/</link>
+      <pubDate>Fri, 10 Nov 2017 19:20:53 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/elm/</guid>
+      <description>Have I neglected the backyard garden this much in the last few weeks? This morning when I opened the backdoor, I was surprised to see the grounds covered by mysterious coin-shaped objects. They were clearly seeds — seeds wearing papery, gossamer skirts. Sure, I have seen them before, but not so many all at once.
+             They parachuted from my neighbor’s golden elm tree - an elm native to northern America.</description>
+    </item>
+    
+    <item>
+      <title>The lens</title>
+      <link>https://www.hhyu.org/posts/lens/</link>
+      <pubDate>Fri, 10 Nov 2017 19:08:07 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/lens/</guid>
+      <description>     The lens is the component in the eye that reflects light. They are not always shape liked pancakes or magnifying glasses. In small mammals, the lens is very often looks like the chewy tapioca balls in Asian boba milk tea.
+             Primate lenses are more like magnifying glasses:
+         </description>
     </item>
     
     <item>

@@ -19,32 +19,24 @@ Every light source emits photons of a range of wavelengths. To estimate the numb
 There are three constants in the formula: _h_ is Planck’s constant (6.62*10^-34 J*s), _c_ is the speed of light (299792458 m/s), and _k_ is Boltzmann’s constant (1.3*10^-23 J/K). Setting the temperature _T_ of the filament to 2800K (a typical value for a household light bulb with a warm white light), the power distribution is plotted in Figure 1. Note that the wavelength (λ) of photons in the formula is in the unit of meters, but I have converted them into nanometers (nm) in Figure 1.
 
 
-<figure style="display: table; width: 550px; align: middle">
-  <img src="/blog/photons/fig1.jpg">
-  <figcaption style="display: table-row;">
+{{<figure src="/blog/photons/fig1.jpg">}}
+
 Figure 1: The spectral power distribution of a 2800K light bulb. The shaded region is the visible spectrum.
-  </figcaption>
-</figure>
 
 Take a green photon (wavelength = 555 nm) for example, the figure shows that for each cubic meters of the filament, about one third of a trillion (3.8*10¹¹) joules (J) of energy is produced every second. In other words, 3.8*10¹¹ watts (W). The figure also shows that most of the energy (~90%) produced by the light bulb is outside the range that is visible to the human eye (390–700nm, indicated by the shaded region in the figure).
 
 This figure is not very useful for our purpose, because I don’t know the volume of the black-body radiator that is equivalent to the filament. However, since I know that the typical power of a 2800K light bulb is 60W, I can normalise the figure so that the area sums to 60W. The new distribution is plotted in Figure 2. Now we know that a 60W, 2800K light bulb produces 0.0085W (or 0.0085 J/s) of green photons.
 
-<figure style="display: table; width: 550px; align: middle">
-  <img src="/blog/photons/fig2.jpg">
-  <figcaption style="display: table-row;">
+{{<figure src="/blog/photons/fig2.jpg">}}
+
 Figure 2: The curve shown in Figure 1 is normalised so that the area of the curve is 60W.
-  </figcaption>
-</figure>
 
-Since the energy of a photon of wavelength λ is h*c/λ (unit is in joule, if λ is in meters), it’s straightforward to calculate the _radiant flux_ (the number of photons produced per second) of the light bulb. The numbers are plotted in Figure 3. Summing the area under the curve, we conclude that the light bulb emits **8.2*10¹⁸ photons every second** in the visible spectrum.
+Since the energy of a photon of wavelength λ is h*c/λ (unit is in joule, if λ is in meters), it’s straightforward to calculate the radiant flux (the number of photons produced per second) of the light bulb. The numbers are plotted in Figure 3. Summing the area under the curve, we conclude that the light bulb emits *8.2*10¹⁸ photons every second* in the visible spectrum.
 
-<figure style="display: table; width: 550px; align: middle">
-  <img src="/blog/photons/fig3.jpg">
-  <figcaption style="display: table-row;">
+
+{{<figure src="/blog/photons/fig3.jpg">}}
+
 Figure 3: The radiant flux (the number of photons produced per second) of a 2800K, 60W light bulb is indicated by the shaded area. Only the visible spectrum is plotted. The dashed curve is the luminous efficiency function.
-  </figcaption>
-</figure>
 
 ## From physics to psychophysics (lumen and candela)
 
@@ -54,12 +46,10 @@ What we need is a quantity for describing how bright the lamp is, in a way that 
 
 In order to express the brightness of a light source, it therefore makes more sense to weight the radiant flux shown in Figure 3 according to to luminous efficiency function. The weighted radiant flux is known as _luminous flux_, measured in lumens. At the peak of the luminous efficiency function (555 nm), 1 lumen is 4.09*10¹⁵ photons/s. For other wavelengths, the calculation is weighted by the luminous efficiency function (Figure 4). Summing the luminous flux of all wavelength in the visible spectrum, we get **691 lumens** for our 60W, 2800K light bulb.
 
-<figure style="display: table; width: 550px; align: middle">
-  <img src="/blog/photons/fig4.jpg">
-  <figcaption style="display: table-row;">
+{{<figure src="/blog/photons/fig4.jpg">}}
+
 Figure 4: The luminous flux of our idealised light bulb.
-  </figcaption>
-</figure>
+
 
 Another quantity that is sometimes used to specify the brightness of light bulbs is _candela_ (cd), which corresponds to the brightness of typical candles used in the olden days. I haven’t seen this unit used in consumer products, but my parents said that they used to shop light bulbs by the candela. We divide the 691 lumens by 4π, and get 54.2 cd. Our light bulb is therefore apparently 54 times brighter than a “standard candle”. 4π is in the unit of steradian (sr), and it is the “solid angle” of a sphere. By dividing the 691 lumens by 4π sr, we are assuming that equal numbers of photons are emitted by the light bulb, in all directions in space. Unlike light bulbs, some light sources are much more concentrated, casting strong beams of light at particular directions. The candela is a more suitable measure for such light sources. It is said to be a measure of _luminous intensity_.
 
@@ -73,32 +63,23 @@ The flat surface of the computer monitor has a simple geometry, making it the pe
 
 The procedure is very similar to what we have done before with the black body radiation. We begin with the spectral radiance of the monitor, which specifies the power of photon production at every wavelength, for each square meters of the monitor, and for each steradian at the direction pointing to the eye. The concept is similar to the power function illustrated in Figure 2, except that the scale is expressed in a unit that is normalised with respect to the size of the monitor, and the solid angle pointing to the eye.
 
-<figure style="display: table; width: 550px; align: middle">
-  <img src="/blog/photons/fig5.jpg">
-  <figcaption style="display: table-row;">
+{{<figure src="/blog/photons/fig5.jpg">}}
+
 Figure 5: The spectral radiance of an idealised computer monitor, displaying a uniform white pattern. The dashed curve is the luminous efficiency function.
-  </figcaption>
-</figure>
 
 Figure 5 illustrates the spectral radiance function of a hypothetical monitor, which should be realistic enough for a typical 150 cd/m² LCD monitor. I used the summation of three Gaussian distributions to approximate the spectral power distribution of LCD monitors, which can be found in many websites. The tricky bit is that this type of figures are usually plotted in arbitrary scale in the y-axis, whereas a physical scale that matches to the luminance of the monitor is needed for our calculation. With some trials and errors, I normalised the curve so that it peaks at 0.0091 W/m²/sr. Let’s check if this distribution produces 150 cd/m² luminance.
 
 As before, we first express radiance in terms of the number of photons produced (Figure 6). Then, we weight the radiance with the luminous efficiency function, and then convert photon/s to lumen (as we did in Figure 4). The result is shown in Figure 7 — the luminance of the monitor as a function of wavelength.
 
-<figure style="display: table; width: 550px; align: middle">
-  <img src="/blog/photons/fig6.jpg">
-  <figcaption style="display: table-row;">
+{{<figure src="/blog/photons/fig5.jpg">}}
+
 Figure 6: The same as Figure 5, except that it is re-scaled to show radiance in the unit of photons/s/m^2/sr.
-  </figcaption>
-</figure>
 
 Calculating the area under the curve shown in Figure 7, we conclude that the total luminance is indeed ~150 cd/m².
 
-<figure style="display: table; width: 550px; align: middle">
-  <img src="/blog/photons/fig7.jpg">
-  <figcaption style="display: table-row;">
+{{<figure src="/blog/photons/fig7.jpg">}}
+
 Figure 7: The luminance distribution of our hypothetical 150 cd/m^2 monitor.
-  </figcaption>
-</figure>
 
 ## Photons in the eye
 
@@ -110,12 +91,7 @@ Finally, we multiple the area of the letter and the solid angle by the total rad
 
 ## Objects in the room
 
-<figure style="display: table; width: 300px; float: left">
-  <img src="/blog/photons/luminance_meter.png">
-  <figcaption style="display: table-row;">
-A luminance meter
-  </figcaption>
-</figure>
+{{<figure src="/blog/photons/luminance_meter.png">}}
 
 The luminance of objects in the room can be measured by a simple handheld device called the _luminance meter_. It operates like a camera. You point the lens to a location, adjust the focus, and press a button. The device gives you a luminance reading at a tiny spot surrounding the focus. I’m sitting in a well-lit office. The luminance of the screen of my iPhone, a piece of paper, and the surface of the desk is about 60~80 cd/m². The number of photons that reach the eye is therefore about half the number as our 150 cd/m² monitor. Dark corners in the room (still clearly visible) are about 5~20 cd/m². So, **even in dark corners, a small surface area still projects about half a million photons to the eye every second.**
 

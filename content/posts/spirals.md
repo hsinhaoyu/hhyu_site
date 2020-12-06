@@ -8,7 +8,7 @@ tags: ["math", "hack", "code"]
 
 However, I ran into a situation where I do want the density to fall off, and I want to control the gradient of the fall-off. In addition, I also want the points distributed regularly, rather than randomly. With a little hack, I came up with this little animation:
 
-{{< figure src="/blog/spiral.gif">}}
+{{< figure src="/blog/spiral.gif" >}}
 
 The spiral pattern was created with the Vogel method. The formula for varying the density was based on a technical report ([Point Picking and Distributing on the Disc and Sphere](http://www.arl.army.mil/arlreports/2015/ARL-TR-7333.pdf)) by Mary Arthur.
 
