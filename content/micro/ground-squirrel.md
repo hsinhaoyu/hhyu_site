@@ -1,5 +1,5 @@
 ---
-title: "The California ground squirrel"
+title: ""
 date: 2008-03-04T18:26:53+11:00
 draft: false
 tags: ["fauna/flora", "photo"]

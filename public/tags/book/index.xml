@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>(c) Hsin-Hao Yu</copyright>
-    <lastBuildDate>Wed, 02 Dec 2020 00:42:34 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/tags/book/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Dec 2020 18:33:28 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/tags/book/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://www.hhyu.org/micro/stats_book/</link>
+      <pubDate>Thu, 03 Dec 2020 18:33:28 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/micro/stats_book/</guid>
+      <description>A colleague recommended a book called &amp;ldquo;Computer Age Statistical Inference&amp;rdquo; by Efron &amp;amp; Hastie. I love the organization. Part I - classical stuff. Part II - Early computer-age methods. Part III - 21st century topics. That&amp;rsquo;s exactly the type of textbooks that we need.</description>
+    </item>
+    
     <item>
       <title></title>
       <link>https://www.hhyu.org/micro/finished_v/</link>
@@ -69,7 +78,8 @@ This article explains how the technique was used in contemporary art such as Mon
       <pubDate>Tue, 27 Oct 2020 01:13:36 +1100</pubDate>
       
       <guid>https://www.hhyu.org/micro/vonnegut_pynchon/</guid>
-      <description>It’s interesting that two favourite writers of mine had worked for big tech companies. Kurt Vonnegut worked for the PR department of GE. His portrayal of the genius scientist in Cat’s Cradle was based on his interview of Nobel Laureate Irving Langmuir of GE Research. Thomas Pynchon was a tech writer for Boeing. Yoyodyne, a defence contractor in The Crying of Lot 49, is a caricature of Boeing.</description>
+      <description>It’s interesting that two favourite writers of mine had worked for big tech companies. Kurt Vonnegut worked for the PR department of GE. His portrayal of the genius scientist in Cat’s Cradle was based on his interview of Nobel Laureate Irving Langmuir of GE Research. Thomas Pynchon was a tech writer for Boeing. Yoyodyne, a defence contractor in The Crying of Lot 49, is a caricature of Boeing.
+Dec 4th 2020 update: I also learned that William Gaddis worked for Kodak and IBM.</description>
     </item>
     
     <item>
@@ -101,7 +111,7 @@ This article explains how the technique was used in contemporary art such as Mon
     </item>
     
     <item>
-      <title>You call that Chinese?</title>
+      <title></title>
       <link>https://www.hhyu.org/micro/chinese/</link>
       <pubDate>Thu, 16 Nov 2017 23:25:27 +1100</pubDate>
       
@@ -110,12 +120,22 @@ This article explains how the technique was used in contemporary art such as Mon
     </item>
     
     <item>
-      <title>The ship of fools</title>
+      <title></title>
       <link>https://www.hhyu.org/micro/fools/</link>
       <pubDate>Thu, 16 Nov 2017 23:18:50 +1100</pubDate>
       
       <guid>https://www.hhyu.org/micro/fools/</guid>
       <description>Michel Foucault’s Madness and Civilization opens with the poetic imagery of Ship of Fools. But what is the ship of fools? Apparently it all started with this book. I saw it in an exhibition of books sharing the theme of traveling at the library of Monash University. This is the latin edition of Ship of Fools by German humanist Sebastian Brant, published in 1497. The illustrations are by Albretch Durer (!</description>
+    </item>
+    
+    <item>
+      <title>The Fra Mauro Map</title>
+      <link>https://www.hhyu.org/posts/framauromap/</link>
+      <pubDate>Thu, 16 Nov 2017 18:48:32 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/framauromap/</guid>
+      <description>This is the famous world map by the 15th century monk Fra Mauro. I saw it in Museo Galileo in Florence. Unfortunately it was a replica. The real thing is in Venice. I found it very difficult to recognize landmarks on the map because the orientation is very different from our modern convention. North is down. South is up.
+         Here’s a puzzle: 2hat’s this?</description>
     </item>
     
   </channel>

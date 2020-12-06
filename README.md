@@ -6,6 +6,11 @@ hugo new posts/filename.md
 hugo new micro/filename.md
 ```
 
+## added figure
+```sh
+{{< figure src="/blog/cobbler1.jpeg">}}
+```
+
 ## development
 ```sh
 hugo --cleanDestinationDir

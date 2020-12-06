@@ -10,4 +10,6 @@ But it got me thinking, clock hands don't have to rotate around the center, if t
 
 So, here it is. A watch designed to look like it's broken. I think I actually want to have a watch like this.
 
-{{< figure src="/blog/clock.gif">}}
+{{< figure src="/blog/clock.gif" >}}
+
+

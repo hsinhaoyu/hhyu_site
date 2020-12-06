@@ -18,6 +18,24 @@
     </item>
     
     <item>
+      <title>book</title>
+      <link>https://www.hhyu.org/tags/book/</link>
+      <pubDate>Thu, 03 Dec 2020 18:33:28 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/tags/book/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>statistics</title>
+      <link>https://www.hhyu.org/tags/statistics/</link>
+      <pubDate>Thu, 03 Dec 2020 18:33:28 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/tags/statistics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>joke</title>
       <link>https://www.hhyu.org/tags/joke/</link>
       <pubDate>Wed, 02 Dec 2020 00:54:56 +1100</pubDate>
@@ -36,11 +54,11 @@
     </item>
     
     <item>
-      <title>book</title>
-      <link>https://www.hhyu.org/tags/book/</link>
-      <pubDate>Wed, 02 Dec 2020 00:42:34 +1100</pubDate>
+      <title>thomas pynchon</title>
+      <link>https://www.hhyu.org/tags/thomas-pynchon/</link>
+      <pubDate>Wed, 02 Dec 2020 00:54:56 +1100</pubDate>
       
-      <guid>https://www.hhyu.org/tags/book/</guid>
+      <guid>https://www.hhyu.org/tags/thomas-pynchon/</guid>
       <description></description>
     </item>
     
@@ -126,9 +144,27 @@
     </item>
     
     <item>
+      <title>melbourne</title>
+      <link>https://www.hhyu.org/tags/melbourne/</link>
+      <pubDate>Tue, 24 Nov 2020 18:16:00 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/tags/melbourne/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>music</title>
+      <link>https://www.hhyu.org/tags/music/</link>
+      <pubDate>Tue, 24 Nov 2020 18:16:00 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/tags/music/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>language</title>
       <link>https://www.hhyu.org/tags/language/</link>
-      <pubDate>Thu, 19 Nov 2020 01:03:30 +1100</pubDate>
+      <pubDate>Sat, 21 Nov 2020 18:36:23 +1100</pubDate>
       
       <guid>https://www.hhyu.org/tags/language/</guid>
       <description></description>
@@ -221,15 +257,6 @@
       <pubDate>Thu, 07 Jun 2018 15:18:22 +1000</pubDate>
       
       <guid>https://www.hhyu.org/tags/hack/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>music</title>
-      <link>https://www.hhyu.org/tags/music/</link>
-      <pubDate>Wed, 11 Apr 2018 11:05:28 +1000</pubDate>
-      
-      <guid>https://www.hhyu.org/tags/music/</guid>
       <description></description>
     </item>
     
@@ -329,6 +356,15 @@
       <pubDate>Thu, 16 Nov 2017 23:01:17 +1100</pubDate>
       
       <guid>https://www.hhyu.org/tags/retrocomputing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>map</title>
+      <link>https://www.hhyu.org/tags/map/</link>
+      <pubDate>Thu, 16 Nov 2017 18:48:32 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/tags/map/</guid>
       <description></description>
     </item>
     

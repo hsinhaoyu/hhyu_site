@@ -1,5 +1,5 @@
 ---
-title: "The ship of fools"
+title: ""
 date: 2017-11-16T23:18:50+11:00
 draft: false
 tags: ["book", "exhibition"]

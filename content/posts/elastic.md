@@ -3,21 +3,12 @@ title: "Gradient descent on a non-Euclidean surface"
 date: 2018-03-23T12:23:25+11:00
 draft: false
 tags: ["geometry", "machine learning", "tensorflow", "math", "computational neuroscience"]
+math: true
 ---
 #### Is the salesman travelling on foot or on an airplane?
 This article describes an experiment to develop a version of the elastic net algorithm that works on spherical surfaces. I needed it for a computational neuroscience problem, but for those who are mainly interested in machine learning, it also serves a simple and intuitive demonstration of using gradient descent on non-Euclidian surfaces. The Tensorflow source code is available on [GitHub](https://github.com/hsinhaoyu/spherical_elastic_net). I also made a youtube [video](https://www.youtube.com/watch?v=uoZcTG_i2jQ&feature=youtu.be) showing the algorithm in action.
 
 <!--more-->
-
-<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML'>
-</script>
-
-
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
-});
-</script>
 
 The elastic net is a numerical algorithm for approximating the solution to the [travelling salesman problem](https://en.wikipedia.org/wiki/Travelling_salesman_problem#Heuristic_and_approximation_algorithms) [1]. It's an unsupervised learning algorithm that shares some of the features of Kohonen's self-organizing map. In neuroscience, it's typically used as a dimension reduction technique for modelling the development of topographic maps in the visual cortex [2]. In the traditional formulation of the travelling salesman problem, the cities that the salesman must visit are on a flat surface. That is assuming that the salesman is visiting cities confined to a relatively small region, so that the curvature of the Earth can be ignored. What if the salesman has to visit cities across the globe? I came up with the question when I was thinking about the mapping between the visual cortex and the retina, whose spherical geometry is very often ignored in neuroscience. But perhaps it would be interesting to take the spherical geometry into account?
 

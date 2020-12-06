@@ -1,5 +1,5 @@
 ---
-title: "Paying tribute to Henri Poincaré in Paris"
+title: ""
 date: 2017-12-17T22:45:48+11:00
 draft: false
 tags: ["travel", "math", "photo"]

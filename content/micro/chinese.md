@@ -1,5 +1,5 @@
 ---
-title: "You call that Chinese?"
+title: ""
 date: 2017-11-16T23:25:27+11:00
 draft: false
 tags: ["book", "exhibition", "history", "chinese"]
