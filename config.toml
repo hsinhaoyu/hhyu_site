@@ -4,7 +4,7 @@ Title = "Cortically Magnified"
 # Copyright notice. This is displayer in the footer.
 copyright = "(c) Hsin-Hao Yu"
 theme = "pickles_hhyu"
-paginate = 4
+paginate = 5
 
 [params]
   # Social accounts. Link to these accounts are displayed in the header and

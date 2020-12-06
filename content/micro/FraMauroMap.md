@@ -1,5 +1,5 @@
 ---
-title: "The Fra Mauro Map"
+title: ""
 date: 2017-11-16T18:48:32+11:00
 draft: false
 tags: ["map", "exhibition", "travel", "book"]
