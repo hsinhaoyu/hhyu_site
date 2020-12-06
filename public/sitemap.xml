@@ -3,22 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.hhyu.org/micro/githubtrigger/</loc>
-    <lastmod>2020-12-05T00:44:40+11:00</lastmod>
+    <loc>https://www.hhyu.org/micro/wine/</loc>
+    <lastmod>2020-12-07T00:47:02+11:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.hhyu.org/</loc>
-    <lastmod>2020-12-05T00:44:40+11:00</lastmod>
+    <lastmod>2020-12-07T00:47:02+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/link/</loc>
+    <lastmod>2020-12-07T00:47:02+11:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.hhyu.org/micro/</loc>
-    <lastmod>2020-12-05T00:44:40+11:00</lastmod>
+    <lastmod>2020-12-07T00:47:02+11:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.hhyu.org/tags/</loc>
+    <lastmod>2020-12-07T00:47:02+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/micro/githubtrigger/</loc>
     <lastmod>2020-12-05T00:44:40+11:00</lastmod>
   </url>
   
@@ -119,11 +129,6 @@
   
   <url>
     <loc>https://www.hhyu.org/micro/incomplete/</loc>
-    <lastmod>2020-11-27T01:31:22+11:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/tags/link/</loc>
     <lastmod>2020-11-27T01:31:22+11:00</lastmod>
   </url>
   
@@ -483,12 +488,12 @@
   </url>
   
   <url>
-    <loc>https://www.hhyu.org/tags/map/</loc>
+    <loc>https://www.hhyu.org/micro/framauromap/</loc>
     <lastmod>2017-11-16T18:48:32+11:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.hhyu.org/posts/framauromap/</loc>
+    <loc>https://www.hhyu.org/tags/map/</loc>
     <lastmod>2017-11-16T18:48:32+11:00</lastmod>
   </url>
   
@@ -538,7 +543,7 @@
   </url>
   
   <url>
-    <loc>https://www.hhyu.org/posts/elm/</loc>
+    <loc>https://www.hhyu.org/micro/elm/</loc>
     <lastmod>2017-11-10T19:20:53+11:00</lastmod>
   </url>
   
