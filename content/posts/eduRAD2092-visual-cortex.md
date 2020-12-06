@@ -2,7 +2,6 @@
 title: "Teaching Material: RAD2092/Physiology of Visual Pathways"
 date: 2008-01-01T14:26:30+11:00
 draft: false
-categories: ["science"]
 tags: ["teaching", "vision"]
 ---
 - Central disorders of vision in humans by Girkin & Miller (2001): a review of what happens if different parts of the visual cortex are damaged.

@@ -18,5 +18,14 @@
 &lt;p&gt;This article describes an experiment to develop a version of the elastic net algorithm that works on spherical surfaces. I needed it for a computational neuroscience problem, but for those who are mainly interested in machine learning, it also serves a simple and intuitive demonstration of using gradient descent on non-Euclidian surfaces. The Tensorflow source code is available on &lt;a href=&#34;https://github.com/hsinhaoyu/spherical_elastic_net&#34;&gt;GitHub&lt;/a&gt;. I also made a youtube &lt;a href=&#34;https://www.youtube.com/watch?v=uoZcTG_i2jQ&amp;amp;feature=youtu.be&#34;&gt;video&lt;/a&gt; showing the algorithm in action.&lt;/p&gt;</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>https://www.hhyu.org/micro/einsum/</link>
+      <pubDate>Mon, 29 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.hhyu.org/micro/einsum/</guid>
+      <description>Just discovered that python&amp;rsquo;s numerical package has a function for Einstein summation for tensors. In the past, you need that for cosmology. These days you use them for neural networks.</description>
+    </item>
+    
   </channel>
 </rss>

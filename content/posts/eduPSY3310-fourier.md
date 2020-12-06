@@ -2,7 +2,6 @@
 title: "Teaching Material: PSY3310/Human vision as frequency filters"
 date: 2008-01-01T14:32:20+11:00
 draft: False
-categories: ["science"]
 tags: ["teaching", "vision"]
 ---
 ### Demonstrations:

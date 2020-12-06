@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>story on Cortically Magnified</title>
+    <link>https://www.hhyu.org/tags/story/</link>
+    <description>Recent content in story on Cortically Magnified</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) Hsin-Hao Yu</copyright>
+    <lastBuildDate>Thu, 12 Nov 2020 01:28:18 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/tags/story/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://www.hhyu.org/micro/github_literature/</link>
+      <pubDate>Thu, 12 Nov 2020 01:28:18 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/micro/github_literature/</guid>
+      <description>I want to see writers use GitHub for literary experimentation. It can be a new form of ergodic literature. Imagine a novel released as a GitHub repo. Readers can read it. They can check out all the branches to explore parallel universes of alternative plots. They can read the revision history as a meta-novel, to learn about the writing process. And of course, they can make new versions of the novel by merging branches.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.hhyu.org/micro/story_language/</link>
+      <pubDate>Sat, 24 Oct 2020 01:17:25 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/micro/story_language/</guid>
+      <description>Idea for a short story: linguists have been puzzled by a mysterious ancient manuscript written in a unknown language. It was deciphered after a computer scientist realized that the manuscript is a definition of the language that it’s written in.</description>
+    </item>
+    
+  </channel>
+</rss>

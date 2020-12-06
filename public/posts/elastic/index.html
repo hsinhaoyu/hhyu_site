@@ -41,6 +41,24 @@
   
   <link rel='icon' type='image/x-icon' href="https://www.hhyu.org/path/to/favicon" />
   
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" integrity="sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js" integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+            delimiters: [
+                {left: "$$", right: "$$", display: true},
+                {left: "$", right: "$", display: false}
+            ]
+        });
+    });
+</script>
+
+    
+  
   <script type="text/javascript" src="https://www.hhyu.org/js/bundle.js"></script>
   
 
@@ -93,10 +111,6 @@
   <section id="js-article" class="p-article__body">
     <h4 id="is-the-salesman-travelling-on-foot-or-on-an-airplane">Is the salesman travelling on foot or on an airplane?</h4>
 <p>This article describes an experiment to develop a version of the elastic net algorithm that works on spherical surfaces. I needed it for a computational neuroscience problem, but for those who are mainly interested in machine learning, it also serves a simple and intuitive demonstration of using gradient descent on non-Euclidian surfaces. The Tensorflow source code is available on <a href="https://github.com/hsinhaoyu/spherical_elastic_net">GitHub</a>. I also made a youtube <a href="https://www.youtube.com/watch?v=uoZcTG_i2jQ&amp;feature=youtu.be">video</a> showing the algorithm in action.</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
 <p>The elastic net is a numerical algorithm for approximating the solution to the <a href="https://en.wikipedia.org/wiki/Travelling_salesman_problem#Heuristic_and_approximation_algorithms">travelling salesman problem</a> [1]. It&rsquo;s an unsupervised learning algorithm that shares some of the features of Kohonen&rsquo;s self-organizing map. In neuroscience, it&rsquo;s typically used as a dimension reduction technique for modelling the development of topographic maps in the visual cortex [2]. In the traditional formulation of the travelling salesman problem, the cities that the salesman must visit are on a flat surface. That is assuming that the salesman is visiting cities confined to a relatively small region, so that the curvature of the Earth can be ignored. What if the salesman has to visit cities across the globe? I came up with the question when I was thinking about the mapping between the visual cortex and the retina, whose spherical geometry is very often ignored in neuroscience. But perhaps it would be interesting to take the spherical geometry into account?</p>
 <h4 id="measuring-distances-on-the-sphere">Measuring distances on the sphere</h4>
 <!-- raw HTML omitted -->
@@ -151,49 +165,12 @@
         </div>
         <div class="c-pagination__older">
           
-          <a href="https://www.hhyu.org/posts/comic/">Older</a>
+          <a href="https://www.hhyu.org/posts/chinese_punning/">Older</a>
           
         </div>
       </div>
     </nav>
     
-
-<section class="p-related">
-  <h3>See Also</h3>
-  <ul id="slider" class="p-related__list">
-    
-    <li class="p-related__item js-related__item">
-      <a href="/posts/poincare/"
-        >
-        <span>Paying tribute to Henri Poincaré in Paris</span>
-      </a>
-    </li>
-    
-    <li class="p-related__item js-related__item">
-      <a href="/posts/sundial/"
-        >
-        <span>The ingenious sundial of Professor Moppert</span>
-      </a>
-    </li>
-    
-    <li class="p-related__item js-related__item">
-      <a href="/posts/fourierdemonstration/"
-        >
-        <span>A magic trick based on Fourier transform</span>
-      </a>
-    </li>
-    
-    <li class="p-related__item js-related__item">
-      <a href="/posts/mangarevan/"
-        >
-        <span>Mangarevan arithmetic</span>
-      </a>
-    </li>
-    
-  </ul>
-</section>
-
-
     
 <aside class="p-author">
   
@@ -253,12 +230,12 @@
     
       
         <li class="p-menu__listitem p-menu__parent">
-          <span>/Update</span>
+          <span>/Updates</span>
           <ul>
             
               <li class="p-menu__listitem p-menu__child"><a href="/">Blog</a></li>
             
-              <li class="p-menu__listitem p-menu__child"><a href="/categories/micro/">micro.blog</a></li>
+              <li class="p-menu__listitem p-menu__child"><a href="/micro/">Notes</a></li>
             
           </ul>
         </li>

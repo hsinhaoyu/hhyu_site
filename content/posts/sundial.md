@@ -2,7 +2,6 @@
 title: "The ingenious sundial of Professor Moppert"
 date: 2017-11-10T22:06:25+11:00
 draft: false
-categories: ["science", "computation"]
 tags: ["general science", "math"]
 ---
 Installed on the northern wall of the Monash University student centre (Melbourne) is a curious geometrical object. If you don’t pay close attention, you might think it’s just a decorative sculpture. But it is actually a functional sundial — conceived and constructed by the mathematician Carl Moppert in the 80’s. This design appears to be unique. I browsed through many photos on Instagram tagged with #sundial, and I couldn’t find another one that looks quite like it.

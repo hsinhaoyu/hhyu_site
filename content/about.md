@@ -11,7 +11,7 @@ draft: false
   </figcaption>
 </figure>
 
-I'm a research scientist at IBM Research Australia. My work is focused on artificial intelligence and biomedical image analysis. I received my Ph.D. degree from the Department of Cognitive Science in University of California San Diego in 2008. In the same year, I moved to Melbourne to work for Monash University. For my undergraduate degree, I studied Mathematics at the National Chiao Tung University (NCTU) in Hsin-Chu, Taiwan.
+I'm a research scientist working for the tech industry. My work is focused on artificial intelligence and biomedical image analysis. I received my Ph.D. degree from the Department of Cognitive Science in University of California San Diego in 2008. In the same year, I moved to Melbourne to work for Monash University. For my undergraduate degree, I studied Mathematics at the National Chiao Tung University (NCTU) in Hsin-Chu, Taiwan.
 
 Prior to September 2018, I was a neuroscientist working at the Department of Physiology, Monash University (Melbourne). I had worked a diverse range of topics, including brain mapping, evolution, neuroanatomy, computational neuroscience, and machine learning.
 

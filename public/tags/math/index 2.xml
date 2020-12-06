@@ -7,7 +7,34 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>(c) Hsin-Hao Yu</copyright>
-    <lastBuildDate>Thu, 07 Jun 2018 15:18:22 +1000</lastBuildDate><atom:link href="https://www.hhyu.org/tags/math/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 27 Nov 2020 01:31:22 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/tags/math/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://www.hhyu.org/micro/incomplete/</link>
+      <pubDate>Fri, 27 Nov 2020 01:31:22 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/micro/incomplete/</guid>
+      <description>This is a good article about Gödel’s incompleteness theorem.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.hhyu.org/micro/feynmann/</link>
+      <pubDate>Tue, 27 Oct 2020 01:23:12 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/micro/feynmann/</guid>
+      <description>Richard Feynman’s Integral Trick: I remember that in Surely You Are Joking, Mr. Feynman, Feynman talked about an obscure trick for doing integrals. What was he talking about? This article explains it.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.hhyu.org/micro/p_adics/</link>
+      <pubDate>Fri, 23 Oct 2020 01:09:58 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/micro/p_adics/</guid>
+      <description>An Infinite Universe of Number Systems - The p-adics seem to be a fanciful formalism of numbers. What’s interesting about it is that it provides a way to study an entire university of number systems.</description>
+    </item>
+    
     <item>
       <title>Let&#39;s make some spirals</title>
       <link>https://www.hhyu.org/posts/spirals/</link>
@@ -29,11 +56,11 @@
     
     <item>
       <title>Paying tribute to Henri Poincaré in Paris</title>
-      <link>https://www.hhyu.org/posts/poincare/</link>
+      <link>https://www.hhyu.org/micro/poincare/</link>
       <pubDate>Sun, 17 Dec 2017 22:45:48 +1100</pubDate>
       
-      <guid>https://www.hhyu.org/posts/poincare/</guid>
-      <description>In a recent trip to Paris, my wife and I visited the Montparnasse Cemetery, hoping to find the tomb of the mathematician Évariste Galois. We were disappointed to learn that although Galois was indeed buried in the cemetery, he was buried in a common grave and the burial site can no longer be identified. However, we were delighted to have found the family tomb of Henri Poincaré. Apparently, mathematicians have developed the tradition of leaving their used Paris Metro tickets on the stone.</description>
+      <guid>https://www.hhyu.org/micro/poincare/</guid>
+      <description>In a recent trip to Paris, my wife and I visited the Montparnasse Cemetery, hoping to find the tomb of the mathematician Évariste Galois. We were disappointed to learn that although Galois was indeed buried in the cemetery, he was buried in a common grave and the burial site can no longer be identified. However, we were delighted to have found the family tomb of Henri Poincaré.</description>
     </item>
     
     <item>

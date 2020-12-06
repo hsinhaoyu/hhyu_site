@@ -2,7 +2,6 @@
 title: "Let's make some spirals"
 date: 2018-06-07T15:18:22+10:00
 draft: false
-categories: ["computation"]
 tags: ["math", "hack", "code"]
 ---
 [Disk point picking](http://mathworld.wolfram.com/DiskPointPicking.html) is an elementary problem in geometry. To evenly distribute points on a disk, an intuitive idea is to sample pairs of numbers in polar coordinate (radius and angle) randomly from uniform distributions. After all, "uniformly" is just another word for "evenly", isn't it? But it doesn't work. When the points are sampled this way, the density of the dots fall off linearly with the distance to the origin. This is because the area element of the polar coordinate grows linearly with the radius. With a little calculus, it can be shown that this uneven density can be corrected by taking the square root of the uniformly-sampled radius.

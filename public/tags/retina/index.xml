@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>retina on Cortically Magnified</title>
+    <link>https://www.hhyu.org/tags/retina/</link>
+    <description>Recent content in retina on Cortically Magnified</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) Hsin-Hao Yu</copyright>
+    <lastBuildDate>Thu, 14 Dec 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://www.hhyu.org/tags/retina/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://www.hhyu.org/micro/retina/</link>
+      <pubDate>Thu, 14 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.hhyu.org/micro/retina/</guid>
+      <description>Last week I went to see an optometrist. As he examined my eye with a strong light, I was amazed that I saw an image of the blood vessels on the retina. This phenomenon is called the entoptic image. It was first described by Purkinje about 200 years ago. I read about it in “How we perceive our own retina” by Kuno Kirschfeld (published in Proc. Bio. Sci.)</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -7,7 +7,88 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>(c) Hsin-Hao Yu</copyright>
-    <lastBuildDate>Mon, 30 Nov 2020 13:21:26 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Dec 2020 00:44:40 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>website</title>
+      <link>https://www.hhyu.org/tags/website/</link>
+      <pubDate>Sat, 05 Dec 2020 00:44:40 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/tags/website/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>joke</title>
+      <link>https://www.hhyu.org/tags/joke/</link>
+      <pubDate>Wed, 02 Dec 2020 00:54:56 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/tags/joke/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>programming</title>
+      <link>https://www.hhyu.org/tags/programming/</link>
+      <pubDate>Wed, 02 Dec 2020 00:54:56 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/tags/programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>book</title>
+      <link>https://www.hhyu.org/tags/book/</link>
+      <pubDate>Wed, 02 Dec 2020 00:42:34 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/tags/book/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>evolution</title>
+      <link>https://www.hhyu.org/tags/evolution/</link>
+      <pubDate>Tue, 01 Dec 2020 00:57:48 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/tags/evolution/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>history</title>
+      <link>https://www.hhyu.org/tags/history/</link>
+      <pubDate>Tue, 01 Dec 2020 00:57:48 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/tags/history/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>intelligence</title>
+      <link>https://www.hhyu.org/tags/intelligence/</link>
+      <pubDate>Tue, 01 Dec 2020 00:57:48 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/tags/intelligence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>neuroscience</title>
+      <link>https://www.hhyu.org/tags/neuroscience/</link>
+      <pubDate>Tue, 01 Dec 2020 00:57:48 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/tags/neuroscience/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>parenting</title>
+      <link>https://www.hhyu.org/tags/parenting/</link>
+      <pubDate>Tue, 01 Dec 2020 00:57:48 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/tags/parenting/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>emacs</title>
       <link>https://www.hhyu.org/tags/emacs/</link>
@@ -27,47 +108,101 @@
     </item>
     
     <item>
-      <title>whimsical</title>
-      <link>https://www.hhyu.org/tags/whimsical/</link>
-      <pubDate>Mon, 22 Jun 2020 18:19:51 +1000</pubDate>
+      <title>link</title>
+      <link>https://www.hhyu.org/tags/link/</link>
+      <pubDate>Fri, 27 Nov 2020 01:31:22 +1100</pubDate>
       
-      <guid>https://www.hhyu.org/tags/whimsical/</guid>
+      <guid>https://www.hhyu.org/tags/link/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>book</title>
-      <link>https://www.hhyu.org/tags/book/</link>
-      <pubDate>Sat, 11 Apr 2020 08:49:22 +1000</pubDate>
+      <title>math</title>
+      <link>https://www.hhyu.org/tags/math/</link>
+      <pubDate>Fri, 27 Nov 2020 01:31:22 +1100</pubDate>
       
-      <guid>https://www.hhyu.org/tags/book/</guid>
+      <guid>https://www.hhyu.org/tags/math/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>history</title>
-      <link>https://www.hhyu.org/tags/history/</link>
-      <pubDate>Sat, 11 Apr 2020 08:49:22 +1000</pubDate>
+      <title>language</title>
+      <link>https://www.hhyu.org/tags/language/</link>
+      <pubDate>Thu, 19 Nov 2020 01:03:30 +1100</pubDate>
       
-      <guid>https://www.hhyu.org/tags/history/</guid>
+      <guid>https://www.hhyu.org/tags/language/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>story</title>
+      <link>https://www.hhyu.org/tags/story/</link>
+      <pubDate>Thu, 12 Nov 2020 01:28:18 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/tags/story/</guid>
       <description></description>
     </item>
     
     <item>
       <title>obscura</title>
       <link>https://www.hhyu.org/tags/obscura/</link>
-      <pubDate>Sat, 11 Apr 2020 08:49:22 +1000</pubDate>
+      <pubDate>Tue, 03 Nov 2020 23:32:45 +1100</pubDate>
       
       <guid>https://www.hhyu.org/tags/obscura/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>travel</title>
+      <link>https://www.hhyu.org/tags/travel/</link>
+      <pubDate>Tue, 03 Nov 2020 23:32:45 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/tags/travel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>art</title>
+      <link>https://www.hhyu.org/tags/art/</link>
+      <pubDate>Sun, 01 Nov 2020 23:23:13 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/tags/art/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>color</title>
+      <link>https://www.hhyu.org/tags/color/</link>
+      <pubDate>Sun, 01 Nov 2020 23:23:13 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/tags/color/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>vision</title>
       <link>https://www.hhyu.org/tags/vision/</link>
-      <pubDate>Sat, 11 Apr 2020 08:49:22 +1000</pubDate>
+      <pubDate>Sun, 01 Nov 2020 23:23:13 +1100</pubDate>
       
       <guid>https://www.hhyu.org/tags/vision/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>quote</title>
+      <link>https://www.hhyu.org/tags/quote/</link>
+      <pubDate>Sat, 24 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.hhyu.org/tags/quote/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>whimsical</title>
+      <link>https://www.hhyu.org/tags/whimsical/</link>
+      <pubDate>Mon, 22 Jun 2020 18:19:51 +1000</pubDate>
+      
+      <guid>https://www.hhyu.org/tags/whimsical/</guid>
       <description></description>
     </item>
     
@@ -90,11 +225,20 @@
     </item>
     
     <item>
-      <title>math</title>
-      <link>https://www.hhyu.org/tags/math/</link>
-      <pubDate>Thu, 07 Jun 2018 15:18:22 +1000</pubDate>
+      <title>music</title>
+      <link>https://www.hhyu.org/tags/music/</link>
+      <pubDate>Wed, 11 Apr 2018 11:05:28 +1000</pubDate>
       
-      <guid>https://www.hhyu.org/tags/math/</guid>
+      <guid>https://www.hhyu.org/tags/music/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>review</title>
+      <link>https://www.hhyu.org/tags/review/</link>
+      <pubDate>Wed, 11 Apr 2018 11:05:28 +1000</pubDate>
+      
+      <guid>https://www.hhyu.org/tags/review/</guid>
       <description></description>
     </item>
     
@@ -144,11 +288,11 @@
     </item>
     
     <item>
-      <title>travel</title>
-      <link>https://www.hhyu.org/tags/travel/</link>
-      <pubDate>Sat, 06 Jan 2018 01:19:11 +1100</pubDate>
+      <title>retina</title>
+      <link>https://www.hhyu.org/tags/retina/</link>
+      <pubDate>Thu, 14 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://www.hhyu.org/tags/travel/</guid>
+      <guid>https://www.hhyu.org/tags/retina/</guid>
       <description></description>
     </item>
     
@@ -203,15 +347,6 @@
       <pubDate>Fri, 10 Nov 2017 22:06:25 +1100</pubDate>
       
       <guid>https://www.hhyu.org/tags/general-science/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>music</title>
-      <link>https://www.hhyu.org/tags/music/</link>
-      <pubDate>Fri, 10 Nov 2017 21:38:21 +1100</pubDate>
-      
-      <guid>https://www.hhyu.org/tags/music/</guid>
       <description></description>
     </item>
     
@@ -284,15 +419,6 @@
       <pubDate>Sat, 07 May 2016 18:51:42 +1100</pubDate>
       
       <guid>https://www.hhyu.org/tags/data/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>color</title>
-      <link>https://www.hhyu.org/tags/color/</link>
-      <pubDate>Tue, 03 Mar 2015 19:04:44 +1100</pubDate>
-      
-      <guid>https://www.hhyu.org/tags/color/</guid>
       <description></description>
     </item>
     

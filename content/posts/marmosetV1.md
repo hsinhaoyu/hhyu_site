@@ -2,7 +2,6 @@
 title: "The retinotopic map of marmoset V1"
 date: 2016-05-07T18:51:42+11:00
 draft: false
-categories: ["science"]
 tags: ["vision", "visualization", "data", "brain mapping"]
 thumbnail: "/blog/v1-map.png"
 ---

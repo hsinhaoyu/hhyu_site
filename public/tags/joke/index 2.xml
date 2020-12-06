@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>joke on Cortically Magnified</title>
+    <link>https://www.hhyu.org/tags/joke/</link>
+    <description>Recent content in joke on Cortically Magnified</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) Hsin-Hao Yu</copyright>
+    <lastBuildDate>Wed, 02 Dec 2020 00:54:56 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/tags/joke/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://www.hhyu.org/micro/pythonpynchon/</link>
+      <pubDate>Wed, 02 Dec 2020 00:54:56 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/micro/pythonpynchon/</guid>
+      <description>Idea: a Python dialect called Pynchon (after Thomas Pynchon). A pynchonic code is probably not very pythonic. Brevity is highly discouraged. Variable names should be all puns. In fact, Pynchon should be a concatenative language like Forth. This way, statements can be chained together into a longer and longer statement&amp;hellip; until the entire program is one single statement.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.hhyu.org/micro/borges/</link>
+      <pubDate>Fri, 20 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.hhyu.org/micro/borges/</guid>
+      <description>A parody of Jorge Luis Borges&amp;rsquo;s essay &amp;ldquo;A New Refutation of Time&amp;rdquo;: &amp;ldquo;The Third Refutation of Ordinality&amp;rdquo;. Or maybe &amp;ldquo;10 Arguments Against Cardinality&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.hhyu.org/micro/testmicro1/</link>
+      <pubDate>Thu, 08 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.hhyu.org/micro/testmicro1/</guid>
+      <description>Anthropologists discovered that islanders in South Pacific have been using blockchains for thousands of years. All transactions are recorded by carving patterns on tree trunks, whose integrity is enforced by solving hard problems such as 12/5.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.hhyu.org/micro/pynchon3/</link>
+      <pubDate>Sat, 25 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.hhyu.org/micro/pynchon3/</guid>
+      <description> Really. Hey, like Godzilla always sez to Mothra — why don’t we go eat some place? — Inherent Vice by Thomas Pynchon
+ </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.hhyu.org/micro/bond/</link>
+      <pubDate>Wed, 08 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.hhyu.org/micro/bond/</guid>
+      <description>Choose your next private key carefully, Mr. Bond. It may be your last. Do you expect me to talk? No. I expect you to prime.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.hhyu.org/micro/pynchon2/</link>
+      <pubDate>Tue, 07 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.hhyu.org/micro/pynchon2/</guid>
+      <description> No worries, it’s on the house, as the TV antenna man always sez — Thomas Pynchon in Inherent Vice
+ </description>
+    </item>
+    
+  </channel>
+</rss>

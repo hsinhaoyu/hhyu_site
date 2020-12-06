@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>statistics on Cortically Magnified</title>
+    <link>https://www.hhyu.org/tags/statistics/</link>
+    <description>Recent content in statistics on Cortically Magnified</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) Hsin-Hao Yu</copyright>
+    <lastBuildDate>Thu, 03 Dec 2020 18:33:28 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/tags/statistics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://www.hhyu.org/micro/stats_book/</link>
+      <pubDate>Thu, 03 Dec 2020 18:33:28 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/micro/stats_book/</guid>
+      <description>A colleague recommended a book called &amp;ldquo;Computer Age Statistical Inference&amp;rdquo; by Efron &amp;amp; Hastie. I love the organization. Part I - classical stuff. Part II - Early computer-age methods. Part III - 21st century topics. That&amp;rsquo;s exactly the type of textbooks that we need.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -2,7 +2,6 @@
 title: "The marmoset visual area DM for dummies"
 date: 2016-05-16T20:07:26+11:00
 draft: false
-categories: ["science"]
 tags: ["brain mapping", "visualization", "vision"]
 ---
 {{< figure src="/blog/dmmap1.jpg">}}
