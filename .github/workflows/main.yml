@@ -37,7 +37,7 @@ jobs:
           AWS_REGION: ${{ secrets.AWS_REGIONS }}
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          DISTRIBITION_ID: ${{ secrets.DISTRIBUTION_ID }}
+          DISTRIBUTION_ID: ${{ secrets.DISTRIBUTION_ID }}
 
       - name: notify my slack channel
         uses: rtCamp/action-slack-notify@v2
