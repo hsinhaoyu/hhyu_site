@@ -32,14 +32,14 @@ jobs:
 
       - name: invalidate AWS Cloudfront distribution
         uses: awact/cloudfront-action@master
-	env:
-	    SOURCE_PATH: 'public'
-	    AWS_REGION: ${{ secrets.AWS_REGIONS }}
-            AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-            AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-	    DISTRIBITION_ID: ${{ secrets.DISTRIBUTION_ID }}
+        env:
+          SOURCE_PATH: 'public'
+          AWS_REGION: ${{ secrets.AWS_REGIONS }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          DISTRIBITION_ID: ${{ secrets.DISTRIBUTION_ID }}
 
       - name: notify my slack channel
         uses: rtCamp/action-slack-notify@v2
-	env:
-	  SLACK_MESSAGE: 'updated Hugo website to AWS'
+        env:
+          SLACK_MESSAGE: 'updated Hugo website to AWS'
