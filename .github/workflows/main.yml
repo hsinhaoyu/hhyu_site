@@ -42,4 +42,5 @@ jobs:
       - name: notify my slack channel
         uses: rtCamp/action-slack-notify@v2
         env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
           SLACK_MESSAGE: 'updated Hugo website to AWS'
