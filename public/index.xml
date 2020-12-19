@@ -7,14 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>(c) Hsin-Hao Yu</copyright>
-    <lastBuildDate>Thu, 10 Dec 2020 12:55:01 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.hhyu.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About this site</title>
       <link>https://www.hhyu.org/about_site/</link>
       <pubDate>Thu, 17 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.hhyu.org/about_site/</guid>
-      <description>How the sausage is made: a tutorial on building a personal website Static website generation with Hugo Tweaking Hugo to support two blogging formats Website hosting with AWS S3 My custom domain name The problem with hosting on S3 was that the website had to be accessed via an address given by the S3 server. I wanted it to be something simpler and personal. For that, I bought my domain name hhyu.</description>
+      <description>How the sausage is made: a tutorial on building a personal website I started this website in 2018, because I wanted to collect all my content in one single place, and I wanted to build it with very simple tools. I had used several blogging platforms in the past, but was never happy with any one of them. So I decided to build something almost from scratch, to suit my personal needs.</description>
     </item>
     
     <item>

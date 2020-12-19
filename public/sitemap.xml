@@ -8,6 +8,26 @@
   </url>
   
   <url>
+    <loc>https://www.hhyu.org/</loc>
+    <lastmod>2020-12-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/hugo/</loc>
+    <lastmod>2020-12-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/</loc>
+    <lastmod>2020-12-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/tutorial/</loc>
+    <lastmod>2020-12-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.hhyu.org/micro/inspector_anelis/</loc>
     <lastmod>2020-12-10T12:55:01+11:00</lastmod>
   </url>
@@ -18,22 +38,12 @@
   </url>
   
   <url>
-    <loc>https://www.hhyu.org/</loc>
-    <lastmod>2020-12-10T12:55:01+11:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.hhyu.org/micro/</loc>
     <lastmod>2020-12-10T12:55:01+11:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.hhyu.org/tags/quote/</loc>
-    <lastmod>2020-12-10T12:55:01+11:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/tags/</loc>
     <lastmod>2020-12-10T12:55:01+11:00</lastmod>
   </url>
   
@@ -629,11 +639,6 @@
   
   <url>
     <loc>https://www.hhyu.org/tags/psychophysics/</loc>
-    <lastmod>2016-08-20T20:31:41+11:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/tags/tutorial/</loc>
     <lastmod>2016-08-20T20:31:41+11:00</lastmod>
   </url>
   

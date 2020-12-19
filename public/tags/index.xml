@@ -7,7 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>(c) Hsin-Hao Yu</copyright>
-    <lastBuildDate>Thu, 10 Dec 2020 12:55:01 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.hhyu.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>hugo</title>
+      <link>https://www.hhyu.org/tags/hugo/</link>
+      <pubDate>Thu, 17 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.hhyu.org/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tutorial</title>
+      <link>https://www.hhyu.org/tags/tutorial/</link>
+      <pubDate>Thu, 17 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.hhyu.org/tags/tutorial/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>book</title>
       <link>https://www.hhyu.org/tags/book/</link>
@@ -446,15 +464,6 @@
       <pubDate>Sat, 20 Aug 2016 20:31:41 +1100</pubDate>
       
       <guid>https://www.hhyu.org/tags/psychophysics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tutorial</title>
-      <link>https://www.hhyu.org/tags/tutorial/</link>
-      <pubDate>Sat, 20 Aug 2016 20:31:41 +1100</pubDate>
-      
-      <guid>https://www.hhyu.org/tags/tutorial/</guid>
       <description></description>
     </item>
     

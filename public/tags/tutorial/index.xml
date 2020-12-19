@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>(c) Hsin-Hao Yu</copyright>
-    <lastBuildDate>Sat, 20 Aug 2016 20:31:41 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.hhyu.org/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About this site</title>
+      <link>https://www.hhyu.org/about_site/</link>
+      <pubDate>Thu, 17 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.hhyu.org/about_site/</guid>
+      <description>How the sausage is made: a tutorial on building a personal website I started this website in 2018, because I wanted to collect all my content in one single place, and I wanted to build it with very simple tools. I had used several blogging platforms in the past, but was never happy with any one of them. So I decided to build something almost from scratch, to suit my personal needs.</description>
+    </item>
+    
     <item>
       <title>How many photons get into your eyes?</title>
       <link>https://www.hhyu.org/posts/photons/</link>
