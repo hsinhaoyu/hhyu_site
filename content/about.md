@@ -17,4 +17,3 @@ I'm a research scientist working for the tech industry. My work is focused on ar
 
 Prior to September 2018, I was a neuroscientist working at the Department of Physiology, Monash University (Melbourne). I had worked a diverse range of topics, including brain mapping, evolution, neuroanatomy, computational neuroscience, and machine learning.
 
-This website is generated with [Hugo](https://gohugo.io) using (slightly modified) [Pickles](https://themes.gohugo.io/hugo_theme_pickles/) theme. I use the [Hugo Easy Gallery](https://www.liwen.id.au/heg/) package by Li-Wen Yip for this site.

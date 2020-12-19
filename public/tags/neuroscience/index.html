@@ -176,9 +176,16 @@
   <ul class="p-menu__lists">
     
       
-      <li class="p-menu__listitem">
-        <a href="/about">About</a>
-      </li>
+        <li class="p-menu__listitem p-menu__parent">
+          <span>/About</span>
+          <ul>
+            
+              <li class="p-menu__listitem p-menu__child"><a href="/about">Me</a></li>
+            
+              <li class="p-menu__listitem p-menu__child"><a href="/about_site">This site</a></li>
+            
+          </ul>
+        </li>
       
     
       
@@ -191,8 +198,6 @@
               <li class="p-menu__listitem p-menu__child"><a href="/publications">CV and Publications</a></li>
             
               <li class="p-menu__listitem p-menu__child"><a href="/gallery">Visualization Gallery</a></li>
-            
-              <li class="p-menu__listitem p-menu__child"><a href="/teaching">Teaching</a></li>
             
           </ul>
         </li>
