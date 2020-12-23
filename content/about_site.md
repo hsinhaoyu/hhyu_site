@@ -1,5 +1,5 @@
 ---
-title: "About this site (a tutrial on building a personal website)"
+title: "About this site (a tutorial)"
 date: 2020-12-17
 draft: false
 tags: ["tutorial", "hugo"]
@@ -57,12 +57,12 @@ Big distribution networks like CloudFront move slowly, which means that after yo
 
 
 ### Building a deployment pipeline with [GitHub Actions](https://github.com/features/actions)
-At this stage, I have to manually use Hugo to generate the website, and sync the new website to S3 from the command line. This process is not very tedious, but I still wanted to automate it. For a casual blogger like me, reducing the amount of friction in the process of blogging is important for me to keep me going. Hugo has its own [deployment mechanism](https://gohugo.io/hosting-and-deployment/), but I decided to use GitHub as the mechanism for deployment. The rationale will become more obvious in the next section.
+At this stage, I have to manually use Hugo to generate the website, and sync the new website to S3 from the command line. This process is not very tedious, but I still wanted to automate it. For a casual blogger like me, reducing the friction in blogging is important to keep me going. Hugo has its own [deployment mechanism](https://gohugo.io/hosting-and-deployment/), but I decided to use `GitHub` as the mechanism for deployment. The rationale will become more obvious in the next section.
 
 
-[GitHub](https://www.github.com) is a cloud service for programmers to share their source code. To maintain a copy of my website on GitHub, I use a version-control system called [git](https://en.wikipedia.org/wiki/Git) to track the changes made to my website. Once I am happy with a new edition of my website (which is typically after I add a new post), I can "commit" the edits and then "push" the source code to GitHub. `Git` is a very complicated program that takes time to learn, but the advantage is enormous: First, I always have the source code of my website backed-up on GitHub. Second, `git` maintains the entire history of my website, so I can checkout past editions of the website easily if needed. Third, thank to the branching feature of `git`, it's safe to tinker. If a new experimental feature doesn't work as planned, it's trivial to revert to a previous stage of the website. And forth, keeping a copy of the source code on GitHub opens the door to automation.
+[GitHub](https://www.github.com) is a cloud service for programmers to share their source code. To maintain a copy of my website on GitHub, I use a version-control system called [git](https://en.wikipedia.org/wiki/Git) to track the changes made to my website. Once I am happy with a new edition of my website (which is typically after I add a new post), I can "commit" the edits and then "push" the source code to GitHub. `Git` is a very complicated program that takes time to learn, but the advantage is enormous: First, I always have the source code of my website backed-up on `GitHub`. It's called a _repository_. Second, `git` maintains the entire history of my website, so I can checkout past editions of the website easily if needed. Third, thank to the branching feature of `git`, it's safe to tinker. If a new experimental feature doesn't work as planned, it's trivial to revert to a previous stage of the website. And forth, keeping a copy of the source code on GitHub opens the door to automation.
 
-The key to building a deployment pipeline around GitHub is a concept in software engineering called Continuous Integration (CI). What it means is that once a new version of a piece of software is finalized, an automated process should check for bugs, and prepare it for deployment. For our purpose, it means that that once the source code of a new version of the website is sync'ed to GitHub, a script will automatically regenerate the website with Hugo, and deploy it to AWS. [Travis-CI](https://travis-ci.com) is a popular third-party service that can integrate with GitHub, but I decided to try GitHub's own automation tool called Actions. Because all the necessary actions have already been developed by the GitHub community, it was very easy for me to glue them together. [This](https://github.com/hsinhaoyu/hhyu_site/blob/master/.github/workflows/main.yml) is the script that I am using. It generates the website, syncs with S3, invalidates the Cloudfront distribution, and sends me a message on slack to tell me that it's all done. I can openly share this script with you, because all authentication information is encrypted in GitHub as "repository secrets", so they don't have to be revealed in the script.
+The key to building a deployment pipeline around `GitHub` is a software engineering concept called Continuous Integration (CI). What it means is that once a new version of a piece of software is finalized, an automated process should check for bugs, and prepare it for deployment. For our purpose, it means that that once the source code of a new version of the website is sync'ed to GitHub, a script will automatically regenerate the website with Hugo, and deploy it to AWS. [Travis-CI](https://travis-ci.com) is a popular third-party service that can integrate with GitHub, but I decided to try GitHub's own automation tool called Actions. Because all the necessary actions have already been developed by the GitHub community, it was very easy for me to glue them together. [This](https://github.com/hsinhaoyu/hhyu_site/blob/master/.github/workflows/main.yml) is the script that I am using. It generates the website, syncs with S3, invalidates the Cloudfront distribution, and sends me a message on slack to tell me that it's all done. I can openly share this script with you, because all authentication information is encrypted in GitHub as "repository secrets", so they don't have to be revealed in the script.
 
 With this setup, after writing a new blog post, all I have to do is to sync with GitHub. GitHub Actions takes care of the rest. 
 
@@ -78,8 +78,17 @@ Note that since I still use my laptop to update my website, it's important to ma
 TODO
 
 
-### Deploying a IndiePub server on [AWS Lambda](https://aws.amazon.com/lambda/)
+### Deploying a Micropub server on [AWS Lambda](https://aws.amazon.com/lambda/)
 TODO
+
+
+There are a several Micropub servers that can be used for my need. I started with Cole Lyman's [gozette](https://github.com/Colelyman/gozette) because it's written in Go, and source code is easy to understand. I forked `gozette`'s repository on `GitHub` so I could have a [personalized copy](https://github.com/hsinhaoyu/gozette). There are a couple of places that I had to modify:
+
+1. The file `validation.go` is all about authentication with `IndieAuth`, I assigned the `indieAuthMe` constant to my own domain name.
+2. The file `github.go` interfaces with `GitHub`. I assigned variables `sourceOwner`, `authorName`, `authorEmail` and `sourceRepo` my own information. The most important one is `sourceRepo`. It is the name of the `GitHub` repository of my website.
+3. Since `gozette` will modify my `GitHub` repository, it needs a key (called a _token_) to enter. To generate this token, go to `Personal Settings` of your `GitHub` profile, and go to `Developer settings > Personal access tokens`. 
+
+TODO: explain `GIT_API_TOKEN`
 
 
 SAM Local: https://aws.amazon.com/blogs/aws/new-aws-sam-local-beta-build-and-test-serverless-applications-locally/

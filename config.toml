@@ -88,6 +88,13 @@ paginate = 5
     weight     = 2
 
 [[menu.main]]
+    parent     = "Update"
+    name       = "Resources"
+    url        = "https://github.com/hsinhaoyu/resources"
+    weight     = 3
+
+
+[[menu.main]]
     name       = "Tags"
     url        = "/tags"
     weight     = 4
