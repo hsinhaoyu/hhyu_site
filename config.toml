@@ -2,7 +2,7 @@ baseurl = "https://www.hhyu.org/"
 languageCode = "en-us"
 Title = "Cortically Magnified"
 # Copyright notice. This is displayer in the footer.
-copyright = "(c) Hsin-Hao Yu"
+#copyright = "(c) Hsin-Hao Yu"
 theme = "pickles_hhyu"
 paginate = 5
 
@@ -16,7 +16,7 @@ paginate = 5
   # Google Analytics API key.
   ga_api_key = "UA-115187658-1"
   author = "Hsin-Hao Yu"
-  authorwebsite = "example.com"
+  authorwebsite = "https://hhyu.org"
   avatar = "/sitewide/logo.png"
   contact = "mailto:hsinhaohh.yu@gmail.com"
   bio = "A Taiwanese scientist living in Melbourne"

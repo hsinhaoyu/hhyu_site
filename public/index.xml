@@ -9,12 +9,12 @@
     <copyright>(c) Hsin-Hao Yu</copyright>
     <lastBuildDate>Thu, 17 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.hhyu.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About this site</title>
+      <title>About this site (a tutorial)</title>
       <link>https://www.hhyu.org/about_site/</link>
       <pubDate>Thu, 17 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.hhyu.org/about_site/</guid>
-      <description>How the sausage is made: a tutorial on building a personal website I started this website in 2018, because I wanted to collect all my content in one single place, and I wanted to build it with very simple tools. I had used several blogging platforms in the past, but was never happy with any one of them. So I decided to build something almost from scratch, to suit my personal needs.</description>
+      <description>I started this website in 2018, because I wanted to collect all my content in one single place. I decided to built it with simple tools, so I could understand how everything works, and fix problems if needed. It&amp;rsquo;s a hobby like how some people like to build their own kitchens. Lots of tutorials are available on building personal websites, but I still want to write my own, because when I got started, I could never find one that explained every step needed to build a complete website.</description>
     </item>
     
     <item>
