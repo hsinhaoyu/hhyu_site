@@ -13,7 +13,7 @@ paginate = 5
   linkedin = "hsin-hao-yu-165387110"
   github = "hsinhaoyu"
   twitter = "HsinHaoYu"
-  # Google Analytics API key.
+  # Google Analytics API key. Not working!
   ga_api_key = "UA-115187658-1"
   author = "Hsin-Hao Yu"
   authorwebsite = "https://hhyu.org"
