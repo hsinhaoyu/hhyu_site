@@ -5,7 +5,6 @@
     <link>https://www.hhyu.org/categories/</link>
     <description>Recent content in Categories on Cortically Magnified</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Hsin-Hao Yu</copyright><atom:link href="https://www.hhyu.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://www.hhyu.org/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
