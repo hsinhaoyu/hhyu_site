@@ -42,6 +42,8 @@ Hosting on S3 is simple: you first create a storage space called a "bucket", upl
 
 Since I need to upload to S3 every time I update my website, it's worthy to do it from the command line instead of the web-based AWS console. For that, I downloaded the [AWS command line interface](https://aws.amazon.com/cli/). After configuring it with my login information and the bucket's location, I can synchronize Hugo's generated website with the S3 bucket using a simple `sync` command.
 
+If you are new to AWS, this might be a good time to familiarize yourself with AWS's [IAM](https://aws.amazon.com/iam/) (Identity and Access Management) service. In short, when you create an account on AWS, that account is the root user account, which allows you unlimited control of your AWS services. It's good practice to create an additional IAM "role" and log in as an IAM user. It's safer than logging in as the root user.
+
 ### Getting a custom domain name
 The problem with hosting on S3 was that the website had to be accessed via a web address (i.e., URL) provided by the S3 server. I wanted it to be something simpler and personal. For that, I bought my domain name `hhyu.org` from [hover.com](https://www.hover.com) - one of the more popular registrars, but there are many options to choose from. One noteworthy point is that although I said that I "bought" my domain name, I don't actually own it. It's more like a lease, so I have to renew my domain name every year.
 
@@ -112,20 +114,49 @@ We took a detour to IndieAuth. Let's return to the problem at hand. The goal is 
 
 A Micropub endpoint is a type of server porogram. I had no prior experience in programming or setting up servers, so implementing this idea was a little intimidating to me. Luckily, the IndieWeb community has developed several Microbpub servers, so I didn't have to write one from scratch. I started with Cole Lyman's [Gozette](https://github.com/Colelyman/gozette) because the source code (written in Go) is concise and easy to understand. In addition, it's designed to be deployed on [AWS Lambda](https://aws.amazon.com/lambda/) - a "serverless application service" which takes away some of the hurdles associated with server programming. In this setup, AWS handles the interface to the web. All we have to do is provide a function (which is called a "lambda" in programming) to interpret the incoming requests and acts on them. More concretely, when AWS receives a request to post from my Micropub client, it sends the post to Gozette, which commits it to GitHub. Gozette merely functions as a bridge between AWS's web gateway and GitHub. This is why the code is so lightweight.
 
-I forked Gozette's repository on GitHub so I could have a [personalized copy](https://github.com/hsinhaoyu/gozette). The code did not compile at the first try, because some of the dependent libraries have changed their APIs. I updated Gozette slightly to accommodate the changes, and customized it for my site:
+I forked Gozette's repository on GitHub so I could have a [personalized copy](https://github.com/hsinhaoyu/gozette-hhyu). I  customized the code slightly for my particular setup:
 
-
-1. The file `validation.go` is all about authentication with IndieAuth.com. I assigned the constant `indieAuthMe` to the URL my domain name.
-2. The file `github.go` interfaces with `GitHub`. I assigned variables `sourceOwner`, `authorName`, `authorEmail` and `sourceRepo` my own information. The most important one is `sourceRepo`. It is the name of the GitHub repository of my website.
-3. Since Gozette will modify my GitHub repository, it needs a key (called a _token_) to communicate with GitHub. I went to `Personal Settings` of my GitHub profile, and used `Developer settings > Personal access tokens` to generate a token. It's a string of random numbers and letters. I added the section below to `template.yaml`. When Gozette is running on AWS Lambda, this is how it convinces GitHub that it is acting on my behalf.
+1. The file `validation.go` is all about authentication with IndieAuth.com. I assigned the constant `indieAuthMe` to the URL of my site `https://hhyu.org`.
+2. The file `github.go` interfaces with GitHub. I assigned variables `sourceOwner`, `authorName`, `authorEmail` and `sourceRepo` my own information. The most important one is `sourceRepo`. It is the name of the GitHub repository of my website.
+3. The original Gozette commits a new post to the `site/content/micro/` directory in the GitHub repository, but I needed it to be committed to `content/micro/`. This can be changed by modifying the `WriteHugoPost()` function in `post.go`.
+4. Since Gozette will modify my GitHub repository, it needs a key (called a _token_) to communicate with GitHub. I went to `Personal Settings` of my GitHub profile, and used `Developer settings > Personal access tokens` to generate a token. It's a string of random numbers and letters. I added the section below to `template.yaml`. When Gozette is running on AWS Lambda, this is how it convinces GitHub that it is acting on my behalf.
 ```yaml
 Environment: 
     Variables:
         GIT_API_TOKEN: <insert token here>
 ```
+5. When I tested Gozette locally on my laptop (see the next section), it extracts `GIT_API_TOKEN` from the unix environment variable, rather than from `template.yaml`. Therefore, I added the following to my `.zshrc`
+```bash
+export GIT_API_TOKEN='<insert token here>'
+```
+
+There is how to work with my version of Gozette: 
+
+1. Clone the [repository](https://github.com/hsinhaoyu/gozette-hhyu)  under `~/go/src/`. The Go compiler does care about where the source is located, so I recommend that you don't put it anywhere else.
+2. Download the dependent libraries using the `go get` command. You have to issue these command under `~/go/src/gozette-hhyu/`.
+```bash
+go get github.com/speps/go-hashids
+go get golang.org/x/oauth2
+go get github.com/aws/aws-lambda-go/events
+go get github.com/aws/aws-lambda-go/lambda
+go get github.com/google/go-github/github
+```
+3. Modify the source code if needed.
+4. Compile the code. Under `~/go/src/gozette-hhyu/`, issue the following commands:
+```bash
+go mod init gozette/main
+go install ./gozette
+```
+If you don't see any error message, Gozette is ready to run on AWS Lambda.
 
 ### Debugging the Micropub endpoint locally with [SAM](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-reference.html#serverless-sam-cli)
-Before I uploaded Gozette to AWS Lambda, I made sure that it ran correctly on my own laptop. Since I made several changes to the source code, some debugging was necessary. The good news is that AWS provides a tool called [SAM](https://aws.amazon.com/blogs/aws/new-aws-sam-local-beta-build-and-test-serverless-applications-locally/) for this purpose. With SAM, we use the `sam build` command to compile Gozette, and `sam local start-api` to start the server. As soon as the server is started, a local IP address (such as `http://127.0.0.1:3000/`) is provided by SAM. That is the address of the endpoint. 
+Before I uploaded Gozette to AWS Lambda, I wanted to make sure that it ran correctly on my own laptop. The good news is that AWS provides a tool called [SAM](https://aws.amazon.com/blogs/aws/new-aws-sam-local-beta-build-and-test-serverless-applications-locally/) for this purpose. With SAM installed, we can start the server with
+
+```bash
+sam build
+sam local start-api
+```
+As soon as the server is started, a local IP address (such as `http://127.0.0.1:3000/`) is provided by SAM. That is the address of the endpoint. 
 
 I needed a way to talk to it. Instead of using an actual Micropub client, I found it easier to use a utility program called [`curl`](https://curl.se).
 
@@ -141,5 +172,11 @@ curl \
 -d '{"content":"hello world","name":"new post", "category": ["tag1", "tag2"], "mp-slug": "first_post"}' \
 http://127.0.0.1:3000/
 ```
+Remember to replace `XXXX` with the access token, and `http://127.0.0.1:3000/` with the address returned from SAM. If you see a new file called `content/micro/first_post.md` in your GitHub repository, it means that Gozette is ready to be uploaded to AWS Lambda. During debugging and testing, I made Gozette commit to a test repository, rather than the repository of my Hugo site.
 
-Remember to replace `XXXX` with the access token, and the `http://127.0.0.1:3000/` with the address returned from SAM. If you see a new file called `first_post.md` in your GitHub repository, it means that Gozette is ready to be uploaded to AWS Lambda. During debugging and testing, I made Gozette commit to a test repository, rather than the repository of my Hugo site.
+### Running Gozette on AWS Lambda
+Now it's time to deploy Gozette to AWS Lambda. Under `~/go/src/gozette-hhyu/`, run
+```bash
+sam deploy --guided
+```
+If everything works, SAM will return an "API Gateway endpoint URL". This is the AWS address that Gozette will receive requests from.
