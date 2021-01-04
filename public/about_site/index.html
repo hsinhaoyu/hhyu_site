@@ -197,7 +197,8 @@ sam local start-api
 <h3 id="deploying-the-micropub-server-on-aws-lambda">Deploying the Micropub server on AWS Lambda</h3>
 <p>Now it&rsquo;s time to deploy <code>gozette</code> to AWS Lambda. Under <code>~/go/src/gozette-hhyu/</code>, run</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sam deploy --guided
-</code></pre></div><p>If everything works, SAM will return an &ldquo;API Gateway endpoint URL&rdquo;. This is the AWS address that <code>gozette</code> will receive requests from.</p>
+</code></pre></div><p>If everything works, SAM will return an &ldquo;API Gateway endpoint URL&rdquo;. This is the AWS address that <code>gozette</code> will receive requests from. For example, I received <code>https://xxxxx.execute-api.ap-southeast-2.amazonaws.com/Prod/</code>. I tested it with the same <code>curl</code> command above, except that I replaced the local address with the AWS endpoint address, and I verified that a new file was committed to GitHub. So <code>gozette</code> is now running correctly on AWS Lambda.</p>
+<p>Next, I would like to refer to this AWS endpoint URL as something more personal, such as <code>https://hhyu.org/micropub/</code> (remember that earlier in this tutorial, I used <code>&lt;link rel=&quot;micropub&quot; href=&quot;https://hhyu.org/micropub&quot;&gt;</code> to declare that it is my endpoint?).</p>
 
   </section>
   <footer>

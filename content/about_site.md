@@ -177,9 +177,26 @@ http://127.0.0.1:3000/
 ```
 Remember to replace `XXXX` with the access token, and `http://127.0.0.1:3000/` with the address returned from SAM. If you see a new file called `content/micro/first_post.md` in your GitHub repository, it means that `gozette` is ready to be uploaded to AWS Lambda. During debugging and testing, I made `gozette` commit to a test repository, rather than the repository of my Hugo site.
 
-### Deploying the Micropub server on AWS Lambda
+### Running the Micropub server on AWS Lambda
 Now it's time to deploy `gozette` to AWS Lambda. Under `~/go/src/gozette-hhyu/`, run
 ```bash
 sam deploy --guided
 ```
 If everything works, SAM will return an "API Gateway endpoint URL". This is the AWS address that `gozette` will receive requests from. For example, I received `https://xxxxx.execute-api.ap-southeast-2.amazonaws.com/Prod/`. I tested it with the same `curl` command above, except that I replaced the local address with the AWS endpoint address, and I verified that a new file was committed to GitHub. So `gozette` is now running correctly on AWS Lambda.
+
+Next, I would like to refer to this AWS endpoint URL as something more personal, such as `https://hhyu.org/micropub/` (remember that earlier in this tutorial, I used `<link rel="micropub" href="https://hhyu.org/micropub">` to declare that it is my endpoint?). All I had to do was to instruct S3 to redirect traffic to `micropub` to the AWS Lambda gateway. For this, I went to `Properties` of my S3 bucket, and edited `Static website hosting`. Here, I entered the following redirection rules:
+```json
+[
+    {
+        "Condition": {
+            "KeyPrefixEquals": "micropub"
+        },
+        "Redirect": {
+            "HostName": "xxxx.execute-api.ap-southeast-2.amazonaws.com",
+            "Protocol": "https",
+            "ReplaceKeyPrefixWith": "Prod"
+        }
+    }
+]
+```
+This way, `hhyu.org/micropub` is finally functioning as my Micropub endpoint.
