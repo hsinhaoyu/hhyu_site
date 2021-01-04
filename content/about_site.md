@@ -97,7 +97,7 @@ Second, I added the followings to the `<head>` section of my site. For the theme
 ```html
 <link rel="authorization_endpoint" href="https://indieauth.com/auth">
 <link rel="token_endpoint" href="https://tokens.indieauth.com/token">
-<link rel="micropub" href="https://hhyu.org/micropub">
+<link rel="micropub" href="https://xxxx.execute-api.ap-southeast-2.amazonaws.com/Prod/">
 ```
 
 The first tag declares that I opt to use IndieAuth.com to be my authorization endpoint. The second tag declares a second authentication-related service that will be explained in a later section. With these two tags, I can already log on to a number of IndieWeb services without creating separate accounts. For example, I can use the [IndieWeb wiki](https://indieweb.org) to participate in community discussions, and [IndieBookClub](https://indiebookclub.biz) to keep track of the books that I am reading. That's pretty cool, but it's not enough for Micropub clients such as Quill, because the Micropub endpoint, declared in the third tag, had not been implemented yet. We'll deal with that in the following sections.
@@ -182,21 +182,6 @@ Now it's time to deploy `gozette` to AWS Lambda. Under `~/go/src/gozette-hhyu/`,
 ```bash
 sam deploy --guided
 ```
-If everything works, SAM will return an "API Gateway endpoint URL". This is the AWS address that `gozette` will receive requests from. For example, I received `https://xxxxx.execute-api.ap-southeast-2.amazonaws.com/Prod/`. I tested it with the same `curl` command above, except that I replaced the local address with the AWS endpoint address, and I verified that a new file was committed to GitHub. So `gozette` is now running correctly on AWS Lambda.
+If everything works, SAM will return an "API Gateway endpoint URL". This is the AWS address that `gozette` will receive requests from. For example, I received `https://xxxxx.execute-api.ap-southeast-2.amazonaws.com/Prod/` (remember that this was the URL that I assigned to the `<link rel="micropub">` tag in the `<head>` section.). I tested it with the same `curl` command above, except that I replaced the local address with the AWS endpoint address, and I verified that a new file was committed to GitHub. So `gozette` is now running correctly on AWS Lambda. 
 
-Next, I would like to refer to this AWS endpoint URL as something more personal, such as `https://hhyu.org/micropub/` (remember that earlier in this tutorial, I used `<link rel="micropub" href="https://hhyu.org/micropub">` to declare that it is my endpoint?). All I had to do was to instruct S3 to redirect traffic to `micropub` to the AWS Lambda gateway. For this, I went to `Properties` of my S3 bucket, and edited `Static website hosting`. Here, I entered the following redirection rules:
-```json
-[
-    {
-        "Condition": {
-            "KeyPrefixEquals": "micropub"
-        },
-        "Redirect": {
-            "HostName": "xxxx.execute-api.ap-southeast-2.amazonaws.com",
-            "Protocol": "https",
-            "ReplaceKeyPrefixWith": "Prod"
-        }
-    }
-]
-```
-This way, `hhyu.org/micropub` is finally functioning as my Micropub endpoint.
+I had planned to redirect `hhyu.org/micropub` to the AWS API gateway URL. This can be done with S3's redirection rule, but this approach didn't seem to work with CloudFront.
