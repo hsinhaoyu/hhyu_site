@@ -2,7 +2,7 @@
 title: "About this site (a tutorial)"
 date: 2020-12-17
 draft: false
-tags: ["tutorial", "hugo"]
+tags: ["tutorial", "hugo", "golang", "aws"]
 ---
 I started this website in 2018, because I wanted to collect all my content in one single place. I decided to built it with simple tools, so I could understand how everything works, and fix problems if needed. It's a hobby like how some people like to build their own kitchens. Lots of tutorials are available on building personal websites, but I still want to write my own, because when I got started, I could never find one that explained every step needed to build a complete website. The problem was not that I couldn't find information about how to perform certain technical steps. The problem was that I wasn't sure which steps were relevant. So I will document everything I have done for this site, and I hope that it could be helpful for those who want to hand-build their own sites.
 

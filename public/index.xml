@@ -6,7 +6,16 @@
     <description>Recent content on Cortically Magnified</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.hhyu.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Jan 2021 14:16:59 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Emacs configuration using literate programming</title>
+      <link>https://www.hhyu.org/posts/literate_config/</link>
+      <pubDate>Tue, 05 Jan 2021 14:16:59 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/literate_config/</guid>
+      <description>I really like Donald Knuth&amp;rsquo;s idea of literate programming. Unfortunately, I don&amp;rsquo;t have too many opportunities to write literate programs. A couple of months ago, I was inspired by this article, and I decided to rewrite my Emacs configuration file using org-mode&amp;rsquo;s literate programming tool Babel.</description>
+    </item>
+    
     <item>
       <title>About this site (a tutorial)</title>
       <link>https://www.hhyu.org/about_site/</link>

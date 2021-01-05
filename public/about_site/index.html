@@ -47,6 +47,7 @@
   <script type="text/javascript" src="https://www.hhyu.org/js/bundle.js"></script>
   <link rel="authorization_endpoint" href="https://indieauth.com/auth">
 <link rel="token_endpoint" href="https://tokens.indieauth.com/token">
+<link rel="micropub" href="https://lr85f9rofe.execute-api.ap-southeast-2.amazonaws.com/Prod/">
 
 </head>
 
@@ -141,7 +142,7 @@
 </code></pre></div><p>Second, I added the followings to the <code>&lt;head&gt;</code> section of my site. For the theme that I use, I had to create the <code>layouts/partials/head_custom.html</code> template, but it depends on how the theme is implemented.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">link</span> <span style="color:#a6e22e">rel</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;authorization_endpoint&#34;</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://indieauth.com/auth&#34;</span>&gt;
 &lt;<span style="color:#f92672">link</span> <span style="color:#a6e22e">rel</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;token_endpoint&#34;</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://tokens.indieauth.com/token&#34;</span>&gt;
-&lt;<span style="color:#f92672">link</span> <span style="color:#a6e22e">rel</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;micropub&#34;</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://hhyu.org/micropub&#34;</span>&gt;
+&lt;<span style="color:#f92672">link</span> <span style="color:#a6e22e">rel</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;micropub&#34;</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://xxxx.execute-api.ap-southeast-2.amazonaws.com/Prod/&#34;</span>&gt;
 </code></pre></div><p>The first tag declares that I opt to use IndieAuth.com to be my authorization endpoint. The second tag declares a second authentication-related service that will be explained in a later section. With these two tags, I can already log on to a number of IndieWeb services without creating separate accounts. For example, I can use the <a href="https://indieweb.org">IndieWeb wiki</a> to participate in community discussions, and <a href="https://indiebookclub.biz">IndieBookClub</a> to keep track of the books that I am reading. That&rsquo;s pretty cool, but it&rsquo;s not enough for Micropub clients such as Quill, because the Micropub endpoint, declared in the third tag, had not been implemented yet. We&rsquo;ll deal with that in the following sections.</p>
 <p>A side note: so far, I am identified to the IndieWeb world as <code>https://hhyu.org</code>, the URL of my site. For social networking, that seems a bit too impersonal. It would be better if I could associate it with my name and perhaps other personal information, so that they can be extracted and displayed by IndieWeb services. The mechanism is called <a href="https://indieweb.org/h-card"><code>h-card</code></a>, which allows a wide range of personal information to be tagged. My h-card is minimal. I edited the footer template (<code>layouts/partials/footer.html</code>) so that my name is in the h-card:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;h-card&#34;</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://hhyu.org&#34;</span>&gt;Hsin-Hao Yu&lt;/<span style="color:#f92672">a</span>&gt;
@@ -194,11 +195,11 @@ sam local start-api
 </span><span style="color:#ae81ff"></span>-d <span style="color:#e6db74">&#39;{&#34;content&#34;:&#34;hello world&#34;,&#34;name&#34;:&#34;new post&#34;, &#34;category&#34;: [&#34;tag1&#34;, &#34;tag2&#34;], &#34;mp-slug&#34;: &#34;first_post&#34;}&#39;</span> <span style="color:#ae81ff">\
 </span><span style="color:#ae81ff"></span>http://127.0.0.1:3000/
 </code></pre></div><p>Remember to replace <code>XXXX</code> with the access token, and <code>http://127.0.0.1:3000/</code> with the address returned from SAM. If you see a new file called <code>content/micro/first_post.md</code> in your GitHub repository, it means that <code>gozette</code> is ready to be uploaded to AWS Lambda. During debugging and testing, I made <code>gozette</code> commit to a test repository, rather than the repository of my Hugo site.</p>
-<h3 id="deploying-the-micropub-server-on-aws-lambda">Deploying the Micropub server on AWS Lambda</h3>
+<h3 id="running-the-micropub-server-on-aws-lambda">Running the Micropub server on AWS Lambda</h3>
 <p>Now it&rsquo;s time to deploy <code>gozette</code> to AWS Lambda. Under <code>~/go/src/gozette-hhyu/</code>, run</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sam deploy --guided
-</code></pre></div><p>If everything works, SAM will return an &ldquo;API Gateway endpoint URL&rdquo;. This is the AWS address that <code>gozette</code> will receive requests from. For example, I received <code>https://xxxxx.execute-api.ap-southeast-2.amazonaws.com/Prod/</code>. I tested it with the same <code>curl</code> command above, except that I replaced the local address with the AWS endpoint address, and I verified that a new file was committed to GitHub. So <code>gozette</code> is now running correctly on AWS Lambda.</p>
-<p>Next, I would like to refer to this AWS endpoint URL as something more personal, such as <code>https://hhyu.org/micropub/</code> (remember that earlier in this tutorial, I used <code>&lt;link rel=&quot;micropub&quot; href=&quot;https://hhyu.org/micropub&quot;&gt;</code> to declare that it is my endpoint?).</p>
+</code></pre></div><p>If everything works, SAM will return an &ldquo;API Gateway endpoint URL&rdquo;. This is the AWS address that <code>gozette</code> will receive requests from. For example, I received <code>https://xxxxx.execute-api.ap-southeast-2.amazonaws.com/Prod/</code> (remember that this was the URL that I assigned to the <code>&lt;link rel=&quot;micropub&quot;&gt;</code> tag in the <code>&lt;head&gt;</code> section.). I tested it with the same <code>curl</code> command above, except that I replaced the local address with the AWS endpoint address, and I verified that a new file was committed to GitHub. So <code>gozette</code> is now running correctly on AWS Lambda.</p>
+<p>I had planned to redirect <code>hhyu.org/micropub</code> to the AWS API gateway URL. This can be done with S3&rsquo;s redirection rule, but this approach didn&rsquo;t seem to work with CloudFront.</p>
 
   </section>
   <footer>
@@ -372,7 +373,7 @@ sam local start-api
           
         
         &nbsp;&bull;&nbsp;
-        2020
+        2021
 
         
           &nbsp;&bull;&nbsp;
