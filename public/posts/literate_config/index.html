@@ -4,9 +4,9 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
   
-  <title>Emacs configuration using literate programming</title>
-  <meta property="og:title" content="Emacs configuration using literate programming" />
-  <meta name="twitter:title" content="Emacs configuration using literate programming" />
+  <title>Literating the Emacs configuration file</title>
+  <meta property="og:title" content="Literating the Emacs configuration file" />
+  <meta name="twitter:title" content="Literating the Emacs configuration file" />
   
 
   
@@ -70,7 +70,7 @@
 
 <article class="p-article">
   <header>
-    <h1>Emacs configuration using literate programming</h1>
+    <h1>Literating the Emacs configuration file</h1>
     <div>
       
         <div class="c-time">
@@ -88,11 +88,70 @@
       
       <a href="https://www.hhyu.org/tags/literate-programming" class="c-tag">literate programming</a>
       
+      <a href="https://www.hhyu.org/tags/orgmode" class="c-tag">orgmode</a>
+      
+      <a href="https://www.hhyu.org/tags/lisp" class="c-tag">lisp</a>
+      
     </div>
   </header>
   
   <section id="js-article" class="p-article__body">
-    <p>I really like Donald Knuth&rsquo;s idea of <a href="https://en.wikipedia.org/wiki/Literate_programming">literate programming</a>. Unfortunately, I don&rsquo;t have too many opportunities to write literate programs. A couple of months ago, I was inspired by <a href="https://blog.thomasheartman.com/posts/configuring-emacs-with-org-mode-and-literate-programming">this article</a>, and I decided to rewrite my Emacs configuration file using org-mode&rsquo;s literate programming tool <a href="https://orgmode.org/worg/org-contrib/babel/intro.html">Babel</a>.</p>
+    <p>I really like Donald Knuth&rsquo;s idea of <a href="https://en.wikipedia.org/wiki/Literate_programming">literate programming</a>, but unfortunately, I don&rsquo;t have too many opportunities to write literate programs. A couple of months ago, I was inspired by <a href="https://blog.thomasheartman.com/posts/configuring-emacs-with-org-mode-and-literate-programming">this article</a>, and decided to rewrite my Emacs configuration file using <a href="https://orgmode.org">org-mode</a>&rsquo;s literate programming tool <a href="https://orgmode.org/worg/org-contrib/babel/intro.html">Babel</a>. I was quite pleased by the <a href="https://github.com/hsinhaoyu/.emacs.d">result</a>, but I must admit that it was an exercise of literate programming only in the most superficial sense of the word. What I did was adding some marked-up texts around LISP code blocks (similar to the notebooks of Python and <em>Mathematica</em>). The literate part was prettier and easier to read, but it was really just a glorified version of programmer&rsquo;s code comments. Knuth&rsquo;s literate programming is a deeper concept. The point is to present the code in a format that reflects the flow of human thoughts and narrative, which is often not in the same order as prescribed by the programming language.</p>
+<p>I came up with a simple example that significantly improves the readability of my configuration file. Originally, I had a block of LISP code that reads like this:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp">(<span style="color:#66d9ef">setq</span> org-capture-templates
+	<span style="color:#f92672">&#39;</span>((<span style="color:#e6db74">&#34;t&#34;</span> <span style="color:#e6db74">&#34;TODO inbox&#34;</span>
+           entry
+           (file <span style="color:#e6db74">&#34;~/.deft/capture-todo.org&#34;</span>)
+           <span style="color:#e6db74">&#34;* TODO %?
+</span><span style="color:#e6db74">		   SCHEDULED: %t&#34;</span>)
+      (<span style="color:#e6db74">&#34;n&#34;</span> <span style="color:#e6db74">&#34;notes inbox&#34;</span>
+           entry
+           (file <span style="color:#e6db74">&#34;~/.deft/capture-notes.org&#34;</span>)
+		   <span style="color:#e6db74">&#34;* %T\n%i%?&#34;</span>)
+	  (<span style="color:#e6db74">&#34;j&#34;</span> <span style="color:#e6db74">&#34;Journal entry&#34;</span>
+           plain
+           (<span style="color:#a6e22e">function</span> org-journal-find-location)
+           <span style="color:#e6db74">&#34;** %(format-time-string org-journal-time-format)%^{Title}\n%i%?&#34;</span>
+           <span style="color:#e6db74">:jump-to-captured</span> <span style="color:#66d9ef">t</span>
+           <span style="color:#e6db74">:immediate-finish</span> <span style="color:#66d9ef">t</span>)))
+</code></pre></div><p>What this does is that it sets up three templates for <a href="https://orgmode.org/manual/Capture.html">org-capture</a> (org-mode&rsquo;s mechanism for quickly jotting down notes). I use indentation to make it more obvious that <code>org-capture-templates</code> is assigned to a list of three things, but I find this type of deeply nested code difficult to read and edit. When I tried to add a new template earlier today, I broke up the wrong parentheses, and had to spend a couple of minutes trying to figure out which <code>(</code> paired with which <code>)</code>, after the structure was already messed up. It&rsquo;s a common problem in LISP programming.</p>
+<p>I made this code easier to work with using org-mode&rsquo;s implementation of <a href="https://en.wikipedia.org/wiki/Noweb">noweb</a> - a literate programming tool that removes some of the complexities of Knuth&rsquo;s <a href="http://www.literateprogramming.com/cweb_download.html">WEB</a>. Here&rsquo;s the new version:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp"><span style="color:#f92672">#+</span>begin_src emacs-lisp <span style="color:#e6db74">:noweb</span> yes
+  (<span style="color:#66d9ef">setq</span> org-capture-templates
+      <span style="color:#f92672">&#39;</span>(
+        &lt;&lt;ORG_CAPTURE&gt;&gt;
+       )
+  )
+<span style="color:#f92672">#+</span>end_src
+
+Capture ad hoc todos in a <span style="color:#66d9ef">special</span> file
+<span style="color:#f92672">#+</span>begin_src emacs-lisp <span style="color:#e6db74">:tangle</span> no <span style="color:#e6db74">:noweb-ref</span> ORG_CAPTURE
+(<span style="color:#e6db74">&#34;t&#34;</span> <span style="color:#e6db74">&#34;TODO inbox&#34;</span>
+     entry
+     (file <span style="color:#e6db74">&#34;~/.deft/capture-todo.org&#34;</span>)
+     <span style="color:#e6db74">&#34;* TODO %?
+</span><span style="color:#e6db74">        SCHEDULED: %t&#34;</span>)
+<span style="color:#f92672">#+</span>end_src
+
+Capture ad hoc notes in a <span style="color:#66d9ef">special</span> file
+<span style="color:#f92672">#+</span>begin_src emacs-lisp <span style="color:#e6db74">:tangle</span> no <span style="color:#e6db74">:noweb-ref</span> ORG_CAPTURE
+(<span style="color:#e6db74">&#34;n&#34;</span> <span style="color:#e6db74">&#34;notes inbox&#34;</span>
+     entry
+     (file <span style="color:#e6db74">&#34;~/.deft/capture-notes.org&#34;</span>)
+     <span style="color:#e6db74">&#34;* %T\n%i%?&#34;</span>)
+<span style="color:#f92672">#+</span>end_src
+
+Capture org journal
+<span style="color:#f92672">#+</span>begin_src emacs-lisp <span style="color:#e6db74">:tangle</span> no <span style="color:#e6db74">:noweb-ref</span> ORG_CAPTURE
+(<span style="color:#e6db74">&#34;j&#34;</span> <span style="color:#e6db74">&#34;Journal entry&#34;</span>
+     plain
+     (<span style="color:#a6e22e">function</span> org-journal-find-location)
+     <span style="color:#e6db74">&#34;** %(format-time-string org-journal-time-format)%^{Title}\n%i%?&#34;</span>
+     <span style="color:#e6db74">:jump-to-captured</span> <span style="color:#66d9ef">t</span>
+     <span style="color:#e6db74">:immediate-finish</span> <span style="color:#66d9ef">t</span>)
+<span style="color:#f92672">#+</span>end_src
+</code></pre></div><p>In the literate version of the same code, <code>org-capture-templates</code> is assigned to a macro called <code>ORG_CAPTURE</code>. I use <code>:noweb yes</code> to tell <code>Babel</code> to expand the macro. This is followed by three code blocks all marked with <code>:nweb-ref ORG_CAPTURE</code>, which defines the macro. The three templates are easier to read and edit, because they are defined in their own blocks. Most importantly, the three templates are now decoupled in the literate program. They can be moved around. I am planning to move the definition of the journal entry template (the third one) to another place, where other aspects of <code>org-journal</code> are configured.</p>
+<p>It&rsquo;s unlikely that I will write entire programs in the literate style, because it&rsquo;s a bit esoteric. But in small places, it can be very helpful.</p>
 
   </section>
   <footer>

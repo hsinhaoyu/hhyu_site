@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>note taking on Cortically Magnified</title>
+    <link>https://www.hhyu.org/tags/note-taking/</link>
+    <description>Recent content in note taking on Cortically Magnified</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Jan 2021 16:04:13 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/tags/note-taking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://www.hhyu.org/micro/eco_note_taking/</link>
+      <pubDate>Tue, 05 Jan 2021 16:04:13 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/micro/eco_note_taking/</guid>
+      <description>I was reading about the Emacs org-roam mode, and came across the Zettelkasten method of notetaking. I hadn’t seen this term before, but the idea of taking notes with cross-referenced index cards sounded familiar. Where did I read about it? Ah yes&amp;hellip; in Umberto Eco’s Foucault’s Pendulum, the main character Casaubon (an ex-academic who makes a living as a “detective of knowledge”) uses boxes of index cards to keep track of ideas.</description>
+    </item>
+    
+  </channel>
+</rss>

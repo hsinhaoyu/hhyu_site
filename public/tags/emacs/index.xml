@@ -6,14 +6,23 @@
     <description>Recent content in emacs on Cortically Magnified</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Jan 2021 14:16:59 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Jan 2021 16:04:13 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Emacs configuration using literate programming</title>
+      <title></title>
+      <link>https://www.hhyu.org/micro/eco_note_taking/</link>
+      <pubDate>Tue, 05 Jan 2021 16:04:13 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/micro/eco_note_taking/</guid>
+      <description>I was reading about the Emacs org-roam mode, and came across the Zettelkasten method of notetaking. I hadn’t seen this term before, but the idea of taking notes with cross-referenced index cards sounded familiar. Where did I read about it? Ah yes&amp;hellip; in Umberto Eco’s Foucault’s Pendulum, the main character Casaubon (an ex-academic who makes a living as a “detective of knowledge”) uses boxes of index cards to keep track of ideas.</description>
+    </item>
+    
+    <item>
+      <title>Literating the Emacs configuration file</title>
       <link>https://www.hhyu.org/posts/literate_config/</link>
       <pubDate>Tue, 05 Jan 2021 14:16:59 +1100</pubDate>
       
       <guid>https://www.hhyu.org/posts/literate_config/</guid>
-      <description>I really like Donald Knuth&amp;rsquo;s idea of literate programming. Unfortunately, I don&amp;rsquo;t have too many opportunities to write literate programs. A couple of months ago, I was inspired by this article, and I decided to rewrite my Emacs configuration file using org-mode&amp;rsquo;s literate programming tool Babel.</description>
+      <description>I really like Donald Knuth&amp;rsquo;s idea of literate programming, but unfortunately, I don&amp;rsquo;t have too many opportunities to write literate programs. A couple of months ago, I was inspired by this article, and decided to rewrite my Emacs configuration file using org-mode&amp;rsquo;s literate programming tool Babel. I was quite pleased by the result, but I must admit that it was an exercise of literate programming only in the most superficial sense of the word.</description>
     </item>
     
     <item>

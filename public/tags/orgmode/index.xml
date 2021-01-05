@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>orgmode on Cortically Magnified</title>
+    <link>https://www.hhyu.org/tags/orgmode/</link>
+    <description>Recent content in orgmode on Cortically Magnified</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Jan 2021 14:16:59 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/tags/orgmode/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Literating the Emacs configuration file</title>
+      <link>https://www.hhyu.org/posts/literate_config/</link>
+      <pubDate>Tue, 05 Jan 2021 14:16:59 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/literate_config/</guid>
+      <description>I really like Donald Knuth&amp;rsquo;s idea of literate programming, but unfortunately, I don&amp;rsquo;t have too many opportunities to write literate programs. A couple of months ago, I was inspired by this article, and decided to rewrite my Emacs configuration file using org-mode&amp;rsquo;s literate programming tool Babel. I was quite pleased by the result, but I must admit that it was an exercise of literate programming only in the most superficial sense of the word.</description>
+    </item>
+    
+  </channel>
+</rss>
