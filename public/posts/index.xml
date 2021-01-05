@@ -13,7 +13,7 @@
       <pubDate>Tue, 05 Jan 2021 14:16:59 +1100</pubDate>
       
       <guid>https://www.hhyu.org/posts/literate_config/</guid>
-      <description>I really like Donald Knuth&amp;rsquo;s idea of literate programming, but unfortunately, I don&amp;rsquo;t have too many opportunities to write literate programs. A couple of months ago, I was inspired by this article, and decided to rewrite my Emacs configuration file using org-mode&amp;rsquo;s literate programming tool Babel. I was quite pleased by the result, but I must admit that it was an exercise of literate programming only in the most superficial sense of the word.</description>
+      <description>I like Donald Knuth&amp;rsquo;s idea of literate programming, but unfortunately, I don&amp;rsquo;t have too many opportunities to write literate programs. A couple of months ago, I was inspired by this article, and decided to rewrite my Emacs configuration file using org-mode&amp;rsquo;s literate programming tool Babel. I was quite pleased by the result, but I must admit that it was an exercise in literate programming only in the most superficial sense of the word.</description>
     </item>
     
     <item>
