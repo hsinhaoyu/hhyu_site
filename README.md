@@ -11,6 +11,12 @@ hugo new micro/filename.md
 {{< figure src="/blog/spiral.gif" >}}
 ```
 
+## change style of code block
+```sh
+{{< highlight lisp "style=github" >}}
+{{< / highlight >}}
+```
+
 ## development
 ```sh
 hugo --cleanDestinationDir

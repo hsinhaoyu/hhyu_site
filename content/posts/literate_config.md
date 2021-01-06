@@ -73,3 +73,5 @@ In this version, `org-capture-templates` is assigned to a `noweb` macro called `
 It's possible to achieve the same effect without literate programming (for example, we can assign the three templates to three LISP symbols), but I like the literate approach better because what I want to do is to talk about the code out of order. I would rather not introduce additional LISP symbols for this purpose.
 
 It's unlikely that I will write entire programs in the literate style, because it's a bit esoteric. But I'm glad that it can be very helpful in small places.
+
+
