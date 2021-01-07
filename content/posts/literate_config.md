@@ -8,7 +8,7 @@ I like Donald Knuth's idea of [literate programming](https://en.wikipedia.org/wi
 
 I came up with a simple example that significantly improves the readability of my configuration file. Originally, I had a block of LISP code that reads like this:
 
-```lisp
+{{< highlight lisp "style=monokailight" >}}
 (setq org-capture-templates
 	'(("t" "TODO inbox"
            entry
@@ -25,13 +25,13 @@ I came up with a simple example that significantly improves the readability of m
            "** %(format-time-string org-journal-time-format)%^{Title}\n%i%?"
            :jump-to-captured t
            :immediate-finish t)))
-```
+{{< / highlight >}}
 
 What this does is that it sets up three templates for [org-capture](https://orgmode.org/manual/Capture.html) (org-mode's mechanism for quickly jotting down notes). I use indentation to make it more obvious that `org-capture-templates` is assigned to a list of three templates, but I find this type of deeply nested code difficult to read and edit. When I tried to add a new template earlier today, I broke up the wrong parentheses, and had to spend a couple of minutes trying to figure out which `(` paired with which `)`, after the structure was already messed up. It's a common problem in LISP programming.
 
 I made this code easier to work with using org-mode's implementation of [noweb](https://en.wikipedia.org/wiki/Noweb) - the literate programming system that `Babel` is based on. `Noweb` is a minimalist literal programming system that is much similer than Knuth's [WEB](http://www.literateprogramming.com/cweb_download.html). Here's the revised version:
 
-```lisp
+{{< highlight lisp "style=monokailight" >}}
 #+begin_src emacs-lisp :noweb yes
   (setq org-capture-templates
       '(
@@ -66,7 +66,7 @@ Capture org journal
      :jump-to-captured t
      :immediate-finish t)
 #+end_src
-```
+{{< / highlight >}}
 
 In this version, `org-capture-templates` is assigned to a `noweb` macro called `ORG_CAPTURE`. The `:noweb yes` attribute was inserted to tell `Babel` to expand the macro, which is defined by the three code blocks marked by `:noweb-ref ORG_CAPTURE`. The three templates became easier to read and edit, and more importantly, the they are now decoupled, so I am free to move them around. I am planning to move the third code block to a different section about `org-journal`, because it is about journaling. With literate programming, I can now explain everything about my journaling setup in one section. 
 
