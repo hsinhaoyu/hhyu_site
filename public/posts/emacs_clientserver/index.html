@@ -92,28 +92,27 @@
   <section id="js-article" class="p-article__body">
     <p>Many articles are available about running Emacs in <a href="https://www.gnu.org/software/emacs/manual/html_node/emacs/Emacs-Server.html">client/server mode</a>. However, when I tried to do it in my particular environment (macOS 11.0.1 Big Sur, using <code>zsh</code>), some tweaks were still needed. So I figured that it&rsquo;s probably useful to document my setup.</p>
 <p>In macOS, the Emacs executable is <code>/Applications/Emacs.app/Contents/MacOS/Emacs</code>. To run Emacs in its regular (non-server) operation mode, I defined two shell commands in <code>.zshrc</code>: <code>emacs</code> runs Emacs in GUI mode in a macOS window, whereas <code>emacsnw</code> runs Emacs in text mode within the terminal. I started by defining <code>emacs</code> as an alias similar to <code>emacsnw</code>, but the problem was that it&rsquo;s easy to forget the <code>&amp;</code> to put it running in the background, so I had to rewrite it as a function.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh"><span style="color:#66d9ef">function</span> emacs<span style="color:#f92672">()</span> <span style="color:#f92672">{</span> /Applications/Emacs.app/Contents/MacOS/Emacs $@ &amp;; <span style="color:#f92672">}</span>
-alias emacsnw<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/Applications/Emacs.app/Contents/MacOS/Emacs -nw&#34;</span>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh"><span style="color:#a2f;font-weight:bold">function</span> emacs<span style="color:#666">()</span> <span style="color:#666">{</span> /Applications/Emacs.app/Contents/MacOS/Emacs <span style="color:#b8860b">$@</span> &amp;; <span style="color:#666">}</span>
+<span style="color:#a2f">alias</span> <span style="color:#b8860b">emacsnw</span><span style="color:#666">=</span><span style="color:#b44">&#34;/Applications/Emacs.app/Contents/MacOS/Emacs -nw&#34;</span>
 </code></pre></div><p>I used to use <code>emacsnw</code> exclusively, because I thought that managing an addition macOS window was a hassle. However, I eventually decided to switch to the GUI mode because I liked how org-mode documents are rendered in GUI mode. The problem with the <code>emacs</code> shell command, though, was that if I use it to open a second document, a new instance of Emacs would be launched. What I wanted was for the running Emacs to open a new buffer. This was when I realized that I should investigate the client/server mode.</p>
 <p>To start the Emacs server, it is possible to ask macOS to launch the Emacs daemon automatically when the user logs in (see <a href="http://www.rockhoppertech.com/blog/emacs-daemon-on-macos/">here</a>). However, I never found this to be useful. Instead,  I decided to use the Emacs client to start the server, if it cannot detect a running Emacs. It should be simple enough to implement, but the Emacs client (<code>/Applications/Emacs.app/Contents/MacOS/bin/emacsclient</code>) seems to have problems locating the server from time to time.  So I use a shell script <code>emacsserver</code> to locate the socket associated with Emacs:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">lsof -c Emacs | grep server | tr -s <span style="color:#e6db74">&#34; &#34;</span> | cut -d<span style="color:#e6db74">&#39; &#39;</span> -f8
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">lsof -c Emacs | grep server | tr -s <span style="color:#b44">&#34; &#34;</span> | cut -d<span style="color:#b44">&#39; &#39;</span> -f8
 </code></pre></div><p>The unix command <code>lsof</code> lists all the files opened by a process. If Emacs server is already running, this script returns the socket file. Otherwise, it returns nothing. I put this script in <code>~/bin</code>.</p>
 <p>The next step is easy. I use a shell script called <code>ec</code> (which stands for <em>emacs client</em>) to evoke Emacs.  If <code>ec</code> detects a socket file (meaning that the server is running), it tells the server to open a new file. Otherwise, it launches Emacs and starts the server:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh"><span style="color:#75715e">#!/bin/zsh
-</span><span style="color:#75715e"></span>socket_file<span style="color:#f92672">=</span><span style="color:#66d9ef">$(</span>~/bin/emacsserver<span style="color:#66d9ef">)</span>
-emacs<span style="color:#f92672">=</span>/Applications/Emacs.app/Contents/MacOS/Emacs
-emacsclient<span style="color:#f92672">=</span>/Applications/Emacs.app/Contents/MacOS/bin/emacsclient
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh"><span style="color:#080">#!/bin/zsh
+</span><span style="color:#080"></span><span style="color:#b8860b">socket_file</span><span style="color:#666">=</span><span style="color:#a2f;font-weight:bold">$(</span>~/bin/emacsserver<span style="color:#a2f;font-weight:bold">)</span>
+<span style="color:#b8860b">emacs</span><span style="color:#666">=</span>/Applications/Emacs.app/Contents/MacOS/Emacs
+<span style="color:#b8860b">emacsclient</span><span style="color:#666">=</span>/Applications/Emacs.app/Contents/MacOS/bin/emacsclient
 
-<span style="color:#66d9ef">if</span> <span style="color:#f92672">[[</span> $socket_file <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;&#34;</span> <span style="color:#f92672">]]</span>; <span style="color:#66d9ef">then</span>
-    echo <span style="color:#e6db74">&#34;starting Emacs server...&#34;</span>
-    <span style="color:#75715e"># I am not sure why I need --chdir $PWD for emacs to load the file from the working directory. But if I didn&#39;t add it, emacs starts with $HOME</span>
-    $emacs --chdir $PWD --execute <span style="color:#e6db74">&#34;(server-start)&#34;</span> $@ &amp;
-<span style="color:#66d9ef">else</span>
-    $emacsclient -n $@ --socket-name $socket_file
-<span style="color:#66d9ef">fi</span>
+<span style="color:#a2f;font-weight:bold">if</span> <span style="color:#666">[[</span> <span style="color:#b8860b">$socket_file</span> <span style="color:#666">==</span> <span style="color:#b44">&#34;&#34;</span> <span style="color:#666">]]</span>; <span style="color:#a2f;font-weight:bold">then</span>
+<span style="color:#a2f">echo</span> <span style="color:#b44">&#34;starting Emacs server...&#34;</span>
+<span style="color:#b8860b">$emacs</span> --chdir <span style="color:#b8860b">$PWD</span> --execute <span style="color:#b44">&#34;(server-start)&#34;</span> <span style="color:#b8860b">$@</span> &amp;
+<span style="color:#a2f;font-weight:bold">else</span>
+<span style="color:#b8860b">$emacsclient</span> -n <span style="color:#b8860b">$@</span> --socket-name <span style="color:#b8860b">$socket_file</span>
+<span style="color:#a2f;font-weight:bold">fi</span>
 </code></pre></div><p>Another associated issue was that I wanted to tell <code>git</code> to use Emacs rather than <code>vi</code>. For this purpose, I don&rsquo;t need the server so I just added the following to  <code>.zshenv</code>:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">export VISUAL<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/Applications/Emacs/Contents/MacOS/Emacs -nw&#34;</span>
-export EDITOR<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/Applications/Emacs/Contents/MacOS/Emacs -nw&#34;</span>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh"><span style="color:#a2f">export</span> <span style="color:#b8860b">VISUAL</span><span style="color:#666">=</span><span style="color:#b44">&#34;/Applications/Emacs/Contents/MacOS/Emacs -nw&#34;</span>
+<span style="color:#a2f">export</span> <span style="color:#b8860b">EDITOR</span><span style="color:#666">=</span><span style="color:#b44">&#34;/Applications/Emacs/Contents/MacOS/Emacs -nw&#34;</span>
 </code></pre></div>
   </section>
   <footer>

@@ -25,6 +25,7 @@ The unix command `lsof` lists all the files opened by a process. If Emacs server
 
 The next step is easy. I use a shell script called `ec` (which stands for _emacs client_) to evoke Emacs.  If `ec` detects a socket file (meaning that the server is running), it tells the server to open a new file. Otherwise, it launches Emacs and starts the server:
 
+
 ```sh
 #!/bin/zsh
 socket_file=$(~/bin/emacsserver)
@@ -32,11 +33,10 @@ emacs=/Applications/Emacs.app/Contents/MacOS/Emacs
 emacsclient=/Applications/Emacs.app/Contents/MacOS/bin/emacsclient
 
 if [[ $socket_file == "" ]]; then
-    echo "starting Emacs server..."
-    # I am not sure why I need --chdir $PWD for emacs to load the file from the working directory. But if I didn't add it, emacs starts with $HOME
-    $emacs --chdir $PWD --execute "(server-start)" $@ &
+echo "starting Emacs server..."
+$emacs --chdir $PWD --execute "(server-start)" $@ &
 else
-    $emacsclient -n $@ --socket-name $socket_file
+$emacsclient -n $@ --socket-name $socket_file
 fi
 ```
 
