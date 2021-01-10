@@ -6,34 +6,7 @@
     <description>Recent content on Cortically Magnified</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 Jan 2021 17:27:18 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title></title>
-      <link>https://www.hhyu.org/micro/bravenewworld-kvvvu5uafohgt2/</link>
-      <pubDate>Sun, 10 Jan 2021 17:27:18 +1100</pubDate>
-      
-      <guid>https://www.hhyu.org/micro/bravenewworld-kvvvu5uafohgt2/</guid>
-      <description>Brave New World! With so many things!</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://www.hhyu.org/micro/quilltest-wxxeumu2fzhof2m/</link>
-      <pubDate>Sun, 10 Jan 2021 17:04:00 +1100</pubDate>
-      
-      <guid>https://www.hhyu.org/micro/quilltest-wxxeumu2fzhof2m/</guid>
-      <description>Hello Brave New World</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://www.hhyu.org/micro/quietest-laaxhzupfrc9xib/</link>
-      <pubDate>Sun, 10 Jan 2021 16:58:00 +1100</pubDate>
-      
-      <guid>https://www.hhyu.org/micro/quietest-laaxhzupfrc9xib/</guid>
-      <description>Hello Brave New World</description>
-    </item>
-    
+    <lastBuildDate>Tue, 05 Jan 2021 16:04:13 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>https://www.hhyu.org/micro/eco_note_taking/</link>
@@ -50,6 +23,16 @@
       
       <guid>https://www.hhyu.org/posts/literate_config/</guid>
       <description>I like Donald Knuth&amp;rsquo;s idea of literate programming, but unfortunately, I don&amp;rsquo;t have too many opportunities to write literate programs. A couple of months ago, I was inspired by this article, and decided to rewrite my Emacs configuration file using org-mode&amp;rsquo;s literate programming tool Babel. I was quite pleased by the result, but I must admit that it was an exercise in literate programming only in the most superficial sense of the word.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.hhyu.org/micro/finger_lime_jam/</link>
+      <pubDate>Fri, 01 Jan 2021 17:56:15 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/micro/finger_lime_jam/</guid>
+      <description>I bought this jam made from the native Australian plant finger lime Citrus australasica. I wasn’t expecting much because with enough sugar, all jams taste alike. But this is very different. At the first taste, it’s like a citrus but then the citrus taste is replaced by something very bitter. It’s weird. I will have no problem finishing this jar.
+    </description>
     </item>
     
     <item>
@@ -116,24 +99,6 @@ The other historical figure that plays a more significant role in V.</descriptio
       
       <guid>https://www.hhyu.org/micro/daemon_book/</guid>
       <description>This is a review of an interesting book:Bedeviled: A Shadow History of Demons in Science, about thought experiments in science.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://www.hhyu.org/micro/wine/</link>
-      <pubDate>Mon, 07 Dec 2020 00:47:02 +1100</pubDate>
-      
-      <guid>https://www.hhyu.org/micro/wine/</guid>
-      <description>Wine made from grapes infected by fungi?</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://www.hhyu.org/micro/githubtrigger/</link>
-      <pubDate>Sat, 05 Dec 2020 00:44:40 +1100</pubDate>
-      
-      <guid>https://www.hhyu.org/micro/githubtrigger/</guid>
-      <description>My site is hosted on AWS S3. I was planning to use Travis to setup a pipeline, such that every time I push a new post to GitHub, it automatically generates the site and syncs with S3. The problem was that Travis’ cost structure seems to have changed, so it became less appealing. I gave GitHub Actions a shot. It worked very well. It’s easy to use and easy to program.</description>
     </item>
     
     <item>
@@ -826,15 +791,6 @@ Chibi Maruko-Chan is a popular Japanese cartoon for children. It is about the li
     
     <item>
       <title></title>
-      <link>https://www.hhyu.org/micro/analog/</link>
-      <pubDate>Fri, 31 Oct 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.hhyu.org/micro/analog/</guid>
-      <description>analogmuseum.org is a website about analog computers</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>https://www.hhyu.org/micro/visual_cortex/</link>
       <pubDate>Thu, 30 Oct 2014 00:00:00 +0000</pubDate>
       
@@ -961,15 +917,6 @@ Chibi Maruko-Chan is a popular Japanese cartoon for children. It is about the li
       <guid>https://www.hhyu.org/teaching/</guid>
       <description>The followings are for students who want to learn more about the topics that I talk about in lectures. They are optional readings. You won&amp;rsquo;t be tested on them.
 PHY3111: Sensation and Movement (2014, 2015)  Colour Vision Prac class: Recording Electrophysiological Signals (cockroach recordings)  PHY3012: Integrative Neuroscience - Neuron to Brain (2015)  Plasticity in the visual system in development  RAD2092: Radiologic Biology 4 and Sectional Anatomy (2012-)  Organization of the Cerebral Cortex The Eye and the Retina Physiology of Visual Pathways  PSY3310: Introduction to Computational Neuroscience (2016, 2017)  Human vision as frequency filters The neural basis of frequency processing  </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://www.hhyu.org/micro/quillnewworld2-yyywsgujfghqudo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.hhyu.org/micro/quillnewworld2-yyywsgujfghqudo/</guid>
-      <description>Hello New World</description>
     </item>
     
   </channel>

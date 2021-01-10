@@ -6,34 +6,7 @@
     <description>Recent content in Micros on Cortically Magnified</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 Jan 2021 17:27:18 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/micro/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title></title>
-      <link>https://www.hhyu.org/micro/bravenewworld-kvvvu5uafohgt2/</link>
-      <pubDate>Sun, 10 Jan 2021 17:27:18 +1100</pubDate>
-      
-      <guid>https://www.hhyu.org/micro/bravenewworld-kvvvu5uafohgt2/</guid>
-      <description>Brave New World! With so many things!</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://www.hhyu.org/micro/quilltest-wxxeumu2fzhof2m/</link>
-      <pubDate>Sun, 10 Jan 2021 17:04:00 +1100</pubDate>
-      
-      <guid>https://www.hhyu.org/micro/quilltest-wxxeumu2fzhof2m/</guid>
-      <description>Hello Brave New World</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://www.hhyu.org/micro/quietest-laaxhzupfrc9xib/</link>
-      <pubDate>Sun, 10 Jan 2021 16:58:00 +1100</pubDate>
-      
-      <guid>https://www.hhyu.org/micro/quietest-laaxhzupfrc9xib/</guid>
-      <description>Hello Brave New World</description>
-    </item>
-    
+    <lastBuildDate>Tue, 05 Jan 2021 16:04:13 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/micro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>https://www.hhyu.org/micro/eco_note_taking/</link>
@@ -41,6 +14,16 @@
       
       <guid>https://www.hhyu.org/micro/eco_note_taking/</guid>
       <description>I was reading about the Emacs org-roam mode, and came across the Zettelkasten method of notetaking. I hadn’t seen this term before, but the idea of taking notes with cross-referenced index cards sounded familiar. Where did I read about it? Ah yes&amp;hellip; in Umberto Eco’s Foucault’s Pendulum, the main character Casaubon (an ex-academic who makes a living as a “detective of knowledge”) uses boxes of index cards to keep track of ideas.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.hhyu.org/micro/finger_lime_jam/</link>
+      <pubDate>Fri, 01 Jan 2021 17:56:15 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/micro/finger_lime_jam/</guid>
+      <description>I bought this jam made from the native Australian plant finger lime Citrus australasica. I wasn’t expecting much because with enough sugar, all jams taste alike. But this is very different. At the first taste, it’s like a citrus but then the citrus taste is replaced by something very bitter. It’s weird. I will have no problem finishing this jar.
+    </description>
     </item>
     
     <item>
@@ -98,24 +81,6 @@ The other historical figure that plays a more significant role in V.</descriptio
       
       <guid>https://www.hhyu.org/micro/daemon_book/</guid>
       <description>This is a review of an interesting book:Bedeviled: A Shadow History of Demons in Science, about thought experiments in science.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://www.hhyu.org/micro/wine/</link>
-      <pubDate>Mon, 07 Dec 2020 00:47:02 +1100</pubDate>
-      
-      <guid>https://www.hhyu.org/micro/wine/</guid>
-      <description>Wine made from grapes infected by fungi?</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://www.hhyu.org/micro/githubtrigger/</link>
-      <pubDate>Sat, 05 Dec 2020 00:44:40 +1100</pubDate>
-      
-      <guid>https://www.hhyu.org/micro/githubtrigger/</guid>
-      <description>My site is hosted on AWS S3. I was planning to use Travis to setup a pipeline, such that every time I push a new post to GitHub, it automatically generates the site and syncs with S3. The problem was that Travis’ cost structure seems to have changed, so it became less appealing. I gave GitHub Actions a shot. It worked very well. It’s easy to use and easy to program.</description>
     </item>
     
     <item>
@@ -556,15 +521,6 @@ Dec 4th 2020 update: I also learned that William Gaddis worked for Kodak and IBM
     
     <item>
       <title></title>
-      <link>https://www.hhyu.org/micro/analog/</link>
-      <pubDate>Fri, 31 Oct 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.hhyu.org/micro/analog/</guid>
-      <description>analogmuseum.org is a website about analog computers</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>https://www.hhyu.org/micro/visual_cortex/</link>
       <pubDate>Thu, 30 Oct 2014 00:00:00 +0000</pubDate>
       
@@ -609,15 +565,6 @@ Dec 4th 2020 update: I also learned that William Gaddis worked for Kodak and IBM
       <guid>https://www.hhyu.org/micro/ground-squirrel/</guid>
       <description>I took these photos for a research project while I was a student at UC San Diego. They are the skull and the brain of the California ground squirrel (Spermophilus beecheyi)
          </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://www.hhyu.org/micro/quillnewworld2-yyywsgujfghqudo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.hhyu.org/micro/quillnewworld2-yyywsgujfghqudo/</guid>
-      <description>Hello New World</description>
     </item>
     
   </channel>
