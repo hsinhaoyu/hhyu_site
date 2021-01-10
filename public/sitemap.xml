@@ -3,6 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.hhyu.org/micro/quilltest-m11kslunumtyoun/</loc>
+    <lastmod>2021-01-10T09:57:00+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/categories/</loc>
+    <lastmod>2021-01-10T09:57:00+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/</loc>
+    <lastmod>2021-01-10T09:57:00+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/categories/micro/</loc>
+    <lastmod>2021-01-10T09:57:00+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/micro/</loc>
+    <lastmod>2021-01-10T09:57:00+11:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.hhyu.org/micro/eco_note_taking/</loc>
     <lastmod>2021-01-05T16:04:13+11:00</lastmod>
   </url>
@@ -13,17 +38,7 @@
   </url>
   
   <url>
-    <loc>https://www.hhyu.org/</loc>
-    <lastmod>2021-01-05T16:04:13+11:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.hhyu.org/tags/emacs/</loc>
-    <lastmod>2021-01-05T16:04:13+11:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/micro/</loc>
     <lastmod>2021-01-05T16:04:13+11:00</lastmod>
   </url>
   
@@ -825,10 +840,6 @@
   <url>
     <loc>https://www.hhyu.org/teaching/</loc>
     <lastmod>2008-01-01T13:20:52+11:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/categories/</loc>
   </url>
   
   <url>

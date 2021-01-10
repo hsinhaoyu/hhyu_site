@@ -67,7 +67,7 @@ Capture org journal
 #+end_src
 ```
 
-In this version, `org-capture-templates` is assigned to a `noweb` macro called `ORG_CAPTURE`. The `:noweb yes` attribute was inserted to tell `Babel` to expand the macro, which is defined by the three code blocks marked by `:noweb-ref ORG_CAPTURE`. The three templates became easier to read and edit, and more importantly, the they are now decoupled, so I am free to move them around. I am planning to move the third code block to a different section about `org-journal`, because it is about journaling. With literate programming, I can now explain everything about my journaling setup in one section. 
+In this version, `org-capture-templates` is assigned to a `noweb` macro called `ORG_CAPTURE`. The `:noweb yes` attribute was inserted to tell `Babel` to expand the macro, which is defined by the three code blocks marked by `:noweb-ref ORG_CAPTURE`. The three templates became easier to read and edit, and more importantly, they are now decoupled, so I am free to move them around. I am planning to move the third code block to a different section about `org-journal`, because it is about journaling. With literate programming, I can now explain everything about my journaling setup in one section. 
 
 It's possible to achieve the same effect without literate programming (for example, we can assign the three templates to three LISP symbols), but I like the literate approach better because what I want to do is to talk about the code out of order. I would rather not introduce additional LISP symbols for this purpose.
 
