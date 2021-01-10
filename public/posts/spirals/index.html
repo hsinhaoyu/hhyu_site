@@ -48,6 +48,9 @@
   <link rel="authorization_endpoint" href="https://indieauth.com/auth">
 <link rel="token_endpoint" href="https://tokens.indieauth.com/token">
 <link rel="micropub" href="https://lr85f9rofe.execute-api.ap-southeast-2.amazonaws.com/Prod/">
+<link rel="microsub" href="https://aperture.p3k.io/microsub/592">
+<link rel="webmention" href="https://webmention.io/hhyu.org/webmention" />
+<link rel="pingback" href="https://webmention.io/hhyu.org/xmlrpc" />
 
 </head>
 
@@ -68,16 +71,18 @@
   <main id="main" class="l-main">
 
 
-<article class="p-article">
+<article class="p-article h-entry">
   <header>
-    <h1>Let&#39;s make some spirals</h1>
+    <h1 class="p-name">Let&#39;s make some spirals</h1>
     <div>
       
         <div class="c-time">
           Posted on
-<time datetime="2018-06-07T15:18:22&#43;10:00">
+<a class="u-url" href="https://www.hhyu.org/posts/spirals/">
+<time class="dt-published" datetime="2018-06-07T15:18:22&#43;10:00">
   Jun 7, 2018
 </time>
+</a>
 
         </div>
       
@@ -91,7 +96,7 @@
     </div>
   </header>
   
-  <section id="js-article" class="p-article__body">
+  <section id="js-article" class="p-article__body e-content">
     <p><a href="http://mathworld.wolfram.com/DiskPointPicking.html">Disk point picking</a> is an elementary problem in geometry. To evenly distribute points on a disk, an intuitive idea is to sample pairs of numbers in polar coordinate (radius and angle) randomly from uniform distributions. After all, &ldquo;uniformly&rdquo; is just another word for &ldquo;evenly&rdquo;, isn&rsquo;t it? But it doesn&rsquo;t work. When the points are sampled this way, the density of the dots fall off linearly with the distance to the origin. This is because the area element of the polar coordinate grows linearly with the radius. With a little calculus, it can be shown that this uneven density can be corrected by taking the square root of the uniformly-sampled radius.</p>
 <p>However, I ran into a situation where I do want the density to fall off, and I want to control the gradient of the fall-off. In addition, I also want the points distributed regularly, rather than randomly. With a little hack, I came up with this little animation:</p>
 
@@ -306,7 +311,7 @@ zz <span style="color:#666">=</span> spiral(<span style="color:#666">-</span><sp
       
         
           
-            <a class="h-card" href="https://hhyu.org">Hsin-Hao Yu</a>
+            <a class="h-card p-author" href="https://hhyu.org">Hsin-Hao Yu</a>
           
         
         &nbsp;&bull;&nbsp;

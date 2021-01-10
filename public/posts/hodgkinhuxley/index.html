@@ -48,6 +48,9 @@
   <link rel="authorization_endpoint" href="https://indieauth.com/auth">
 <link rel="token_endpoint" href="https://tokens.indieauth.com/token">
 <link rel="micropub" href="https://lr85f9rofe.execute-api.ap-southeast-2.amazonaws.com/Prod/">
+<link rel="microsub" href="https://aperture.p3k.io/microsub/592">
+<link rel="webmention" href="https://webmention.io/hhyu.org/webmention" />
+<link rel="pingback" href="https://webmention.io/hhyu.org/xmlrpc" />
 
 </head>
 
@@ -68,16 +71,18 @@
   <main id="main" class="l-main">
 
 
-<article class="p-article">
+<article class="p-article h-entry">
   <header>
-    <h1>Who did the first computer simulation of a biological neuron?</h1>
+    <h1 class="p-name">Who did the first computer simulation of a biological neuron?</h1>
     <div>
       
         <div class="c-time">
           Posted on
-<time datetime="2019-09-18T20:42:52&#43;10:00">
+<a class="u-url" href="https://www.hhyu.org/posts/hodgkinhuxley/">
+<time class="dt-published" datetime="2019-09-18T20:42:52&#43;10:00">
   Sep 18, 2019
 </time>
+</a>
 
         </div>
       
@@ -87,7 +92,7 @@
     </div>
   </header>
   
-  <section id="js-article" class="p-article__body">
+  <section id="js-article" class="p-article__body e-content">
     <p>Nobel laureates Alan Hodgkin and Andrew Huxley are sometimes called the fathers of computational neuroscience, because they developed the first mathematical theory to explain how neurons communicate with each other with electrical signals. I read in a textbook that when they published their model in 1952, all the numerical calculations were done manually, because the computer at Cambridge was not working. It was &ldquo;computational&rdquo; all right, but it was the labour intensive variety. I can see that scientists quickly realized that they needed some help to speed up the computation, but I hadn&rsquo;t wondered who it was who did the first Hodgkin-Huxley simulation on a computer.</p>
 <p>I became intrigued by the question, because in a recent paper about dendritic computation, I encountered a reference to a 1973 paper by Dodge and Cooley, which was oddly published in a journal called the <em>IBM Journal of Research and Development</em> (a peer-reviewed journal that is still published by IBM today). Why IBM? I never thought that a technology company was involved in the early development of computational neuroscience, but then it occurred to me that maybe in those days, IBM was one of the few places in the world which had the computational power to simulate a neuron.</p>
 <p>Luckily, I found a <a href="https://www.frontiersin.org/articles/10.3389/fncom.2010.00020/full#B6">paper</a> that gives some context to this history. The <a href="https://epubs.siam.org/doi/abs/10.1137/0103014?journalCode=smjmap.1">first computer simulation</a> of the Hodgkin-Huxley equations was published in 1955 by Kenneth Cole and his colleagues at the National Institute of Health. The computation was performed on <a href="https://en.wikipedia.org/wiki/SEAC_(computer)">SEAC</a> - a vacuum tube computer built by the National Bureau of Standards. It took SEAC 30 minutes to calculate one action potential, which is really not bad at all. I would have guessed days.</p>
@@ -263,7 +268,7 @@
       
         
           
-            <a class="h-card" href="https://hhyu.org">Hsin-Hao Yu</a>
+            <a class="h-card p-author" href="https://hhyu.org">Hsin-Hao Yu</a>
           
         
         &nbsp;&bull;&nbsp;
