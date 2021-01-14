@@ -13,7 +13,11 @@
       <pubDate>Thu, 17 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.hhyu.org/about_site/</guid>
-      <description>bla bla</description>
+      <description>I wrote an in-depth description about how this site is built.
+  The site is made with the Hugo static website generator, using a customized theme derived from the Pickles theme.
+  It has a micropub endpoint.
+  It receives micromention.
+  </description>
     </item>
     
     <item>

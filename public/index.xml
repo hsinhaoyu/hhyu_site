@@ -6,7 +6,17 @@
     <description>Recent content on Cortically Magnified</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 12 Jan 2021 23:19:29 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Jan 2021 10:01:53 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://www.hhyu.org/micro/frame_cut_frame/</link>
+      <pubDate>Fri, 15 Jan 2021 10:01:53 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/micro/frame_cut_frame/</guid>
+      <description>One music album that I used to play a lot of was called Night of Short Lives. It was published in the 90&amp;rsquo;s under the artist name Frame Cut Frame. It&amp;rsquo;s very hard to describe what kind of music it was. The publisher called it &amp;ldquo;unclassical music&amp;rdquo;, because the music had the classical texture, but not the classical form.
+The CD was just one of those random things that I had.</description>
+    </item>
+    
     <item>
       <title></title>
       <link>https://www.hhyu.org/micro/hyperbolic_spirals/</link>
@@ -98,7 +108,11 @@
       <pubDate>Thu, 17 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.hhyu.org/about_site/</guid>
-      <description>bla bla</description>
+      <description>I wrote an in-depth description about how this site is built.
+  The site is made with the Hugo static website generator, using a customized theme derived from the Pickles theme.
+  It has a micropub endpoint.
+  It receives micromention.
+  </description>
     </item>
     
     <item>
