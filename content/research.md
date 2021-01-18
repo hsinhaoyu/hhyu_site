@@ -4,7 +4,7 @@ date: 2021-01-18T12:30:31+11:00
 draft: false
 ---
 ### 1. AI applications in ophthalmology
-![icon](/about/cam.png) At the clinics, monitoring the progression of glaucoma traditionally relies on visual field tests, which is unreliable and time consuming. In collaboration with clinical researchers at NYU, I investigated methods to infer visual field functions directly from scans of the retina, using 3D convolutional neural networks.
+![icon](/about/cam.png) At clinics, monitoring the progression of glaucoma traditionally relies on visual field tests, which is unreliable and time consuming. In collaboration with clinical researchers at NYU, I investigated methods to infer visual field functions directly from scans of the retina, using 3D convolutional neural networks.
 
 Publication:
 - Yu et al. (in press) Estimating global visual field indices in glaucoma by combining macula and optic disc OCT scans using 3-dimensional convolutional neural networks _Ophthalmology Glaucoma_ [[link]](https://www.sciencedirect.com/science/article/pii/S2589419620301848)
@@ -13,14 +13,14 @@ Publication:
 
 **The formation of retinotopic maps in the visual cortex**
 
-![icon](/about/elastic_net.png) In the visual cortex, modules (called "areas") are organized as maps. In early visual cortex, adjacent maps tend to be mirror images of each other, but does this organization extend to higher-order areas? In order to understand the general principles of the organization of adjacent maps, I used computational models to study how the development of a retinotopic map could be influenced by its neighbors. The result suggests a novel arrangement can emerge, which can explain the unconventional retinotopy of the dorsal visual cortex.
+![icon](/about/elastic_net.png) In the visual cortex, modules (called "areas") are organized as maps. In early visual cortex, adjacent maps tend to be mirror images of each other, but does this organization extend to higher-order areas? In order to understand the general principles of the organization of adjacent maps, I used computational models to study how the development of a retinotopic map could be influenced by its neighbors. The result suggests a novel arrangement can emerge, which can explain unusual features observed in the dorsal visual cortex, which have been puzzling for decades.
 
 - Yu et al. (2020) A twisted visual field map in the primate dorsomedial cortex predicted by topographic continuity. _Science Advances_ 6, EAAZ8673. [[link]](https://advances.sciencemag.org/content/6/44/eaaz8673)
 - A general-audience [blog post](https://www.cibf.edu.au/maps) at the _Brain Dialog_.
 
-**The cortical representation of moving patterns**
+**The neural coding of moving patterns**
 
-![icon](/about/speed_tuning.jpg) How moving patterns are ended in the visual cortex is a complex question with many unresolved problems. I examined the ambiguity in the representation of motion speed, and showed that it can be reduced when the object moves in a trajectory.
+![icon](/about/speed_tuning.jpg) How moving patterns are encoded in the visual cortex is a complex question with many unresolved problems. I examined the ambiguity in the coding of motion speed, and showed that it can be reduced when the object moves in a trajectory.
 
 Publications:
 
@@ -30,7 +30,7 @@ Publications:
 
 ### 3. Brain mapping
 
-**Clarifying the controversies surrounding the third-tier primate visual areas**
+**High-resolution mapping of the controversial primate dorsal visual cortex**
 
 ![icon](/about/dm.jpg) Despite the tremendous efforts invested in creating an atlas for the primate visual cortex, many controversies remain. For example: which area lies rostral to area V2? The conventional answer is area V3, but recent mapping data suggest unexpected complexities (see [this review paper](https://pubmed.ncbi.nlm.nih.gov/26241792/) and [this chapter that I wrote](http://www.springer.com/gp/book/9783319550640)). My colleagues and I mapped the dorsomedial (DM) region of the marmoset visual cortex using high-resolution electrode arrays, and showed that the retinotopy was consistent with the unconventional organization described in [Rosa & Schmid (1995)](https://pubmed.ncbi.nlm.nih.gov/7499529/), [Sereno et al. (2015)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4733890/), and [Zhu et al. (2019)](https://www.pnas.org/content/116/6/2306.abstract). I proposed a computational model to explain why this unusual structure might be the natural consequence of computational principles of map organization.
 
@@ -51,7 +51,7 @@ Publication:
 - There is (interestingly) a prostriata hashtag on twitter: [#prostriata](https://twitter.com/hashtag/prostriata?src=hash).
 
 ### 4. Neuroplasticity and development
-![icon](/about/lgn_rf.png) From 2012 to 2017, I conducted a series of studies about how the visual pathways are altered by brain injuries, especially at the early stages of development. Theses studies provide clues for a mysterious phenomenon called [blindsight](https://en.wikipedia.org/wiki/Blindsight) - a condition where patients can react to visual stimuli without being consciously aware of them. My work suggest possible pathways for blindsight.
+![icon](/about/lgn_rf.png) From 2012 to 2017, I conducted a series of studies about how the visual pathways are altered by brain injuries, especially at the early stages of development. Theses studies were designed to elucidate neural pathways for a mysterious phenomenon called [blindsight](https://en.wikipedia.org/wiki/Blindsight) - a condition where patients can react to visual stimuli without being consciously aware of them. 
 
 Publications:
 
@@ -60,9 +60,9 @@ Publications:
   - Yu _et al._ (2013) Visually evoked responses in extrastriate area MT after lesions of striate cortex in early life. _Journal of Neuroscience_ 33, 12479-12489. [[link]](https://www.jneurosci.org/content/33/30/12479.long)
       - [Commentary](https://f1000.com/prime/718046975) on F1000Prime.
 
-### 5. Evolution of the brain
+### 5. Evolution of primate brains
 ![icon](/about/evolution.jpg)
-My collaborator Tristan Chaplin and I used computational methods to compare the brains of primates, in order to answer the following question: do we have big brains because we are smarter? I wanted to publish the result under the title "Larger before Smarter", because the answer we found was negative. The implications of this finding were discussed in a book chapter I also co-authored with Tristan Chaplin.
+My collaborator Tristan Chaplin and I used computational methods to compare the brains of primates, in order to answer the following question: do we have big brains because we are smarter? I wanted to publish the result under the title "Larger before Smarter", because the answer we found was negative. The implications of this finding were discussed in a book chapter I co-authored with Tristan Chaplin.
 
 Publications:
 
