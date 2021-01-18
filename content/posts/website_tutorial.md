@@ -1,5 +1,5 @@
 ---
-title: "How is this website built - a tutorial"
+title: "How this website was built - a tutorial"
 date: 2020-12-17
 draft: false
 tags: ["tutorial", "hugo", "golang", "aws"]
