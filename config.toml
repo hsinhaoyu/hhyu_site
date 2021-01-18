@@ -21,7 +21,7 @@ paginate = 5
   contact = "mailto:hsinhaohh.yu@gmail.com"
   bio = "A Taiwanese scientist living in Melbourne"
   # Short subtitle/tagline. This is displayed in the header.
-  subtitle = "Neuroscience, vision, computation, and other interesting stuff"
+  subtitle = "Science, programming, books, and other interesting stuff"
   # Logo image. This is displayed ogp image.
   logo = "logo.png"
   favicon = "/path/to/favicon"

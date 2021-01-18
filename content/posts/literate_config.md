@@ -1,5 +1,5 @@
 ---
-title: "Literating the Emacs configuration file"
+title: "A simple example of literate programming: the Emacs configuration file"
 date: 2021-01-05T14:16:59+11:00
 draft: false
 tags: ["tutorial", "emacs", "literate programming", "orgmode", "lisp"]
