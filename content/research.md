@@ -95,7 +95,7 @@ Publication:
 
 ### 8. Inventions
 ![icon](/about/projection.png)
-I order to display visual patterns to a large proportion of the visual field, I designed and implemented a system to project images to a spherical surface, and used it extensively in my research. See this [method paper](http://jov.arvojournals.org/article.aspx?articleid=2193721).
+In order to display visual patterns to cover a large proportion of the visual field, I designed and implemented a spherical projection system, and used it extensively in my research. See this [method paper](http://jov.arvojournals.org/article.aspx?articleid=2193721).
 
 At IBM Research, I also filed two USA patents in 2020.
 
