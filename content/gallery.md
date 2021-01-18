@@ -48,7 +48,13 @@ Here are some examples of the images that I have created (or helped to create) f
 
 # Animations
 
-These animations were created mostly for teaching and for science education.
+{{< youtube a_sRHwAYo08 >}}
+
+This video illustrates the evolution of a self-organization model of maps in the visual cortex. See this [paper](https://advances.sciencemag.org/content/6/44/eaaz8673).
+
+{{< youtube uoZcTG_i2jQ >}}
+
+This movie illustrates the evolution of a self-organization model defined on a non-Euclidean surface. See this [post](/posts/elastic/).
 
 {{< youtube BTSUjf6xQKQ >}}
 
