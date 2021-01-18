@@ -4,7 +4,7 @@ date: 2018-03-14T12:30:31+11:00
 draft: false
 ---
 ### 1. AI applications in ophthalmology
-![icon](/about/cam.png) At the clinics, monitoring the progression of the development of glaucoma traditionally relies on visual field tests, which is unreliable and time consuming. In collaboration with clinical researchers at NYU, I investigated methods to infer visual field functions directly from scans of the retina, using 3D convolutional neural networks.
+![icon](/about/cam.png) At the clinics, monitoring the progression of glaucoma traditionally relies on visual field tests, which is unreliable and time consuming. In collaboration with clinical researchers at NYU, I investigated methods to infer visual field functions directly from scans of the retina, using 3D convolutional neural networks.
 
 Publication:
 - Yu et al. (in press) Estimating global visual field indices in glaucoma by combining macula and optic disc OCT scans using 3-dimensional convolutional neural networks _Ophthalmology Glaucoma_ [[link]](https://www.sciencedirect.com/science/article/pii/S2589419620301848)
