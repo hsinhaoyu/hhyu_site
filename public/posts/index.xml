@@ -8,7 +8,7 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 05 Jan 2021 14:16:59 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Literating the Emacs configuration file</title>
+      <title>A simple example of literate programming: literating the Emacs configuration file</title>
       <link>https://www.hhyu.org/posts/literate_config/</link>
       <pubDate>Tue, 05 Jan 2021 14:16:59 +1100</pubDate>
       
@@ -17,7 +17,7 @@
     </item>
     
     <item>
-      <title>How is this website built - a tutorial</title>
+      <title>How this website was built - a tutorial</title>
       <link>https://www.hhyu.org/posts/website_tutorial/</link>
       <pubDate>Thu, 17 Dec 2020 00:00:00 +0000</pubDate>
       

@@ -8,7 +8,7 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 05 Jan 2021 14:16:59 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/tags/orgmode/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Literating the Emacs configuration file</title>
+      <title>A simple example of literate programming: literating the Emacs configuration file</title>
       <link>https://www.hhyu.org/posts/literate_config/</link>
       <pubDate>Tue, 05 Jan 2021 14:16:59 +1100</pubDate>
       

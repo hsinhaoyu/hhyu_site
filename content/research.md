@@ -1,6 +1,6 @@
 ---
-title: "Research"
-date: 2018-03-14T12:30:31+11:00
+title: "My Research"
+date: 2021-01-18T12:30:31+11:00
 draft: false
 ---
 ### 1. AI applications in ophthalmology

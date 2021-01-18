@@ -8,6 +8,37 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 15 Jan 2021 10:01:53 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>CV &amp; publications</title>
+      <link>https://www.hhyu.org/publications/</link>
+      <pubDate>Mon, 18 Jan 2021 14:50:45 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/publications/</guid>
+      <description>For industry cv, see here. For academic cv, see here. For full list of publications, see Google Scholar For my peer reviews, see Publons  Recent presentations  2020: IBM Research Australia Seminar: Title: The traveling salesman in the brain: modeling the formation of topographical maps in the visual cortex using self-organization principles. 2019: New Advances in Biocomplexity Workshop (University of Sydney). Title: Artificial Intelligence and the eye: a window into health 2018: Monash University Machine Learning Symposium.</description>
+    </item>
+    
+    <item>
+      <title>My Research</title>
+      <link>https://www.hhyu.org/research/</link>
+      <pubDate>Mon, 18 Jan 2021 12:30:31 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/research/</guid>
+      <description>1. AI applications in ophthalmology At the clinics, monitoring the progression of glaucoma traditionally relies on visual field tests, which is unreliable and time consuming. In collaboration with clinical researchers at NYU, I investigated methods to infer visual field functions directly from scans of the retina, using 3D convolutional neural networks.
+Publication:
+ Yu et al. (in press) Estimating global visual field indices in glaucoma by combining macula and optic disc OCT scans using 3-dimensional convolutional neural networks Ophthalmology Glaucoma [link]  2.</description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>https://www.hhyu.org/about/</link>
+      <pubDate>Mon, 18 Jan 2021 09:45:28 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/about/</guid>
+      <description>I received my Ph.D. from the Department of Cognitive Science of University of California San Diego.For my undergraduate degree, I studied Applied Mathematics at the National Chiao Tung University in Hsin-Chu, Taiwan.
+I have had several different roles in science and research:
+As an industry researcher in medical AI: I use machine learning and statistical methods to build AI applications in ophthalmology. I also have experience in managing data sharing and collaboration with academic researchers.</description>
+    </item>
+    
+    <item>
       <title></title>
       <link>https://www.hhyu.org/micro/frame_cut_frame/</link>
       <pubDate>Fri, 15 Jan 2021 10:01:53 +1100</pubDate>
@@ -55,7 +86,7 @@ The CD was just one of those random things that I had.</description>
     </item>
     
     <item>
-      <title>Literating the Emacs configuration file</title>
+      <title>A simple example of literate programming: literating the Emacs configuration file</title>
       <link>https://www.hhyu.org/posts/literate_config/</link>
       <pubDate>Tue, 05 Jan 2021 14:16:59 +1100</pubDate>
       
@@ -108,15 +139,12 @@ The CD was just one of those random things that I had.</description>
       <pubDate>Thu, 17 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.hhyu.org/about_site/</guid>
-      <description>I wrote an in-depth description about how this site is built.
-  The site is made with the Hugo static website generator, using a customized theme derived from the Pickles theme.
-  It has a micropub endpoint.
-  It receives micromention.
-  </description>
+      <description>I started this site in 2018 to collect all my content in one place.
+ The site is made with the Hugo static website generator, using a customized theme derived from the Pickles theme. I am working on supporting IndieWeb - an alternative approach to social networking based on open protocols. As of January 2021, this site supports IndieAuth authentication and service discovery. Content can be updated from micropub clients via a serverless application.</description>
     </item>
     
     <item>
-      <title>How is this website built - a tutorial</title>
+      <title>How this website was built - a tutorial</title>
       <link>https://www.hhyu.org/posts/website_tutorial/</link>
       <pubDate>Thu, 17 Dec 2020 00:00:00 +0000</pubDate>
       
@@ -404,6 +432,15 @@ But it got me thinking, clock hands don&amp;rsquo;t have to rotate around the ce
     </item>
     
     <item>
+      <title>Hsin-Hao&#39;s UCSD CogSci office door photo archive</title>
+      <link>https://www.hhyu.org/ucsd_cogsc_archive/</link>
+      <pubDate>Sat, 18 Jan 2020 09:45:28 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/ucsd_cogsc_archive/</guid>
+      <description>                                         </description>
+    </item>
+    
+    <item>
       <title>Who did the first computer simulation of a biological neuron?</title>
       <link>https://www.hhyu.org/posts/hodgkinhuxley/</link>
       <pubDate>Wed, 18 Sep 2019 20:42:52 +1000</pubDate>
@@ -469,49 +506,13 @@ From 2014-2017, I wrote a series of articles for the Chinese speaking communitie
     </item>
     
     <item>
-      <title>Research</title>
-      <link>https://www.hhyu.org/research/</link>
-      <pubDate>Wed, 14 Mar 2018 12:30:31 +1100</pubDate>
-      
-      <guid>https://www.hhyu.org/research/</guid>
-      <description>Computational neuroscience The formation of retinotopic maps in the visual cortex
-In early visual cortex, adjacent retinotopic maps tend to be mirror images of each other, but does this organization extend to higher-order areas? In order to understand the general principles of the organization of adjacent maps, I used computational models to study how the development of a retinotopic map could be influenced by its neighbors. The result suggests a novel arrangement can emerge, which can explain the unconventional retinotopy of the dorsal visual cortex.</description>
-    </item>
-    
-    <item>
-      <title>CV &amp; publications</title>
-      <link>https://www.hhyu.org/publications/</link>
-      <pubDate>Tue, 06 Mar 2018 14:50:45 +1100</pubDate>
-      
-      <guid>https://www.hhyu.org/publications/</guid>
-      <description>For full cv, see here.
-For full list of publications, see Google Scholar and Publons
-Awards  2019: Amanda Caples Award for Outstanding Alumnus, Centre of Excellence for Integrated Brain Function 2013: Australian Research Council Discovery Early Career Researcher Award (DECRA) 2013: Best Postdoctoral Oral Presentation Award, Bosch Institute Annual Scientific Meeting 2013 2010: School of Biomedical Sciences Travel Grant  Recent presentations  2020: IBM Research Australia Seminar: Title: The traveling salesman in the brain: modeling the formation of topographical maps in the visual cortex using self-organization principles.</description>
-    </item>
-    
-    <item>
       <title>Visualization Gallery</title>
       <link>https://www.hhyu.org/gallery/</link>
       <pubDate>Sun, 04 Mar 2018 13:09:16 +1100</pubDate>
       
       <guid>https://www.hhyu.org/gallery/</guid>
-      <description>Here are some examples of the images that I have created (or helped to create) in research and in teaching. Click on the images for brief explanations.
-                                Areas in the medial surface of the posterior brain
-      Representation of the visual field</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://www.hhyu.org/about/</link>
-      <pubDate>Sun, 04 Mar 2018 09:45:28 +1100</pubDate>
-      
-      <guid>https://www.hhyu.org/about/</guid>
-      <description>The painting in the background is 4 doubles frames, traits minces by François Morellet (Centre Pompidou, Paris).
-   I have had several different roles:
-  As an industry researcher in AI:
-  As an academic researcher in neuroscience:
-  As a science communicator:
-  I&amp;rsquo;m a research scientist working in the tech industry. My current research is focused on artificial intelligence and biomedical image analysis.</description>
+      <description>Here are some examples of the images that I have created (or helped to create) for research and teaching. Many of them were programmed in Mathematica. Click on the images for brief explanations.
+                                Areas in the medial surface of the posterior brain</description>
     </item>
     
     <item>

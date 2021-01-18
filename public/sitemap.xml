@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.hhyu.org/publications/</loc>
+    <lastmod>2021-01-18T14:50:45+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/research/</loc>
+    <lastmod>2021-01-18T12:30:31+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/about/</loc>
+    <lastmod>2021-01-18T09:45:28+11:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.hhyu.org/micro/frame_cut_frame/</loc>
     <lastmod>2021-01-15T10:01:53+11:00</lastmod>
   </url>
@@ -78,17 +93,17 @@
   </url>
   
   <url>
+    <loc>https://www.hhyu.org/posts/literate_config/</loc>
+    <lastmod>2021-01-05T14:16:59+11:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.hhyu.org/tags/lisp/</loc>
     <lastmod>2021-01-05T14:16:59+11:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.hhyu.org/tags/literate-programming/</loc>
-    <lastmod>2021-01-05T14:16:59+11:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/posts/literate_config/</loc>
     <lastmod>2021-01-05T14:16:59+11:00</lastmod>
   </url>
   
@@ -159,6 +174,11 @@
   
   <url>
     <loc>https://www.hhyu.org/tags/hugo/</loc>
+    <lastmod>2020-12-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/indieweb/</loc>
     <lastmod>2020-12-17T00:00:00+00:00</lastmod>
   </url>
   
@@ -418,6 +438,11 @@
   </url>
   
   <url>
+    <loc>https://www.hhyu.org/ucsd_cogsc_archive/</loc>
+    <lastmod>2020-01-18T09:45:28+11:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.hhyu.org/posts/hodgkinhuxley/</loc>
     <lastmod>2019-09-18T20:42:52+10:00</lastmod>
   </url>
@@ -483,23 +508,8 @@
   </url>
   
   <url>
-    <loc>https://www.hhyu.org/research/</loc>
-    <lastmod>2018-03-14T12:30:31+11:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/publications/</loc>
-    <lastmod>2018-03-06T14:50:45+11:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.hhyu.org/gallery/</loc>
     <lastmod>2018-03-04T13:09:16+11:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/about/</loc>
-    <lastmod>2018-03-04T09:45:28+11:00</lastmod>
   </url>
   
   <url>

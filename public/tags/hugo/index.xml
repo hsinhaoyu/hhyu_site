@@ -13,15 +13,12 @@
       <pubDate>Thu, 17 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.hhyu.org/about_site/</guid>
-      <description>I wrote an in-depth description about how this site is built.
-  The site is made with the Hugo static website generator, using a customized theme derived from the Pickles theme.
-  It has a micropub endpoint.
-  It receives micromention.
-  </description>
+      <description>I started this site in 2018 to collect all my content in one place.
+ The site is made with the Hugo static website generator, using a customized theme derived from the Pickles theme. I am working on supporting IndieWeb - an alternative approach to social networking based on open protocols. As of January 2021, this site supports IndieAuth authentication and service discovery. Content can be updated from micropub clients via a serverless application.</description>
     </item>
     
     <item>
-      <title>How is this website built - a tutorial</title>
+      <title>How this website was built - a tutorial</title>
       <link>https://www.hhyu.org/posts/website_tutorial/</link>
       <pubDate>Thu, 17 Dec 2020 00:00:00 +0000</pubDate>
       

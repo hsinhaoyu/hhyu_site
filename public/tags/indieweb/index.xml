@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Indieweb on Cortically Magnified</title>
+    <title>indieweb on Cortically Magnified</title>
     <link>https://www.hhyu.org/tags/indieweb/</link>
-    <description>Recent content in Indieweb on Cortically Magnified</description>
+    <description>Recent content in indieweb on Cortically Magnified</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Jan 2021 09:57:00 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/tags/indieweb/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.hhyu.org/tags/indieweb/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
-      <link>https://www.hhyu.org/micro/test_quill-mrryhluzfztywu0/</link>
-      <pubDate>Tue, 05 Jan 2021 09:57:00 +1100</pubDate>
+      <title>About this site</title>
+      <link>https://www.hhyu.org/about_site/</link>
+      <pubDate>Thu, 17 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://www.hhyu.org/micro/test_quill-mrryhluzfztywu0/</guid>
-      <description>Testing testing. Posting from Quill.</description>
+      <guid>https://www.hhyu.org/about_site/</guid>
+      <description>I started this site in 2018 to collect all my content in one place.
+ The site is made with the Hugo static website generator, using a customized theme derived from the Pickles theme. I am working on supporting IndieWeb - an alternative approach to social networking based on open protocols. As of January 2021, this site supports IndieAuth authentication and service discovery. Content can be updated from micropub clients via a serverless application.</description>
     </item>
     
   </channel>
