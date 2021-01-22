@@ -41,7 +41,7 @@ draft: false
 - **Yu H-H**, Chaplin TA, Davies AJ, Verma R, Rosa MGP (2012) A specialized area in limbic cortex for fast analysis of peripheral vision. _Current Biology_ 22, 1351-1357. [[link]](https://www.sciencedirect.com/science/article/pii/S0960982212005829)
 - Burman K, Reser R, **Yu H-H**, Rosa MGP (2011) Cortical input to the frontal pole of the marmoset monkey. _Cerebral Cortex_ 21, 1712-1737. [[link]](https://academic.oup.com/cercor/article/21/8/1712/265939)
 - **Yu H-H**, Rosa MGP (2010) A simple method for creating wide-field visual stimulus for electrophysiology: mapping and analyzing receptive fields using hemispheric display. _Journal of Vision_ 10, 15. [[link]](http://jov.arvojournals.org/article.aspx?articleid=2193721)
-- **Yu H-H**, Verma R, Yang Y, Tibballs HA, Lui LL, Reser DH, Rosa MGP (2010) Spatial and temporal frequency in striate cortex: functional uniformity and specializations related to receptive field eccentricity. _European Journal of Neuroscience_ 31, 1043-1062. [[link]](http://jov.arvojournals.org/article.aspx?articleid=2193721)
+- **Yu H-H**, Verma R, Yang Y, Tibballs HA, Lui LL, Reser DH, Rosa MGP (2010) Spatial and temporal frequency in striate cortex: functional uniformity and specializations related to receptive field eccentricity. _European Journal of Neuroscience_ 31, 1043-1062. [[link]](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1460-9568.2010.07118.x)
 - Rosa MGP, Palmer SM, Gamerini M, Burman KJ, **Yu H-H**, Reser DH, Bourne J, Tweedale R, Galletti C (2009) Connections of the dorsomedial visual area: pathways for early integration of dorsal and ventral streams in extrastriate cortex. _Journal of Neuroscience_ 29, 4548-4563. [[link]](http://www.jneurosci.org/content/29/14/4548.long)
 
 ### Inventions
