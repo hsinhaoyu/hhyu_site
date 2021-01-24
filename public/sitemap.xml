@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.hhyu.org/stats/</loc>
+    <lastmod>2021-01-20T13:09:16+11:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.hhyu.org/publications/</loc>
     <lastmod>2021-01-18T14:50:45+11:00</lastmod>
   </url>
@@ -14,6 +19,11 @@
   
   <url>
     <loc>https://www.hhyu.org/about/</loc>
+    <lastmod>2021-01-18T09:45:28+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/portfolio/</loc>
     <lastmod>2021-01-18T09:45:28+11:00</lastmod>
   </url>
   
