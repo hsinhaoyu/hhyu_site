@@ -43,9 +43,15 @@ paginate = 5
 
 [[menu.main]]
     parent     = "About"
+    name       = "Portfolio"
+    url        = "/portfolio"
+    weight     = 2
+
+[[menu.main]]
+    parent     = "About"
     name       = "This site"
     url        = "/about_site"
-    weight     = 2
+    weight     = 3
 
 [[menu.main]]
     identifier = "Science"

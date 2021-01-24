@@ -8,16 +8,6 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 15 Jan 2021 10:01:53 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>An application of Bayesian analysis in visual neuroscience</title>
-      <link>https://www.hhyu.org/stats/</link>
-      <pubDate>Wed, 20 Jan 2021 13:09:16 +1100</pubDate>
-      
-      <guid>https://www.hhyu.org/stats/</guid>
-      <description>In studies of natural phenomena, if two measured quantities are observed to be in a certain relationship, very often we want to know if this relationship is affected by a certain manipulation. This is a basic form of statistical inferencing that has found many applications in scientific and clinical research.
-In a recent paper published in The Journal of Neuroscience (Hadjidimitrakis et al., 2019), I was asked to perform this type of analysis for a dataset collected in the visual cortex.</description>
-    </item>
-    
-    <item>
       <title>CV &amp; publications</title>
       <link>https://www.hhyu.org/publications/</link>
       <pubDate>Mon, 18 Jan 2021 14:50:45 +1100</pubDate>
@@ -54,9 +44,7 @@ As an industry researcher in medical AI: I use machine learning and statistical 
       <pubDate>Mon, 18 Jan 2021 09:45:28 +1100</pubDate>
       
       <guid>https://www.hhyu.org/portfolio/</guid>
-      <description>I have had several different roles in science and research:
-As an industry researcher in medical AI: I use machine learning and statistical methods to build AI applications in ophthalmology. I also have experience in managing data sharing and collaboration with academic researchers.
-As an academic researcher in neuroscience: Prior to September 2018, I was a neuroscientist working at the Department of Physiology, Monash University (Melbourne). My area of expertise was in the architecture of the primate visual cortex.</description>
+      <description>As an industry researcher in AI:  I use machine learning and statistical methods to build AI applications in ophthalmology. I have also filed two patents in medical AI. This paper, published in the clinical journal Ophthalmology Glaucoma, uses deep convolutional neural networks to assess the visual functions of glaucoma patients based on OCT scans of the retina. This paper, published in the high impact journal Science Advances, uses unsupervised machine learning algorithms (implemented in Tensorflow) to solve a problem in neuroscience.</description>
     </item>
     
     <item>
