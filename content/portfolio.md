@@ -12,7 +12,7 @@ draft: false
 ### As a **data scientist**:
 - I have 10 years of experience curating and analyzing physiological and clinical data. Also experienced in the negotiation and sharing/licensing of clinical data.
 - This [Jupyter notebook](https://github.com/hsinhaoyu/bayesian-rf/blob/main/bayesian_rf_analysis.ipynb) is a sample work in data analysis using classical and Bayesian statistics.
-- This [gallery](http://localhost:1313/gallery/) is a portfolio of my data visualization work.
+- This [gallery](https://hhyu.org/gallery/) is a portfolio of my data visualization work.
 - Examples of techniques used in published work:
     - Mixed effect linear models: [Yu et al. (2021)](https://www.sciencedirect.com/science/article/pii/S2589419620301848)
 	- Nonlinear model fitting, Bayesian model selection: [Yu et al. (2010)](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1460-9568.2010.07118.x)
