@@ -7,11 +7,14 @@ draft: false
 ### As an **industry researcher** in AI: 
 - I use machine learning and statistical methods to build AI applications in ophthalmology. I have also filed two patents in medical AI.
 - This [paper](https://www.sciencedirect.com/science/article/pii/S2589419620301848), published in the clinical journal _Ophthalmology Glaucoma_, uses deep convolutional neural networks to assess the visual functions of glaucoma patients based on OCT scans of the retina.
+  - The souce code, written in Python and Keras,  Will be released as an open source package by IBM Research.
 - This [paper](https://advances.sciencemag.org/content/6/44/eaaz8673), published in the high impact journal _Science Advances_, uses unsupervised machine learning algorithms (implemented in Tensorflow) to solve a problem in neuroscience.
+  - [This](https://github.com/hsinhaoyu/DM_Retinotopy/) is an implementation of the algorithm (written in python and tensorflow).
+  - [This](https://github.com/hsinhaoyu/spherical_elastic_net) is an extension of the algorithm for spherical coordinates.
 
 ### As a **data scientist**:
 - I have 10 years of experience curating and analyzing physiological and clinical data. Also experienced in the negotiation and sharing/licensing of clinical data.
-- This [Jupyter notebook](https://github.com/hsinhaoyu/bayesian-rf/blob/main/bayesian_rf_analysis.ipynb) is a sample work in data analysis using classical and Bayesian statistics.
+- [This](https://github.com/hsinhaoyu/bayesian-rf) is a sample project that uses classical and Bayesian methods to analyze a dataset in visual neuroscience. The code (presented as a Jupyter notebook) is written in R and the Bayesian package JAGS.
 - This [gallery](https://hhyu.org/gallery/) is a portfolio of my data visualization work.
 - Examples of techniques used in published work:
     - Mixed effect linear models: [Yu et al. (2021)](https://www.sciencedirect.com/science/article/pii/S2589419620301848)
