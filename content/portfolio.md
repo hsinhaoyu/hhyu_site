@@ -16,6 +16,7 @@ draft: false
 - I have 10 years of experience curating and analyzing physiological and clinical data. Also experienced in the negotiation and sharing/licensing of clinical data.
 - [This](https://github.com/hsinhaoyu/bayesian-rf) is a sample project that uses classical and Bayesian methods to analyze a dataset in visual neuroscience. The code (presented as a Jupyter notebook) is written in R and the Bayesian package JAGS.
 - This [gallery](https://hhyu.org/gallery/) is a portfolio of my data visualization work.
+- [Topy](https://github.com/hsinhaoyu/topy) is a package I developed for analyzing and visualizing data collected on spherical surfaces. It's a type of type common in visual neuroscience. `Topy` has been used to generate beautiful figures in several publications.
 - Examples of techniques used in published work:
     - Mixed effect linear models: [Yu et al. (2021)](https://www.sciencedirect.com/science/article/pii/S2589419620301848)
 	- Nonlinear model fitting, Bayesian model selection: [Yu et al. (2010)](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1460-9568.2010.07118.x)
