@@ -44,7 +44,7 @@ As an industry researcher in medical AI: I use machine learning and statistical 
       <pubDate>Mon, 18 Jan 2021 09:45:28 +1100</pubDate>
       
       <guid>https://www.hhyu.org/portfolio/</guid>
-      <description>As an industry researcher in AI:  I use machine learning and statistical methods to build AI applications in ophthalmology. I have also filed two patents in medical AI. This paper, published in the clinical journal Ophthalmology Glaucoma, uses deep convolutional neural networks to assess the visual functions of glaucoma patients based on OCT scans of the retina. This paper, published in the high impact journal Science Advances, uses unsupervised machine learning algorithms (implemented in Tensorflow) to solve a problem in neuroscience.</description>
+      <description>As an industry researcher in AI:  I use machine learning and statistical methods to build AI applications in ophthalmology. I have also filed two patents in medical AI. This paper, published in the clinical journal Ophthalmology Glaucoma, uses deep convolutional neural networks to assess the visual functions of glaucoma patients based on OCT scans of the retina.  The souce code, written in Python and Keras, Will be released as an open source package by IBM Research.</description>
     </item>
     
     <item>

@@ -3,10 +3,16 @@ title: "Visualization Gallery"
 date: 2018-03-04T13:09:16+11:00
 draft: false
 ---
-Here are some examples of the images that I have created (or helped to create) for research and teaching. Many of them were programmed in _Mathematica_. Click on the images for brief explanations.
+One the things that I enjoy the most in science is to communicate the findings in beautiful figures. I believe scientific figures should be effective (i.e., leave an impression) and efficient (i.e., highlight the main story). Here are some examples of the images that I have created (or helped to create) for research and teaching. Click on the images for brief explanations.
 
 {{< load-photoswipe >}}
 {{<gallery>}}
+
+  {{<figure link="/gallery/lgn_rf.png" caption="A 'receptive field' map" alt="This image communicates 3 pieces of information about data collected in the visual cortex: the shape of the receptive field (shaded in blue), the fine details about the neuronal responses (individual histograms), and result of a model fitted to the data (the oval-shaped contour). Published in Yu et al. (2013) The Journal of Neuroscience 33, 12479-12489." >}}
+
+  {{<figure link="/gallery/folding2.png" caption="The unfolding of the elastic net" alt="This image illustrates the dynamics of a computational model to explain the formation of maps in the visual cortex. Published in Yu et al. (2020) Science Advances 6, EAAZ8673 " >}}
+
+  {{<figure link="/gallery/annalemma.jpg" caption="The trajectory of the sun in the sky." alt="I simulated the movement of the sun in the sky, to communicate a unique sundial installed on the campus of Monash University. (c) Hsin-Hao Yu " >}}
 
   {{<figure link="/gallery/prostriata.jpg" caption="Areas in the medial surface of the posterior brain" alt="An illustrations of the anatomical subdivisions of the medial surface of the primate brain. 3D models of the cortical areas were traced from histological images and rendered in ParaView (In Yu et al., 2012, Current Biology 22: 1351-1357)">}}
 

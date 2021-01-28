@@ -32,3 +32,6 @@ draft: false
 ### As a **science communicator**:
 - I have published a series of [popular science articles](https://www.thenewslens.com/author/hhyu00) about neuroscience, vision, and history of science for the Chinese-speaking community.
 - I also write an English blog in my own site. An [article](https://medium.com/cortically-magnified/estimating-the-number-of-photons-that-hit-the-eye-c0208e7e0b64) that I posted on Medium in 2016  has accumulated more than 10,000 views.
+
+### Others:
+- [This](https://github.com/hsinhaoyu/hugo_theme_pickles/tree/a70c081055d0a2f57d6ae6679139b76b046c8cae) is a customized theme (derived from the [Pickles](https://github.com/mismith0227/hugo_theme_pickles) theme) for the Hugo static website generator. This version supports a "micro blog" format. It also supports various IndieWeb protocols. See [this post](https://www.hhyu.org/posts/website_tutorial/) for details.
