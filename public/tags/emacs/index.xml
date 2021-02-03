@@ -17,12 +17,12 @@
     </item>
     
     <item>
-      <title>A simple example of literate programming: literating the Emacs configuration file</title>
+      <title>Writing the Emacs configuration script in org-mode: a simple example of literate programming</title>
       <link>https://www.hhyu.org/posts/literate_config/</link>
       <pubDate>Tue, 05 Jan 2021 14:16:59 +1100</pubDate>
       
       <guid>https://www.hhyu.org/posts/literate_config/</guid>
-      <description>I like Donald Knuth&amp;rsquo;s idea of literate programming, but unfortunately, I don&amp;rsquo;t have too many opportunities to write literate programs. A couple of months ago, I was inspired by this article, and decided to rewrite my Emacs configuration file using org-mode&amp;rsquo;s literate programming tool Babel. I was quite pleased by the result, but I must admit that it was an exercise in literate programming only in the most superficial sense of the word.</description>
+      <description>Program like writers do Programming is traditionally seen as an exercise that translates human thoughts into a format that computers can understand. As a result, the ideas behind the program can become obscured and fragmented in the source code. This is why reading code requires so much mental effort. For me, reading code often feels like solving a puzzle, or reading modernist/postmodernist novels where events are narrated out of sequence. The concept of literate programming was introduced by Donald Knuth in the 80&amp;rsquo;s to address this issue.</description>
     </item>
     
     <item>
