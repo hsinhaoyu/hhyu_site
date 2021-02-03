@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R on Cortically Magnified</title>
+    <link>https://www.hhyu.org/tags/r/</link>
+    <description>Recent content in R on Cortically Magnified</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 03 Feb 2021 22:41:15 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://www.hhyu.org/micro/grammar_of_tree-wvvmunibcjh1tn/</link>
+      <pubDate>Wed, 03 Feb 2021 22:41:15 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/micro/grammar_of_tree-wvvmunibcjh1tn/</guid>
+      <description>In the 70&amp;rsquo;s, it was fashionable for intellectuals to abuse the term &amp;ldquo;grammar&amp;rdquo; to refer to any underlying principles. In one of his essays, Italo Calvino used the term &amp;ldquo;the grammar of tree&amp;rdquo; to refer to&amp;hellip;. essentially developmental plant biology. I thought that was pretentious. But heh, in R programming, people are talking about the grammar of graphics or data manipulations. It&amp;rsquo;s fashionable to call functions &amp;ldquo;verbs&amp;rdquo; again. Hello, structuralism!</description>
+    </item>
+    
+  </channel>
+</rss>
