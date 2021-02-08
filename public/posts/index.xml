@@ -6,7 +6,16 @@
     <description>Recent content in Posts on Cortically Magnified</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Jan 2021 14:16:59 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Feb 2021 20:20:25 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Use your data science skills to debunk a myth about koalas!</title>
+      <link>https://www.hhyu.org/posts/koala/</link>
+      <pubDate>Fri, 05 Feb 2021 20:20:25 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/koala/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Writing the Emacs configuration script in org-mode: a simple example of literate programming</title>
       <link>https://www.hhyu.org/posts/literate_config/</link>
