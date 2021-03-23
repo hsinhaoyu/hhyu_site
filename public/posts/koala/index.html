@@ -4,9 +4,9 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
   
-  <title>Use your data science skills to debunk a myth about koalas!</title>
-  <meta property="og:title" content="Use your data science skills to debunk a myth about koalas!" />
-  <meta name="twitter:title" content="Use your data science skills to debunk a myth about koalas!" />
+  <title>Use basic data science skills to debunk a myth about koalas!</title>
+  <meta property="og:title" content="Use basic data science skills to debunk a myth about koalas!" />
+  <meta name="twitter:title" content="Use basic data science skills to debunk a myth about koalas!" />
   
 
   
@@ -73,7 +73,7 @@
 
 <article class="p-article h-entry">
   <header>
-    <h1 class="p-name">Use your data science skills to debunk a myth about koalas!</h1>
+    <h1 class="p-name">Use basic data science skills to debunk a myth about koalas!</h1>
     <div>
       
         <div class="c-time">
@@ -91,11 +91,83 @@
       
       <a href="https://www.hhyu.org/tags/r" class="c-tag">R</a>
       
+      <a href="https://www.hhyu.org/tags/general-science" class="c-tag">general science</a>
+      
+      <a href="https://www.hhyu.org/tags/australiana" class="c-tag">Australiana</a>
+      
     </div>
   </header>
   
   <section id="js-article" class="p-article__body e-content">
     
+<link rel="stylesheet" href="/css/hugo-easy-gallery.css" />
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="/blog/koala/collegehumor-koala.png" />
+    </div>
+    <a href="/blog/koala/collegehumor-koala.png" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+<p>Did you know that the koala is the dumbest animal in the world? According to an <a href="https://imgur.com/gallery/9GAes">Internet meme</a>, koalas have <em>really</em> tiny brains because the eucalyptus leaves that they eat are toxic and poor in nutrition. That seems plausible to me, but you shouldn&rsquo;t believe in Internet memes. Let&rsquo;s turn to the most authoritative source of knowledge in the world, the Wikipedia, instead. This is what the <a href="https://en.wikipedia.org/wiki/Koala">Wikipedia</a> has to say about koala&rsquo;s brain:</p>
+<blockquote>
+<p>The koala has one of the smallest brains in proportion to body weight of any mammal,[40] being 60% smaller than that of a typical diprotodont, weighing only 19.2 g (0.68 oz) on average.[41] The brain&rsquo;s surface is fairly smooth, typical for a &ldquo;primitive&rdquo; animal.[42] It occupies only 61% of the cranial cavity[40] and is pressed against the inside surface by cerebrospinal fluid.</p>
+</blockquote>
+<p>Inside a koala&rsquo;s head, 40% is water! Poor koalas! That sounds really bad. I wanted to see what this <a href="https://www.researchgate.net/figure/Homer-Simpsons-brain-seen-with-MRI-X-ray-Image-reproduced-on-many-Internet-sites_fig2_277820221">Homer Simpson brain</a> looks like, so I did a little search. According to measurements made in a couple of studies (<a href="https://www.researchgate.net/publication/233726395_1998_koala_brain">here</a> and <a href="https://www.researchgate.net/publication/228885254_MR_imaging_of_brain_morphology_vascularisation_and_encephalization_in_the_koala">here</a>), the koala&rsquo;s brain takes up ~75% of the cranial cavity, which is about the same as other mammals. Hmm&hellip; looks like Wikipedia isn&rsquo;t well-informed about koalas after all.</p>
+<h3 id="dont-trust-me-you-can-fact-check-the-wikipedia-yourself">Don&rsquo;t trust me! You can fact-check the Wikipedia yourself!</h3>
+<p>In this blog post, my goal is to explain why this Wikipedia paragraph is highly misleading. In fact, I want to do more than that. I want to demonstrate that <em>you</em> can figure it out yourself. It was not too many years ago when only university researchers could have access to the resource needed to <em>mess around</em> with brain data. But with the rise of data science, almost any curious person with basic knowledge in programming and statistics can try to answer questions about this world, and even get some answers, on a Friday night with nothing else to do.</p>
+<p>So I am showing you my programming &ldquo;notebook&rdquo;. In this <a href="https://github.com/hsinhaoyu/koala_brain_analysis">notebook</a> (produced with a popular software called <a href="https://jupyter.org">Jupyter</a>), you can see me load a brain size dataset, ask myself questions about koalas, and answer them with short programs (written in the <a href="https://www.r-project.org">R programming language</a>). Some plots are interactive so you can check out the brain size of your favorite animals. The point is that everything I say in this post come from these rather simple notebooks. I encourage you to take a look, check my work if you know some data science, and maybe use them as the basis for answering your own questions&hellip; perhaps about <a href="https://en.wikipedia.org/wiki/Quokka">quokkas</a> or <a href="https://en.wikipedia.org/wiki/Greater_bilby">bilbies</a>.</p>
+<p>The data that I will analyze came from a <a href="https://datadryad.org/stash/dataset/doi:10.5061/dryad.2r62k7s">dataset</a> released in 2019 under the <a href="https://creativecommons.org/share-your-work/public-domain/cc0">Creative Common CC0 License</a>. It&rsquo;s a dataset with measurements for more than 1500 species of mammals, compiled from a large number of scientific publications. My personal gratitude for these wonderful people:</p>
+<blockquote>
+<p>Burger, Joseph Robert; George, Menshian Ashaki; Leadbetter, Claire; Shaikh, Farhin (2019), Data from: The allometry of brain size in mammals, Dryad, Dataset</p>
+</blockquote>
+<p>Unfortunately most people can&rsquo;t identify animals based on the scientific names given in this dataset. What&rsquo;s <em>Setonix brachyurus</em>? I didn&rsquo;t know it&rsquo;s the quokka either. To make it easier, I wrote a simple program to translate the scientific names into common names, using the <a href="https://www.gbif.org/developer/species">Species API</a> of the <a href="https://www.gbif.org">Global Biodiversity Information Facility</a>. This expanded dataset with common names, along with my notebooks, are all available on GitHub. GitHub is an online service that makes it easy for people to work on programming projects together. You can make yourself a copy of my project (it&rsquo;s an action called &ldquo;forking&rdquo;), and use it for your own purpose.</p>
+<h3 id="how-small-is-small">How small is small?</h3>
+<p>Ok, that&rsquo;s enough about data. Let&rsquo;s do some science. Spoilers: I&rsquo;m not going to tell you that koalas are pretty smart. They are definitely not that. But when quantified in the right context, their brain is not freakishly small either.</p>
+<p>First of all, the statement &ldquo;the koala has one of the smallest brains in proportion to body weight of any mammal&rdquo; is factually correct. Out of the 1546 mammals in the dataset, the brain/body size ratio of the koala ranks 1357. It is pretty low on the list. However, if this ranking means anything, you&rsquo;d think that human is on the top. But a quick check showed that it&rsquo;s not the first, not the 10th, and not even the 100th. Human actually ranks 513th! What animals have the highest ratios? They are all tiny rodents and bats. The mammal with the highest ratio is the <a href="https://en.wikipedia.org/wiki/African_pygmy_mouse">pygmy mouse</a>, which weights merely 8g. If you click on the animal&rsquo;s Wikipedia page and take a look at the picture, you&rsquo;ll see that it&rsquo;s not the smartest animal in the world (but it&rsquo;s pretty cute).</p>
+<p>This might seem a little strange. Intuitively, if a larger proportion of an animal&rsquo;s body weight is in the brain, that&rsquo;s an animal with a more impressive brain. What&rsquo;s wrong with that? If size of the brain is determined primarily by cognitive functions, then yes, a larger ratio implies a more clever animal. However, if the size of the brain is heavily influenced by another factor that has nothing to do with cognition (such as the size of the body), we will have to model this relationship carefully, to make sure that when we compare brains, we are not indirectly comparing that factor. The main point is that although you see brain size/body size ratio a lot in popular media, scientists don&rsquo;t use it to compare brains. Not at all. The first sentence in Wikipedia&rsquo;s paragraph about the koala brain is irrelevant. &ldquo;The koala has one of the smallest brains in proportion to body weight of any mammal&rdquo; doesn&rsquo;t tell us anything about its intelligence.</p>
+<p>The reason why this point seems so hard to <em>grok</em> is because we associate brain with intelligence so much that it&rsquo;s hard to believe that the brain size of a species is to a very large extent determined by something simple - as simple as the bodyweight. With this dataset, you can see it yourself (if you use my notebook, you can plot it yourself):</p>
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="/blog/koala/fig1.png" />
+    </div>
+    <a href="/blog/koala/fig1.png" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+<p>The figure above on the left is remarkable. The variation in the size of mammals' brain is huge. The largest mammal brain (that of the sperm whale) is 100,000x the weight of the smallest (that of the pygmy mouse). You might think that it is a reflection of the ecological niche, lifestyle, and intelligence of the individual animals. But this figure shows that there is not a lot of room for those factors, because as high as 96% of the variation is explained by bodyweight. The biological basis of this relationship has not been fully answered by scientists, but it&rsquo;s generally thought to be related to scaling of metabolic rates with body size.</p>
+<p>Something about this figure confuses many people. Because the trend is depicted as a straight solid line, it&rsquo;s easy to get the impression that the mean ratio between brain size and body size is a constant, which implies that there is a single number that can be used as a threshold to decide if an animal&rsquo;s brain is big or not. That is the basis of many &ldquo;koala is dumb&rdquo; posts on the Internet. However, take note that the figure is plotted in log-log scale, which is necessary for plotting data with very wide distributions. Unlike the linear scale that we are more familiar with in our everyday life, two consecutive ticks on the x- and the y- axis represent a common ratio rather than a common interval. In reality, the relationship between x and y is a nonlinear power function. In the notebook, I transformed the straight line into the linear scale, and then calculated the brain size/body size ratio. The result shows that the averaged ratio declines rapidly with body size. This reinforces the point that you can&rsquo;t use this ratio to compare brains, unless the two animals you are comparing have similar body size.</p>
+<p>In the figure above on the right, I arbitrarily picked a handful of points corresponding to some familiar animals. The blue band illustrates a range that covers 95% of points in the dataset. You can see that human and dolphin are outliers - which is in better agreement with our notion of &ldquo;big brained&rdquo; animals (see the notebook for more details). The koala lies below the solid line, meaning that the size of its brain is below the average value for a mammal of its size. So, it&rsquo;s not wrong to say that the koala has a small brain, but it&rsquo;s not freakishly small. For comparison, the magnitude of deviation from the mean value is not that different that of the rat (<em>Rattus rattus</em>), which I don&rsquo;t think is considered a particularly dumb animal. Rats don&rsquo;t sleep all day, don&rsquo;t eat toxic leaves, and they live in complex societies. But their brains are not that much bigger the koala brain.</p>
+<h3 id="comparing-the-koala-to-other-marsupials">Comparing the koala to other marsupials</h3>
+<p>To recap: because the size of the brain is to a very large extent determined by the size of the body, we first establish the relationship between body size and the expected brain size, and calculate the deviation from the expected value. In statistics, the deviation is called the &ldquo;residual&rdquo;. It represents the size of the brain not accounted for by body size, which might be related to additional factors such as intelligence. In the notebook, I looked up animals that had residuals similar to that of koala, and found out that many of them are marsupials. The left panel of the figure below shows that many data points belonging to a major order of marsupials (<a href="https://en.wikipedia.org/wiki/Diprotodontia">Diprotodontia</a>) fall below the expected brain size for mammals. The implication is that it&rsquo;s not that the koala has a small brain. Rather, it&rsquo;s the marsupials in general have smaller brains, compared to other mammals.</p>
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="/blog/koala/fig2.png" />
+    </div>
+    <a href="/blog/koala/fig2.png" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+<p>As before, we built a statistical model for just the marsupials (the red band in the right panel above). You can see that the size of the koala brain is close to the expected value for marsupials. There is no evidence that it is exceptionally small. Wikipedia&rsquo;s statement that the koala brain is 60% smaller than that of a typical diprotodont is not supported by our data (see the notebook for calculations).</p>
+<p>Does this mean that marsupials are dumber than placental mammals? Not necessarily, because the residuals might be associated with factors unrelated to intelligence. An <a href="https://www.karger.com/Article/Fulltext/377666">analysis published in 2015</a> suggests that marsupials' smaller brain is constrained by energy consumption rather than behavioral complexity.</p>
+<h3 id="conclusions">Conclusions</h3>
+<p>Let&rsquo;s review what&rsquo;s wrong with Wikipedia&rsquo;s statement about the koala brain:</p>
+<ul>
+<li>The fluid-filled space in koala&rsquo;s cranial chamber is typical among mammals. Koalas are not particularly empty-headed.</li>
+<li>The brain size/body size ratio is not meaningful for comparing brains, because it doesn&rsquo;t account for the nonlinear effect of body size on brain size.</li>
+<li>After the effect is accounted for, we see that koala&rsquo;s brain is indeed small, but it&rsquo;s not exceptionally small.</li>
+<li>Koala&rsquo;s smaller brain has nothing to do with its food source. Rather, it&rsquo;s because marsupials tend to have smaller brains among mammals. Koala&rsquo;s brain size is typical for marsupials.</li>
+<li>The smoothness of the brain is not an indicator of primitive brains. I haven&rsquo;t gone into this topic, but just like brain size, the extent of cortical folding (gyrification) is also dependent on body size (see <a href="http://web.mit.edu/~tkonkle/www/BrainEvolution/Meeting8/Zilles%202013%20TINS.pdf">here</a>). A proper statistical analysis is needed to draw conclusions.</li>
+</ul>
+<p>I am particularly excited by the fact that most of these conclusions can be drawn by any curious person who cares to investigate. Of course I don&rsquo;t mean that the analysis of public data can replace traditional science. Indeed, there is a much deeper discussion about brain size that requires theoretical knowledge beyond the crunching of numbers. But scientific publications tend to address larger-scope questions. Many meaningful questions asked by the general public or even young children can be buried deep in the scientific literature. With some basic training in data analysis, everyone will be able to answer these questions themselves.</p>
+
   </section>
   <footer>
     
@@ -103,6 +175,7 @@
       <div class="c-pagination__ctrl">
         <div class="c-pagination__newer">
           
+          <a href="https://www.hhyu.org/posts/regexp/">Newer</a>
           
         </div>
         <div class="c-pagination__older">
@@ -249,7 +322,7 @@
   
   
   <li class="c-links__item">
-    <a href="https://linkedin.com/in/hsin-hao-yu-165387110" target="_blank">
+    <a href="https://linkedin.com/in/hhyu" target="_blank">
       <svg viewBox="0 0 64 64" class="c-links__icon">
         <title>linkedin</title>
         <use xlink:href="#icon-linkedin"></use>

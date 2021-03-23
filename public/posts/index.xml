@@ -6,14 +6,24 @@
     <description>Recent content in Posts on Cortically Magnified</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Feb 2021 20:20:25 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Mar 2021 14:13:51 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Use your data science skills to debunk a myth about koalas!</title>
+      <title>Simple exercises with grep, sed and awk in org-mode</title>
+      <link>https://www.hhyu.org/posts/regexp/</link>
+      <pubDate>Tue, 23 Mar 2021 14:13:51 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/regexp/</guid>
+      <description>For text processing, I never bothered to learn classic Unix tools such as sed and awk, because everything is easier Python. The syntax of sed and awk just appeared to be too arcane to me. However, recently I realize that for many ad-hoc tasks, even writing a Python script is too much overhead. This motivated me to learn to use regular expressions directly in the command line.
+This also gave me an excuse to play with literate programming in org-mode.</description>
+    </item>
+    
+    <item>
+      <title>Use basic data science skills to debunk a myth about koalas!</title>
       <link>https://www.hhyu.org/posts/koala/</link>
       <pubDate>Fri, 05 Feb 2021 20:20:25 +1100</pubDate>
       
       <guid>https://www.hhyu.org/posts/koala/</guid>
-      <description></description>
+      <description>Did you know that the koala is the dumbest animal in the world? According to an Internet meme, koalas have really tiny brains because the eucalyptus leaves that they eat are toxic and poor in nutrition. That seems plausible to me, but you shouldn&amp;rsquo;t believe in Internet memes. Let&amp;rsquo;s turn to the most authoritative source of knowledge in the world, the Wikipedia, instead. This is what the Wikipedia has to say about koala&amp;rsquo;s brain:</description>
     </item>
     
     <item>

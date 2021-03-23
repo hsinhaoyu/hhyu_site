@@ -6,7 +6,70 @@
     <description>Recent content in Tags on Cortically Magnified</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Feb 2021 20:20:25 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Mar 2021 14:13:51 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>emacs</title>
+      <link>https://www.hhyu.org/tags/emacs/</link>
+      <pubDate>Tue, 23 Mar 2021 14:13:51 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/tags/emacs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>literate programming</title>
+      <link>https://www.hhyu.org/tags/literate-programming/</link>
+      <pubDate>Tue, 23 Mar 2021 14:13:51 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/tags/literate-programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>orgmode</title>
+      <link>https://www.hhyu.org/tags/orgmode/</link>
+      <pubDate>Tue, 23 Mar 2021 14:13:51 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/tags/orgmode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>programming</title>
+      <link>https://www.hhyu.org/tags/programming/</link>
+      <pubDate>Tue, 23 Mar 2021 14:13:51 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/tags/programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tutorial</title>
+      <link>https://www.hhyu.org/tags/tutorial/</link>
+      <pubDate>Tue, 23 Mar 2021 14:13:51 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/tags/tutorial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>unix</title>
+      <link>https://www.hhyu.org/tags/unix/</link>
+      <pubDate>Tue, 23 Mar 2021 14:13:51 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/tags/unix/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>australiana</title>
+      <link>https://www.hhyu.org/tags/australiana/</link>
+      <pubDate>Fri, 05 Feb 2021 20:20:25 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/tags/australiana/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>data science</title>
       <link>https://www.hhyu.org/tags/data-science/</link>
@@ -17,29 +80,20 @@
     </item>
     
     <item>
+      <title>general science</title>
+      <link>https://www.hhyu.org/tags/general-science/</link>
+      <pubDate>Fri, 05 Feb 2021 20:20:25 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/tags/general-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>R</title>
       <link>https://www.hhyu.org/tags/r/</link>
       <pubDate>Fri, 05 Feb 2021 20:20:25 +1100</pubDate>
       
       <guid>https://www.hhyu.org/tags/r/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>programming</title>
-      <link>https://www.hhyu.org/tags/programming/</link>
-      <pubDate>Wed, 03 Feb 2021 22:41:15 +1100</pubDate>
-      
-      <guid>https://www.hhyu.org/tags/programming/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>australiana</title>
-      <link>https://www.hhyu.org/tags/australiana/</link>
-      <pubDate>Fri, 15 Jan 2021 10:01:53 +1100</pubDate>
-      
-      <guid>https://www.hhyu.org/tags/australiana/</guid>
       <description></description>
     </item>
     
@@ -89,15 +143,6 @@
     </item>
     
     <item>
-      <title>emacs</title>
-      <link>https://www.hhyu.org/tags/emacs/</link>
-      <pubDate>Tue, 05 Jan 2021 16:04:13 +1100</pubDate>
-      
-      <guid>https://www.hhyu.org/tags/emacs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>note taking</title>
       <link>https://www.hhyu.org/tags/note-taking/</link>
       <pubDate>Tue, 05 Jan 2021 16:04:13 +1100</pubDate>
@@ -112,33 +157,6 @@
       <pubDate>Tue, 05 Jan 2021 14:16:59 +1100</pubDate>
       
       <guid>https://www.hhyu.org/tags/lisp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>literate programming</title>
-      <link>https://www.hhyu.org/tags/literate-programming/</link>
-      <pubDate>Tue, 05 Jan 2021 14:16:59 +1100</pubDate>
-      
-      <guid>https://www.hhyu.org/tags/literate-programming/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>orgmode</title>
-      <link>https://www.hhyu.org/tags/orgmode/</link>
-      <pubDate>Tue, 05 Jan 2021 14:16:59 +1100</pubDate>
-      
-      <guid>https://www.hhyu.org/tags/orgmode/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tutorial</title>
-      <link>https://www.hhyu.org/tags/tutorial/</link>
-      <pubDate>Tue, 05 Jan 2021 14:16:59 +1100</pubDate>
-      
-      <guid>https://www.hhyu.org/tags/tutorial/</guid>
       <description></description>
     </item>
     
@@ -193,15 +211,6 @@
       <pubDate>Mon, 07 Dec 2020 22:01:29 +1100</pubDate>
       
       <guid>https://www.hhyu.org/tags/thomas-pynchon/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>general science</title>
-      <link>https://www.hhyu.org/tags/general-science/</link>
-      <pubDate>Mon, 07 Dec 2020 09:37:39 +1100</pubDate>
-      
-      <guid>https://www.hhyu.org/tags/general-science/</guid>
       <description></description>
     </item>
     
