@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&#39;literate on Cortically Magnified</title>
+    <link>https://www.hhyu.org/tags/literate/</link>
+    <description>Recent content in &#39;literate on Cortically Magnified</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 23 Mar 2021 22:33:51 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/tags/literate/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Simple exercises with grep, sed and awk in org-mode</title>
+      <link>https://www.hhyu.org/posts/shell_regexp/</link>
+      <pubDate>Tue, 23 Mar 2021 22:33:51 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/shell_regexp/</guid>
+      <description>For text processing, I had never bothered to learn classic Unix tools such as sed and awk, because I can always use Python&amp;#39;s regular expression library. The syntax of sed and awk just appeared to be too arcane to me. However, recently I realize that for many simple ad-hoc tasks, even writing a Python script is too much overhead. This motivated me to learn to use regular expressions directly in the command line.</description>
+    </item>
+    
+  </channel>
+</rss>

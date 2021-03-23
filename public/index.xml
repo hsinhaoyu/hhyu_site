@@ -6,15 +6,14 @@
     <description>Recent content on Cortically Magnified</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 23 Mar 2021 14:13:51 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Mar 2021 22:33:51 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Simple exercises with grep, sed and awk in org-mode</title>
-      <link>https://www.hhyu.org/posts/regexp/</link>
-      <pubDate>Tue, 23 Mar 2021 14:13:51 +1100</pubDate>
+      <link>https://www.hhyu.org/posts/shell_regexp/</link>
+      <pubDate>Tue, 23 Mar 2021 22:33:51 +1100</pubDate>
       
-      <guid>https://www.hhyu.org/posts/regexp/</guid>
-      <description>For text processing, I never bothered to learn classic Unix tools such as sed and awk, because everything is easier Python. The syntax of sed and awk just appeared to be too arcane to me. However, recently I realize that for many ad-hoc tasks, even writing a Python script is too much overhead. This motivated me to learn to use regular expressions directly in the command line.
-This also gave me an excuse to play with literate programming in org-mode.</description>
+      <guid>https://www.hhyu.org/posts/shell_regexp/</guid>
+      <description>For text processing, I had never bothered to learn classic Unix tools such as sed and awk, because I can always use Python&amp;#39;s regular expression library. The syntax of sed and awk just appeared to be too arcane to me. However, recently I realize that for many simple ad-hoc tasks, even writing a Python script is too much overhead. This motivated me to learn to use regular expressions directly in the command line.</description>
     </item>
     
     <item>
