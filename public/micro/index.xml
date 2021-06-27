@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Micros on Cortically Magnified</title>
@@ -6,14 +6,27 @@
     <description>Recent content in Micros on Cortically Magnified</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 03 Feb 2021 22:41:15 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/micro/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Mar 2021 22:50:36 +1100</lastBuildDate>
+    
+	<atom:link href="https://www.hhyu.org/micro/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://www.hhyu.org/micro/pynchon_godzilla/</link>
+      <pubDate>Tue, 23 Mar 2021 22:50:36 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/micro/pynchon_godzilla/</guid>
+      <description>Thomas Pynchon likes to talk about Godzilla in his novels. In Inherent Vice, there is a funny scene where the main character Doc told his girlfriend Penny that the 1964 Japanese movie Ghidorah, the Three-Headed Monster was a remake of the 1953 romantic comedy Roman Holiday. Later that night, Doc caught Penny sobbing at the TV, because she watched the Japanese monster movie as a romance. Pynchon is good at writing this type of plot that is ridiculous but oddly touching.</description>
+    </item>
+    
     <item>
       <title></title>
       <link>https://www.hhyu.org/micro/grammar_of_tree-wvvmunibcjh1tn/</link>
       <pubDate>Wed, 03 Feb 2021 22:41:15 +1100</pubDate>
       
       <guid>https://www.hhyu.org/micro/grammar_of_tree-wvvmunibcjh1tn/</guid>
-      <description>In the 70&amp;rsquo;s, it was fashionable for intellectuals to abuse the term &amp;ldquo;grammar&amp;rdquo; to refer to any underlying principles. In one of his essays, Italo Calvino used the term &amp;ldquo;the grammar of tree&amp;rdquo; to refer to&amp;hellip;. essentially developmental plant biology. I thought that was pretentious. But heh, in R programming, people are talking about the grammar of graphics or data manipulations. It&amp;rsquo;s fashionable to call functions &amp;ldquo;verbs&amp;rdquo; again. Hello, structuralism!</description>
+      <description>In the 70&amp;rsquo;s, it was fashionable for intellectuals to abuse the term &amp;ldquo;grammar&amp;rdquo; to refer to any underlying principles. In one of his essays, Italo Calvino used the term &amp;ldquo;the grammar of tree&amp;rdquo; to refer to&amp;hellip;. essentially developmental plant biology. I thought that was pretentious. But heh, in R programming, people are talking about the grammar of graphics and grammar of data manipulation again. It&amp;rsquo;s fashionable to call functions &amp;ldquo;verbs&amp;rdquo; again.</description>
     </item>
     
     <item>
@@ -404,7 +417,7 @@ Dec 4th 2020 update: I also learned that William Gaddis worked for Kodak and IBM
       <pubDate>Thu, 08 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>https://www.hhyu.org/micro/blockchainjoke/</guid>
-      <description>Anthropologists discovered that islanders in South Pacific have been using blockchains for thousands of years. All transactions are recorded by carving patterns on tree trunks, whose integrity is enforced by solving hard problems such as 12/5.</description>
+      <description>Anthropologists discovered that islanders in South Pacific have been using blockchains for thousands of years. All transactions are recorded by carving patterns on tree trunks, whose integrity is enforced by solving hard problems such as 12&amp;frasl;5.</description>
     </item>
     
     <item>

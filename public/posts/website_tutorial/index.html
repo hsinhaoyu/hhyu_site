@@ -32,7 +32,7 @@
   
   
   
-  <meta name="generator" content="Hugo 0.79.0" />
+  <meta name="generator" content="Hugo 0.54.0" />
   
   
 
@@ -99,115 +99,207 @@
   </header>
   
   <section id="js-article" class="p-article__body e-content">
-    <p>I started this website in 2018, because I wanted to collect all my content in one single place. I decided to built it with simple tools, so I could understand how everything works, and fix problems if needed. It&rsquo;s a hobby like how some people like to build their own kitchens. Lots of tutorials are available on building personal websites, but I still want to write my own, because when I got started, I could never find one that explained every step needed to build a complete website. The problem was not that I couldn&rsquo;t find information about how to perform certain technical steps. The problem was that I wasn&rsquo;t sure which steps were relevant. So I will document everything I have done for this site, and I hope that it could be helpful for those who want to hand-build their own sites.</p>
-<h3 id="static-website-generation-with-hugohttpsgohugoio">Static website generation with <a href="https://gohugo.io">Hugo</a></h3>
+    
+
+<p>I started this website in 2018, because I wanted to collect all my content in one single place. I decided to built it with simple tools, so I could understand how everything works, and fix problems if needed. It&rsquo;s a hobby like how some people like to build their own kitchens. Lots of tutorials are available on building personal websites, but I still want to write my own, because when I got started, I could never find one that explained every step needed to build a complete website. The problem was not that I couldn&rsquo;t find information about how to perform certain technical steps. The problem was that I wasn&rsquo;t sure which steps were relevant. So I will document everything I have done for this site, and I hope that it could be helpful for those who want to hand-build their own sites.</p>
+
+<h3 id="static-website-generation-with-hugo-https-gohugo-io">Static website generation with <a href="https://gohugo.io">Hugo</a></h3>
+
 <p>The easiest way to make a website is to use a static website generator. The way it works is that you provide a folder of documents written in <a href="https://www.markdownguide.org">Markdown</a>, and the generator makes a website for you, based on the theme that you choose. The generated website is just a bunch of HTML, css, and javascript files. There are no content management systems and no databases. For the simple website that I have in mind, this is  more than enough. But of course, it means that it&rsquo;s harder to include fancy features such as webstores, discussion forums, and other forms of interactivity. For that kind of thing, you are probably better off with dynamic solutions such as WordPress or SquareSpace.</p>
+
 <p>There are many static website generators to choose from. In fact, the number is growing so fast that it&rsquo;s hard to keep track of them. I picked <a href="https://gohugo.io">Hugo</a> because it&rsquo;s easy to understand and easy to customize. It&rsquo;s written in the <a href="https://golang.org">Go programming language</a>, which tends to encourage minimalist design. One feature that I found very attractive is that although Hugo doesn&rsquo;t use a content management system, it is very flexible in content organization. In addition to the traditional organization tools such as tags and categories, you can also define your own taxonomy, which can be used to implement database-like features.</p>
+
 <p>Simple websites are easy to build with Hugo. The only tricky part is that Hugo doesn&rsquo;t have a GUI or web-based interface, so you have to interact with it using the unix shell. As long as you are comfortable with the command line, it takes very little time and effort to get something basic running. The most important thing is to pick a theme. I picked a minimalist theme called <a href="https://themes.gohugo.io/hugo_theme_pickles/">Pickles</a> and never look back, but there are many <a href="https://themes.gohugo.io">options</a>.</p>
+
 <p>The Pickles theme, like many other Hugo themes, supports the display of LaTeX equations using the <a href="https://katex.org">KaTex</a> fast rendering engine. The instructions, however, are hidden in the theme&rsquo;s demo page (<a href="https://themes.gohugo.io//theme/hugo_theme_pickles/post/math-typesetting/">here</a>) so you have to look carefully.</p>
+
 <p>The only thing that I find lacking in Hugo so far is the presentation of images and image galleries. I use a package called <a href="https://github.com/liwenyip/hugo-easy-gallery">Hugo Easy Gallery</a>, but I haven&rsquo;t customize it enough to make images look nice. This requires some more work.</p>
+
 <h3 id="tweaking-the-hugo-theme-to-support-two-blogging-formats">Tweaking the Hugo theme to support two blogging formats</h3>
+
 <p>I wanted a website that has two sections: a <a href="https://hhyu.org">regular blog</a> for essays, and a <a href="https://hhyu.org/micro">microblog</a> for informal notes. Many people like to have a section of tweet-like short content. But for me, microblog entries are not necessarily shorter. Rather, they are different from regular blog entries because they don&rsquo;t have titles. If I can come up with a title for something I write, it means that it&rsquo;s an article written to communicate an idea to an audience. It&rsquo;s displayed with the title and a short blorb, which invite the readers to dig further. But if I can&rsquo;t come up with a title, it means that it&rsquo;s unorganized thought, written mostly for myself. It&rsquo;s displayed without a title, without tags, and in entirety. It&rsquo;s intended to be read as a person journal or a <a href="https://en.wikipedia.org/wiki/Commonplace_book">commonplace book</a>.</p>
+
 <p>Most Hugo themes don&rsquo;t have a microblog section, so I had to modify the Pickles theme. This requires understanding how Hugo organizes its content, and how the template system works. Hugo&rsquo;s template system is derived from the template library of the Go programming language. They can embed programming logic, which make them very powerful, but it also means there is a learning curve. I couldn&rsquo;t find a tutorial that explained the general idea to me, until I found a book called <em>Build Websites with Hugo</em> by Brian Hogan. It&rsquo;s a little book that explains how to design a Hugo theme from scratch. Once I understood the logic behind the Hugo template system, it was surprisingly easy to tweak the Pickles theme to support the microblog format.</p>
+
 <p>In short, a Hugo website can have multiple &ldquo;sections&rdquo;, which correspond to directories in the <code>content/</code> directory. I have a <code>posts/</code> directory for the regular blog, and a <code>micro/</code> directory for the microblog. When the website is generated by Hugo, content in the former directory is displayed under <code>hhyu.org/posts</code>, whereas content in the latter is displayed under <code>hhyu.org/micro</code>. All I had to do was to give these two sections different HTML templates. It is accomplished by adding a new template file called <code>section.html</code> under <code>themes/pickles_modified/layouts/_default/</code>. This is what&rsquo;s in the file:</p>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go">{{ <span style="color:#a2f;font-weight:bold">if</span> eq .Section <span style="color:#b44">&#34;posts&#34;</span> }}
-    {{ .Render <span style="color:#b44">&#34;list&#34;</span> }}
-{{ <span style="color:#a2f;font-weight:bold">else</span> <span style="color:#a2f;font-weight:bold">if</span> eq .Section <span style="color:#b44">&#34;micro&#34;</span> }}
-    {{ .Render <span style="color:#b44">&#34;list_micro&#34;</span> }}
+
+<pre><code class="language-go">{{ if eq .Section &quot;posts&quot; }}
+    {{ .Render &quot;list&quot; }}
+{{ else if eq .Section &quot;micro&quot; }}
+    {{ .Render &quot;list_micro&quot; }}
 {{ end }}
-</code></pre></div><p>It&rsquo;s easy to understand. If the reader requests <code>hhyu.org/posts</code>, use the <code>list.html</code> template; but if the reader requests <code>hhyu.org/micro</code>, use the <code>list_micro.html</code> template instead. <code>list.html</code> is part of the Pickles theme. I just had to modify it, and save it as <code>list_micro.html</code>.</p>
-<p>The first time I tried to implement this idea in 2008, I decided not to modify the Pickles theme directly. Instead, I overrode some of Pickles' behaviors by saving my own templates under the <code>layout/</code> directory of my website&rsquo;s source code. After a while, I realized that it was easier for me to create my own version of the Pickles theme. This was done by <em>forking</em> Pickles source code on GitHub. My forked version of the theme can be found <a href="https://github.com/hsinhaoyu/hugo_theme_pickles">here</a> on GitHub.</p>
-<h3 id="hosting-static-websites-on-aws-s3httpsawsamazoncoms3">Hosting static websites on AWS <a href="https://aws.amazon.com/s3/">S3</a></h3>
-<p>The next question: How do we show the Hugo generated website to other people? Hosting HTML files is one of the most basic web services, which can be done in numerous ways. I decided to use S3, the cloud object storage service of AWS. It&rsquo;s an overkill for my needs, but it&rsquo;s cheap, widely used, and well integrated with AWS' other services.</p>
+</code></pre>
+
+<p>It&rsquo;s easy to understand. If the reader requests <code>hhyu.org/posts</code>, use the <code>list.html</code> template; but if the reader requests <code>hhyu.org/micro</code>, use the <code>list_micro.html</code> template instead. <code>list.html</code> is part of the Pickles theme. I just had to modify it, and save it as <code>list_micro.html</code>.</p>
+
+<p>The first time I tried to implement this idea in 2008, I decided not to modify the Pickles theme directly. Instead, I overrode some of Pickles&rsquo; behaviors by saving my own templates under the <code>layout/</code> directory of my website&rsquo;s source code. After a while, I realized that it was easier for me to create my own version of the Pickles theme. This was done by <em>forking</em> Pickles source code on GitHub. My forked version of the theme can be found <a href="https://github.com/hsinhaoyu/hugo_theme_pickles">here</a> on GitHub.</p>
+
+<h3 id="hosting-static-websites-on-aws-s3-https-aws-amazon-com-s3">Hosting static websites on AWS <a href="https://aws.amazon.com/s3/">S3</a></h3>
+
+<p>The next question: How do we show the Hugo generated website to other people? Hosting HTML files is one of the most basic web services, which can be done in numerous ways. I decided to use S3, the cloud object storage service of AWS. It&rsquo;s an overkill for my needs, but it&rsquo;s cheap, widely used, and well integrated with AWS&rsquo; other services.</p>
+
 <p>Hosting on S3 is simple: you first create a storage space called a &ldquo;bucket&rdquo;, upload the Hugo-generated files into the bucket, and then make the bucket accessible to everybody. You can follow <a href="https://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html">this document</a>.</p>
+
 <p>Since I need to upload to S3 every time I update my website, it&rsquo;s worthy to do it from the command line instead of the web-based AWS console. For that, I downloaded the <a href="https://aws.amazon.com/cli/">AWS command line interface</a>. After configuring it with my login information and the bucket&rsquo;s location, I can synchronize Hugo&rsquo;s generated website with the S3 bucket using a simple <code>sync</code> command.</p>
+
 <p>If you are new to AWS, this might be a good time to familiarize yourself with AWS&rsquo;s <a href="https://aws.amazon.com/iam/">IAM</a> (Identity and Access Management) service. In short, when you create an account on AWS, that account is the root user account, which allows you unlimited control of your AWS services. It&rsquo;s good practice to create an additional IAM &ldquo;role&rdquo; and log in as an IAM user. It&rsquo;s safer than logging in as the root user.</p>
+
 <h3 id="getting-a-custom-domain-name">Getting a custom domain name</h3>
+
 <p>The problem with hosting on S3 was that the website had to be accessed via a web address (i.e., URL) provided by the S3 server. I wanted it to be something simpler and personal. For that, I bought my domain name <code>hhyu.org</code> from <a href="https://www.hover.com">hover.com</a> - one of the more popular registrars, but there are many options to choose from. One noteworthy point is that although I said that I &ldquo;bought&rdquo; my domain name, I don&rsquo;t actually own it. It&rsquo;s more like a lease, so I have to renew my domain name every year.</p>
-<p>Owning a domain name sounded like a big deal to me in th beginning. I didn&rsquo;t look into building my own site for many years, because I thought that only professional web developers deal with registrars. But in reality, it&rsquo;s very simple. I logged on to my registrar, and told it to forward all &ldquo;<a href="http://www.hhyu.org">http://www.hhyu.org</a>&rdquo; traffic to the address assigned to my bucket by AWS. That&rsquo;s it. An interesting thing that I didn&rsquo;t know when I started was that <a href="http://www.hhyu.org">http://www.hhyu.org</a> and <a href="http://hhyu.org">http://hhyu.org</a> are two separate addresses, so I had to tell hover.com to forward both to AWS. I thought that <code>hhyu.org</code> was an abbreviated form, which is translated to the full name <code>www.hhyu.org</code> by the browser.</p>
-<h3 id="directing-traffic-to-my-domain-with-aws-route-53httpsawsamazoncomroute53">Directing traffic to my domain with <a href="https://aws.amazon.com/route53/">AWS Route 53</a></h3>
+
+<p>Owning a domain name sounded like a big deal to me in th beginning. I didn&rsquo;t look into building my own site for many years, because I thought that only professional web developers deal with registrars. But in reality, it&rsquo;s very simple. I logged on to my registrar, and told it to forward all &ldquo;<a href="http://www.hhyu.org&quot;">http://www.hhyu.org&quot;</a> traffic to the address assigned to my bucket by AWS. That&rsquo;s it. An interesting thing that I didn&rsquo;t know when I started was that <a href="http://www.hhyu.org">http://www.hhyu.org</a> and <a href="http://hhyu.org">http://hhyu.org</a> are two separate addresses, so I had to tell hover.com to forward both to AWS. I thought that <code>hhyu.org</code> was an abbreviated form, which is translated to the full name <code>www.hhyu.org</code> by the browser.</p>
+
+<h3 id="directing-traffic-to-my-domain-with-aws-route-53-https-aws-amazon-com-route53">Directing traffic to my domain with <a href="https://aws.amazon.com/route53/">AWS Route 53</a></h3>
+
 <p>With forwarding, people could visit my website with my domain name <code>http://hhyu.org</code>, but the address displayed on their browser was still the AWS address. That seemed wrong to me. I don&rsquo;t want my readers to feel that they started at <code>hhyu.org</code> but were transported to a different place. In other words, what I wanted was &ldquo;address masking&rdquo; rather than &ldquo;forwarding&rdquo;.</p>
+
 <p>There are different ways to achieve this goal, but since I use AWS S3 for hosting, I decided to use another AWS service called Route 53. The process is a little technical, involving editing something called DNS records, but it was just a matter of filling up some forms. I followed the instructions of <a href="https://aaronshaver.medium.com/setup-a-custom-domain-on-aws-using-s3-static-website-hosting-and-route-53-1b30eda0d4c1">this tutorial</a>. What got me stuck for a while was I didn&rsquo;t understand the logic behind it. The basic idea is this: DNS (Domain Name Service) is the mechanism for translating domain names such as <code>hhyu.org</code> to the server on the Internet. My registrar&rsquo;s DNS only does forwarding, but I can tell it to use Route 53 instead. Once I allowed Route 53 to provide the DNS service, it can make it look like my website and my domain name are one and the same.</p>
-<h3 id="securing-content-distribution-with-aws-cloudfronthttpsawsamazoncomcloudfront">Securing content distribution with <a href="https://aws.amazon.com/cloudfront/">AWS CloudFront</a></h3>
+
+<h3 id="securing-content-distribution-with-aws-cloudfront-https-aws-amazon-com-cloudfront">Securing content distribution with <a href="https://aws.amazon.com/cloudfront/">AWS CloudFront</a></h3>
+
 <p>The S3 hosting service is convenient, but it serves the web pages with the HTML protocol. It&rsquo;s an unencrypted protocol that can easily be exploited. To increase the security of my site, I&rsquo;d like to use the HTTPS protocol instead. Within the AWS ecosystem, this can be done with CloudFront. I followed this <a href="https://www.davidbaumgold.com/tutorials/host-static-site-aws-s3-cloudfront/">tutorial</a>. There are two major steps: First, I had to create a &ldquo;distribution&rdquo; of my bucket. This way, the content of my site is send to AWS servers all over the world, to reduce load time. Second, I needed an ACM security certificate to distribute the distribution using the encrypted HTTPS protocol. Getting a certificate sounded like a difficult process, but it really was just a matter of sending a request on AWS. It was granted in less than an hour. One problem that I encountered was that I didn&rsquo;t know that I had to switch my region to North Virginia when I requested a certificate.</p>
+
 <p>Big distribution networks like CloudFront move slowly, which means that after I update the content of the  bucket, it can take several hours to a full day for CloudFront to update my distribution. This isn&rsquo;t a big issue for simple websites like mine, but it is possible to <em>invalidate</em> the distribution, to force CloudFront to update it. Invalidation can be initiated with CloudFront&rsquo;s web-based console, or with the <code>create-invalidation</code> command in the AWS commandline tool.</p>
-<h3 id="building-a-deployment-pipeline-with-github-actionshttpsgithubcomfeaturesactions">Building a deployment pipeline with <a href="https://github.com/features/actions">GitHub Actions</a></h3>
+
+<h3 id="building-a-deployment-pipeline-with-github-actions-https-github-com-features-actions">Building a deployment pipeline with <a href="https://github.com/features/actions">GitHub Actions</a></h3>
+
 <p>At this stage, I have to manually use Hugo to generate the website, and sync the new website to S3 from the command line. This process is not very tedious, but I still wanted to automate it. For a casual blogger like me, reducing the friction in blogging is important to keep me going. Hugo has its own <a href="https://gohugo.io/hosting-and-deployment/">deployment mechanism</a>, but I decided to use GitHub as the mechanism for deployment. The rationale will become more obvious in the next section.</p>
+
 <p><a href="https://www.github.com">GitHub</a> is a cloud service for programmers to share their source code. To maintain a copy of my website&rsquo;s source code on GitHub, I use a version-control system called <a href="https://en.wikipedia.org/wiki/Git">git</a> to track the changes made to my website. Once I am happy with a new edition of my website (which is typically after I add a new post), I can &ldquo;commit&rdquo; the edits and then &ldquo;push&rdquo; the source code to GitHub. Git is a very complicated program that takes time to learn, but the advantage is enormous: First, I always have the source code of my website backed-up in a  GitHub <em>repository</em>. Second, git maintains the entire history of my website, so I can checkout past editions of the website easily if needed. Third, thank to the branching feature of <code>git</code>, it&rsquo;s safe to tinker. If I want to add a new feature to my site, I can create a parallel universe of the site called a &ldquo;branch&rdquo;, and experiment in it as much as I want without affecting my website. When the new feature is ready, it can be &ldquo;merged&rdquo; into the main branch of the source code. If the new feature doesn&rsquo;t work as planned, nobody will see it. And fourth, <code>GitHub</code> opens the door to automation.</p>
+
 <p>The key to building a deployment pipeline around GitHub is a software engineering concept called Continuous Integration (CI). What it means is that once a new version of a piece of software is finalized, an automated process should check for bugs, and prepare it for deployment. For our purpose, it means that that once the source code of a new version of the website is sync&rsquo;ed to GitHub, a script will automatically regenerate the website with Hugo, and deploy it to AWS. <a href="https://travis-ci.com">Travis-CI</a> is a popular third-party service that can integrate with GitHub, but I decided to try GitHub&rsquo;s own automation tool called Actions. Because all the necessary actions have already been developed by the GitHub community, it was very easy for me to glue them together. <a href="https://github.com/hsinhaoyu/hhyu_site/blob/master/.github/workflows/main.yml">This</a> is the script that I am using. It resides in the <code>.github/workflows</code> directory under my site&rsquo;s root directory. The script generates the website, syncs with S3, invalidates the Cloudfront distribution, and sends me a Slack message on to tell me that it&rsquo;s all done. I can openly share this script with you, because all authentication information is encrypted in GitHub as <a href="https://docs.github.com/en/free-pro-team@latest/actions/reference/encrypted-secrets">repository secrets</a>, so they don&rsquo;t have to be revealed in the script.</p>
+
 <p>With this setup, after writing a new blog post, all I have to do is to sync with GitHub. GitHub Actions takes care of the rest.</p>
+
 <h3 id="posting-on-the-go-with-a-mobile-github-client">Posting on the go with a mobile GitHub client</h3>
+
 <p>I don&rsquo;t have a lot of opportunities to blog from my laptop (such is the life of a dad with a young child), so I really needed a way to blog from my phone. The problem was that Hugo doesn&rsquo;t run on phones. For a long time, I thought that there was no way to solve this problem&hellip; until I found <a href="http://evanbrown.io/post/hugo-on-the-go/">this article</a>. Since Hugo is now running on GitHub rather than my laptop, all I have to do is to use a GitHub client for the phone to post to my website. I use a program called <a href="https://workingcopyapp.com/">Working Copy</a> for the iOS. It&rsquo;s a little expensive, but it&rsquo;s a very well developed app. I can create a new Markdown file in the <code>content/</code> directory of my website&rsquo;s repository, commit the changes, and push to GitHub, and then the website will be regenerated and deployed.</p>
+
 <p>Note that since I still use my laptop to update my website, it&rsquo;s important to make sure GitHub Actions uses the same version of Hugo that I use on my laptop.</p>
-<h3 id="improving-the-blogging-experience-with-micropubhttpsindieweborgmicropub">Improving the blogging experience with <a href="https://indieweb.org/Micropub">Micropub</a></h3>
-<p>The solution above does work, but GitHub is, after all, a programmers' tool rather a blogging tool. The interface is a bit unnatural for blogging. For a better experience, I turned to <a href="https://indieweb.org/Micropub">Micropub</a> - a W3C recommended open standard for posting entries to websites. Since Micropub is an open protocol, a variety of Micropub client programs have been developed to post to any website that accepts the Micropub protocol. I decided to use <a href="https://quill.p3k.io">Quill</a>, a popular web-based client, although <a href="https://indieweb.org/Micropub/Clients">other options</a> are available. Below are the steps that I took for my site to work with Micropub clients.</p>
+
+<h3 id="improving-the-blogging-experience-with-micropub-https-indieweb-org-micropub">Improving the blogging experience with <a href="https://indieweb.org/Micropub">Micropub</a></h3>
+
+<p>The solution above does work, but GitHub is, after all, a programmers&rsquo; tool rather a blogging tool. The interface is a bit unnatural for blogging. For a better experience, I turned to <a href="https://indieweb.org/Micropub">Micropub</a> - a W3C recommended open standard for posting entries to websites. Since Micropub is an open protocol, a variety of Micropub client programs have been developed to post to any website that accepts the Micropub protocol. I decided to use <a href="https://quill.p3k.io">Quill</a>, a popular web-based client, although <a href="https://indieweb.org/Micropub/Clients">other options</a> are available. Below are the steps that I took for my site to work with Micropub clients.</p>
+
 <p>I think it&rsquo;s worthy to point out here that Micropub is part of a larger movement called <a href="https://indieweb.org">IndieWeb</a>. IndieWeb is an alternative approach to social networking. In contrast to corporate-owned services such as Facebook or Twitter, IndieWeb websites are owned by individuals, and they interact with each other using open protocols. It is an exciting movement that deserves a more in-depth discussion (you can start <a href="https://www.smashingmagazine.com/2020/08/autonomy-online-indieweb/">here</a>), but for the purpose for this tutorial, I will concentrate on blogging with Micropub. The IndieWeb community has developed many components that can work with static websites, so it&rsquo;s a great source of inspiration for me. I plan to dive deeper into IndieWeb in the future.</p>
-<h3 id="configuring-an-indieauthhttpsindieweborgindieauth-endpoint-for-authentication">Configuring an <a href="https://indieweb.org/IndieAuth">IndieAuth</a> endpoint for authentication</h3>
+
+<h3 id="configuring-an-indieauth-https-indieweb-org-indieauth-endpoint-for-authentication">Configuring an <a href="https://indieweb.org/IndieAuth">IndieAuth</a> endpoint for authentication</h3>
+
 <p>To blog from a Micropub client program such as Quill, the first issue was to tell the program who I was. I thought I had to create an account on Quill, but the IndieWeb world has its own way of doings things. When I got started, I thought that IndieWeb&rsquo;s protocol for establishing identity, called <a href="https://indieweb.org/IndieAuth">IndieAuth</a>, was confusing, but it makes lots of sense after I got used to it.</p>
+
 <p>The central philosophy is that my identity on the web should belong to me. Web services should come to my site for all information about me. I shouldn&rsquo;t need to create different accounts for different social networks, and I shouldn&rsquo;t need to use their methods to authenticate myself. This means that to log in to an IndieWeb-based service, the only information that I need to provide is the address of my website. From my website, the service can extract the address of an <em>authorization endpoint</em>. The service then negotiates with my authorization endpoint to establish my identity.</p>
+
 <p>In theory, this authorization endpoint should be a server program that I write myself to implements <em>my</em> policies. For example, if somebody uses my website to log in to Quill, my authorization endpoint might ask for a password, or even a retinal scan. It can be anything that I consider sufficient to identify myself. But of course, I didn&rsquo;t actually have to implement one myself, because the community has done the hard work. For example, <a href="https://indieauth.com">IndieAuth.com</a> is a popular authorization endpoint. The way it works is that I can ask IndieAuth.com to go to one of the web services that I already use to authenticate me. Since I use GitHub a lot, I asked IndieAuth.com to delegate authorization to GitHub. If I can convince GitHub that I am the person who I claim to be, IndieAuth.com will also report to any service that I am that guy. Note that IndieAuth.com is one particular implementation of the IndieAuth protocol. The protocol itself is more general.</p>
+
 <p><a href="https://indieauth.com/setup">This</a> is the instructions for setting up for IndieAuth.com. I also found <a href="https://www.amitgawande.com/2018/02/10/204300.html">this tutorial</a> useful. First, on my site where I link to my GitHub account, I added the <code>rel=me</code> attribute to the <code>&lt;a&gt;</code> tag to confirm to GitHub that <code>https://hhyu.org</code> is my site. For the theme that I am using, I had to edit the <code>layouts/partials/links.html</code> template, so that in the generated HTML, the link to GitHub looks like this:</p>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"> &lt;<span style="color:#008000;font-weight:bold">a</span> <span style="color:#b44">href</span><span style="color:#666">=</span><span style="color:#b44">https://github.com/hsinhaoyu</span> <span style="color:#b44">target</span><span style="color:#666">=</span><span style="color:#b44">_blank</span> <span style="color:#b44">rel</span><span style="color:#666">=</span><span style="color:#b44">me</span>&gt;
-</code></pre></div><p>Second, I added the followings to the <code>&lt;head&gt;</code> section of my site. For the theme that I use, I had to create the <code>layouts/partials/head_custom.html</code> template, but it depends on how the theme is implemented.</p>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#008000;font-weight:bold">link</span> <span style="color:#b44">rel</span><span style="color:#666">=</span><span style="color:#b44">&#34;authorization_endpoint&#34;</span> <span style="color:#b44">href</span><span style="color:#666">=</span><span style="color:#b44">&#34;https://indieauth.com/auth&#34;</span>&gt;
-&lt;<span style="color:#008000;font-weight:bold">link</span> <span style="color:#b44">rel</span><span style="color:#666">=</span><span style="color:#b44">&#34;token_endpoint&#34;</span> <span style="color:#b44">href</span><span style="color:#666">=</span><span style="color:#b44">&#34;https://tokens.indieauth.com/token&#34;</span>&gt;
-&lt;<span style="color:#008000;font-weight:bold">link</span> <span style="color:#b44">rel</span><span style="color:#666">=</span><span style="color:#b44">&#34;micropub&#34;</span> <span style="color:#b44">href</span><span style="color:#666">=</span><span style="color:#b44">&#34;https://xxxx.execute-api.ap-southeast-2.amazonaws.com/Prod/&#34;</span>&gt;
-</code></pre></div><p>The first tag declares that I opt to use IndieAuth.com to be my authorization endpoint. The second tag declares a second authentication-related service that will be explained in a later section. With these two tags, I can already log on to a number of IndieWeb services without creating separate accounts. For example, I can use the <a href="https://indieweb.org">IndieWeb wiki</a> to participate in community discussions, and <a href="https://indiebookclub.biz">IndieBookClub</a> to keep track of the books that I am reading. That&rsquo;s pretty cool, but it&rsquo;s not enough for Micropub clients such as Quill, because the Micropub endpoint, declared in the third tag, had not been implemented yet. We&rsquo;ll deal with that in the following sections.</p>
+
+<pre><code class="language-html"> &lt;a href=https://github.com/hsinhaoyu target=_blank rel=me&gt;
+</code></pre>
+
+<p>Second, I added the followings to the <code>&lt;head&gt;</code> section of my site. For the theme that I use, I had to create the <code>layouts/partials/head_custom.html</code> template, but it depends on how the theme is implemented.</p>
+
+<pre><code class="language-html">&lt;link rel=&quot;authorization_endpoint&quot; href=&quot;https://indieauth.com/auth&quot;&gt;
+&lt;link rel=&quot;token_endpoint&quot; href=&quot;https://tokens.indieauth.com/token&quot;&gt;
+&lt;link rel=&quot;micropub&quot; href=&quot;https://xxxx.execute-api.ap-southeast-2.amazonaws.com/Prod/&quot;&gt;
+</code></pre>
+
+<p>The first tag declares that I opt to use IndieAuth.com to be my authorization endpoint. The second tag declares a second authentication-related service that will be explained in a later section. With these two tags, I can already log on to a number of IndieWeb services without creating separate accounts. For example, I can use the <a href="https://indieweb.org">IndieWeb wiki</a> to participate in community discussions, and <a href="https://indiebookclub.biz">IndieBookClub</a> to keep track of the books that I am reading. That&rsquo;s pretty cool, but it&rsquo;s not enough for Micropub clients such as Quill, because the Micropub endpoint, declared in the third tag, had not been implemented yet. We&rsquo;ll deal with that in the following sections.</p>
+
 <p>A side note: so far, I am identified to the IndieWeb world as <code>https://hhyu.org</code>, the URL of my site. For social networking, that seems a bit too impersonal. It would be better if I could associate it with my name and perhaps other personal information, so that they can be extracted and displayed by IndieWeb services. The mechanism is called <a href="https://indieweb.org/h-card"><code>h-card</code></a>, which allows a wide range of personal information to be tagged. My h-card is minimal. I edited the footer template (<code>layouts/partials/footer.html</code>) so that my name is in the h-card:</p>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#008000;font-weight:bold">a</span> <span style="color:#b44">class</span><span style="color:#666">=</span><span style="color:#b44">&#34;h-card&#34;</span> <span style="color:#b44">href</span><span style="color:#666">=</span><span style="color:#b44">&#34;https://hhyu.org&#34;</span>&gt;Hsin-Hao Yu&lt;/<span style="color:#008000;font-weight:bold">a</span>&gt;
-</code></pre></div><p><a href="https://indiewebify.me">indiewebify</a> is a very useful tool for (among many things) checking if the <code>h-card</code> information is tagged correctly.</p>
-<h3 id="customizing-a-micropub-server-for-aws-lambdahttpsawsamazoncomlambda">Customizing a Micropub server for <a href="https://aws.amazon.com/lambda/">AWS Lambda</a></h3>
+
+<pre><code class="language-html">&lt;a class=&quot;h-card&quot; href=&quot;https://hhyu.org&quot;&gt;Hsin-Hao Yu&lt;/a&gt;
+</code></pre>
+
+<p><a href="https://indiewebify.me">indiewebify</a> is a very useful tool for (among many things) checking if the <code>h-card</code> information is tagged correctly.</p>
+
+<h3 id="customizing-a-micropub-server-for-aws-lambda-https-aws-amazon-com-lambda">Customizing a Micropub server for <a href="https://aws.amazon.com/lambda/">AWS Lambda</a></h3>
+
 <p>We took a detour to IndieAuth. Let&rsquo;s return to the problem at hand. The goal is to create a pipeline such that after I finish writing a new blog post using a Micropub client, it sends the new post to a Micropub endpoint (specified by the <code>&lt;link rel=&quot;micropub&quot;...&gt;</code> tag discussed previously). The server program at the endpoint commits the post to the GitHub repository, and GitHub Actions will generate the website, and deploy it to AWS.</p>
+
 <p>I had no prior experience in programming or setting up servers, so implementing this idea was a little intimidating to me. Luckily, the IndieWeb community has developed several Microbpub servers, so I didn&rsquo;t have to write one from scratch. I started with Cole Lyman&rsquo;s <a href="https://github.com/Colelyman/gozette">gozette</a> because the source code (written in Go) is concise and easy to understand. In addition, it&rsquo;s designed to be deployed on <a href="https://aws.amazon.com/lambda/">AWS Lambda</a> - a &ldquo;serverless application service&rdquo; which takes away some of the hurdles associated with server programming. In this setup, AWS handles the interface to the web. All we have to do is provide a function (which is called a &ldquo;lambda&rdquo; in programming) to interpret the incoming requests and acts on them. More concretely, when AWS receives a request to post from my Micropub client, it sends the post to <code>gozette</code>, which commits it to GitHub. <code>gozette</code> merely functions as a bridge between AWS&rsquo;s web gateway and GitHub. This is why the code is so lightweight.</p>
+
 <p>I forked <code>gozette</code>&rsquo;s repository on GitHub so I could have a <a href="https://github.com/hsinhaoyu/gozette-hhyu">personalized copy</a>. I  customized the code slightly for my particular setup:</p>
+
 <ol>
 <li>The file <code>validation.go</code> is all about authentication with IndieAuth.com. I assigned the constant <code>indieAuthMe</code> to the URL of my site <code>https://hhyu.org</code>.</li>
 <li>The file <code>github.go</code> interfaces with GitHub. I assigned variables <code>sourceOwner</code>, <code>authorName</code>, <code>authorEmail</code> and <code>sourceRepo</code> my own information. The most important one is <code>sourceRepo</code>. It is the name of the GitHub repository of my website.</li>
 <li>The original <code>gozette</code> commits a new post to the <code>site/content/micro/</code> directory in the GitHub repository, but I needed it to be committed to <code>content/micro/</code>. This can be changed by modifying the <code>WriteHugoPost()</code> function in <code>post.go</code>.</li>
-<li>Since <code>gozette</code> will modify my GitHub repository, it needs a key (called a <em>token</em>) to communicate with GitHub. I went to <code>Personal Settings</code> of my GitHub profile, and used <code>Developer settings &gt; Personal access tokens</code> to generate a token. It&rsquo;s a string of random numbers and letters. I added the section below to <code>template.yaml</code>. When <code>gozette</code> is running on AWS Lambda, this is how it convinces GitHub that it is acting on my behalf.</li>
-</ol>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#008000;font-weight:bold">Environment</span>:<span style="color:#bbb"> 
-</span><span style="color:#bbb">    </span><span style="color:#008000;font-weight:bold">Variables</span>:<span style="color:#bbb">
-</span><span style="color:#bbb">        </span><span style="color:#008000;font-weight:bold">GIT_API_TOKEN</span>:<span style="color:#bbb"> </span>&lt;insert token here&gt;<span style="color:#bbb">
-</span></code></pre></div><p>There is how to work with my version of <code>gozette</code>:</p>
+
+<li><p>Since <code>gozette</code> will modify my GitHub repository, it needs a key (called a <em>token</em>) to communicate with GitHub. I went to <code>Personal Settings</code> of my GitHub profile, and used <code>Developer settings &gt; Personal access tokens</code> to generate a token. It&rsquo;s a string of random numbers and letters. I added the section below to <code>template.yaml</code>. When <code>gozette</code> is running on AWS Lambda, this is how it convinces GitHub that it is acting on my behalf.</p>
+
+<pre><code class="language-yaml">Environment: 
+Variables:
+    GIT_API_TOKEN: &lt;insert token here&gt;
+</code></pre>
+
+<p>There is how to work with my version of <code>gozette</code>:</p>
+
 <ol>
 <li>Clone the <a href="https://github.com/hsinhaoyu/gozette-hhyu">repository</a>  under <code>~/go/src/</code>. The Go compiler does care about where the source is located, so I recommend that you don&rsquo;t put it anywhere else.</li>
-<li>Download the dependent libraries using the <code>go get</code> command. You have to issue these command under <code>~/go/src/gozette-hhyu/</code>.</li>
-</ol>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">go get github.com/speps/go-hashids
+<li>Download the dependent libraries using the <code>go get</code> command. You have to issue these command under <code>~/go/src/gozette-hhyu/</code>.
+<code>bash
+go get github.com/speps/go-hashids
 go get golang.org/x/oauth2
 go get github.com/aws/aws-lambda-go/events
 go get github.com/aws/aws-lambda-go/lambda
 go get github.com/google/go-github/github
-</code></pre></div><ol start="3">
-<li>Modify the source code if needed.</li>
-<li>Compile the code. Under <code>~/go/src/gozette-hhyu/</code>, issue the following commands:</li>
-</ol>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">go mod init gozette/main
+</code></li>
+</ol></li>
+
+<li><p>Modify the source code if needed.</p></li>
+
+<li><p>Compile the code. Under <code>~/go/src/gozette-hhyu/</code>, issue the following commands:</p>
+
+<pre><code class="language-bash">go mod init gozette/main
 go install ./gozette
-</code></pre></div><p>If you don&rsquo;t see any error message, <code>gozette</code> is ready to run on AWS Lambda.</p>
-<h3 id="testing-the-micropub-server-locally-with-samhttpsdocsawsamazoncomserverless-application-modellatestdeveloperguideserverless-sam-referencehtmlserverless-sam-cli">Testing the Micropub server locally with <a href="https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-reference.html#serverless-sam-cli">SAM</a></h3>
+</code></pre>
+
+<p>If you don&rsquo;t see any error message, <code>gozette</code> is ready to run on AWS Lambda.</p>
+
+<h3 id="testing-the-micropub-server-locally-with-sam-https-docs-aws-amazon-com-serverless-application-model-latest-developerguide-serverless-sam-reference-html-serverless-sam-cli">Testing the Micropub server locally with <a href="https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-reference.html#serverless-sam-cli">SAM</a></h3>
+
 <p>Before I uploaded <code>gozette</code> to AWS Lambda, I wanted to make sure that it ran correctly on my own laptop. The good news is that AWS provides a tool called <a href="https://aws.amazon.com/blogs/aws/new-aws-sam-local-beta-build-and-test-serverless-applications-locally/">SAM</a> for this purpose. When I first started to try SAM, I was a little intimidated by its complexity. I decided to first try a simple &ldquo;Hello World&rdquo; example. In <code>~/go/src/</code>, I asked SAM to create a demo project in Go with</p>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sam init --runtime go1.x --name sam-go
-</code></pre></div><p>I followed the instructions in README.md, and made sure that I knew enough to deploy a simple function to AWS Lambda.</p>
+
+<pre><code class="language-bash">sam init --runtime go1.x --name sam-go
+</code></pre></li>
+</ol>
+
+<p>I followed the instructions in README.md, and made sure that I knew enough to deploy a simple function to AWS Lambda.</p>
+
 <p>Now go back to <code>~/go/src/gozette-hhyu/</code>. We can start the server locally with</p>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sam build
-sam <span style="color:#a2f">local</span> start-api
-</code></pre></div><p>As soon as the server is started, a local IP address (such as <code>http://127.0.0.1:3000/</code>) is provided by SAM. That is the address of the endpoint.</p>
+
+<pre><code class="language-bash">sam build
+sam local start-api
+</code></pre>
+
+<p>As soon as the server is started, a local IP address (such as <code>http://127.0.0.1:3000/</code>) is provided by SAM. That is the address of the endpoint.</p>
+
 <p>I needed a way to talk to it. Instead of using an actual Micropub client, I found it easier to use a utility program called <a href="https://curl.se"><code>curl</code></a>.</p>
+
 <p>To make it work, we need to know more about the authentication process. As discussed above, I can log in to a Micropub client (e.g., Quill) using the authorization endpoint IndieAuth.com. The question is: how does the Micropub endpoint (e.g., <code>gozette</code>) know that the client is actually acting on my behave? What happens if another person tries to post to my Micropub endpoint? The answer is that after successful authentication, the client passes an &ldquo;access token&rdquo; to the Micropub endpoint. Importantly, the client doesn&rsquo;t generate this token itself. Instead, it delegates the job to another endpoint, called the <a href="https://indieweb.org/token-endpoint">token endpoint</a>. When the Micropub endpoint receives the access token, it contacts the token endpoint to verify that the token is valid. The HTML code provided above shows that I opt to use <code>https://tokens.indieauth.com/token</code> to be my token endpoint, although other options are also available. Note that in this setup, the Micropub endpoint doesn&rsquo;t need to know about the authorization endpoint. This is why in <code>gozette</code>&rsquo;s source code, there is no reference to the authorization endpoint, but I had to provide the token endpoint.</p>
+
 <p>To communicate to the locally running <code>gozette</code> with <code>curl</code>, an access token is needed. It&rsquo;s not trivial to find it, because it&rsquo;s not normally exposed to the end-user. Luckily, Sebastiaan Andeweg&rsquo;s <a href="https://gimme-a-token.5eb.nl">Gimme an Access Token webapp</a> provides this function. After obtaining a token, I could request <code>gozette</code> to commit a new post to GitHub with the following command:</p>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">curl <span style="color:#b62;font-weight:bold">\
-</span><span style="color:#b62;font-weight:bold"></span>-X POST <span style="color:#b62;font-weight:bold">\
-</span><span style="color:#b62;font-weight:bold"></span>-H <span style="color:#b44">&#34;Content-Type: application/json&#34;</span> <span style="color:#b62;font-weight:bold">\
-</span><span style="color:#b62;font-weight:bold"></span>-H <span style="color:#b44">&#34;Authorization: Bearer XXXX&#34;</span> <span style="color:#b62;font-weight:bold">\
-</span><span style="color:#b62;font-weight:bold"></span>-d <span style="color:#b44">&#39;{&#34;content&#34;:&#34;hello world&#34;,&#34;name&#34;:&#34;new post&#34;, &#34;category&#34;: [&#34;tag1&#34;, &#34;tag2&#34;], &#34;mp-slug&#34;: &#34;first_post&#34;}&#39;</span> <span style="color:#b62;font-weight:bold">\
-</span><span style="color:#b62;font-weight:bold"></span>http://127.0.0.1:3000/
-</code></pre></div><p>Remember to replace <code>XXXX</code> with the access token, and <code>http://127.0.0.1:3000/</code> with the address returned from SAM. If you see a new file called <code>content/micro/first_post.md</code> in your GitHub repository, it means that <code>gozette</code> is ready to be uploaded to AWS Lambda. During debugging and testing, I made <code>gozette</code> commit to a test repository, rather than the repository of my Hugo site.</p>
+
+<pre><code class="language-bash">curl \
+-X POST \
+-H &quot;Content-Type: application/json&quot; \
+-H &quot;Authorization: Bearer XXXX&quot; \
+-d '{&quot;content&quot;:&quot;hello world&quot;,&quot;name&quot;:&quot;new post&quot;, &quot;category&quot;: [&quot;tag1&quot;, &quot;tag2&quot;], &quot;mp-slug&quot;: &quot;first_post&quot;}' \
+http://127.0.0.1:3000/
+</code></pre>
+
+<p>Remember to replace <code>XXXX</code> with the access token, and <code>http://127.0.0.1:3000/</code> with the address returned from SAM. If you see a new file called <code>content/micro/first_post.md</code> in your GitHub repository, it means that <code>gozette</code> is ready to be uploaded to AWS Lambda. During debugging and testing, I made <code>gozette</code> commit to a test repository, rather than the repository of my Hugo site.</p>
+
 <h3 id="running-the-micropub-server-on-aws-lambda">Running the Micropub server on AWS Lambda</h3>
+
 <p>Now it&rsquo;s time to deploy <code>gozette</code> to AWS Lambda. Under <code>~/go/src/gozette-hhyu/</code>, run</p>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sam deploy --guided
-</code></pre></div><p>If everything works, SAM will return an &ldquo;API Gateway endpoint URL&rdquo;. This is the AWS address that <code>gozette</code> will receive requests from. For example, I received <code>https://xxxxx.execute-api.ap-southeast-2.amazonaws.com/Prod/</code> (remember that this was the URL that I assigned to the <code>&lt;link rel=&quot;micropub&quot;&gt;</code> tag in the <code>&lt;head&gt;</code> section.). I tested it with the same <code>curl</code> command above, except that I replaced the local address with the AWS endpoint address, and I verified that a new file was committed to GitHub. So <code>gozette</code> is now running correctly on AWS Lambda.</p>
+
+<pre><code class="language-bash">sam deploy --guided
+</code></pre>
+
+<p>If everything works, SAM will return an &ldquo;API Gateway endpoint URL&rdquo;. This is the AWS address that <code>gozette</code> will receive requests from. For example, I received <code>https://xxxxx.execute-api.ap-southeast-2.amazonaws.com/Prod/</code> (remember that this was the URL that I assigned to the <code>&lt;link rel=&quot;micropub&quot;&gt;</code> tag in the <code>&lt;head&gt;</code> section.). I tested it with the same <code>curl</code> command above, except that I replaced the local address with the AWS endpoint address, and I verified that a new file was committed to GitHub. So <code>gozette</code> is now running correctly on AWS Lambda.</p>
+
 <p>I had planned to redirect <code>hhyu.org/micropub</code> to the AWS API gateway URL. This can be done with S3&rsquo;s redirection rule, but this approach didn&rsquo;t seem to work with CloudFront.</p>
 
   </section>

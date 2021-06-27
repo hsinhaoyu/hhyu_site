@@ -35,7 +35,7 @@
   
   
   
-  <meta name="generator" content="Hugo 0.79.0" />
+  <meta name="generator" content="Hugo 0.54.0" />
   
   
 
@@ -115,23 +115,19 @@
   </figure>
 </div>
 
+
 <p>I created this figure to illustrate the retinotopic map of the primary visual cortex of the marmoset. The eccentricity contours are plotted in red, and polar angles are in blue. It&rsquo;s very easy to create it in 3D so that you can rotate it around and see it from different angles. This is how you do it:</p>
+
 <ol>
-<li>
-<p>Download <a href="https://www.paraview.org">ParaView</a>, the open source 3D data visualization package.</p>
-</li>
-<li>
-<p>Download the published retinotopic data (<a href="http://onlinelibrary.wiley.com/doi/10.1002/cne.23215/abstract;jsessionid=785ECD35494A9B810E6AC757C05C4452.f04t02">Chaplin, Yu &amp; Rosa, 2013</a>).  The relevant file is <a href="http://onlinelibrary.wiley.com/store/10.1002/cne.23215/asset/supinfo/CNE_23215_sm_SuppDataS5.vtk?v=1&amp;s=a3f4021122cf3fe8ad659b7c008a427e2c027a5f">CNE_23215_sm_SuppDataS5.vtk</a>.</p>
-</li>
-<li>
-<p>Open the .vtk file in ParaView. Use solid colour to display the cortical surface of V1.</p>
-</li>
-<li>
-<p>Select the .vtk file in the Pipeline Browser, then apply the Contour filter (there is a contour icon just above the Pipeline Browser). For the &ldquo;Contour By&rdquo; option, choose &ldquo;Double_Sech_Polar_angle&rdquo;. Enter a range of polar angle values in the &ldquo;Isosurfaces&rdquo; panel (0, 30, 60, -30, -60). Set Representation to &ldquo;Wireframe&rdquo; and then adjust the styles of the wireframe (set Line Width to 3). Click &ldquo;Apply&rdquo;. ParaView automatically makes the main surface invisible. Don&rsquo;t worry, just make it visible again by clicking on the eye icon in the Pipeline Browser.</p>
-</li>
-<li>
-<p>Apply a second Contour filter to the surface (that is, first select the .vtk file, then click on the Contours icon). This time, use &ldquo;Double_Sech_Eccentricity&rdquo; for contours.</p>
-</li>
+<li><p>Download <a href="https://www.paraview.org">ParaView</a>, the open source 3D data visualization package.</p></li>
+
+<li><p>Download the published retinotopic data (<a href="http://onlinelibrary.wiley.com/doi/10.1002/cne.23215/abstract;jsessionid=785ECD35494A9B810E6AC757C05C4452.f04t02">Chaplin, Yu &amp; Rosa, 2013</a>).  The relevant file is <a href="http://onlinelibrary.wiley.com/store/10.1002/cne.23215/asset/supinfo/CNE_23215_sm_SuppDataS5.vtk?v=1&amp;s=a3f4021122cf3fe8ad659b7c008a427e2c027a5f">CNE_23215_sm_SuppDataS5.vtk</a>.</p></li>
+
+<li><p>Open the .vtk file in ParaView. Use solid colour to display the cortical surface of V1.</p></li>
+
+<li><p>Select the .vtk file in the Pipeline Browser, then apply the Contour filter (there is a contour icon just above the Pipeline Browser). For the &ldquo;Contour By&rdquo; option, choose &ldquo;Double_Sech_Polar_angle&rdquo;. Enter a range of polar angle values in the &ldquo;Isosurfaces&rdquo; panel (0, 30, 60, -30, -60). Set Representation to &ldquo;Wireframe&rdquo; and then adjust the styles of the wireframe (set Line Width to 3). Click &ldquo;Apply&rdquo;. ParaView automatically makes the main surface invisible. Don&rsquo;t worry, just make it visible again by clicking on the eye icon in the Pipeline Browser.</p></li>
+
+<li><p>Apply a second Contour filter to the surface (that is, first select the .vtk file, then click on the Contours icon). This time, use &ldquo;Double_Sech_Eccentricity&rdquo; for contours.</p></li>
 </ol>
 
   </section>

@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>visualization on Cortically Magnified</title>
+    <title>Visualization on Cortically Magnified</title>
     <link>https://www.hhyu.org/tags/visualization/</link>
-    <description>Recent content in visualization on Cortically Magnified</description>
+    <description>Recent content in Visualization on Cortically Magnified</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 Nov 2017 19:40:13 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/tags/visualization/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Nov 2017 19:40:13 +1100</lastBuildDate>
+    
+	<atom:link href="https://www.hhyu.org/tags/visualization/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>A magic trick based on Fourier transform</title>
       <link>https://www.hhyu.org/posts/fourierdemonstration/</link>
@@ -32,7 +36,7 @@
       
       <guid>https://www.hhyu.org/posts/marmosetv1/</guid>
       <description>I created this figure to illustrate the retinotopic map of the primary visual cortex of the marmoset. The eccentricity contours are plotted in red, and polar angles are in blue. It&amp;rsquo;s very easy to create it in 3D so that you can rotate it around and see it from different angles. This is how you do it:
-  Download ParaView, the open source 3D data visualization package.</description>
+ Download ParaView, the open source 3D data visualization package.</description>
     </item>
     
   </channel>

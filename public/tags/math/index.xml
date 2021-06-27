@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>math on Cortically Magnified</title>
+    <title>Math on Cortically Magnified</title>
     <link>https://www.hhyu.org/tags/math/</link>
-    <description>Recent content in math on Cortically Magnified</description>
+    <description>Recent content in Math on Cortically Magnified</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 27 Nov 2020 01:31:22 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/tags/math/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 27 Nov 2020 01:31:22 +1100</lastBuildDate>
+    
+	<atom:link href="https://www.hhyu.org/tags/math/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title></title>
       <link>https://www.hhyu.org/micro/incomplete/</link>
@@ -50,6 +54,7 @@
       
       <guid>https://www.hhyu.org/posts/elastic/</guid>
       <description>&lt;h3 id=&#34;is-the-salesman-travelling-on-foot-or-on-an-airplane&#34;&gt;Is the salesman travelling on foot or on an airplane?&lt;/h3&gt;
+
 &lt;p&gt;This article describes an experiment to develop a version of the elastic net algorithm that works on spherical surfaces. I needed it for a computational neuroscience problem, but for those who are mainly interested in machine learning, it also serves a simple and intuitive demonstration of using gradient descent on non-Euclidian surfaces. The Tensorflow source code is available on &lt;a href=&#34;https://github.com/hsinhaoyu/spherical_elastic_net&#34;&gt;GitHub&lt;/a&gt;. I also made a youtube &lt;a href=&#34;https://www.youtube.com/watch?v=uoZcTG_i2jQ&amp;amp;feature=youtu.be&#34;&gt;video&lt;/a&gt; showing the algorithm in action.&lt;/p&gt;</description>
     </item>
     

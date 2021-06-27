@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Movie on Cortically Magnified</title>
+    <link>https://www.hhyu.org/tags/movie/</link>
+    <description>Recent content in Movie on Cortically Magnified</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 23 Mar 2021 22:50:36 +1100</lastBuildDate>
+    
+	<atom:link href="https://www.hhyu.org/tags/movie/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://www.hhyu.org/micro/pynchon_godzilla/</link>
+      <pubDate>Tue, 23 Mar 2021 22:50:36 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/micro/pynchon_godzilla/</guid>
+      <description>Thomas Pynchon likes to talk about Godzilla in his novels. In Inherent Vice, there is a funny scene where the main character Doc told his girlfriend Penny that the 1964 Japanese movie Ghidorah, the Three-Headed Monster was a remake of the 1953 romantic comedy Roman Holiday. Later that night, Doc caught Penny sobbing at the TV, because she watched the Japanese monster movie as a romance. Pynchon is good at writing this type of plot that is ridiculous but oddly touching.</description>
+    </item>
+    
+  </channel>
+</rss>

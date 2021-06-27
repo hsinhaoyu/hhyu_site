@@ -32,7 +32,7 @@
   
   
   
-  <meta name="generator" content="Hugo 0.79.0" />
+  <meta name="generator" content="Hugo 0.54.0" />
   
   
 
@@ -87,208 +87,157 @@
         </div>
       
       
-      <a href="https://www.hhyu.org/tags/tutorial" class="c-tag">tutorial,</a>
-      
-      <a href="https://www.hhyu.org/tags/emacs" class="c-tag">emacs,</a>
-      
-      <a href="https://www.hhyu.org/tags/orgmode" class="c-tag">orgmode,</a>
-      
-      <a href="https://www.hhyu.org/tags/programming" class="c-tag">programming</a>
-      
     </div>
   </header>
   
   <section id="js-article" class="p-article__body e-content">
-    
-<p>
-For text processing, I had never bothered to learn classic Unix tools such as <a href="https://en.wikipedia.org/wiki/Sed">sed</a> and <a href="https://en.wikipedia.org/wiki/AWK">awk</a>, because I can always use Python&#39;s regular expression library. The syntax of <code class="verbatim">sed</code> and <code class="verbatim">awk</code> just appeared to be too arcane to me. However, recently I realize that for many simple ad-hoc tasks, even writing a Python script is too much overhead. This motivated me to learn to use regular expressions directly in the command line.</p>
-<p>
-It also gave me an excuse to play with literate programming in org-mode. I love mixing narratives with code in notebook environments, but with Jupyter and Mathematica notebooks, I have to program in Python, R, or Mathematica. Org-mode has the advantage of supporting many programming languages. Furthermore, code blocks in an org-mode notebook can be written in more than one languages, which makes it perfect for teaching and learning programming languages. Another useful feature is that instead of loading data from an external file, a code block can read from data blocks (and even from the results of other code blocks) in the same notebook. It&#39;s very convenient to be able to manipulate data and code in a self-contained document.</p>
-<p>
-If you are reading this on GitHub or on my blog, note that you are viewing a rendering of the notebook, which hides the markups used to construct the code blocks. On GitHub, you can click on the &#34;Raw&#34; button to view the source code. More usefully, you can download the <a href="https://github.com/hsinhaoyu/resources/blob/main/shell_regexp.org">source code</a> and open it in Emacs. You can then move the cursor to one of the code blocks, and evaluate it with <code class="verbatim">C-c C-c</code>.</p>
-<div id="outline-container-headline-1" class="outline-2">
-<h2 id="headline-1">
-Preparations
-</h2>
-<div id="outline-text-headline-1" class="outline-text-2">
-<p>
-By default, org-mode in Emacs only allows the evaluation of LISP code blocks. For interacting with the Unix shell and Python, I inserted the following to my Emacs configuration script:</p>
-<div class="src src-emacs-lisp">
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp">  <span style="color:#080;font-style:italic">;; Do not ask for confirmation when evaluation a block</span>
-  (<span style="color:#a2f">setq</span> <span style="color:#b8860b">org-confirm-babel-evaluate</span> <span style="color:#800">nil</span>)
+    <p>For text processing, I had never bothered to learn classic Unix tools such as <a href="https://en.wikipedia.org/wiki/Sed" title="sed">sed</a> and <a href="https://en.wikipedia.org/wiki/AWK" title="awk">awk</a>, because I can always use Python's regular expression library. The syntax of <code>sed</code> and <code>awk</code> just appeared to be too arcane to me. However, recently I realize that for many simple ad-hoc tasks, even writing a Python script is too much overhead. This motivated me to learn to use regular expressions directly in the command line.</p>
 
-  (<span style="color:#b8860b">org-babel-do-load-languages</span>
-   <span style="color:#b8860b">&#39;org-babel-load-languages</span>
-   <span style="color:#666">&#39;</span>((<span style="color:#b8860b">emacs-lisp</span> <span style="color:#666">.</span> <span style="color:#800">t</span>)
-     (<span style="color:#b8860b">shell</span> <span style="color:#666">.</span> <span style="color:#800">t</span>)
-     (<span style="color:#b8860b">python</span> <span style="color:#666">.</span> <span style="color:#800">t</span>)))</code></pre></div>
-</div>
-</div>
-</div>
-<div id="outline-container-headline-2" class="outline-2">
-<h2 id="headline-2">
-Running unix shell commands in org-mode
-</h2>
-<div id="outline-text-headline-2" class="outline-text-2">
-<p>
-Let&#39;s start with this small chunk of text:</p>
-<pre class="example">
-apple orange User24 banana User300 User5s cherry strawberry
+<p>It also gave me an excuse to play with literate programming in org-mode. I love mixing narratives with code in notebook environments, but with Jupyter and Mathematica notebooks, I have to program in Python, R, or Mathematica. Org-mode has the advantage of supporting many programming languages. Furthermore, code blocks in an org-mode notebook can be written in more than one languages, which makes it perfect for teaching and learning programming languages. Another useful feature is that instead of loading data from an external file, a code block can read from data blocks (and even from the results of other code blocks) in the same notebook. It's very convenient to be able to manipulate data and code in a self-contained document.</p>
+
+<p>If you are reading this on GitHub or on my blog, note that you are viewing a rendering of the notebook, which hides the markups used to construct the code blocks. On GitHub, you can click on the "Raw" button to view the source code. More usefully, you can download the <a href="https://github.com/hsinhaoyu/resources/blob/main/shell_regexp" title="source code">source code</a> and open it in Emacs. You can then move the cursor to one of the code blocks, and evaluate it with <code>C-c C-c</code>.</p>
+
+<h1 id="preparations">Preparations</h1>
+
+<p>By default, org-mode in Emacs only allows the evaluation of LISP code blocks. For interacting with the Unix shell and Python, I inserted the following to my Emacs configuration script:</p>
+
+<p>;; Do not ask for confirmation when evaluation a block
+  (setq org-confirm-babel-evaluate nil)</p>
+
+<p>(org-babel-do-load-languages
+   'org-babel-load-languages
+   '((emacs-lisp . t)
+     (shell . t)
+     (python . t)))</p>
+
+<h1 id="running-unix-shell-commands-in-org-mode">Running unix shell commands in org-mode</h1>
+
+<p>Let's start with this small chunk of text:</p>
+
+<pre><code>apple orange User24 banana User300 User5s cherry strawberry
 kiwi User65
-</pre>
-<p>
-To store it in a code block, I used the  <code class="verbatim">#+BEGIN_EXAMPLE</code> and <code class="verbatim">#+END_EXAMPLE</code> markup. I gave it a name (<code class="verbatim">source_text</code>) with <code class="verbatim">#+NAME:</code>, so that other code blocks can refer to it. To learn more about the mechanism for passing information around among code blocks, <a href="https://jherrlin.github.io/posts/emacs-orgmode-source-code-blocks/">jherrlin</a> has posted several very useful blog entries. </p>
-<p>
-The following is a shell script block. I use the <code class="verbatim">:stdin source_text</code> directive to send the text to <code class="verbatim">STDIO</code>. To operate on <code class="verbatim">STDIO</code> from a shell script, the easiest way is to read from the <code class="verbatim">/dev/stdin</code> file:</p>
-<div class="src src-shell">
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">cat /dev/stdin</code></pre></div>
-</div>
+</code></pre>
+
+<p>To store it in a code block, I used the  <code>#+BEGIN_EXAMPLE</code> and <code>#+END_EXAMPLE</code> markup. I gave it a name (<code>source_text</code>) with <code>#+NAME:</code>, so that other code blocks can refer to it. To learn more about the mechanism for passing information around among code blocks, <a href="https://jherrlin.github.io/posts/emacs-orgmode-source-code-blocks/" title="jherrlin">jherrlin</a> has posted several very useful blog entries.</p>
+
+<p>The following is a shell script block. I use the <code>:stdin source_text</code> directive to send the text to <code>STDIO</code>. To operate on <code>STDIO</code> from a shell script, the easiest way is to read from the <code>/dev/stdin</code> file:</p>
+
+<p>cat /dev/stdin</p>
 <pre class="example">
 apple orange User24 banana User300 User5s cherry strawberry
 </pre>
-<p>
-The result above shows that we can indeed read from the <code class="verbatim">source_text</code> block. Note that the format that the result is displayed in is specified by the shell script block. I used <code class="verbatim">:results output</code> to tell org-mode to display the raw output of the shell script, instead of formatting it as a table (which is the default behavior). The <code class="verbatim">:exports both</code> directive was used so that when the notebook is exported to HTML, the code and the result are both exported (by default, only the code is exported).</p>
-</div>
-</div>
-<div id="outline-container-headline-3" class="outline-2">
-<h2 id="headline-3">
-Simple pattern matching with <code class="verbatim">grep</code> 
-</h2>
-<div id="outline-text-headline-3" class="outline-text-2">
-<p>
-How to extract all the user IDs (<code class="verbatim">User24</code>, <code class="verbatim">User300</code>, <code class="verbatim">User5</code>, <code class="verbatim">=User65=</code>) from the string? In Python, it&#39;s just:</p>
-<div class="src src-python">
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">  <span style="color:#a2f;font-weight:bold">import</span> <span style="color:#00f;font-weight:bold">re</span>
-  res <span style="color:#666">=</span> re<span style="color:#666">.</span>findall(<span style="color:#b44">r</span><span style="color:#b44">&#39;User\d+&#39;</span>, <span style="color:#a2f">str</span>)
-  <span style="color:#a2f;font-weight:bold">for</span> r <span style="color:#a2f;font-weight:bold">in</span> res:
-    <span style="color:#a2f;font-weight:bold">print</span>(r)</code></pre></div>
-</div>
+
+<p>The result above shows that we can indeed read from the <code>source_text</code> block. Note that the format that the result is displayed in is specified by the shell script block. I used <code>:results output</code> to tell org-mode to display the raw output of the shell script, instead of formatting it as a table (which is the default behavior). The <code>:exports both</code> directive was used so that when the notebook is exported to HTML, the code and the result are both exported (by default, only the code is exported).</p>
+
+<h1 id="simple-pattern-matching-with-grep">Simple pattern matching with <code>grep</code></h1>
+
+<p>How to extract all the user IDs (<code>User24</code>, <code>User300</code>, <code>User5</code>, <code>=User65=</code>) from the string? In Python, it's just:</p>
+
+<p>import re
+  res = re.findall(r'User\d+', str)
+  for r in res:
+    print(r)</p>
 <pre class="example">
 User24
 User300
 User5
 User65
 </pre>
-<p>
-To do the same in the Unix shell, <code class="verbatim">grep</code> is the closest to Python&#39;s <code class="verbatim">re.findall()</code>. It took me a couple of minutes to figure out that I had to use the extended version of <code class="verbatim">grep</code>, <code class="verbatim">egrep</code>, because the <code class="verbatim">+</code> pattern is unavailable in <code class="verbatim">grep</code>:</p>
-<div class="src src-shell">
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">cat /dev/stdin | egrep -o <span style="color:#b44">&#39;User\d+&#39;</span></code></pre></div>
-</div>
+
+<p>To do the same in the Unix shell, <code>grep</code> is the closest to Python's <code>re.findall()</code>. It took me a couple of minutes to figure out that I had to use the extended version of <code>grep</code>, <code>egrep</code>, because the <code>+</code> pattern is unavailable in =grep=:</p>
+
+<p>cat /dev/stdin | egrep -o 'User\d+'</p>
 <pre class="example">
 User24
 User300
 User5
 User65
 </pre>
-<p>
-The <code class="verbatim">-o</code> option (<code class="verbatim">o</code> stands for &#34;only&#34;) is important, because it tells <code class="verbatim">(e)grep</code> to print only the substring that matches the regular expression pattern. Interestingly, the matched substrings are displayed in individual lines. This behavior will come in handy later.</p>
-<p>
-Without the <code class="verbatim">-o</code> flag, <code class="verbatim">(e)grep</code> prints the entire line if there is a match in the line. This behavior is useful for identifying lines in a file that matches the pattern, but it&#39;s not useful for extracting useful pieces in a line.</p>
-<div class="src src-shell">
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">cat /dev/stdin | egrep <span style="color:#b44">&#39;User\d+&#39;</span></code></pre></div>
-</div>
+
+<p>The <code>-o</code> option (<code>o</code> stands for "only") is important, because it tells <code>(e)grep</code> to print only the substring that matches the regular expression pattern. Interestingly, the matched substrings are displayed in individual lines. This behavior will come in handy later.</p>
+
+<p>Without the <code>-o</code> flag, <code>(e)grep</code> prints the entire line if there is a match in the line. This behavior is useful for identifying lines in a file that matches the pattern, but it's not useful for extracting useful pieces in a line.</p>
+
+<p>cat /dev/stdin | egrep 'User\d+'</p>
 <pre class="example">
 apple orange User24 banana User300 User5s cherry strawberry
 kiwi User65
 </pre>
-<p>
-I also tried to solve this problem with <code class="verbatim">sed</code>, but it didn&#39;t seem to be work. <code class="verbatim">sed</code> is good at editing words in a document, but it is not good at extraction.</p>
-</div>
-</div>
-<div id="outline-container-headline-4" class="outline-2">
-<h2 id="headline-4">
-Simple pattern matching with <code class="verbatim">awk</code>
-</h2>
-<div id="outline-text-headline-4" class="outline-text-2">
-<p>This was the first time that I used <code class="verbatim">awk</code>. I was hoping for an elegant one-liner (what was I thinking?), but it turned out that for each line (<code class="verbatim">$0</code>), I had to loop through all matches, print out the match, and then update <code class="verbatim">$0</code> to become the rest of the line. Yuck! If I have to do this, I might as well use Python.</p>
-<div class="src src-awk">
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-awk" data-lang="awk">  {
-      <span style="color:#a2f;font-weight:bold">while</span> (<span style="color:#a2f;font-weight:bold">match</span>(<span style="color:#666">$</span><span style="color:#666">0</span>, <span style="color:#b44">&#34;User[0-9]+&#34;</span>)) {
-          <span style="color:#a2f;font-weight:bold">print</span> <span style="color:#a2f;font-weight:bold">substr</span>(<span style="color:#666">$</span><span style="color:#666">0</span>, <span style="color:#a2f">RSTART</span>, <span style="color:#a2f">RLENGTH</span>);
-          <span style="color:#666">$</span><span style="color:#666">0</span> <span style="color:#666">=</span> <span style="color:#a2f;font-weight:bold">substr</span>(<span style="color:#666">$</span><span style="color:#666">0</span>, <span style="color:#a2f">RSTART</span> <span style="color:#666">+</span> <span style="color:#a2f">RLENGTH</span>);
+
+<p>I also tried to solve this problem with <code>sed</code>, but it didn't seem to be work. <code>sed</code> is good at editing words in a document, but it is not good at extraction.</p>
+
+<h1 id="simple-pattern-matching-with-awk">Simple pattern matching with <code>awk</code></h1>
+
+<p>This was the first time that I used <code>awk</code>. I was hoping for an elegant one-liner (what was I thinking?), but it turned out that for each line (<code>$0</code>), I had to loop through all matches, print out the match, and then update <code>$0</code> to become the rest of the line. Yuck! If I have to do this, I might as well use Python.</p>
+
+<p>{
+      while (match($0, "User[0-9]+")) {
+          print substr($0, RSTART, RLENGTH);
+          $0 = substr($0, RSTART + RLENGTH);
       }
-  }</code></pre></div>
-</div>
+  }</p>
 <pre class="example">
 User24
 User300
 User5
 User65
 </pre>
-</div>
-</div>
-<div id="outline-container-headline-5" class="outline-2">
-<h2 id="headline-5">
-Substring extraction with <code class="verbatim">grep</code> and <code class="verbatim">sed</code>
-</h2>
-<div id="outline-text-headline-5" class="outline-text-2">
-<p>Let&#39;s make the problem a little harder. Consider this chunk of text:</p>
-<pre class="example">
-apple orange User24.txt banana User300s User5.text cherry strawberry
+
+<h1 id="substring-extraction-with-grep-and-sed">Substring extraction with <code>grep</code> and <code>sed</code></h1>
+
+<p>Let's make the problem a little harder. Consider this chunk of text:</p>
+
+<pre><code>apple orange User24.txt banana User300s User5.text cherry strawberry
 kiwi User65.gif banana User31.text
-</pre>
-<p>
-Some of the substrings that begin with <code class="verbatim">User</code> are filenames (e.g., <code class="verbatim">User24.txt</code>). Form the filenames, I want to extract the parts before the extensions (e.g., the <code class="verbatim">User24</code> part of <code class="verbatim">User24.txt</code>). Note that the length of the extension is not constant.</p>
-<p>
-With Python&#39;s <code class="verbatim">re.findall()</code>, this can easily be done by creating a capture group in the pattern with parentheses:</p>
-<div class="src src-python">
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">  <span style="color:#a2f;font-weight:bold">import</span> <span style="color:#00f;font-weight:bold">re</span>
-  res<span style="color:#666">=</span>re<span style="color:#666">.</span>findall(<span style="color:#b44">r</span><span style="color:#b44">&#39;(User\d+).[a-z]{3,4}&#39;</span>, <span style="color:#a2f">str</span>)
-  <span style="color:#a2f;font-weight:bold">for</span> r <span style="color:#a2f;font-weight:bold">in</span> res:
-    <span style="color:#a2f;font-weight:bold">print</span>(r)</code></pre></div>
-</div>
+</code></pre>
+
+<p>Some of the substrings that begin with <code>User</code> are filenames (e.g., <code>User24.txt</code>). Form the filenames, I want to extract the parts before the extensions (e.g., the <code>User24</code> part of <code>User24.txt</code>). Note that the length of the extension is not constant.</p>
+
+<p>With Python's <code>re.findall()</code>, this can easily be done by creating a capture group in the pattern with parentheses:</p>
+
+<p>import re
+  res=re.findall(r'(User\d+).[a-z]{3,4}', str)
+  for r in res:
+    print(r)</p>
 <pre class="example">
 User24
 User5
 User65
 User31
 </pre>
-<p>
-With <code class="verbatim">grep</code>, it&#39;s easy to pick up the filenames…</p>
-<div class="src src-shell">
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">cat /dev/stdin | egrep -o <span style="color:#b44">&#39;User\d+.[a-z]{3,4}&#39;</span></code></pre></div>
-</div>
+
+<p>With <code>grep</code>, it's easy to pick up the filenames...</p>
+
+<p>cat /dev/stdin | egrep -o 'User\d+.[a-z]{3,4}'</p>
 <pre class="example">
 User24.txt
 User5.text
 User65.gif
 User31.text
 </pre>
-<p>
-… but it is not easy to take them apart. That&#39;s where <code class="verbatim">sed</code> comes in! I couldn&#39;t solve this problem with <code class="verbatim">sed</code> alone, because <code class="verbatim">sed</code> is not good at picking up multiple matches in the same line. But since <code class="verbatim">grep</code> very helpfully puts each match in is own line, it&#39;s perfect for <code class="verbatim">sed</code>. It&#39;s time to try the famous <code class="verbatim">sed</code> command <code class="verbatim">s/</code> (&#34;substitute&#34;):</p>
-<div class="src src-shell">
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">  <span style="color:#b8860b">sedre</span><span style="color:#666">=</span><span style="color:#b44">&#39;(User[0-9]+).[a-z]{3,4}&#39;</span>
-  <span style="color:#b8860b">action</span><span style="color:#666">=</span><span style="color:#b44">&#39;\1&#39;</span>
-  cat /dev/stdin | egrep -o <span style="color:#b44">&#34;</span><span style="color:#b8860b">$sedre</span><span style="color:#b44">&#34;</span> | sed -n -E <span style="color:#b44">&#34;s/</span><span style="color:#b8860b">$sedre</span><span style="color:#b44">/</span><span style="color:#b8860b">$action</span><span style="color:#b44">/p&#34;</span></code></pre></div>
-</div>
+
+<p>... but it is not easy to take them apart. That's where <code>sed</code> comes in! I couldn't solve this problem with <code>sed</code> alone, because <code>sed</code> is not good at picking up multiple matches in the same line. But since <code>grep</code> very helpfully puts each match in is own line, it's perfect for <code>sed</code>. It's time to try the famous <code>sed</code> command <code>s/</code> ("substitute"):</p>
+
+<p>sedre='(User[0-9]+).[a-z]{3,4}'
+  action='\1'
+  cat /dev/stdin | egrep -o "$sedre" | sed -n -E "s/$sedre/$action/p"</p>
 <pre class="example">
 User24
 User5
 User65
 User31
 </pre>
-<p>
-It&#39;s a nice one-liner, bit there are a some details to unpack:</p>
+
 <ol>
-<li>
-<p>The syntax of the <code class="verbatim">s/</code> command is <code class="verbatim">s/pattern/action/options</code>. I defined two variables (<code class="verbatim">sedre</code> and <code class="verbatim">action</code>) to make this structure more obvious, but it wasn&#39;t necessary.</p>
-</li>
-<li>
-<p>I asked <code class="verbatim">sed</code> to print only the lines that matched. This isn&#39;t necessary because every line from <code class="verbatim">egrep</code> should match, but it&#39;s useful for debugging. This is done with the <code class="verbatim">-n</code> flag, and with the <code class="verbatim">p</code> (&#34;print&#34;) option in last part of the <code class="verbatim">/s</code> command.</p>
-</li>
-<li>
-<p>I turned on the <code class="verbatim">-E</code> flag, to use extended regular expressions.</p>
-</li>
-<li>
-<p>I created a capture group in the pattern <code class="verbatim">sedre</code> with parentheses. Normally, the parentheses need to be escaped (i.e., <code class="verbatim">\(</code> and <code class="verbatim">\</code>)), but with the <code class="verbatim">-E</code> flag on, they shouldn&#39;t be escaped.</p>
-</li>
-<li>
-<p>In the <code class="verbatim">action</code> part of the <code class="verbatim">s/</code> command, I used <code class="verbatim">\1</code> to refer to the first (and only) group in the pattern.</p>
-</li>
+It's a nice one-liner, bit there are a some details to unpack:
+<li>The syntax of the <code>s/</code> command is <code>s/pattern/action/options</code>. I defined two variables (<code>sedre</code> and <code>action</code>) to make this structure more obvious, but it wasn't necessary.</li>
+<li>I asked <code>sed</code> to print only the lines that matched. This isn't necessary because every line from <code>egrep</code> should match, but it's useful for debugging. This is done with the <code>-n</code> flag, and with the <code>p</code> ("print") option in last part of the <code>/s</code> command.</li>
+<li>I turned on the <code>-E</code> flag, to use extended regular expressions.</li>
+<li>I created a capture group in the pattern <code>sedre</code> with parentheses. Normally, the parentheses need to be escaped (i.e., <code>\(</code> and <code>\</code>)), but with the <code>-E</code> flag on, they shouldn't be escaped.</li>
+<li>In the <code>action</code> part of the <code>s/</code> command, I used <code>\1</code> to refer to the first (and only) group in the pattern.</li>
 </ol>
-<p>I was planning to solve this with <code class="verbatim">awk</code>, because <code class="verbatim">awk</code> is supposed to be good at extracting bits and pieces of information from texts. But <code class="verbatim">awk</code> is really designed for processing tabular data. For unstructured texts, <code class="verbatim">awk</code> is worse than Python, so I decided not to bother.</p>
-</div>
-</div>
+
+<p>I was planning to solve this with <code>awk</code>, because <code>awk</code> is supposed to be good at extracting bits and pieces of information from texts. But <code>awk</code> is really designed for processing tabular data. For unstructured texts, <code>awk</code> is worse than Python, so I decided not to bother.</p>
 
   </section>
   <footer>

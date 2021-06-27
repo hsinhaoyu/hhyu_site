@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>neuroscience on Cortically Magnified</title>
+    <title>Neuroscience on Cortically Magnified</title>
     <link>https://www.hhyu.org/tags/neuroscience/</link>
-    <description>Recent content in neuroscience on Cortically Magnified</description>
+    <description>Recent content in Neuroscience on Cortically Magnified</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Dec 2020 00:57:48 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/tags/neuroscience/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Dec 2020 00:57:48 +1100</lastBuildDate>
+    
+	<atom:link href="https://www.hhyu.org/tags/neuroscience/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title></title>
       <link>https://www.hhyu.org/micro/humphrey/</link>

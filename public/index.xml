@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cortically Magnified</title>
@@ -6,14 +6,27 @@
     <description>Recent content on Cortically Magnified</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 23 Mar 2021 22:33:51 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Mar 2021 22:50:36 +1100</lastBuildDate>
+    
+	<atom:link href="https://www.hhyu.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://www.hhyu.org/micro/pynchon_godzilla/</link>
+      <pubDate>Tue, 23 Mar 2021 22:50:36 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/micro/pynchon_godzilla/</guid>
+      <description>Thomas Pynchon likes to talk about Godzilla in his novels. In Inherent Vice, there is a funny scene where the main character Doc told his girlfriend Penny that the 1964 Japanese movie Ghidorah, the Three-Headed Monster was a remake of the 1953 romantic comedy Roman Holiday. Later that night, Doc caught Penny sobbing at the TV, because she watched the Japanese monster movie as a romance. Pynchon is good at writing this type of plot that is ridiculous but oddly touching.</description>
+    </item>
+    
     <item>
       <title>Simple exercises with grep, sed and awk in org-mode</title>
       <link>https://www.hhyu.org/posts/shell_regexp/</link>
       <pubDate>Tue, 23 Mar 2021 22:33:51 +1100</pubDate>
       
       <guid>https://www.hhyu.org/posts/shell_regexp/</guid>
-      <description>For text processing, I had never bothered to learn classic Unix tools such as sed and awk, because I can always use Python&amp;#39;s regular expression library. The syntax of sed and awk just appeared to be too arcane to me. However, recently I realize that for many simple ad-hoc tasks, even writing a Python script is too much overhead. This motivated me to learn to use regular expressions directly in the command line.</description>
+      <description>For text processing, I had never bothered to learn classic Unix tools such as sed and awk, because I can always use Python&#39;s regular expression library. The syntax of sed and awk just appeared to be too arcane to me. However, recently I realize that for many simple ad-hoc tasks, even writing a Python script is too much overhead. This motivated me to learn to use regular expressions directly in the command line.</description>
     </item>
     
     <item>
@@ -31,7 +44,7 @@
       <pubDate>Wed, 03 Feb 2021 22:41:15 +1100</pubDate>
       
       <guid>https://www.hhyu.org/micro/grammar_of_tree-wvvmunibcjh1tn/</guid>
-      <description>In the 70&amp;rsquo;s, it was fashionable for intellectuals to abuse the term &amp;ldquo;grammar&amp;rdquo; to refer to any underlying principles. In one of his essays, Italo Calvino used the term &amp;ldquo;the grammar of tree&amp;rdquo; to refer to&amp;hellip;. essentially developmental plant biology. I thought that was pretentious. But heh, in R programming, people are talking about the grammar of graphics or data manipulations. It&amp;rsquo;s fashionable to call functions &amp;ldquo;verbs&amp;rdquo; again. Hello, structuralism!</description>
+      <description>In the 70&amp;rsquo;s, it was fashionable for intellectuals to abuse the term &amp;ldquo;grammar&amp;rdquo; to refer to any underlying principles. In one of his essays, Italo Calvino used the term &amp;ldquo;the grammar of tree&amp;rdquo; to refer to&amp;hellip;. essentially developmental plant biology. I thought that was pretentious. But heh, in R programming, people are talking about the grammar of graphics and grammar of data manipulation again. It&amp;rsquo;s fashionable to call functions &amp;ldquo;verbs&amp;rdquo; again.</description>
     </item>
     
     <item>
@@ -50,8 +63,7 @@
       
       <guid>https://www.hhyu.org/research/</guid>
       <description>1. AI applications in ophthalmology At clinics, monitoring the progression of glaucoma traditionally relies on visual field tests, which is unreliable and time consuming. In collaboration with clinical researchers at NYU, I investigated methods to infer visual field functions directly from scans of the retina, using 3D convolutional neural networks.
-Publication:
- Yu et al. (in press) Estimating global visual field indices in glaucoma by combining macula and optic disc OCT scans using 3-dimensional convolutional neural networks Ophthalmology Glaucoma [link]  2.</description>
+Publication: - Yu et al. (in press) Estimating global visual field indices in glaucoma by combining macula and optic disc OCT scans using 3-dimensional convolutional neural networks Ophthalmology Glaucoma [link]</description>
     </item>
     
     <item>
@@ -60,9 +72,10 @@ Publication:
       <pubDate>Mon, 18 Jan 2021 09:45:28 +1100</pubDate>
       
       <guid>https://www.hhyu.org/about/</guid>
-      <description>I received my Ph.D. from the Department of Cognitive Science of University of California San Diego.For my undergraduate degree, I studied Applied Mathematics at the National Chiao Tung University in Hsin-Chu, Taiwan.
+      <description>The painting in the background is 4 doubles frames, traits minces by François Morellet (Centre Pompidou, Paris).
+   --- I received my Ph.D. from the Department of Cognitive Science of University of California San Diego.For my undergraduate degree, I studied Applied Mathematics at the National Chiao Tung University in Hsin-Chu, Taiwan.
 I have had several different roles in science and research:
-As an industry researcher in medical AI: I use machine learning and statistical methods to build AI applications in ophthalmology. I also have experience in managing data sharing and collaboration with academic researchers.</description>
+As an industry researcher in medical AI: I use machine learning and statistical methods to build AI applications in ophthalmology.</description>
     </item>
     
     <item>
@@ -136,7 +149,7 @@ The CD was just one of those random things that I had.</description>
       <pubDate>Tue, 05 Jan 2021 14:16:59 +1100</pubDate>
       
       <guid>https://www.hhyu.org/posts/literate_config/</guid>
-      <description>Program like writers do Programming is traditionally seen as an exercise that translates human thoughts into a format that computers can understand. As a result, the ideas behind the program can become obscured and fragmented in the source code. This is why reading code requires so much mental effort. For me, reading code often feels like solving a puzzle, or reading modernist/postmodernist novels where events are narrated out of sequence. The concept of literate programming was introduced by Donald Knuth in the 80&amp;rsquo;s to address this issue.</description>
+      <description>Program like writers do Programming is traditionally seen as an exercise that translates human thoughts into a format that computers can understand. As a result, the ideas behind the program can become obscured and fragmented in the source code. This is why reading code requires so much mental effort. For me, reading code often feels like solving a puzzle, or reading modernist/postmodernist novels where events are narrated out of sequence.</description>
     </item>
     
     <item>
@@ -537,6 +550,7 @@ But it got me thinking, clock hands don&amp;rsquo;t have to rotate around the ce
       
       <guid>https://www.hhyu.org/posts/elastic/</guid>
       <description>&lt;h3 id=&#34;is-the-salesman-travelling-on-foot-or-on-an-airplane&#34;&gt;Is the salesman travelling on foot or on an airplane?&lt;/h3&gt;
+
 &lt;p&gt;This article describes an experiment to develop a version of the elastic net algorithm that works on spherical surfaces. I needed it for a computational neuroscience problem, but for those who are mainly interested in machine learning, it also serves a simple and intuitive demonstration of using gradient descent on non-Euclidian surfaces. The Tensorflow source code is available on &lt;a href=&#34;https://github.com/hsinhaoyu/spherical_elastic_net&#34;&gt;GitHub&lt;/a&gt;. I also made a youtube &lt;a href=&#34;https://www.youtube.com/watch?v=uoZcTG_i2jQ&amp;amp;feature=youtu.be&#34;&gt;video&lt;/a&gt; showing the algorithm in action.&lt;/p&gt;</description>
     </item>
     
@@ -576,7 +590,7 @@ From 2014-2017, I wrote a series of articles for the Chinese speaking communitie
       <pubDate>Thu, 08 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>https://www.hhyu.org/micro/blockchainjoke/</guid>
-      <description>Anthropologists discovered that islanders in South Pacific have been using blockchains for thousands of years. All transactions are recorded by carving patterns on tree trunks, whose integrity is enforced by solving hard problems such as 12/5.</description>
+      <description>Anthropologists discovered that islanders in South Pacific have been using blockchains for thousands of years. All transactions are recorded by carving patterns on tree trunks, whose integrity is enforced by solving hard problems such as 12&amp;frasl;5.</description>
     </item>
     
     <item>
@@ -708,7 +722,7 @@ From 2014-2017, I wrote a series of articles for the Chinese speaking communitie
       
       <guid>https://www.hhyu.org/posts/photoshop/</guid>
       <description>The unusually thick glasses on the windows of the Old Art building in Melbourne University seem to be hand-polished, whose uneven surfaces naturally distort the view into an American expressionist painting.
-     The historic building of the Drum Theatre in Dandenong, Victoria was reflected on a modern office building across the road. The reflective windows reconfigured the image into an incongruent mosaic.</description>
+    The historic building of the Drum Theatre in Dandenong, Victoria was reflected on a modern office building across the road. The reflective windows reconfigured the image into an incongruent mosaic. You might call it photographic cubism.</description>
     </item>
     
     <item>
@@ -850,7 +864,7 @@ Chibi Maruko-Chan is a popular Japanese cartoon for children. It is about the li
       
       <guid>https://www.hhyu.org/posts/marmosetv1/</guid>
       <description>I created this figure to illustrate the retinotopic map of the primary visual cortex of the marmoset. The eccentricity contours are plotted in red, and polar angles are in blue. It&amp;rsquo;s very easy to create it in 3D so that you can rotate it around and see it from different angles. This is how you do it:
-  Download ParaView, the open source 3D data visualization package.</description>
+ Download ParaView, the open source 3D data visualization package.</description>
     </item>
     
     <item>
@@ -980,7 +994,7 @@ Chibi Maruko-Chan is a popular Japanese cartoon for children. It is about the li
       <pubDate>Tue, 01 Jan 2008 14:13:23 +1100</pubDate>
       
       <guid>https://www.hhyu.org/posts/edurad2092-cortex/</guid>
-      <description>General  Is the human cortex exceptionally large? See Herculano-Houzel (2009) The human brain in numbers: a linearly scaled-up primate brain. Frontiers in Neuroscience 3, e31. [Tenor sings opera during craniotomy](Tenor sings opera during craniotomy): I just think this is quite fascinating.  &amp;ldquo;Language areas&amp;rdquo;  The history of Broca&amp;rsquo;s area: Dronkers et al. (2007) Neuroimaging of Language: Why hasn&amp;rsquo;t a clear picture emerged? Fedorenko &amp;amp; Kanwisher (2009) Language and Linguistics Compass 3, 10.</description>
+      <description>General  Is the human cortex exceptionally large? See Herculano-Houzel (2009) The human brain in numbers: a linearly scaled-up primate brain. Frontiers in Neuroscience 3, e31. Tenor sings opera during craniotomy: I just think this is quite fascinating.  &amp;ldquo;Language areas&amp;rdquo;  The history of Broca&amp;rsquo;s area: Dronkers et al. (2007) Neuroimaging of Language: Why hasn&amp;rsquo;t a clear picture emerged? Fedorenko &amp;amp; Kanwisher (2009) Language and Linguistics Compass 3, 10.</description>
     </item>
     
     <item>
@@ -998,7 +1012,7 @@ Chibi Maruko-Chan is a popular Japanese cartoon for children. It is about the li
       <pubDate>Tue, 01 Jan 2008 13:56:48 +1100</pubDate>
       
       <guid>https://www.hhyu.org/posts/eduphy3111-prac/</guid>
-      <description>More about extracellular recording  Wikipedia entry about single-unit recording Extracellular single-unit Recording Methods: a paper by Humphrey &amp;amp; Schmidt  </description>
+      <description> More about extracellular recording  Wikipedia entry about single-unit recording Extracellular single-unit Recording Methods: a paper by Humphrey &amp;amp; Schmidt  </description>
     </item>
     
     <item>
@@ -1016,7 +1030,7 @@ Chibi Maruko-Chan is a popular Japanese cartoon for children. It is about the li
       <pubDate>Tue, 01 Jan 2008 13:20:52 +1100</pubDate>
       
       <guid>https://www.hhyu.org/teaching/</guid>
-      <description>The followings are for students who want to learn more about the topics that I talk about in lectures. They are optional readings. You won&amp;rsquo;t be tested on them.
+      <description> The followings are for students who want to learn more about the topics that I talk about in lectures. They are optional readings. You won&amp;rsquo;t be tested on them.
 PHY3111: Sensation and Movement (2014, 2015)  Colour Vision Prac class: Recording Electrophysiological Signals (cockroach recordings)  PHY3012: Integrative Neuroscience - Neuron to Brain (2015)  Plasticity in the visual system in development  RAD2092: Radiologic Biology 4 and Sectional Anatomy (2012-)  Organization of the Cerebral Cortex The Eye and the Retina Physiology of Visual Pathways  PSY3310: Introduction to Computational Neuroscience (2016, 2017)  Human vision as frequency filters The neural basis of frequency processing  </description>
     </item>
     
