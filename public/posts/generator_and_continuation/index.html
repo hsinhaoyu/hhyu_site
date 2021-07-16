@@ -4,9 +4,9 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
   
-  <title>Beautiful ideas in programming generators and continuations</title>
-  <meta property="og:title" content="Beautiful ideas in programming generators and continuations" />
-  <meta name="twitter:title" content="Beautiful ideas in programming generators and continuations" />
+  <title>Beautiful ideas in programming: generators and continuations</title>
+  <meta property="og:title" content="Beautiful ideas in programming: generators and continuations" />
+  <meta name="twitter:title" content="Beautiful ideas in programming: generators and continuations" />
   
 
   
@@ -73,7 +73,7 @@
 
 <article class="p-article h-entry">
   <header>
-    <h1 class="p-name">Beautiful ideas in programming generators and continuations</h1>
+    <h1 class="p-name">Beautiful ideas in programming: generators and continuations</h1>
     <div>
       
         <div class="c-time">
@@ -148,8 +148,8 @@
     (<span style="color:#00a000">make-coroutine-generator</span>
      (<span style="color:#a2f;font-weight:bold">lambda </span>(<span style="color:#00a000">yield</span>)
        (<span style="color:#a2f;font-weight:bold">let </span><span style="color:#b8860b">loop</span> ((<span style="color:#00a000">i</span> <span style="color:#666">1</span>))      <span style="color:#080;font-style:italic">;;; define recursive function &#34;loop&#34; which increases i, starting from 1 </span>
-	 (<span style="color:#00a000">yield</span> (<span style="color:#a2f">* </span><span style="color:#b8860b">i</span> <span style="color:#b8860b">i</span>))
-	 (<span style="color:#00a000">loop</span> (<span style="color:#a2f">+ </span><span style="color:#b8860b">i</span> <span style="color:#666">1</span>)))))))
+	     (<span style="color:#00a000">yield</span> (<span style="color:#a2f">* </span><span style="color:#b8860b">i</span> <span style="color:#b8860b">i</span>))
+	     (<span style="color:#00a000">loop</span> (<span style="color:#a2f">+ </span><span style="color:#b8860b">i</span> <span style="color:#666">1</span>)))))))
 
 (<span style="color:#a2f;font-weight:bold">define </span><span style="color:#b8860b">g</span> (<span style="color:#00a000">squared-ints</span>))     <span style="color:#080;font-style:italic">;;; make a generator, assign it to &#34;g&#34; </span>
 </code></pre></div><p>This doesn&rsquo;t look as elegant as the Python code, but logic is almost identical [3]. What is different here is that <code>yield</code> in Scheme is not a reserved keyword baked into the interpreter. Rather, the mechanism for yielding control is achieved by manipulating &ldquo;continuations&rdquo; - a fundamental building block of the language that represents computational steps that are pending execution. In fact, <code>make-coroutine-generator</code> is just a regular Scheme function consisting of ~10 lines of code. It can be implemented by any competent Scheme programmer without too much work. How is it possible? The magic is the use of <code>call/cc</code> (which stands for &ldquo;call with current continuation&rdquo;) in <code>make-coroutine-generator</code>. Note that nothing in this code refers to a special class or keyword. <code>make-coroutine-generator</code>, <code>yield</code>, and <code>g</code> are all nothing more than regular functions. This is why we ask for the next value by calling it like a function:</p>
@@ -196,12 +196,12 @@
   (<span style="color:#a2f;font-weight:bold">lambda </span>(<span style="color:#00a000">bound</span>)                        <span style="color:#080;font-style:italic">;; define (sum-of-squares bound)</span>
       (<span style="color:#00a000">call/cc</span>
        (<span style="color:#a2f;font-weight:bold">lambda </span>(<span style="color:#00a000">break</span>)                   <span style="color:#080;font-style:italic">;; capture the continuation into break</span>
-	 (<span style="color:#a2f;font-weight:bold">let </span>((<span style="color:#00a000">g</span> (<span style="color:#00a000">squared-ints</span>)))       <span style="color:#080;font-style:italic">;; make the generator g</span>
-	   (<span style="color:#a2f;font-weight:bold">let </span><span style="color:#b8860b">loop</span> ((<span style="color:#00a000">s</span> <span style="color:#666">0</span>))             <span style="color:#080;font-style:italic">;; define the recursive function (loop s), where s is the accumulated value</span>
-	     (<span style="color:#a2f;font-weight:bold">let </span>((<span style="color:#00a000">new-s</span> (<span style="color:#a2f">+ </span><span style="color:#b8860b">s</span> (<span style="color:#00a000">g</span>))))    <span style="color:#080;font-style:italic">;; compute the new accumulated value</span>
-	       (<span style="color:#a2f;font-weight:bold">if </span>(<span style="color:#a2f">&gt; </span><span style="color:#b8860b">new-s</span> <span style="color:#b8860b">bound</span>)       <span style="color:#080;font-style:italic">;; if the new accumulated value is larger than bound</span>
-		   (<span style="color:#00a000">break</span> <span style="color:#b8860b">new-s</span>)         <span style="color:#080;font-style:italic">;; exit the loop</span>
-		   (<span style="color:#00a000">loop</span> <span style="color:#b8860b">new-s</span>)))))))))  <span style="color:#080;font-style:italic">;; otherwise, continue the loop with the new accumulated value</span>
+	     (<span style="color:#a2f;font-weight:bold">let </span>((<span style="color:#00a000">g</span> (<span style="color:#00a000">squared-ints</span>)))       <span style="color:#080;font-style:italic">;; make the generator g</span>
+	       (<span style="color:#a2f;font-weight:bold">let </span><span style="color:#b8860b">loop</span> ((<span style="color:#00a000">s</span> <span style="color:#666">0</span>))             <span style="color:#080;font-style:italic">;; define the recursive function (loop s), where s is the accumulated value</span>
+	         (<span style="color:#a2f;font-weight:bold">let </span>((<span style="color:#00a000">new-s</span> (<span style="color:#a2f">+ </span><span style="color:#b8860b">s</span> (<span style="color:#00a000">g</span>))))    <span style="color:#080;font-style:italic">;; compute the new accumulated value</span>
+	           (<span style="color:#a2f;font-weight:bold">if </span>(<span style="color:#a2f">&gt; </span><span style="color:#b8860b">new-s</span> <span style="color:#b8860b">bound</span>)       <span style="color:#080;font-style:italic">;; if the new accumulated value is larger than bound</span>
+		           (<span style="color:#00a000">break</span> <span style="color:#b8860b">new-s</span>)         <span style="color:#080;font-style:italic">;; exit the loop</span>
+		           (<span style="color:#00a000">loop</span> <span style="color:#b8860b">new-s</span>)))))))))  <span style="color:#080;font-style:italic">;; otherwise, continue the loop with the new accumulated value</span>
 
 <span style="color:#b8860b">&gt;</span> (<span style="color:#00a000">sum-of-squares</span> <span style="color:#666">100</span>)
 <span style="color:#666">140</span>
@@ -225,23 +225,23 @@
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-scheme" data-lang="scheme">(<span style="color:#a2f;font-weight:bold">define </span><span style="color:#b8860b">squared-ints</span>
   (<span style="color:#a2f;font-weight:bold">lambda </span>()
     (<span style="color:#a2f;font-weight:bold">let* </span>((<span style="color:#00a000">break</span> <span style="color:#800">#f</span>)                  <span style="color:#080;font-style:italic">;;; will store a continuation to break out of the function</span>
-	   (<span style="color:#00a000">resume</span> <span style="color:#800">#f</span>)                 <span style="color:#080;font-style:italic">;;; will store a continuation to resume after yielding</span>
-	   (<span style="color:#00a000">yield</span>                      <span style="color:#080;font-style:italic">;;; define the function &#34;yield&#34;</span>
-	    (<span style="color:#a2f;font-weight:bold">lambda </span>(<span style="color:#00a000">value</span>)
-	      (<span style="color:#a2f">call/cc </span>                <span style="color:#080;font-style:italic">;;;   capture the current continuation</span>
-	       (<span style="color:#a2f;font-weight:bold">lambda </span>(<span style="color:#00a000">r</span>)
-		 (<span style="color:#a2f;font-weight:bold">set! </span><span style="color:#b8860b">resume</span> <span style="color:#b8860b">r</span>)       <span style="color:#080;font-style:italic">;;;   store it in &#34;resume&#34;</span>
-		 (<span style="color:#00a000">break</span> <span style="color:#b8860b">value</span>))))))    <span style="color:#080;font-style:italic">;;;   and break out </span>
+	       (<span style="color:#00a000">resume</span> <span style="color:#800">#f</span>)                 <span style="color:#080;font-style:italic">;;; will store a continuation to resume after yielding</span>
+	       (<span style="color:#00a000">yield</span>                      <span style="color:#080;font-style:italic">;;; define the function &#34;yield&#34;</span>
+	         (<span style="color:#a2f;font-weight:bold">lambda </span>(<span style="color:#00a000">value</span>)
+	          (<span style="color:#a2f">call/cc </span>                <span style="color:#080;font-style:italic">;;;   capture the current continuation</span>
+	            (<span style="color:#a2f;font-weight:bold">lambda </span>(<span style="color:#00a000">r</span>)
+		         (<span style="color:#a2f;font-weight:bold">set! </span><span style="color:#b8860b">resume</span> <span style="color:#b8860b">r</span>)       <span style="color:#080;font-style:italic">;;;   store it in &#34;resume&#34;</span>
+		         (<span style="color:#00a000">break</span> <span style="color:#b8860b">value</span>))))))    <span style="color:#080;font-style:italic">;;;   and break out </span>
       
       (<span style="color:#a2f;font-weight:bold">lambda </span>()                       <span style="color:#080;font-style:italic">;;; will return a function (a closure)</span>
-	(<span style="color:#a2f">call/cc </span>                      <span style="color:#080;font-style:italic">;;; capture the current continuation...</span>
-	 (<span style="color:#a2f;font-weight:bold">lambda </span>(<span style="color:#00a000">cc</span>)
-	   (<span style="color:#a2f;font-weight:bold">set! </span><span style="color:#b8860b">break</span> <span style="color:#b8860b">cc</span>)             <span style="color:#080;font-style:italic">;;; ...and store it in &#34;break&#34;</span>
-	   (<span style="color:#a2f;font-weight:bold">if </span><span style="color:#b8860b">resume</span>                  <span style="color:#080;font-style:italic">;;; if this generator has been called before...</span>
-	       (<span style="color:#00a000">resume</span> <span style="color:#666">&#39;</span>())            <span style="color:#080;font-style:italic">;;; ... resume it</span>
-	       (<span style="color:#a2f;font-weight:bold">let </span><span style="color:#b8860b">loop</span> ((<span style="color:#00a000">i</span> <span style="color:#666">1</span>))       <span style="color:#080;font-style:italic">;;; otherwise, loop through i=1, 2, 3, 4...</span>
-		 (<span style="color:#00a000">yield</span> (<span style="color:#a2f">* </span><span style="color:#b8860b">i</span> <span style="color:#b8860b">i</span>))       <span style="color:#080;font-style:italic">;;; yield the square of i</span>
-		 (<span style="color:#00a000">loop</span> (<span style="color:#a2f">+ </span><span style="color:#b8860b">i</span> <span style="color:#666">1</span>))))))))))
+	    (<span style="color:#a2f">call/cc </span>                      <span style="color:#080;font-style:italic">;;; capture the current continuation...</span>
+	      (<span style="color:#a2f;font-weight:bold">lambda </span>(<span style="color:#00a000">cc</span>)
+	       (<span style="color:#a2f;font-weight:bold">set! </span><span style="color:#b8860b">break</span> <span style="color:#b8860b">cc</span>)             <span style="color:#080;font-style:italic">;;; ...and store it in &#34;break&#34;</span>
+	       (<span style="color:#a2f;font-weight:bold">if </span><span style="color:#b8860b">resume</span>                  <span style="color:#080;font-style:italic">;;; if this generator has been called before...</span>
+	           (<span style="color:#00a000">resume</span> <span style="color:#666">&#39;</span>())            <span style="color:#080;font-style:italic">;;; ... resume it</span>
+	           (<span style="color:#a2f;font-weight:bold">let </span><span style="color:#b8860b">loop</span> ((<span style="color:#00a000">i</span> <span style="color:#666">1</span>))       <span style="color:#080;font-style:italic">;;; otherwise, loop through i=1, 2, 3, 4...</span>
+		         (<span style="color:#00a000">yield</span> (<span style="color:#a2f">* </span><span style="color:#b8860b">i</span> <span style="color:#b8860b">i</span>))       <span style="color:#080;font-style:italic">;;; yield the square of i</span>
+		         (<span style="color:#00a000">loop</span> (<span style="color:#a2f">+ </span><span style="color:#b8860b">i</span> <span style="color:#666">1</span>))))))))))
 
 (<span style="color:#a2f;font-weight:bold">define </span><span style="color:#b8860b">g</span> (<span style="color:#00a000">squared-ints</span>))
 

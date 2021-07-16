@@ -403,6 +403,11 @@ pre {
     word-wrap: break-word;
     overflow: auto;
 }
+
+pre code {
+    overflow-wrap: normal;
+}
+
 code {
     line-height: 1.8;
     font-size: 1.4rem;

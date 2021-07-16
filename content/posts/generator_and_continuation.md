@@ -1,5 +1,5 @@
 ---
-title: Beautiful ideas in programming generators and continuations
+title: "Beautiful ideas in programming: generators and continuations"
 date: 2021-07-16T17:30:25+11:00
 draft: false
 tags: ["programming", "LISP", "python", "art appreciation"]
