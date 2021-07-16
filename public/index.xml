@@ -6,10 +6,28 @@
     <description>Recent content on Cortically Magnified</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 23 Mar 2021 22:50:36 +1100</lastBuildDate>
+    <lastBuildDate>Tue, 13 Jul 2021 22:18:07 +1000</lastBuildDate>
     
 	<atom:link href="https://www.hhyu.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Beautiful ideas: generator and continuation</title>
+      <link>https://www.hhyu.org/posts/generator_and_continuation/</link>
+      <pubDate>Tue, 13 Jul 2021 22:18:07 +1000</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/generator_and_continuation/</guid>
+      <description>In this post, I&amp;rsquo;ll summarize what I&amp;rsquo;ve learned from an attempt to gain a deeper understanding of two important concepts in programming: Python&amp;rsquo;s generator and Scheme&amp;rsquo;s continuation. The aim is not to explain how to program in either Python or Scheme. Rather, what I want to do is to show that generators in Python is a special case of a much more powerful construct that has been used in functional languages such as Scheme since early 70&amp;rsquo;s.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.hhyu.org/micro/cirque_du_soleil/</link>
+      <pubDate>Sun, 27 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.hhyu.org/micro/cirque_du_soleil/</guid>
+      <description>(SPOILERS) We watched a video of Cirque du Soleil&amp;rsquo;s O. I actually watched the show live in Las Vegas with my wife many years ago, but I had completely forgotten how it begins. Before the curtain opened, a clown invited a man in the audience to participate in a little sketch. The man was reluctant first, but eventually agreed to play along. As he approached the curtain, he was suddenly sucked in to the fantasy world of O in a very spectacular way.</description>
+    </item>
     
     <item>
       <title></title>
