@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Whimsical on Cortically Magnified</title>
+    <title>whimsical on Cortically Magnified</title>
     <link>https://www.hhyu.org/tags/whimsical/</link>
-    <description>Recent content in Whimsical on Cortically Magnified</description>
+    <description>Recent content in whimsical on Cortically Magnified</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 22 Jun 2020 18:19:51 +1000</lastBuildDate>
-    
-	<atom:link href="https://www.hhyu.org/tags/whimsical/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 22 Jun 2020 18:19:51 +1000</lastBuildDate><atom:link href="https://www.hhyu.org/tags/whimsical/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>So, I designed a clock face</title>
       <link>https://www.hhyu.org/posts/clockface/</link>

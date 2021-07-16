@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Cortically Magnified</title>
@@ -6,18 +6,14 @@
     <description>Recent content in Posts on Cortically Magnified</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 13 Jul 2021 22:18:07 +1000</lastBuildDate>
-    
-	<atom:link href="https://www.hhyu.org/posts/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 16 Jul 2021 17:30:25 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Beautiful ideas: generator and continuation</title>
+      <title>Beautiful ideas in programming generators and continuations</title>
       <link>https://www.hhyu.org/posts/generator_and_continuation/</link>
-      <pubDate>Tue, 13 Jul 2021 22:18:07 +1000</pubDate>
+      <pubDate>Fri, 16 Jul 2021 17:30:25 +1100</pubDate>
       
       <guid>https://www.hhyu.org/posts/generator_and_continuation/</guid>
-      <description>In this post, I&amp;rsquo;ll summarize what I&amp;rsquo;ve learned from an attempt to gain a deeper understanding of two important concepts in programming: Python&amp;rsquo;s generator and Scheme&amp;rsquo;s continuation. The aim is not to explain how to program in either Python or Scheme. Rather, what I want to do is to show that generators in Python is a special case of a much more powerful construct that has been used in functional languages such as Scheme since early 70&amp;rsquo;s.</description>
+      <description>In this post, I&amp;rsquo;ll summarize what I&amp;rsquo;ve learned from an attempt to gain a deeper understanding of two important concepts in programming: Python&amp;rsquo;s generators and Scheme&amp;rsquo;s continuation. The aim is not to teach Python or Scheme programming. Rather, what I want to do is to demonstrate that generators are special cases of a much more powerful construct - continuations. Continuations allow programmers to invent new control structures, and it is the foundation upon which iterators, generators, coroutines, and many other useful constructs can be built.</description>
     </item>
     
     <item>
@@ -26,7 +22,7 @@
       <pubDate>Tue, 23 Mar 2021 22:33:51 +1100</pubDate>
       
       <guid>https://www.hhyu.org/posts/shell_regexp/</guid>
-      <description>For text processing, I had never bothered to learn classic Unix tools such as sed and awk, because I can always use Python&#39;s regular expression library. The syntax of sed and awk just appeared to be too arcane to me. However, recently I realize that for many simple ad-hoc tasks, even writing a Python script is too much overhead. This motivated me to learn to use regular expressions directly in the command line.</description>
+      <description>For text processing, I had never bothered to learn classic Unix tools such as sed and awk, because I can always use Python&amp;#39;s regular expression library. The syntax of sed and awk just appeared to be too arcane to me. However, recently I realize that for many simple ad-hoc tasks, even writing a Python script is too much overhead. This motivated me to learn to use regular expressions directly in the command line.</description>
     </item>
     
     <item>
@@ -44,7 +40,7 @@
       <pubDate>Tue, 05 Jan 2021 14:16:59 +1100</pubDate>
       
       <guid>https://www.hhyu.org/posts/literate_config/</guid>
-      <description>Program like writers do Programming is traditionally seen as an exercise that translates human thoughts into a format that computers can understand. As a result, the ideas behind the program can become obscured and fragmented in the source code. This is why reading code requires so much mental effort. For me, reading code often feels like solving a puzzle, or reading modernist/postmodernist novels where events are narrated out of sequence.</description>
+      <description>Program like writers do Programming is traditionally seen as an exercise that translates human thoughts into a format that computers can understand. As a result, the ideas behind the program can become obscured and fragmented in the source code. This is why reading code requires so much mental effort. For me, reading code often feels like solving a puzzle, or reading modernist/postmodernist novels where events are narrated out of sequence. The concept of literate programming was introduced by Donald Knuth in the 80&amp;rsquo;s to address this issue.</description>
     </item>
     
     <item>
@@ -110,7 +106,6 @@ But it got me thinking, clock hands don&amp;rsquo;t have to rotate around the ce
       
       <guid>https://www.hhyu.org/posts/elastic/</guid>
       <description>&lt;h3 id=&#34;is-the-salesman-travelling-on-foot-or-on-an-airplane&#34;&gt;Is the salesman travelling on foot or on an airplane?&lt;/h3&gt;
-
 &lt;p&gt;This article describes an experiment to develop a version of the elastic net algorithm that works on spherical surfaces. I needed it for a computational neuroscience problem, but for those who are mainly interested in machine learning, it also serves a simple and intuitive demonstration of using gradient descent on non-Euclidian surfaces. The Tensorflow source code is available on &lt;a href=&#34;https://github.com/hsinhaoyu/spherical_elastic_net&#34;&gt;GitHub&lt;/a&gt;. I also made a youtube &lt;a href=&#34;https://www.youtube.com/watch?v=uoZcTG_i2jQ&amp;amp;feature=youtu.be&#34;&gt;video&lt;/a&gt; showing the algorithm in action.&lt;/p&gt;</description>
     </item>
     
@@ -131,7 +126,7 @@ But it got me thinking, clock hands don&amp;rsquo;t have to rotate around the ce
       
       <guid>https://www.hhyu.org/posts/photoshop/</guid>
       <description>The unusually thick glasses on the windows of the Old Art building in Melbourne University seem to be hand-polished, whose uneven surfaces naturally distort the view into an American expressionist painting.
-    The historic building of the Drum Theatre in Dandenong, Victoria was reflected on a modern office building across the road. The reflective windows reconfigured the image into an incongruent mosaic. You might call it photographic cubism.</description>
+     The historic building of the Drum Theatre in Dandenong, Victoria was reflected on a modern office building across the road. The reflective windows reconfigured the image into an incongruent mosaic.</description>
     </item>
     
     <item>
@@ -245,7 +240,7 @@ Chibi Maruko-Chan is a popular Japanese cartoon for children. It is about the li
       
       <guid>https://www.hhyu.org/posts/marmosetv1/</guid>
       <description>I created this figure to illustrate the retinotopic map of the primary visual cortex of the marmoset. The eccentricity contours are plotted in red, and polar angles are in blue. It&amp;rsquo;s very easy to create it in 3D so that you can rotate it around and see it from different angles. This is how you do it:
- Download ParaView, the open source 3D data visualization package.</description>
+  Download ParaView, the open source 3D data visualization package.</description>
     </item>
     
     <item>
@@ -299,7 +294,7 @@ Chibi Maruko-Chan is a popular Japanese cartoon for children. It is about the li
       <pubDate>Tue, 01 Jan 2008 14:13:23 +1100</pubDate>
       
       <guid>https://www.hhyu.org/posts/edurad2092-cortex/</guid>
-      <description>General  Is the human cortex exceptionally large? See Herculano-Houzel (2009) The human brain in numbers: a linearly scaled-up primate brain. Frontiers in Neuroscience 3, e31. Tenor sings opera during craniotomy: I just think this is quite fascinating.  &amp;ldquo;Language areas&amp;rdquo;  The history of Broca&amp;rsquo;s area: Dronkers et al. (2007) Neuroimaging of Language: Why hasn&amp;rsquo;t a clear picture emerged? Fedorenko &amp;amp; Kanwisher (2009) Language and Linguistics Compass 3, 10.</description>
+      <description>General  Is the human cortex exceptionally large? See Herculano-Houzel (2009) The human brain in numbers: a linearly scaled-up primate brain. Frontiers in Neuroscience 3, e31. [Tenor sings opera during craniotomy](Tenor sings opera during craniotomy): I just think this is quite fascinating.  &amp;ldquo;Language areas&amp;rdquo;  The history of Broca&amp;rsquo;s area: Dronkers et al. (2007) Neuroimaging of Language: Why hasn&amp;rsquo;t a clear picture emerged? Fedorenko &amp;amp; Kanwisher (2009) Language and Linguistics Compass 3, 10.</description>
     </item>
     
     <item>
@@ -317,7 +312,7 @@ Chibi Maruko-Chan is a popular Japanese cartoon for children. It is about the li
       <pubDate>Tue, 01 Jan 2008 13:56:48 +1100</pubDate>
       
       <guid>https://www.hhyu.org/posts/eduphy3111-prac/</guid>
-      <description> More about extracellular recording  Wikipedia entry about single-unit recording Extracellular single-unit Recording Methods: a paper by Humphrey &amp;amp; Schmidt  </description>
+      <description>More about extracellular recording  Wikipedia entry about single-unit recording Extracellular single-unit Recording Methods: a paper by Humphrey &amp;amp; Schmidt  </description>
     </item>
     
     <item>

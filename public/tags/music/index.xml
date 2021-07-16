@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Music on Cortically Magnified</title>
+    <title>music on Cortically Magnified</title>
     <link>https://www.hhyu.org/tags/music/</link>
-    <description>Recent content in Music on Cortically Magnified</description>
+    <description>Recent content in music on Cortically Magnified</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Jan 2021 10:01:53 +1100</lastBuildDate>
-    
-	<atom:link href="https://www.hhyu.org/tags/music/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 15 Jan 2021 10:01:53 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/tags/music/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>https://www.hhyu.org/micro/frame_cut_frame/</link>

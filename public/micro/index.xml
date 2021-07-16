@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Micros on Cortically Magnified</title>
@@ -6,11 +6,7 @@
     <description>Recent content in Micros on Cortically Magnified</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 27 Jun 2021 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.hhyu.org/micro/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 27 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.hhyu.org/micro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>https://www.hhyu.org/micro/cirque_du_soleil/</link>
@@ -426,7 +422,7 @@ Dec 4th 2020 update: I also learned that William Gaddis worked for Kodak and IBM
       <pubDate>Thu, 08 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>https://www.hhyu.org/micro/blockchainjoke/</guid>
-      <description>Anthropologists discovered that islanders in South Pacific have been using blockchains for thousands of years. All transactions are recorded by carving patterns on tree trunks, whose integrity is enforced by solving hard problems such as 12&amp;frasl;5.</description>
+      <description>Anthropologists discovered that islanders in South Pacific have been using blockchains for thousands of years. All transactions are recorded by carving patterns on tree trunks, whose integrity is enforced by solving hard problems such as 12/5.</description>
     </item>
     
     <item>

@@ -1,15 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Emacs on Cortically Magnified</title>
+    <title>emacs on Cortically Magnified</title>
     <link>https://www.hhyu.org/tags/emacs/</link>
-    <description>Recent content in Emacs on Cortically Magnified</description>
+    <description>Recent content in emacs on Cortically Magnified</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Jan 2021 16:04:13 +1100</lastBuildDate>
-    
-	<atom:link href="https://www.hhyu.org/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Tue, 23 Mar 2021 22:33:51 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Simple exercises with grep, sed and awk in org-mode</title>
+      <link>https://www.hhyu.org/posts/shell_regexp/</link>
+      <pubDate>Tue, 23 Mar 2021 22:33:51 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/shell_regexp/</guid>
+      <description>For text processing, I had never bothered to learn classic Unix tools such as sed and awk, because I can always use Python&amp;#39;s regular expression library. The syntax of sed and awk just appeared to be too arcane to me. However, recently I realize that for many simple ad-hoc tasks, even writing a Python script is too much overhead. This motivated me to learn to use regular expressions directly in the command line.</description>
+    </item>
     
     <item>
       <title></title>
@@ -26,7 +31,7 @@
       <pubDate>Tue, 05 Jan 2021 14:16:59 +1100</pubDate>
       
       <guid>https://www.hhyu.org/posts/literate_config/</guid>
-      <description>Program like writers do Programming is traditionally seen as an exercise that translates human thoughts into a format that computers can understand. As a result, the ideas behind the program can become obscured and fragmented in the source code. This is why reading code requires so much mental effort. For me, reading code often feels like solving a puzzle, or reading modernist/postmodernist novels where events are narrated out of sequence.</description>
+      <description>Program like writers do Programming is traditionally seen as an exercise that translates human thoughts into a format that computers can understand. As a result, the ideas behind the program can become obscured and fragmented in the source code. This is why reading code requires so much mental effort. For me, reading code often feels like solving a puzzle, or reading modernist/postmodernist novels where events are narrated out of sequence. The concept of literate programming was introduced by Donald Knuth in the 80&amp;rsquo;s to address this issue.</description>
     </item>
     
     <item>

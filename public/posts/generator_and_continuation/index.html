@@ -4,9 +4,9 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
   
-  <title>Beautiful ideas: generator and continuation</title>
-  <meta property="og:title" content="Beautiful ideas: generator and continuation" />
-  <meta name="twitter:title" content="Beautiful ideas: generator and continuation" />
+  <title>Beautiful ideas in programming generators and continuations</title>
+  <meta property="og:title" content="Beautiful ideas in programming generators and continuations" />
+  <meta name="twitter:title" content="Beautiful ideas in programming generators and continuations" />
   
 
   
@@ -32,7 +32,7 @@
   
   
   
-  <meta name="generator" content="Hugo 0.54.0" />
+  <meta name="generator" content="Hugo 0.79.0" />
   
   
 
@@ -73,14 +73,14 @@
 
 <article class="p-article h-entry">
   <header>
-    <h1 class="p-name">Beautiful ideas: generator and continuation</h1>
+    <h1 class="p-name">Beautiful ideas in programming generators and continuations</h1>
     <div>
       
         <div class="c-time">
           Posted on
 <a class="u-url" href="https://www.hhyu.org/posts/generator_and_continuation/">
-<time class="dt-published" datetime="2021-07-13T22:18:07&#43;10:00">
-  Jul 13, 2021
+<time class="dt-published" datetime="2021-07-16T17:30:25&#43;11:00">
+  Jul 16, 2021
 </time>
 </a>
 
@@ -93,57 +93,179 @@
       
       <a href="https://www.hhyu.org/tags/python" class="c-tag">python</a>
       
+      <a href="https://www.hhyu.org/tags/art-appreciation" class="c-tag">art appreciation</a>
+      
     </div>
   </header>
   
   <section id="js-article" class="p-article__body e-content">
-    <p>In this post, I&rsquo;ll summarize what I&rsquo;ve learned from an attempt to gain a deeper understanding of two important concepts in programming: Python&rsquo;s generator and Scheme&rsquo;s continuation. The aim is not to explain how to program in either Python or Scheme. Rather, what I want to do is to show that generators in Python is a special case of a much more powerful construct that has been used in functional languages such as Scheme since early 70&rsquo;s.</p>
+    <p>In this post, I&rsquo;ll summarize what I&rsquo;ve learned from an attempt to gain a deeper understanding of two important concepts in programming: Python&rsquo;s <a href="https://en.wikipedia.org/wiki/Generator_(computer_programming)">generators</a> and Scheme&rsquo;s <a href="https://en.wikipedia.org/wiki/Continuation">continuation</a>. The aim is not to teach Python or Scheme programming. Rather, what I want to do is to demonstrate that generators are special cases of a much more powerful construct - continuations. Continuations allow programmers to invent new control structures, and it is the foundation upon which iterators, generators, coroutines, and many other useful constructs can be built. I have found it very useful to understand how generators work from the deeper and broader perspective of continuations.</p>
+<p>Continuation is well-established in programming language theory (it was introduced in the 70&rsquo;s), but its use has not become mainstream. However, I suspect that in the age of cloud computing and big data, where lazy evaluation is becoming increasingly important, continuation will become more prominent, like many other concepts in functional programming. I think it&rsquo;s worthy of your time to reserve a place for this concept in your peripheral vision.</p>
+<p>For those who are not familiar with Scheme: <a href="https://en.wikipedia.org/wiki/Scheme_(programming_language)">Scheme</a> is a relatively modern dialect of one of the oldest programming languages: LISP. Scheme is a minimalist but highly expressive language, which makes it an ideal vehicle for experimenting with advanced concepts in programming. This is why Scheme is often used as a tool for teaching computer science, and as a playground for programming language researchers. Continuation is not unique to Scheme, but Scheme is the first language that treats continuations as first-class entities, thus making them easily manipulatable. It is the most natural venue for exploring continuations.</p>
+<h1 id="making-generators-in-python-with-yield">Making generators in Python with &ldquo;yield&rdquo;</h1>
+<p>In Python, generators are primarily used to make complex loops easier to write and to maintain. That&rsquo;s why they are special cases of iterators. In a traditional language like c, a <code>for</code> loop looks like this:</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#a2f;font-weight:bold">for</span>(i<span style="color:#666">=</span><span style="color:#666">0</span>; i<span style="color:#666">&lt;</span><span style="color:#666">10</span>; i<span style="color:#666">++</span>)
+  printf(<span style="color:#b44">&#34;%i &#34;</span>, i);
+</code></pre></div><p>The first line specifies the sequence of numbers to iterate over with. The second line is what we want to do with those numbers. With generators in Python, we can write this type of loops like the example given below. In it, we use the <code>squared_ints()</code> generator to produce a sequence of squared integers one by one, and then use the <code>sum_of_squares()</code> function to accumulate them until the sum is greater than a bound specified by the programmer:</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">squared_ints</span>():
+    <span style="color:#b44">&#39;&#39;&#39; Infinite generator
+</span><span style="color:#b44">        Return i^2 for i = 1, 2, ...
+</span><span style="color:#b44">    &#39;&#39;&#39;</span>
+    i <span style="color:#666">=</span> <span style="color:#666">1</span>
+    <span style="color:#a2f;font-weight:bold">while</span> True:
+        <span style="color:#a2f;font-weight:bold">yield</span> i<span style="color:#666">*</span>i   <span style="color:#080;font-style:italic"># it is this yield that makes this function a generator</span>
+        i <span style="color:#666">+=</span> <span style="color:#666">1</span>
 
-<p>I don&rsquo;t use Scheme in my work. Not a lot of people do. But I think it is very useful to understand how generators work from a broader perspective, and I suspect that continuation, like many concepts in functional programming, might become mainstream in the age of cloud computing and big data analytics, where lazy evaluation is becoming increasingly important.</p>
+<span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">sum_of_squares</span>(bound):
+    <span style="color:#b44">&#39;&#39;&#39; Return the smallest sum of squared integers greater than the bound
+</span><span style="color:#b44">    &#39;&#39;&#39;</span>
+    g <span style="color:#666">=</span> squared_ints()
+    s <span style="color:#666">=</span> <span style="color:#666">0</span>
+    <span style="color:#a2f;font-weight:bold">for</span> i <span style="color:#a2f;font-weight:bold">in</span> g:       <span style="color:#080;font-style:italic"># iterate over generator g</span>
+        s <span style="color:#666">+=</span> i        <span style="color:#080;font-style:italic"># accumulate the sum s</span>
+        <span style="color:#a2f;font-weight:bold">if</span> s<span style="color:#666">&gt;</span>bound:   <span style="color:#080;font-style:italic"># exit the loop if s is larger than n</span>
+            <span style="color:#a2f;font-weight:bold">return</span> s
+</code></pre></div><p>The definition of <code>squared-ints()</code> looks like a regular function, but the presence of the <code>yield</code> keyword makes it a function that produces generators [1]. Using the <code>next()</code> function on a generator <code>g</code>, we can see that the numbers are generated one by one. Generators work nicely with loops in Python. An example can be seen in <code>sum_of_squares()</code>, where we iterate over a generator with a <code>for</code> loop.</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#666">&gt;&gt;&gt;</span> g <span style="color:#666">=</span> squared_ints()
+<span style="color:#666">&gt;&gt;&gt;</span> g
+<span style="color:#666">&lt;</span>generator <span style="color:#a2f">object</span> squared_ints at <span style="color:#666">0x7fcf48143830</span><span style="color:#666">&gt;</span>
+<span style="color:#666">&gt;&gt;&gt;</span> <span style="color:#a2f">next</span>(g)
+<span style="color:#666">1</span>
+<span style="color:#666">&gt;&gt;&gt;</span> <span style="color:#a2f">next</span>(g)
+<span style="color:#666">4</span>
+<span style="color:#666">&gt;&gt;&gt;</span> <span style="color:#a2f">next</span>(g)
+<span style="color:#666">9</span>
+<span style="color:#666">&gt;&gt;&gt;</span> sum_of_squares(<span style="color:#666">100</span>)
+<span style="color:#666">140</span>
+</code></pre></div><p>Let&rsquo;s review what we have accomplished so far. In c-style loops, the generation and the consumption of the sequence are tightly coupled. In the Python code above, however, they are decomposed into two independent entities. Because generators can be build on other generators, a complex generator can also be further decomposed into simpler generators. This makes complex loops more modular and reusable, and therefore easier to write and maintain. Another improvement is that the generator code does not set a limit on the length of the sequence. It is theoretically infinite. The actual length of the sequence generated is determined by the code that consumes the sequence. This means that the generator code can be as general as possible, leaving computational efficiency to the consumer. This &ldquo;laziness&rdquo; is highly desirable in situations where generating the next item in the sequence is computationally expensive.</p>
+<p>All of this is made possible by one single keyword <code>yield</code>! It&rsquo;s pretty amazing, isn&rsquo;t it? What happens is that every time <code>yield</code> is called, the state of the function is frozen, and the flow of control is yielded to the caller, along with the generated value [2]. The next time the generator is evoked, the control flow is returned to the frozen state of the generator.</p>
+<p>What a simple and elegant syntax for a complex behavior! It&rsquo;s like magic. However, there is a part of me (perhaps the theorist in me) that is uncomfortable with magical behaviors in programming languages. How does <code>yield</code> create a generator (i.e., an object of the generator class) from a function definition? Why isn&rsquo;t this magic found in other places in the language? Why can&rsquo;t you call <code>yield</code> outside a function? In addition, generators provide some facilities for making coroutines - a topic in concurrent programming. What does it have anything to do with iteration? Since all these behaviors appears to be induced with <code>yield</code> in an <em>ad hoc</em> way, I tend to write generators idiomatically, following a memorized recipe without thinking about the heavy machinery behind the curtain. I always have a nagging feeling that there is a bigger picture that I don&rsquo;t see.</p>
+<p>This was when I realized that I am vaguely familiar with these concepts. When I learned to program in college, I had a copy of <a href="https://www.cs.unm.edu/~williams/cs357/springer-friedman.pdf">Scheme and the Art of Programming</a> by Springer and Friedman. There was a chapter on the mysterious concept of &ldquo;continuation&rdquo;, where all of this stuff was discussed. I skipped the entire chapter because I couldn&rsquo;t understand what continuations were good for. Maybe it&rsquo;s time to revisit this topic again.</p>
+<h1 id="python-style-generators-in-scheme">Python-style generators in Scheme</h1>
+<p>Before we move on to continuations, rest assured that Python-style generators are available in Scheme. They are not part of the language itself, but with the <code>make-coroutine-generator</code> function in a quasi-standard library (i.e., <a href="https://srfi.schemers.org/srfi-158/srfi-158.html">SRFI-158</a>), the <code>squared-ints</code> generator discussed previously can be written in Scheme as:</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-scheme" data-lang="scheme">(<span style="color:#a2f;font-weight:bold">define </span><span style="color:#b8860b">squared-ints</span>          <span style="color:#080;font-style:italic">;;; squared-ints is a function (lambda) that makes a generator</span>
+  (<span style="color:#a2f;font-weight:bold">lambda </span>()
+    (<span style="color:#00a000">make-coroutine-generator</span>
+     (<span style="color:#a2f;font-weight:bold">lambda </span>(<span style="color:#00a000">yield</span>)
+       (<span style="color:#a2f;font-weight:bold">let </span><span style="color:#b8860b">loop</span> ((<span style="color:#00a000">i</span> <span style="color:#666">1</span>))      <span style="color:#080;font-style:italic">;;; define recursive function &#34;loop&#34; which increases i, starting from 1 </span>
+	 (<span style="color:#00a000">yield</span> (<span style="color:#a2f">* </span><span style="color:#b8860b">i</span> <span style="color:#b8860b">i</span>))
+	 (<span style="color:#00a000">loop</span> (<span style="color:#a2f">+ </span><span style="color:#b8860b">i</span> <span style="color:#666">1</span>)))))))
 
-<p>I also see this as an exercise in art appreciation. A lot of people like to talk about why they love a song, a TV show, or a novel. I would like to see more words spent on articulating why an idea is elegant, powerful, or clever.</p>
+(<span style="color:#a2f;font-weight:bold">define </span><span style="color:#b8860b">g</span> (<span style="color:#00a000">squared-ints</span>))     <span style="color:#080;font-style:italic">;;; make a generator, assign it to &#34;g&#34; </span>
+</code></pre></div><p>This doesn&rsquo;t look as elegant as the Python code, but logic is almost identical [3]. What is different here is that <code>yield</code> in Scheme is not a reserved keyword baked into the interpreter. Rather, the mechanism for yielding control is achieved by manipulating &ldquo;continuations&rdquo; - a fundamental building block of the language that represents computational steps that are pending execution. In fact, <code>make-coroutine-generator</code> is just a regular Scheme function consisting of ~10 lines of code. It can be implemented by any competent Scheme programmer without too much work. How is it possible? The magic is the use of <code>call/cc</code> (which stands for &ldquo;call with current continuation&rdquo;) in <code>make-coroutine-generator</code>. Note that nothing in this code refers to a special class or keyword. <code>make-coroutine-generator</code>, <code>yield</code>, and <code>g</code> are all nothing more than regular functions. This is why we ask for the next value by calling it like a function:</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-scheme" data-lang="scheme"><span style="color:#b8860b">&gt;</span> <span style="color:#b8860b">g</span>
+<span style="color:#666">#</span><span style="color:#b8860b">&lt;procedure&gt;</span>
+<span style="color:#b8860b">&gt;</span> (<span style="color:#00a000">g</span>)
+<span style="color:#666">1</span>
+<span style="color:#b8860b">&gt;</span> (<span style="color:#00a000">g</span>)
+<span style="color:#666">4</span>
+<span style="color:#b8860b">&gt;</span> (<span style="color:#00a000">g</span>)
+<span style="color:#666">9</span>
+</code></pre></div><p>The beauty of Scheme generators is that the library does not introduce a new class of entities, so generators can integrate seamlessly with the rest of the language.</p>
+<h1 id="what-are-continuations">What are continuations?</h1>
+<p>Simply put, a continuation is a series of computational steps that are pending execution. For example, <code>0 + 1 + 2</code> is expressed in Scheme as <code>(+ 2 (+ 1 0))</code>. From the perspective of <code>0</code>, what will happen is that 1 will be added to it, and then 2 will be added to the result. The continuation of <code>0</code> in this context is therefore these two additions. The beauty of Scheme is that in this situation, the continuation is a function: <code>(lambda (x) (+ 2 (+ 1 x)))</code>. It is equivalent to <code>lambda x: x + 1 + 2</code> in Python.</p>
+<p>In Scheme, we can use a function named <code>call-with-current-continuation</code> (or <code>call/cc</code> for short) to capture the current continuation, and then pass it to a different function, which is sometimes called the <em>receiver</em>. Most programming languages don&rsquo;t have this construct, so it will take a little bit of time to get used to it.</p>
+<p>Consider this simple receiver, which simply stores the continuation in a global variable &lsquo;c&rsquo;.</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-scheme" data-lang="scheme">(<span style="color:#a2f;font-weight:bold">define </span><span style="color:#b8860b">c</span> <span style="color:#800">#f</span>)                <span style="color:#080;font-style:italic">;;; initially, global variable c stores nothing</span>
 
-<p>For those who are not familiar with Scheme: Scheme is a relatively modern dialect of one of the oldest programming languages: LISP. Scheme is unique in that it is designed from the ground up to be a minimalist language, consisting of a small number of powerful constructs, which can be combined in ingenious ways to express very complex algorithms. It is often used as a language for teaching computer science, and as a playground for researchers to experiment with new ideas in programming. Continuation is not unique to Scheme, but Scheme is the first programming language that formulate continuations as first-class</p>
+(<span style="color:#a2f;font-weight:bold">define </span><span style="color:#b8860b">store-continuation</span>   <span style="color:#080;font-style:italic">;;; define a function store-continuation</span>
+  (<span style="color:#a2f;font-weight:bold">lambda </span>(<span style="color:#00a000">cc</span>)               <span style="color:#080;font-style:italic">;;; which receives a continuation</span>
+    (<span style="color:#a2f;font-weight:bold">set! </span><span style="color:#b8860b">c</span> <span style="color:#b8860b">cc</span>)              <span style="color:#080;font-style:italic">;;; store it to the global variable c</span>
+    <span style="color:#666">0</span>))                      <span style="color:#080;font-style:italic">;;; and returns 0</span>
+</code></pre></div><p>We can now use it to capture the continuation of <code>0</code> in <code>(+ 2 (+ 1 0))</code>:</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-scheme" data-lang="scheme"><span style="color:#b8860b">&gt;</span> <span style="color:#b8860b">c</span>                 <span style="color:#080;font-style:italic">;; nothing is stored in c</span>
+<span style="color:#800">#f</span> 
 
-<ul>
-<li>Constructing generators with &ldquo;yield&rdquo;</li>
-</ul>
+<span style="color:#b8860b">&gt;</span> (<span style="color:#a2f">+ </span><span style="color:#666">2</span>
+   (<span style="color:#a2f">+ </span><span style="color:#666">1</span>
+     (<span style="color:#a2f">call/cc </span><span style="color:#b8860b">store-continuation</span>)))
+<span style="color:#666">3</span>
 
-<p>Python: In most cases, writing generators with the yield keyword is a simple way for creating iterators.</p>
+<span style="color:#b8860b">&gt;</span> <span style="color:#b8860b">c</span>
+<span style="color:#666">#</span><span style="color:#b8860b">&lt;procedure</span> (<span style="color:#00a000">continuation</span> <span style="color:#666">.</span> <span style="color:#b8860b">results1887</span>)<span style="color:#b8860b">&gt;</span>
+</code></pre></div><p>The returned value of <code>(+2 (+ 1 (call/cc store-continuation)))</code> is 3, but that is not important. The important part is that after the <code>call/cc</code> call, the <code>c</code> variable stores a function, which is the continuation we captured! We can&rsquo;t see the code, because it is compiled, but we can verify that it is effectively <code>(lambda (x) (+2 (+ 1 x)))</code>, because when we call <code>c</code> with a number, the returned value is the input plus 3.</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-scheme" data-lang="scheme"><span style="color:#b8860b">&gt;</span> (<span style="color:#00a000">c</span> <span style="color:#666">0</span>)
+<span style="color:#666">3</span>
+<span style="color:#b8860b">&gt;</span> (<span style="color:#00a000">c</span> <span style="color:#666">10</span>)
+<span style="color:#666">13</span>
+<span style="color:#b8860b">&gt;</span> (<span style="color:#00a000">c</span> <span style="color:#666">-100</span>)
+<span style="color:#666">-97</span>
+</code></pre></div><h1 id="controlling-the-flow-of-execution-with-continuations">Controlling the flow of execution with continuations</h1>
+<p>Let&rsquo;s use <code>call/cc</code> to do something useful. Let&rsquo;s use it to implement the logic of the Python function <code>sum_of_squares()</code> in Scheme. As before, we iterate over the generator in a loop, accumulate the sum, and stop when the sum is bigger than a certain bound.</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-scheme" data-lang="scheme">(<span style="color:#a2f;font-weight:bold">define </span><span style="color:#b8860b">sum-of-squares</span>
+  (<span style="color:#a2f;font-weight:bold">lambda </span>(<span style="color:#00a000">bound</span>)                        <span style="color:#080;font-style:italic">;; define (sum-of-squares bound)</span>
+      (<span style="color:#00a000">call/cc</span>
+       (<span style="color:#a2f;font-weight:bold">lambda </span>(<span style="color:#00a000">break</span>)                   <span style="color:#080;font-style:italic">;; capture the continuation into break</span>
+	 (<span style="color:#a2f;font-weight:bold">let </span>((<span style="color:#00a000">g</span> (<span style="color:#00a000">squared-ints</span>)))       <span style="color:#080;font-style:italic">;; make the generator g</span>
+	   (<span style="color:#a2f;font-weight:bold">let </span><span style="color:#b8860b">loop</span> ((<span style="color:#00a000">s</span> <span style="color:#666">0</span>))             <span style="color:#080;font-style:italic">;; define the recursive function (loop s), where s is the accumulated value</span>
+	     (<span style="color:#a2f;font-weight:bold">let </span>((<span style="color:#00a000">new-s</span> (<span style="color:#a2f">+ </span><span style="color:#b8860b">s</span> (<span style="color:#00a000">g</span>))))    <span style="color:#080;font-style:italic">;; compute the new accumulated value</span>
+	       (<span style="color:#a2f;font-weight:bold">if </span>(<span style="color:#a2f">&gt; </span><span style="color:#b8860b">new-s</span> <span style="color:#b8860b">bound</span>)       <span style="color:#080;font-style:italic">;; if the new accumulated value is larger than bound</span>
+		   (<span style="color:#00a000">break</span> <span style="color:#b8860b">new-s</span>)         <span style="color:#080;font-style:italic">;; exit the loop</span>
+		   (<span style="color:#00a000">loop</span> <span style="color:#b8860b">new-s</span>)))))))))  <span style="color:#080;font-style:italic">;; otherwise, continue the loop with the new accumulated value</span>
 
-<p>Before we move on to continuations, rest assured that Python-style generators and iterators are available in Scheme. They are not part of the Scheme standard, but with a quasi-standard specification (i.e., SRFI-121 or SRFI-158), you can use this Scheme code to create an iterator from a list:</p>
+<span style="color:#b8860b">&gt;</span> (<span style="color:#00a000">sum-of-squares</span> <span style="color:#666">100</span>)
+<span style="color:#666">140</span>
+</code></pre></div><p>Before the <code>sum-of-square</code> function does anything, I use <code>call/cc</code> to capture the continuation, and assign it to the variable <code>break</code>. Notice that in the syntax of Scheme, this is the last step of the function. Therefore, calling <code>break</code> will immediately exist the function with a returned value, no matter where it is called. This doesn&rsquo;t seem to be too impressive in this simple example, but what is means is that if you have to work with a big and deeply nested data structure (for example, a tree or a graph), you can program with the elegance of recursion, but with the ability to abandon the recursion as soon as some condition is met. This can dramatically reduce unnecessary computation.</p>
+<p>Some people call <code>call/cc</code> the <code>GOTO</code> statement of functional languages, but a better characterization is that it is a general mechanism for programmers to created new control structures that don&rsquo;t exist in the core language. With <code>call/cc</code>, all forms of control, including exceptions, backtracking, and coroutines can be built. Since no magic is involved, you can create your customized versions of these structures if you don&rsquo;t like how they behave. Novel control structures that are specific to the problem domain can also be invented. For example, in web programming, continuations have been used to control the logic of server applications (see <a href="https://thelackthereof.org/docs/library/cs/continuations.pdf">here</a>).</p>
+<p>Note that I wrote the program above to mirror the logic of the Python code. There are better ways to achieve the same without recursion or <code>call/cc</code>. For example, in the example below, I used the generator library to create a second infinite generator <code>acc</code> to accumulate the sum of elements in the <code>gen</code> generator, and then use the <code>generator-find</code> function to get the first value in <code>acc</code> that is larger than <code>bound</code>. This is an example of chaining iterators to make more complex iterators.</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-scheme" data-lang="scheme">(<span style="color:#a2f;font-weight:bold">define </span><span style="color:#b8860b">sum-of-squares</span>
+	(<span style="color:#a2f;font-weight:bold">lambda </span>(<span style="color:#00a000">bound</span>)
+		(<span style="color:#a2f;font-weight:bold">let* </span>((<span style="color:#00a000">gen</span> (<span style="color:#00a000">squared-ints</span>))               <span style="color:#080;font-style:italic">;; create a generator gen</span>
+		       (<span style="color:#00a000">acc</span> (<span style="color:#00a000">make-unfold-generator</span>        <span style="color:#080;font-style:italic">;; create a second generator acc</span>
+		            (<span style="color:#a2f;font-weight:bold">lambda </span>(<span style="color:#00a000">s</span>) <span style="color:#800">#f</span>)               <span style="color:#080;font-style:italic">;; no stop condition, make acc an infinite generator</span>
+		            (<span style="color:#a2f;font-weight:bold">lambda </span>(<span style="color:#00a000">s</span>) <span style="color:#b8860b">s</span>)                
+		            (<span style="color:#a2f;font-weight:bold">lambda </span>(<span style="color:#00a000">s</span>) (<span style="color:#a2f">+ </span><span style="color:#b8860b">s</span> (<span style="color:#00a000">gen</span>)))      <span style="color:#080;font-style:italic">;; accumulate the next value from gen</span>
+		            <span style="color:#666">0</span>)))                          <span style="color:#080;font-style:italic">;; accumulate from 0</span>
+					
+      (<span style="color:#00a000">generator-find</span>                             <span style="color:#080;font-style:italic">;; find the first value bigger than bound in the acc generator</span>
+       (<span style="color:#a2f;font-weight:bold">lambda </span>(<span style="color:#00a000">s</span>) (<span style="color:#a2f">&gt; </span><span style="color:#b8860b">s</span> <span style="color:#b8860b">bound</span>))
+       <span style="color:#b8860b">acc</span>))))
+</code></pre></div><h1 id="creating-generators-with-callcc">Creating generators with call/cc</h1>
+<p>In the previous section, we use <code>call/cc</code> to break from a loop that iterates over a generator. Let&rsquo;s implement the generator itself with <code>call/cc</code>. To make it happen, we need a mechanism to yield - to exit a function before it ends normally. We have already seen how it is done. Now, we need a mechanism that resumes the function after it has yielded. It&rsquo;s not hard to see that we need two continuations.</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-scheme" data-lang="scheme">(<span style="color:#a2f;font-weight:bold">define </span><span style="color:#b8860b">squared-ints</span>
+  (<span style="color:#a2f;font-weight:bold">lambda </span>()
+    (<span style="color:#a2f;font-weight:bold">let* </span>((<span style="color:#00a000">break</span> <span style="color:#800">#f</span>)                  <span style="color:#080;font-style:italic">;;; will store a continuation to break out of the function</span>
+	   (<span style="color:#00a000">resume</span> <span style="color:#800">#f</span>)                 <span style="color:#080;font-style:italic">;;; will store a continuation to resume after yielding</span>
+	   (<span style="color:#00a000">yield</span>                      <span style="color:#080;font-style:italic">;;; define the function &#34;yield&#34;</span>
+	    (<span style="color:#a2f;font-weight:bold">lambda </span>(<span style="color:#00a000">value</span>)
+	      (<span style="color:#a2f">call/cc </span>                <span style="color:#080;font-style:italic">;;;   capture the current continuation</span>
+	       (<span style="color:#a2f;font-weight:bold">lambda </span>(<span style="color:#00a000">r</span>)
+		 (<span style="color:#a2f;font-weight:bold">set! </span><span style="color:#b8860b">resume</span> <span style="color:#b8860b">r</span>)       <span style="color:#080;font-style:italic">;;;   store it in &#34;resume&#34;</span>
+		 (<span style="color:#00a000">break</span> <span style="color:#b8860b">value</span>))))))    <span style="color:#080;font-style:italic">;;;   and break out </span>
+      
+      (<span style="color:#a2f;font-weight:bold">lambda </span>()                       <span style="color:#080;font-style:italic">;;; will return a function (a closure)</span>
+	(<span style="color:#a2f">call/cc </span>                      <span style="color:#080;font-style:italic">;;; capture the current continuation...</span>
+	 (<span style="color:#a2f;font-weight:bold">lambda </span>(<span style="color:#00a000">cc</span>)
+	   (<span style="color:#a2f;font-weight:bold">set! </span><span style="color:#b8860b">break</span> <span style="color:#b8860b">cc</span>)             <span style="color:#080;font-style:italic">;;; ...and store it in &#34;break&#34;</span>
+	   (<span style="color:#a2f;font-weight:bold">if </span><span style="color:#b8860b">resume</span>                  <span style="color:#080;font-style:italic">;;; if this generator has been called before...</span>
+	       (<span style="color:#00a000">resume</span> <span style="color:#666">&#39;</span>())            <span style="color:#080;font-style:italic">;;; ... resume it</span>
+	       (<span style="color:#a2f;font-weight:bold">let </span><span style="color:#b8860b">loop</span> ((<span style="color:#00a000">i</span> <span style="color:#666">1</span>))       <span style="color:#080;font-style:italic">;;; otherwise, loop through i=1, 2, 3, 4...</span>
+		 (<span style="color:#00a000">yield</span> (<span style="color:#a2f">* </span><span style="color:#b8860b">i</span> <span style="color:#b8860b">i</span>))       <span style="color:#080;font-style:italic">;;; yield the square of i</span>
+		 (<span style="color:#00a000">loop</span> (<span style="color:#a2f">+ </span><span style="color:#b8860b">i</span> <span style="color:#666">1</span>))))))))))
 
-<p>#+begin_src scheme
-  (define a (list-&gt;generator &lsquo;(1 2 3 4 5)))
-#+end_src</p>
+(<span style="color:#a2f;font-weight:bold">define </span><span style="color:#b8860b">g</span> (<span style="color:#00a000">squared-ints</span>))
 
-<p>It is equivalent to the following in Python:
-#+begin_src python
-  a = iter([1, 2, 3, 4, 5])
-#+end_src</p>
-
-<p>This is how you make an infinite generator in Scheme using yield:</p>
-
-<p>#+begin_src scheme
-  (define g
-    (make-coroutine-generator
-     (lambda (yield)
-       (let loop ((i 0))
-         (yield i)
-         (loop (+ i 1))))))
-#+end_src</p>
-
-<p>The logic of this piece of code is almost identical to that of the Python counterpart [1]. However, what is different here is that &ldquo;yield&rdquo; in Scheme is not a reserved keyword baked into the interpreter. Rather, the mechanism of yielding control is achieved by manipulating &ldquo;continuations&rdquo; - a fundamental building block of the language that allows the control flow of a program to be abstracted into a thing that is exposed to the programmer. As we will see later, make-coroutine-generator is just a regular Scheme function consisting of about 10 lines of code. How is it possible? The magic is the use of &ldquo;call/cc&rdquo; (which stands for &ldquo;call with current continuation&rdquo;) in make-coroutine-generator, which creates a special kind of control structure. It&rsquo;s worthy to note that nothing in the code above involves a specialized class or keyword. make-coroutine-generator, yield, and the thing that behaves like a generator which is assigned to g are all just functions.</p>
-
-<ul>
-<li><p>Continuation and call/cc</p></li>
-
-<li><p>Summary</p></li>
-</ul>
-
-<p>The expressiveness of Scheme: a minimal language that incorproate new concepts without needing new objects to the language.</p>
-
-<p>[1]</p>
+<span style="color:#b8860b">&gt;</span> (<span style="color:#00a000">g</span>)
+<span style="color:#666">1</span>
+<span style="color:#b8860b">&gt;</span> (<span style="color:#00a000">g</span>)
+<span style="color:#666">4</span>
+<span style="color:#b8860b">&gt;</span> (<span style="color:#00a000">g</span>)
+<span style="color:#666">9</span>
+</code></pre></div><p>I modified this code slightly from Vasilij Schneidermann&rsquo;s implementation of the SRFI-158 library (see <a href="https://depp.brause.cc/srfi-158/">here</a> for the full source code). It looks a bit intimidating to those who are not expert Scheme programmers, but the logic is very straightforward: for every number <code>i</code>in the loop, first store the future of the computation into an internal variable called <code>resume</code>, and then call the <code>break</code> continuation as we have done before to exist the function. The next time the generator is called, call the <code>resume</code> continuation, which will progress to the next number in the loop.</p>
+<p>It&rsquo;s interesting to note that in the code above, we return a generator as a function with no argument. We can easily add an argument to the function, so that messages can be sent to the generator after the iterator has started. For example, we can modify the code such that <code>(g 'reset)</code> will reset the iteration. Since generators are just functions in Scheme, communicating with generators can be done with regular function calls. In Python, you can also send messages to generators, but it requires a special syntax of the <code>yield</code> keyword, and the <code>.send()</code> method of the generator class. Again, working with generators in Python is idiomatic, with lots of things happening behind the curtain.</p>
+<h1 id="a-few-words-on-coroutines">A few words on coroutines</h1>
+<p>I had planned to go into details about coroutines, because Python&rsquo;s tutorials on generators and Scheme&rsquo;s tutorials on continuations both tend to end with coroutines. How interesting! However, I have decided against the idea because it will derail the discussion into a different territory.</p>
+<p>But very briefly, <code>yield</code> in Python is often presented as a simplified method for writing generators, but what it does, suspending the execution of a function with the ability to resume it, is much broader in scope. It enable a routine to do a small amount of work, and then pass the control to another routine, thus allowing them to run concurrently. In terms of data processing, data can be passed around among a network of routines, which is a more general architecture than the generator pipelines discussed in here and elsewhere. In other words, although generators are used for iterations, <code>yield</code> doesn&rsquo;t have to be.</p>
+<p>The story is much simpler in Scheme: coroutines and generators are just normal functions that manipulate continuations in different ways.</p>
+<h1 id="beautiful-ideas">Beautiful ideas</h1>
+<p>I wrote this post primarily to summarize something new that I have learned. I also did it as an exercise in art appreciation. A lot of people like to talk about why they love a song, a TV show, or a novel. I would like to see more words spent on articulating why an idea is elegant, powerful, or clever.</p>
+<p>Scheme is an unusual language in its minimalism. Its designers want it to be highly expressive (meaning that complex logic can be expressed succinctly), and yet as simple as possible. This can only be achieved by building the language on a small number of powerful ideas. A powerful idea is an idea that is not narrow in scope. It should interact with all aspects of the language. A powerful idea stays true to itself under every context, but when it is used in combination with other powerful ideas, new functionalities emerge. This is where the expressiveness comes from. A poetic way to express this magic (due to <a href="https://en.wikipedia.org/wiki/John_McCarthy_(computer_scientist)">John McCarthy</a>) is that it almost feel like the language was discovered rather than invented. Once you get it, it&rsquo;s hard to imagine how a language can be designed in any other way, because every component seems to be incomplete without the others.</p>
+<p>I am obviously a fan of this philosophy. However, I am not blind to the fact that powerful ideas are much harder to master. Continuations are hard to understand and hard to write. The fact that I am still thinking about continuations so many years after my college programming class should tell you something about the amount of devotion needed to reach the blissful state of pure lambda enlightenment. This brings me to Python. As I said before, the minimalist in me is bothered by the hidden machinery behind generators. But with the <code>yeild</code> keyword in Python, anyone can read a short tutorial, learn the idioms, and start to use generators in 10 minutes. It is perhaps not as powerful an idea as continuations, but it is powerful enough that it blends in nicely with loops, making complex loops dramatically easier to write. It&rsquo;s a beautiful idea.</p>
+<p>In the end, I feel compelled to circle back to Scheme. What is beautiful about Python&rsquo;s generators is that with a single keyword <code>yield</code>, an entire new form of control becomes available to programmers. You might say the same about Scheme&rsquo;s continuations and macros. With <code>call/cc</code> and <code>define-macro</code>, the machinery of the interpreter become accessible to the programmer, thus erasing the boundary between programming and metaprogramming. A lot has been written on this topic so I won&rsquo;t repeat it here (see <a href="http://www.paulgraham.com/avg.html">here</a>), but parsing (accessible via macros) and execution control (accessible via <code>call/cc</code>) are basically what the interpreter does. I am amazed by how minimal the API to the interpreter is. That is beautiful.</p>
+<h1 id="notes">Notes</h1>
+<p>[1] Using <code>yield</code> in a function definition is not the only way in which generators can be constructed in Python. Please consult any general tutorial on generators.</p>
+<p>[2] More accurately, <code>yield</code> in a function creates a generator, which suspends its execution at the point where <code>yield</code> appears in the definition. This characterization is harder to read, so I will write as if <code>yield</code> actually does the yielding. The intention of the syntax is to create this illusion.</p>
+<p>[3] Note that recursion is Scheme&rsquo;s preferred way for writing loops. It isn&rsquo;t necessary for creating generators. Since this is a form of tail recursion, the Scheme interpreter automatically translates the recursion into a loop.</p>
 
   </section>
   <footer>

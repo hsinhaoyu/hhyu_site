@@ -1,23 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Literate Programming on Cortically Magnified</title>
+    <title>literate programming on Cortically Magnified</title>
     <link>https://www.hhyu.org/tags/literate-programming/</link>
-    <description>Recent content in Literate Programming on Cortically Magnified</description>
+    <description>Recent content in literate programming on Cortically Magnified</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Jan 2021 14:16:59 +1100</lastBuildDate>
-    
-	<atom:link href="https://www.hhyu.org/tags/literate-programming/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 05 Jan 2021 14:16:59 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/tags/literate-programming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Writing the Emacs configuration script in org-mode: a simple example of literate programming</title>
       <link>https://www.hhyu.org/posts/literate_config/</link>
       <pubDate>Tue, 05 Jan 2021 14:16:59 +1100</pubDate>
       
       <guid>https://www.hhyu.org/posts/literate_config/</guid>
-      <description>Program like writers do Programming is traditionally seen as an exercise that translates human thoughts into a format that computers can understand. As a result, the ideas behind the program can become obscured and fragmented in the source code. This is why reading code requires so much mental effort. For me, reading code often feels like solving a puzzle, or reading modernist/postmodernist novels where events are narrated out of sequence.</description>
+      <description>Program like writers do Programming is traditionally seen as an exercise that translates human thoughts into a format that computers can understand. As a result, the ideas behind the program can become obscured and fragmented in the source code. This is why reading code requires so much mental effort. For me, reading code often feels like solving a puzzle, or reading modernist/postmodernist novels where events are narrated out of sequence. The concept of literate programming was introduced by Donald Knuth in the 80&amp;rsquo;s to address this issue.</description>
     </item>
     
   </channel>

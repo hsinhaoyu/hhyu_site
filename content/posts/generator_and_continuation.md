@@ -1,6 +1,6 @@
 ---
-title: "Beautiful ideas in programming: generators and continuations"
-date: 2021-07-16T22:18:07+10:00
+title: Beautiful ideas in programming generators and continuations
+date: 2021-07-16T17:30:25+11:00
 draft: false
 tags: ["programming", "LISP", "python", "art appreciation"]
 ---
@@ -77,8 +77,8 @@ Before we move on to continuations, rest assured that Python-style generators ar
     (make-coroutine-generator
      (lambda (yield)
        (let loop ((i 1))      ;;; define recursive function "loop" which increases i, starting from 1 
-	 (yield (* i i))
-	 (loop (+ i 1)))))))
+	     (yield (* i i))
+	     (loop (+ i 1)))))))
 
 (define g (squared-ints))     ;;; make a generator, assign it to "g" 
 ```
@@ -151,12 +151,12 @@ Let's use `call/cc` to do something useful. Let's use it to implement the logic 
   (lambda (bound)                        ;; define (sum-of-squares bound)
       (call/cc
        (lambda (break)                   ;; capture the continuation into break
-	 (let ((g (squared-ints)))       ;; make the generator g
-	   (let loop ((s 0))             ;; define the recursive function (loop s), where s is the accumulated value
-	     (let ((new-s (+ s (g))))    ;; compute the new accumulated value
-	       (if (> new-s bound)       ;; if the new accumulated value is larger than bound
-		   (break new-s)         ;; exit the loop
-		   (loop new-s)))))))))  ;; otherwise, continue the loop with the new accumulated value
+	     (let ((g (squared-ints)))       ;; make the generator g
+	       (let loop ((s 0))             ;; define the recursive function (loop s), where s is the accumulated value
+	         (let ((new-s (+ s (g))))    ;; compute the new accumulated value
+	           (if (> new-s bound)       ;; if the new accumulated value is larger than bound
+		           (break new-s)         ;; exit the loop
+		           (loop new-s)))))))))  ;; otherwise, continue the loop with the new accumulated value
 
 > (sum-of-squares 100)
 140
@@ -191,23 +191,23 @@ In the previous section, we use `call/cc` to break from a loop that iterates ove
 (define squared-ints
   (lambda ()
     (let* ((break #f)                  ;;; will store a continuation to break out of the function
-	   (resume #f)                 ;;; will store a continuation to resume after yielding
-	   (yield                      ;;; define the function "yield"
-	    (lambda (value)
-	      (call/cc                 ;;;   capture the current continuation
-	       (lambda (r)
-		 (set! resume r)       ;;;   store it in "resume"
-		 (break value))))))    ;;;   and break out 
+	       (resume #f)                 ;;; will store a continuation to resume after yielding
+	       (yield                      ;;; define the function "yield"
+	         (lambda (value)
+	          (call/cc                 ;;;   capture the current continuation
+	            (lambda (r)
+		         (set! resume r)       ;;;   store it in "resume"
+		         (break value))))))    ;;;   and break out 
       
       (lambda ()                       ;;; will return a function (a closure)
-	(call/cc                       ;;; capture the current continuation...
-	 (lambda (cc)
-	   (set! break cc)             ;;; ...and store it in "break"
-	   (if resume                  ;;; if this generator has been called before...
-	       (resume '())            ;;; ... resume it
-	       (let loop ((i 1))       ;;; otherwise, loop through i=1, 2, 3, 4...
-		 (yield (* i i))       ;;; yield the square of i
-		 (loop (+ i 1))))))))))
+	    (call/cc                       ;;; capture the current continuation...
+	      (lambda (cc)
+	       (set! break cc)             ;;; ...and store it in "break"
+	       (if resume                  ;;; if this generator has been called before...
+	           (resume '())            ;;; ... resume it
+	           (let loop ((i 1))       ;;; otherwise, loop through i=1, 2, 3, 4...
+		         (yield (* i i))       ;;; yield the square of i
+		         (loop (+ i 1))))))))))
 
 (define g (squared-ints))
 

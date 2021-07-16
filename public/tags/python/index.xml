@@ -1,23 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Python on Cortically Magnified</title>
+    <title>python on Cortically Magnified</title>
     <link>https://www.hhyu.org/tags/python/</link>
-    <description>Recent content in Python on Cortically Magnified</description>
+    <description>Recent content in python on Cortically Magnified</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 13 Jul 2021 22:18:07 +1000</lastBuildDate>
-    
-	<atom:link href="https://www.hhyu.org/tags/python/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 16 Jul 2021 17:30:25 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Beautiful ideas: generator and continuation</title>
+      <title>Beautiful ideas in programming generators and continuations</title>
       <link>https://www.hhyu.org/posts/generator_and_continuation/</link>
-      <pubDate>Tue, 13 Jul 2021 22:18:07 +1000</pubDate>
+      <pubDate>Fri, 16 Jul 2021 17:30:25 +1100</pubDate>
       
       <guid>https://www.hhyu.org/posts/generator_and_continuation/</guid>
-      <description>In this post, I&amp;rsquo;ll summarize what I&amp;rsquo;ve learned from an attempt to gain a deeper understanding of two important concepts in programming: Python&amp;rsquo;s generator and Scheme&amp;rsquo;s continuation. The aim is not to explain how to program in either Python or Scheme. Rather, what I want to do is to show that generators in Python is a special case of a much more powerful construct that has been used in functional languages such as Scheme since early 70&amp;rsquo;s.</description>
+      <description>In this post, I&amp;rsquo;ll summarize what I&amp;rsquo;ve learned from an attempt to gain a deeper understanding of two important concepts in programming: Python&amp;rsquo;s generators and Scheme&amp;rsquo;s continuation. The aim is not to teach Python or Scheme programming. Rather, what I want to do is to demonstrate that generators are special cases of a much more powerful construct - continuations. Continuations allow programmers to invent new control structures, and it is the foundation upon which iterators, generators, coroutines, and many other useful constructs can be built.</description>
     </item>
     
   </channel>

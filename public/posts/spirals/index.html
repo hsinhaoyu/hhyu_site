@@ -32,7 +32,7 @@
   
   
   
-  <meta name="generator" content="Hugo 0.54.0" />
+  <meta name="generator" content="Hugo 0.79.0" />
   
   
 
@@ -98,9 +98,7 @@
   
   <section id="js-article" class="p-article__body e-content">
     <p><a href="http://mathworld.wolfram.com/DiskPointPicking.html">Disk point picking</a> is an elementary problem in geometry. To evenly distribute points on a disk, an intuitive idea is to sample pairs of numbers in polar coordinate (radius and angle) randomly from uniform distributions. After all, &ldquo;uniformly&rdquo; is just another word for &ldquo;evenly&rdquo;, isn&rsquo;t it? But it doesn&rsquo;t work. When the points are sampled this way, the density of the dots fall off linearly with the distance to the origin. This is because the area element of the polar coordinate grows linearly with the radius. With a little calculus, it can be shown that this uneven density can be corrected by taking the square root of the uniformly-sampled radius.</p>
-
 <p>However, I ran into a situation where I do want the density to fall off, and I want to control the gradient of the fall-off. In addition, I also want the points distributed regularly, rather than randomly. With a little hack, I came up with this little animation:</p>
-
 
 <link rel="stylesheet" href="/css/hugo-easy-gallery.css" />
 <div class="box" >
@@ -112,40 +110,37 @@
   </figure>
 </div>
 
-
 <p>The spiral pattern was created with the Vogel method. The formula for varying the density was based on a technical report (<a href="http://www.arl.army.mil/arlreports/2015/ARL-TR-7333.pdf">Point Picking and Distributing on the Disc and Sphere</a>) by Mary Arthur.</p>
-
 <p>Here&rsquo;s the python code that I used:</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#a2f;font-weight:bold">import</span> <span style="color:#00f;font-weight:bold">numpy</span> <span style="color:#a2f;font-weight:bold">as</span> <span style="color:#00f;font-weight:bold">np</span>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> numpy <span style="color:#f92672">as</span> np
+<span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">spiral</span>(c, r0, r1, n, shuffleP<span style="color:#666">=</span>True):
+    <span style="color:#b44">&#34;&#34;&#34;
+</span><span style="color:#b44">        Make a spiral with n points using Vogel&#39;s method.
+</span><span style="color:#b44">        the radius ranges from r0 to r1
+</span><span style="color:#b44">        the density of the points falls off according to r^c, where r is radius
+</span><span style="color:#b44">        c should be a negative number
+</span><span style="color:#b44">    &#34;&#34;&#34;</span>
 
-<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">spiral</span>(c, r0, r1, n, shuffleP<span style="color:#f92672">=</span>True):
-    <span style="color:#e6db74">&#34;&#34;&#34;
-</span><span style="color:#e6db74">        Make a spiral with n points using Vogel&#39;s method.
-</span><span style="color:#e6db74">        the radius ranges from r0 to r1
-</span><span style="color:#e6db74">        the density of the points falls off according to r^c, where r is radius
-</span><span style="color:#e6db74">        c should be a negative number
-</span><span style="color:#e6db74">    &#34;&#34;&#34;</span>
+    <span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">f</span>(r):
+        <span style="color:#a2f;font-weight:bold">return</span> np<span style="color:#666">.</span>sqrt(np<span style="color:#666">.</span>power(r, <span style="color:#666">1.0</span><span style="color:#666">-</span>c)<span style="color:#666">/</span>(<span style="color:#666">1.0</span><span style="color:#666">-</span>c))
 
-    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">f</span>(r):
-        <span style="color:#66d9ef">return</span> np<span style="color:#f92672">.</span>sqrt(np<span style="color:#f92672">.</span>power(r, <span style="color:#ae81ff">1.0</span><span style="color:#f92672">-</span>c)<span style="color:#f92672">/</span>(<span style="color:#ae81ff">1.0</span><span style="color:#f92672">-</span>c))
+    n0 <span style="color:#666">=</span> np<span style="color:#666">.</span>power(r0 <span style="color:#666">*</span> r0 <span style="color:#666">*</span> (<span style="color:#666">1.0</span><span style="color:#666">-</span>c), <span style="color:#666">1.0</span><span style="color:#666">/</span>(<span style="color:#666">1.0</span><span style="color:#666">-</span>c))
+    n1 <span style="color:#666">=</span> np<span style="color:#666">.</span>power(r1 <span style="color:#666">*</span> r1 <span style="color:#666">*</span> (<span style="color:#666">1.0</span><span style="color:#666">-</span>c), <span style="color:#666">1.0</span><span style="color:#666">/</span>(<span style="color:#666">1.0</span><span style="color:#666">-</span>c))
 
-    n0 <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>power(r0 <span style="color:#f92672">*</span> r0 <span style="color:#f92672">*</span> (<span style="color:#ae81ff">1.0</span><span style="color:#f92672">-</span>c), <span style="color:#ae81ff">1.0</span><span style="color:#f92672">/</span>(<span style="color:#ae81ff">1.0</span><span style="color:#f92672">-</span>c))
-    n1 <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>power(r1 <span style="color:#f92672">*</span> r1 <span style="color:#f92672">*</span> (<span style="color:#ae81ff">1.0</span><span style="color:#f92672">-</span>c), <span style="color:#ae81ff">1.0</span><span style="color:#f92672">/</span>(<span style="color:#ae81ff">1.0</span><span style="color:#f92672">-</span>c))
+    lst <span style="color:#666">=</span> []
+    <span style="color:#a2f;font-weight:bold">for</span> k <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(<span style="color:#666">1</span>, n<span style="color:#666">+</span><span style="color:#666">1</span>):
+        d <span style="color:#666">=</span> f( (n1<span style="color:#666">-</span>n0)<span style="color:#666">/</span>(n<span style="color:#666">-</span><span style="color:#666">1</span>)<span style="color:#666">*</span>k <span style="color:#666">+</span> n0<span style="color:#666">-</span>(n1<span style="color:#666">-</span>n0)<span style="color:#666">/</span>(n<span style="color:#666">-</span><span style="color:#666">1</span>) )
+        theta <span style="color:#666">=</span> <span style="color:#666">3.1415926</span> <span style="color:#666">*</span> (<span style="color:#666">3.0</span> <span style="color:#666">-</span> np<span style="color:#666">.</span>sqrt(<span style="color:#666">5.0</span>)) <span style="color:#666">*</span> (k<span style="color:#666">-</span><span style="color:#666">1.0</span>)
+        x <span style="color:#666">=</span> d <span style="color:#666">*</span> np<span style="color:#666">.</span>cos(theta)
+        y <span style="color:#666">=</span> d <span style="color:#666">*</span> np<span style="color:#666">.</span>sin(theta)
+        lst<span style="color:#666">.</span>append((x,y))
+    res <span style="color:#666">=</span> np<span style="color:#666">.</span>asarray(lst, dtype<span style="color:#666">=</span>np<span style="color:#666">.</span>float64)
+    <span style="color:#a2f;font-weight:bold">if</span> shuffleP:
+        np<span style="color:#666">.</span>random<span style="color:#666">.</span>shuffle(res)
+    <span style="color:#a2f;font-weight:bold">return</span> res
 
-    lst <span style="color:#f92672">=</span> []
-    <span style="color:#66d9ef">for</span> k <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">1</span>, n<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>):
-        d <span style="color:#f92672">=</span> f( (n1<span style="color:#f92672">-</span>n0)<span style="color:#f92672">/</span>(n<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>)<span style="color:#f92672">*</span>k <span style="color:#f92672">+</span> n0<span style="color:#f92672">-</span>(n1<span style="color:#f92672">-</span>n0)<span style="color:#f92672">/</span>(n<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>) )
-        theta <span style="color:#f92672">=</span> <span style="color:#ae81ff">3.1415926</span> <span style="color:#f92672">*</span> (<span style="color:#ae81ff">3.0</span> <span style="color:#f92672">-</span> np<span style="color:#f92672">.</span>sqrt(<span style="color:#ae81ff">5.0</span>)) <span style="color:#f92672">*</span> (k<span style="color:#f92672">-</span><span style="color:#ae81ff">1.0</span>)
-        x <span style="color:#f92672">=</span> d <span style="color:#f92672">*</span> np<span style="color:#f92672">.</span>cos(theta)
-        y <span style="color:#f92672">=</span> d <span style="color:#f92672">*</span> np<span style="color:#f92672">.</span>sin(theta)
-        lst<span style="color:#f92672">.</span>append((x,y))
-    res <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>asarray(lst, dtype<span style="color:#f92672">=</span>np<span style="color:#f92672">.</span>float64)
-    <span style="color:#66d9ef">if</span> shuffleP:
-        np<span style="color:#f92672">.</span>random<span style="color:#f92672">.</span>shuffle(res)
-    <span style="color:#66d9ef">return</span> res
-
-zz <span style="color:#f92672">=</span> spiral(<span style="color:#f92672">-</span><span style="color:#ae81ff">0.5</span>, <span style="color:#ae81ff">0.2</span>, <span style="color:#ae81ff">40</span>, <span style="color:#ae81ff">500</span>)</code></pre></div>
+zz <span style="color:#666">=</span> spiral(<span style="color:#666">-</span><span style="color:#666">0.5</span>, <span style="color:#666">0.2</span>, <span style="color:#666">40</span>, <span style="color:#666">500</span>)</code></pre></div>
 
   </section>
   <footer>

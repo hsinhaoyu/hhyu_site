@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Joke on Cortically Magnified</title>
+    <title>joke on Cortically Magnified</title>
     <link>https://www.hhyu.org/tags/joke/</link>
-    <description>Recent content in Joke on Cortically Magnified</description>
+    <description>Recent content in joke on Cortically Magnified</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 23 Mar 2021 22:50:36 +1100</lastBuildDate>
-    
-	<atom:link href="https://www.hhyu.org/tags/joke/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 23 Mar 2021 22:50:36 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/tags/joke/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>https://www.hhyu.org/micro/pynchon_godzilla/</link>
@@ -44,7 +40,7 @@
       <pubDate>Thu, 08 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>https://www.hhyu.org/micro/blockchainjoke/</guid>
-      <description>Anthropologists discovered that islanders in South Pacific have been using blockchains for thousands of years. All transactions are recorded by carving patterns on tree trunks, whose integrity is enforced by solving hard problems such as 12&amp;frasl;5.</description>
+      <description>Anthropologists discovered that islanders in South Pacific have been using blockchains for thousands of years. All transactions are recorded by carving patterns on tree trunks, whose integrity is enforced by solving hard problems such as 12/5.</description>
     </item>
     
     <item>

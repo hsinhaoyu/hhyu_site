@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Obscura on Cortically Magnified</title>
+    <title>obscura on Cortically Magnified</title>
     <link>https://www.hhyu.org/tags/obscura/</link>
-    <description>Recent content in Obscura on Cortically Magnified</description>
+    <description>Recent content in obscura on Cortically Magnified</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 Nov 2020 23:32:45 +1100</lastBuildDate>
-    
-	<atom:link href="https://www.hhyu.org/tags/obscura/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 03 Nov 2020 23:32:45 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/tags/obscura/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>https://www.hhyu.org/micro/tagliacozzi/</link>
