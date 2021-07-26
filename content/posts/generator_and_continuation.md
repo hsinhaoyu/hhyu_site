@@ -100,7 +100,7 @@ The beauty of Scheme generators is that the library does not introduce a new cla
 
 # What are continuations?
 
-Simply put, a continuation is a series of computational steps that are pending execution. For example, `0 + 1 + 2` is expressed in Scheme as `(+ 2 (+ 1 0))`. From the perspective of `0`, what will happen is that 1 will be added to it, and then 2 will be added to the result. The continuation of `0` in this context is therefore these two additions. The beauty of Scheme is the programmer can easily manipulate the continuation, because it is just a function. In this example, the continuation is just: `(lambda (x) (+ 2 (+ 1 x)))`. It is equivalent to `lambda x: x + 1 + 2` in Python.
+Simply put, a continuation is a series of computational steps that are pending execution. For example, `0 + 1 + 2` is expressed in Scheme as `(+ 2 (+ 1 0))`. From the perspective of `0`, what will happen is that 1 will be added to it, and then 2 will be added to the result. The continuation of `0` in this context is therefore these two additions. The beauty of Scheme is that a continuation is not an exotic construct. Rather, it is just a function that can be easily manipulated by the programmer. In this example, the continuation is nothing other than `(lambda (x) (+ 2 (+ 1 x)))`. It is equivalent to `lambda x: x + 1 + 2` in Python.
 
 
 In Scheme, we can use a function named `call-with-current-continuation` (or `call/cc` for short) to capture the current continuation, and then pass it to a different function, which is sometimes called the _receiver_. Most programming languages don't have this construct, so it will take a little bit of time to get used to it.
