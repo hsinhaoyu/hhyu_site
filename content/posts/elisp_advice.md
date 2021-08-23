@@ -16,7 +16,7 @@ I recently ran into a situation where advising came in handy. I use the Emacs pa
 :END:
 ```
 
-Unfortunately, Deft extracts the title of a document from its first line. So after I upgraded to Org Roam V2, the titles of all my documents were displayed as `:PROPERTIES:`. This behavior is implemented in a function called  `deft-parse-title`. It's easy to make it skip the property block, but I didn't want to fork Deft. What I did instead was to give `deft-parse-title` an advice, which removes the block from the content of the document passed to `deft-parse-tiltle`:
+Unfortunately, Deft extracts the title of a document from its first line. So after I upgraded to Org Roam V2, the titles of all my documents were displayed as `:PROPERTIES:`. This behavior is implemented in a function called  `deft-parse-title`. It's easy to make it skip the property block, but I didn't want to fork Deft. What I did instead was to give `deft-parse-title` an advice, which sneaks in to remove the block before `deft-parse-title` sees it:
 
 ```lisp
 (defun hhyu/deft-title-preprocess (orig-func &rest args)
