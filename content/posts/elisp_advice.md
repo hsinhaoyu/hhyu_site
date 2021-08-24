@@ -22,7 +22,7 @@ Unfortunately, Deft extracts the title of a document from its first line. So aft
 (defun hhyu/deft-title-preprocess (orig-func &rest args)
     (let* ((file (car args))
            (contents (cadr args))
-           (m (string-match "^:END:$" contents)))
+           (m (string-match ":PROPERTIES:\n\\(.+\n\\)+:END:\n" contents)))
       (if m
           (let ((new-contents
                  (substring contents
