@@ -6,7 +6,16 @@
     <description>Recent content in programming on Cortically Magnified</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 16 Jul 2021 17:30:25 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 Aug 2021 10:11:05 +1000</lastBuildDate><atom:link href="https://www.hhyu.org/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Heh, Emacs LISP function! Lemme give you a piece of advice!</title>
+      <link>https://www.hhyu.org/posts/elisp_advice/</link>
+      <pubDate>Sun, 22 Aug 2021 10:11:05 +1000</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/elisp_advice/</guid>
+      <description>Did you know that in some programming languages, you can give a function a piece of advice? The basic idea is this: if you are using an application or a library written by somebody else, what can you do if you need to modify the behavior of a particular function? You could modify its source code, if your version improves it for everybody. However, if you only want to customize it for your personal needs, a more lightweight solution might be desirable.</description>
+    </item>
+    
     <item>
       <title>Beautiful ideas in programming: generators and continuations</title>
       <link>https://www.hhyu.org/posts/generator_and_continuation/</link>

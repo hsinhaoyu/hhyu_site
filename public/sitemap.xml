@@ -3,6 +3,76 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.hhyu.org/</loc>
+    <lastmod>2021-08-22T10:11:05+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/emacs/</loc>
+    <lastmod>2021-08-22T10:11:05+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/hack/</loc>
+    <lastmod>2021-08-22T10:11:05+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/posts/elisp_advice/</loc>
+    <lastmod>2021-08-22T10:11:05+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/lisp/</loc>
+    <lastmod>2021-08-22T10:11:05+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/posts/</loc>
+    <lastmod>2021-08-22T10:11:05+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/programming/</loc>
+    <lastmod>2021-08-22T10:11:05+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/</loc>
+    <lastmod>2021-08-22T10:11:05+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/micro/borges-chesteron/</loc>
+    <lastmod>2021-08-16T23:20:53+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/book/</loc>
+    <lastmod>2021-08-16T23:20:53+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/chesterton/</loc>
+    <lastmod>2021-08-16T23:20:53+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/jorge-luis-borges/</loc>
+    <lastmod>2021-08-16T23:20:53+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/micro/</loc>
+    <lastmod>2021-08-16T23:20:53+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/mystery/</loc>
+    <lastmod>2021-08-16T23:20:53+10:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.hhyu.org/tags/art-appreciation/</loc>
     <lastmod>2021-07-16T17:30:25+11:00</lastmod>
   </url>
@@ -13,42 +83,12 @@
   </url>
   
   <url>
-    <loc>https://www.hhyu.org/</loc>
-    <lastmod>2021-07-16T17:30:25+11:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/tags/lisp/</loc>
-    <lastmod>2021-07-16T17:30:25+11:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/posts/</loc>
-    <lastmod>2021-07-16T17:30:25+11:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/tags/programming/</loc>
-    <lastmod>2021-07-16T17:30:25+11:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.hhyu.org/tags/python/</loc>
     <lastmod>2021-07-16T17:30:25+11:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.hhyu.org/tags/</loc>
-    <lastmod>2021-07-16T17:30:25+11:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.hhyu.org/micro/cirque_du_soleil/</loc>
-    <lastmod>2021-06-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/micro/</loc>
     <lastmod>2021-06-27T00:00:00+00:00</lastmod>
   </url>
   
@@ -59,11 +99,6 @@
   
   <url>
     <loc>https://www.hhyu.org/micro/pynchon_godzilla/</loc>
-    <lastmod>2021-03-23T22:50:36+11:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/tags/book/</loc>
     <lastmod>2021-03-23T22:50:36+11:00</lastmod>
   </url>
   
@@ -80,11 +115,6 @@
   <url>
     <loc>https://www.hhyu.org/tags/thomas-pynchon/</loc>
     <lastmod>2021-03-23T22:50:36+11:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/tags/emacs/</loc>
-    <lastmod>2021-03-23T22:33:51+11:00</lastmod>
   </url>
   
   <url>
@@ -519,11 +549,6 @@
   
   <url>
     <loc>https://www.hhyu.org/tags/code/</loc>
-    <lastmod>2018-06-07T15:18:22+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/tags/hack/</loc>
     <lastmod>2018-06-07T15:18:22+10:00</lastmod>
   </url>
   

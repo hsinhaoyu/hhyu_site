@@ -6,7 +6,16 @@
     <description>Recent content in hack on Cortically Magnified</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 07 Jun 2018 15:18:22 +1000</lastBuildDate><atom:link href="https://www.hhyu.org/tags/hack/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 Aug 2021 10:11:05 +1000</lastBuildDate><atom:link href="https://www.hhyu.org/tags/hack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Heh, Emacs LISP function! Lemme give you a piece of advice!</title>
+      <link>https://www.hhyu.org/posts/elisp_advice/</link>
+      <pubDate>Sun, 22 Aug 2021 10:11:05 +1000</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/elisp_advice/</guid>
+      <description>Did you know that in some programming languages, you can give a function a piece of advice? The basic idea is this: if you are using an application or a library written by somebody else, what can you do if you need to modify the behavior of a particular function? You could modify its source code, if your version improves it for everybody. However, if you only want to customize it for your personal needs, a more lightweight solution might be desirable.</description>
+    </item>
+    
     <item>
       <title>Let&#39;s make some spirals</title>
       <link>https://www.hhyu.org/posts/spirals/</link>

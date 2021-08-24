@@ -13,8 +13,7 @@
       <pubDate>Thu, 17 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.hhyu.org/about_site/</guid>
-      <description>I started this site in 2018 to collect all my content in one place.
- The site is made with the Hugo static website generator, using a customized theme derived from the Pickles theme. I am working on supporting IndieWeb - an alternative approach to social networking based on open protocols. As of January 2021, this site supports IndieAuth authentication and service discovery. Content can be updated from micropub clients via a serverless application.</description>
+      <description>I started this site in 2018 to collect all my content in one place. The title &amp;ldquo;Cortically Magnified&amp;rdquo; is a play on &amp;ldquo;cortical magnification&amp;rdquo; - a concept in visual neuroscience. Roughly speaking, it measures the amount of resource in the visual cortex that is devoted to the processing of information in a small patch of the visual field. I have measured cortical magnification functions several times in my career as a neuroscientist.</description>
     </item>
     
   </channel>

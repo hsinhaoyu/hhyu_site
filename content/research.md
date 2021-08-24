@@ -54,7 +54,6 @@ Publication:
 ![icon](/about/lgn_rf.png) From 2012 to 2017, I conducted a series of studies about how the visual pathways are altered by brain injuries, especially at the early stages of development. Theses studies were designed to elucidate neural pathways for a mysterious phenomenon called [blindsight](https://en.wikipedia.org/wiki/Blindsight) - a condition where patients can react to visual stimuli without being consciously aware of them. 
 
 Publications:
-
   - Yu _et al._ (2018) Robust visual responses and normal retinotopy in primate lateral geniculate nucleus following long-term lesions of striate cortex. _Journal of Neuroscience_ 38, 3955-3970. [[link]](http://www.jneurosci.org/content/38/16/3955)
   - A general-audience [summary](https://www.cibf.edu.au/the-brain-can-still-see) about the 2018 paper was published in [The Brain Dialog](https://www.cibf.edu.au).
   - Yu _et al._ (2013) Visually evoked responses in extrastriate area MT after lesions of striate cortex in early life. _Journal of Neuroscience_ 33, 12479-12489. [[link]](https://www.jneurosci.org/content/33/30/12479.long)

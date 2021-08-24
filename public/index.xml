@@ -6,7 +6,25 @@
     <description>Recent content on Cortically Magnified</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 16 Jul 2021 17:30:25 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 Aug 2021 10:11:05 +1000</lastBuildDate><atom:link href="https://www.hhyu.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Heh, Emacs LISP function! Lemme give you a piece of advice!</title>
+      <link>https://www.hhyu.org/posts/elisp_advice/</link>
+      <pubDate>Sun, 22 Aug 2021 10:11:05 +1000</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/elisp_advice/</guid>
+      <description>Did you know that in some programming languages, you can give a function a piece of advice? The basic idea is this: if you are using an application or a library written by somebody else, what can you do if you need to modify the behavior of a particular function? You could modify its source code, if your version improves it for everybody. However, if you only want to customize it for your personal needs, a more lightweight solution might be desirable.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.hhyu.org/micro/borges-chesteron/</link>
+      <pubDate>Mon, 16 Aug 2021 23:20:53 +1000</pubDate>
+      
+      <guid>https://www.hhyu.org/micro/borges-chesteron/</guid>
+      <description>During the lockdown, I finally found the time to read the first volume of G.K. Chesterton&amp;rsquo;s Father Brown stories. In general, I can&amp;rsquo;t say I like them as detective stories, because what I am looking for in this genre is brilliant deduction, and Father Brown doesn&amp;rsquo;t do that kind of thing. However, I was very impressed by a story titled The Sign of the Broken Sword. It&amp;rsquo;s a very unusual detective story, in which Father Brown analyzed the accepted narrative of a (fictional) historical event, and concluded that the overlooked inconsistencies could only mean one thing: the narrative was manufactured to cover up a deeper, tragic truth.</description>
+    </item>
+    
     <item>
       <title>Beautiful ideas in programming: generators and continuations</title>
       <link>https://www.hhyu.org/posts/generator_and_continuation/</link>
@@ -211,8 +229,7 @@ The CD was just one of those random things that I had.</description>
       <pubDate>Thu, 17 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.hhyu.org/about_site/</guid>
-      <description>I started this site in 2018 to collect all my content in one place.
- The site is made with the Hugo static website generator, using a customized theme derived from the Pickles theme. I am working on supporting IndieWeb - an alternative approach to social networking based on open protocols. As of January 2021, this site supports IndieAuth authentication and service discovery. Content can be updated from micropub clients via a serverless application.</description>
+      <description>I started this site in 2018 to collect all my content in one place. The title &amp;ldquo;Cortically Magnified&amp;rdquo; is a play on &amp;ldquo;cortical magnification&amp;rdquo; - a concept in visual neuroscience. Roughly speaking, it measures the amount of resource in the visual cortex that is devoted to the processing of information in a small patch of the visual field. I have measured cortical magnification functions several times in my career as a neuroscientist.</description>
     </item>
     
     <item>
