@@ -6,7 +6,16 @@
     <description>Recent content in physics on Cortically Magnified</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 20 Aug 2016 20:31:41 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/tags/physics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 27 Aug 2021 20:47:54 +1000</lastBuildDate><atom:link href="https://www.hhyu.org/tags/physics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A mind-boggling analogy between machine learning and quantum physics</title>
+      <link>https://www.hhyu.org/posts/fermion/</link>
+      <pubDate>Fri, 27 Aug 2021 20:47:54 +1000</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/fermion/</guid>
+      <description>A recent paper published in PNAS titled The Fermi-Dirac distribution provides a calibrated probabilistic output for binary classifiers caught my attention, because it describes a surprising relationship between machine learning and quantum physics. In fact, surprising is an understatement. Mind-boggling is more like it. According to the analogy developed by the authors, positive samples in binary classification problem are like&amp;hellip; fermions?! What?! I decided that I should try to understand the gist of this paper, at least to the extent that I can.</description>
+    </item>
+    
     <item>
       <title>How many photons get into your eyes?</title>
       <link>https://www.hhyu.org/posts/photons/</link>

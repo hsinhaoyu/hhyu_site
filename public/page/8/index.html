@@ -10,9 +10,9 @@
   
 
   
-  <meta name="description" content="Neuroscience, vision, computation, and other interesting stuff">
-  <meta property="og:description" content="Neuroscience, vision, computation, and other interesting stuff">
-  <meta name="twitter:description" content="Neuroscience, vision, computation, and other interesting stuff">
+  <meta name="description" content="Science, programming, books, and other interesting stuff">
+  <meta property="og:description" content="Science, programming, books, and other interesting stuff">
+  <meta name="twitter:description" content="Science, programming, books, and other interesting stuff">
   
 
   <meta name="author" content="Hsin-Hao Yu"/>
@@ -46,7 +46,12 @@
     
   
   <script type="text/javascript" src="https://www.hhyu.org/js/bundle.js"></script>
-  
+  <link rel="authorization_endpoint" href="https://indieauth.com/auth">
+<link rel="token_endpoint" href="https://tokens.indieauth.com/token">
+<link rel="micropub" href="https://lr85f9rofe.execute-api.ap-southeast-2.amazonaws.com/Prod/">
+<link rel="microsub" href="https://aperture.p3k.io/microsub/592">
+<link rel="webmention" href="https://webmention.io/hhyu.org/webmention" />
+<link rel="pingback" href="https://webmention.io/hhyu.org/xmlrpc" />
 
 </head>
 
@@ -59,7 +64,7 @@
     
     
     <p class="p-subtitle">
-      Neuroscience, vision, computation, and other interesting stuff
+      Science, programming, books, and other interesting stuff
     </p>
     
   </header>
@@ -71,54 +76,14 @@
   
   <article class="c-article p-list-article">
   <header>
-    <h2 class="c-title c-article__title"><a href="https://www.hhyu.org/posts/eduphy3012-plasticity/">Teaching Material: PHY3012/Plasticity in the visual system in development</a></h2>
-    <p class="c-article__meta">
-      Posted on
-<time datetime="2008-01-01T14:02:22&#43;11:00">
-  Jan 1, 2008
-</time>
-
-    </p>
-  </header>
-  <div class="c-article__summary">
-    Interesting  A man with only half a brain A study of a man who recovered vision after decades of being blind: Fine et al. (2003) Long-term deprivation affects visual perception and cortex. Nat. Neurosci. 6, p915. How Utter Darkness Could Heal Lazy Eye: related to ocular dominance critical period. Giving blind people sight illuminates the brain’s secrets  General review  Anderson et al (2011) Do children really recover better?
-  </div>
-  
-  <a href="https://www.hhyu.org/posts/eduphy3012-plasticity/" class="c-article__btn p-list-article__btn">Read more</a>
-  
-</article>
-
-
-  
-    
-  <article class="c-article p-list-article">
-  <header>
-    <h2 class="c-title c-article__title"><a href="https://www.hhyu.org/posts/eduphy3111-prac/">Teaching Material: PHY3111/Prac</a></h2>
-    <p class="c-article__meta">
-      Posted on
-<time datetime="2008-01-01T13:56:48&#43;11:00">
-  Jan 1, 2008
-</time>
-
-    </p>
-  </header>
-  <div class="c-article__summary">
-    More about extracellular recording  Wikipedia entry about single-unit recording Extracellular single-unit Recording Methods: a paper by Humphrey &amp; Schmidt  
-  </div>
-  
-</article>
-
-
-  
-    
-  <article class="c-article p-list-article">
-  <header>
     <h2 class="c-title c-article__title"><a href="https://www.hhyu.org/posts/eduphy3111-color/">Teaching Material: PHY3111/Color Vision</a></h2>
     <p class="c-article__meta">
       Posted on
-<time datetime="2008-01-01T13:33:14&#43;11:00">
+<a class="u-url" href="https://www.hhyu.org/posts/eduphy3111-color/">
+<time class="dt-published" datetime="2008-01-01T13:33:14&#43;11:00">
   Jan 1, 2008
 </time>
+</a>
 
     </p>
   </header>
@@ -158,7 +123,7 @@
     <p class="c-title p-author__name ">Hsin-Hao Yu</p>
     
     
-    <p>A Taiwanese scientist living in Melbourne</p>
+    <p class="p-note">A Taiwanese scientist living in Melbourne</p>
     
     
     <p>
@@ -178,9 +143,18 @@
   <ul class="p-menu__lists">
     
       
-      <li class="p-menu__listitem">
-        <a href="/about">About</a>
-      </li>
+        <li class="p-menu__listitem p-menu__parent">
+          <span>/About</span>
+          <ul>
+            
+              <li class="p-menu__listitem p-menu__child"><a href="/about">Me</a></li>
+            
+              <li class="p-menu__listitem p-menu__child"><a href="/portfolio">Portfolio</a></li>
+            
+              <li class="p-menu__listitem p-menu__child"><a href="/about_site">This site</a></li>
+            
+          </ul>
+        </li>
       
     
       
@@ -194,8 +168,6 @@
             
               <li class="p-menu__listitem p-menu__child"><a href="/gallery">Visualization Gallery</a></li>
             
-              <li class="p-menu__listitem p-menu__child"><a href="/teaching">Teaching</a></li>
-            
           </ul>
         </li>
       
@@ -208,6 +180,8 @@
               <li class="p-menu__listitem p-menu__child"><a href="/">Blog</a></li>
             
               <li class="p-menu__listitem p-menu__child"><a href="/micro/">Notes</a></li>
+            
+              <li class="p-menu__listitem p-menu__child"><a href="https://github.com/hsinhaoyu/resources">Resources</a></li>
             
           </ul>
         </li>
@@ -250,7 +224,7 @@
   
   
   <li class="c-links__item">
-    <a href="https://github.com/hsinhaoyu" target="_blank">
+    <a href="https://github.com/hsinhaoyu" target="_blank" rel="me">
       <svg viewBox="0 0 64 64" class="c-links__icon">
         <title>github</title>
         <use xlink:href="#icon-github"></use>
@@ -270,7 +244,7 @@
   
   
   <li class="c-links__item">
-    <a href="https://linkedin.com/in/hsin-hao-yu-165387110" target="_blank">
+    <a href="https://linkedin.com/in/hhyu" target="_blank">
       <svg viewBox="0 0 64 64" class="c-links__icon">
         <title>linkedin</title>
         <use xlink:href="#icon-linkedin"></use>
@@ -285,7 +259,18 @@
 
     <p class="p-copyright">
       
-        (c) Hsin-Hao Yu
+        
+          
+            <a class="h-card" href="https://hhyu.org">Hsin-Hao Yu</a>
+          
+        
+        &nbsp;&bull;&nbsp;
+        2021
+
+        
+          &nbsp;&bull;&nbsp;
+          <a href="https://www.hhyu.org/">Cortically Magnified</a>
+        
       
     </p>
   </footer>

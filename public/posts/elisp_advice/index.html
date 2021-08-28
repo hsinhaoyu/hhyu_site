@@ -109,7 +109,7 @@
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp">(<span style="color:#a2f">defun</span> <span style="color:#b8860b">hhyu/deft-title-preprocess</span> (<span style="color:#b8860b">orig-func</span> <span style="color:#a2f;font-weight:bold">&amp;rest</span> <span style="color:#b8860b">args</span>)
     (<span style="color:#a2f;font-weight:bold">let*</span> ((<span style="color:#b8860b">file</span> (<span style="color:#00a000">car</span> <span style="color:#b8860b">args</span>))
            (<span style="color:#b8860b">contents</span> (<span style="color:#00a000">cadr</span> <span style="color:#b8860b">args</span>))
-           (<span style="color:#b8860b">m</span> (<span style="color:#b8860b">string-match</span> <span style="color:#b44">&#34;^:END:$&#34;</span> <span style="color:#b8860b">contents</span>)))
+           (<span style="color:#b8860b">m</span> (<span style="color:#b8860b">string-match</span> <span style="color:#b44">&#34;:PROPERTIES:\n\\(.+\n\\)+:END:\n&#34;</span> <span style="color:#b8860b">contents</span>)))
       (<span style="color:#a2f;font-weight:bold">if</span> <span style="color:#b8860b">m</span>
           (<span style="color:#a2f;font-weight:bold">let</span> ((<span style="color:#b8860b">new-contents</span>
                  (<span style="color:#b8860b">substring</span> <span style="color:#b8860b">contents</span>
@@ -128,6 +128,7 @@
       <div class="c-pagination__ctrl">
         <div class="c-pagination__newer">
           
+          <a href="https://www.hhyu.org/posts/fermion/">Newer</a>
           
         </div>
         <div class="c-pagination__older">

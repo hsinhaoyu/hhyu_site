@@ -6,7 +6,43 @@
     <description>Recent content in Tags on Cortically Magnified</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Aug 2021 10:11:05 +1000</lastBuildDate><atom:link href="https://www.hhyu.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 27 Aug 2021 20:47:54 +1000</lastBuildDate><atom:link href="https://www.hhyu.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>datascience</title>
+      <link>https://www.hhyu.org/tags/datascience/</link>
+      <pubDate>Fri, 27 Aug 2021 20:47:54 +1000</pubDate>
+      
+      <guid>https://www.hhyu.org/tags/datascience/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>journalclub</title>
+      <link>https://www.hhyu.org/tags/journalclub/</link>
+      <pubDate>Fri, 27 Aug 2021 20:47:54 +1000</pubDate>
+      
+      <guid>https://www.hhyu.org/tags/journalclub/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>machine learning</title>
+      <link>https://www.hhyu.org/tags/machine-learning/</link>
+      <pubDate>Fri, 27 Aug 2021 20:47:54 +1000</pubDate>
+      
+      <guid>https://www.hhyu.org/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>physics</title>
+      <link>https://www.hhyu.org/tags/physics/</link>
+      <pubDate>Fri, 27 Aug 2021 20:47:54 +1000</pubDate>
+      
+      <guid>https://www.hhyu.org/tags/physics/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>emacs</title>
       <link>https://www.hhyu.org/tags/emacs/</link>
@@ -458,15 +494,6 @@
     </item>
     
     <item>
-      <title>machine learning</title>
-      <link>https://www.hhyu.org/tags/machine-learning/</link>
-      <pubDate>Fri, 23 Mar 2018 12:23:25 +1100</pubDate>
-      
-      <guid>https://www.hhyu.org/tags/machine-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>tensorflow</title>
       <link>https://www.hhyu.org/tags/tensorflow/</link>
       <pubDate>Fri, 23 Mar 2018 12:23:25 +1100</pubDate>
@@ -589,15 +616,6 @@
       <pubDate>Fri, 10 Nov 2017 00:09:14 +1100</pubDate>
       
       <guid>https://www.hhyu.org/tags/tv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>physics</title>
-      <link>https://www.hhyu.org/tags/physics/</link>
-      <pubDate>Sat, 20 Aug 2016 20:31:41 +1100</pubDate>
-      
-      <guid>https://www.hhyu.org/tags/physics/</guid>
       <description></description>
     </item>
     
