@@ -16,7 +16,7 @@ The Wikipedia gives a classical real-world example: two treatments for kidney st
 
 This is a little bit like my next-door neighbor, who seemed to be horrible at the piano because he makes mistake all the time. This was my impression until I discovered that he only tackles very difficult pieces, precisely because he is pretty good at the piano.
 
-So the kidney stone example turns out to have a clever explanation. But what's the take home message? Should we always divide the dataset into smaller subsets? If that's true, how can we possibly implement this advise, particularly with high-dimensional datasets? Maybe we could look for indicative characteristics in the dataset, to alert us when the Simpson's Paradox might be a concer? 
+So the kidney stone example turns out to have a clever explanation. But what's the take home message? Should we always divide the dataset into smaller subsets? If that's true, how can we possibly implement this advise, particularly with high-dimensional datasets? Maybe we could look for indicative characteristics in the dataset, to alert us when the Simpson's Paradox might be a concern? 
 
 ### The original Simpson's Paradox
 I always felt that most of the non-specialist discussions on the Simpson's Paradox are missing something. Luckily, Hernán _et al_. (2011) explains how the main message of E. H. Simpson's  [original 1951 paper](https://rss.onlinelibrary.wiley.com/doi/10.1111/j.2517-6161.1951.tb00088.x) has become obscured by subsequent commentaries and expositions. This is because the technical part of the paper seems pretty esoteric by our modern perspective [1]. But let us ignore that and focus on the big picture.
