@@ -4,7 +4,7 @@ date: 2022-01-28T17:06:28+11:00
 draft: false
 tags: ["statistics", "data science", "causality", "thinking"]
 ---
-The Simpson's Paradox is one of the most well-known paradoxes in statistics. A quick google will find plenty of blog posts (many from the data science community), about this puzzling phenomenon. It is clearly a topic of real-world significance. There seem to be some important lessons that we are supposed to learn from it. But what are those lessons? Is it nothing more than a cautionary tale about how easy it is for data analyses to go wrong? 
+The Simpson's Paradox is one of the most well-known paradoxes in statistics. A quick google will find plenty of blog posts (many from the data science community) about this puzzling phenomenon. It is clearly a topic of real-world significance. There seem to be some important lessons that we are supposed to learn from it. But what are those lessons? Is it nothing more than a cautionary tale about how easy it is for data analyses to go wrong? 
 
 Today I followed a footnote in a book about causality, which led me to a short paper titled [The Simpson's paradox unraveled](https://pubmed.ncbi.nlm.nih.gov/21454324/) (Hernán et al., 2011). This is one of the papers that I feel compelled to talk about with any random person that I run into, because it explains a complicated topic elegantly, and says something interesting, and maybe even profound, to... well, any random person. You should read this paper yourself because it's short and accessible, but since I haven't actually met any random person today, let me explain it in my own way.
 
