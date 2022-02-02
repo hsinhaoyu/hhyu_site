@@ -3,6 +3,61 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.hhyu.org/tags/causality/</loc>
+    <lastmod>2022-01-28T17:06:28+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/</loc>
+    <lastmod>2022-01-28T17:06:28+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/data-science/</loc>
+    <lastmod>2022-01-28T17:06:28+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/posts/</loc>
+    <lastmod>2022-01-28T17:06:28+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/statistics/</loc>
+    <lastmod>2022-01-28T17:06:28+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/</loc>
+    <lastmod>2022-01-28T17:06:28+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/thinking/</loc>
+    <lastmod>2022-01-28T17:06:28+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/posts/simpsons/</loc>
+    <lastmod>2022-01-28T17:06:28+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/micro/dylan/</loc>
+    <lastmod>2021-11-07T09:23:23+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/tags/doodle/</loc>
+    <lastmod>2021-11-07T09:23:23+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/micro/</loc>
+    <lastmod>2021-11-07T09:23:23+11:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.hhyu.org/micro/brain_sea/</loc>
     <lastmod>2021-10-15T21:52:18+11:00</lastmod>
   </url>
@@ -13,32 +68,12 @@
   </url>
   
   <url>
-    <loc>https://www.hhyu.org/</loc>
-    <lastmod>2021-10-15T21:52:18+11:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/micro/</loc>
-    <lastmod>2021-10-15T21:52:18+11:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/tags/</loc>
-    <lastmod>2021-10-15T21:52:18+11:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.hhyu.org/tags/taiwan/</loc>
     <lastmod>2021-10-15T21:52:18+11:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.hhyu.org/posts/fermion/</loc>
-    <lastmod>2021-08-27T20:47:54+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/tags/data-science/</loc>
     <lastmod>2021-08-27T20:47:54+10:00</lastmod>
   </url>
   
@@ -54,11 +89,6 @@
   
   <url>
     <loc>https://www.hhyu.org/tags/physics/</loc>
-    <lastmod>2021-08-27T20:47:54+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/posts/</loc>
     <lastmod>2021-08-27T20:47:54+10:00</lastmod>
   </url>
   
@@ -213,11 +243,6 @@
   </url>
   
   <url>
-    <loc>https://www.hhyu.org/portfolio/</loc>
-    <lastmod>2021-01-18T09:45:28+11:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.hhyu.org/micro/frame_cut_frame/</loc>
     <lastmod>2021-01-15T10:01:53+11:00</lastmod>
   </url>
@@ -359,11 +384,6 @@
   
   <url>
     <loc>https://www.hhyu.org/micro/stats_book/</loc>
-    <lastmod>2020-12-03T18:33:28+11:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/tags/statistics/</loc>
     <lastmod>2020-12-03T18:33:28+11:00</lastmod>
   </url>
   
@@ -565,11 +585,6 @@
   <url>
     <loc>https://www.hhyu.org/posts/calvino_sand/</loc>
     <lastmod>2020-04-11T08:49:22+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/photo_archive/</loc>
-    <lastmod>2020-01-18T09:45:28+11:00</lastmod>
   </url>
   
   <url>
@@ -970,6 +985,11 @@
   <url>
     <loc>https://www.hhyu.org/teaching/</loc>
     <lastmod>2008-01-01T13:20:52+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hhyu.org/code/</loc>
+    <priority>0</priority>
   </url>
   
   <url>

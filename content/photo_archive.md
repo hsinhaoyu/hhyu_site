@@ -1,7 +1,7 @@
 ---
 title: "Hsin-Hao's UCSD CogSci office door photo archive"
 date: 2020-01-18T09:45:28+11:00
-draft: false
+draft: true
 ---
 {{< figure src="/cogsci_archive/archive1.jpg" width="500px" >}}
 {{< figure src="/cogsci_archive/archive2.png" width="500px" >}}

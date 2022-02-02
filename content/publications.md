@@ -3,7 +3,7 @@ title: "CV & publications"
 date: 2021-01-18T14:50:45+11:00
 draft: false
 ---
-- For industry cv, see [here](/Yu_cv_short_2021.pdf).
+- For industry cv, see [here](/Yu_cv_short_2022.pdf).
 - For academic cv, see [here](/Yu_cv_2021.pdf).
 - For full list of publications, see [Google Scholar](https://scholar.google.com/citations?hl=en&user=EMaG69UAAAAJ) 
 - For my peer reviews, see [Publons](https://publons.com/researcher/3074547/hsin-hao-yu) 

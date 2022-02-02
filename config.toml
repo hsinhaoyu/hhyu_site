@@ -12,6 +12,7 @@ paginate = 5
   instagram = "hhyu00"
   linkedin = "hhyu"
   github = "hsinhaoyu"
+  gitlab = "hsinhaoyu"
   twitter = "HsinHaoYu"
   # Google Analytics API key. Not working!
   ga_api_key = "UA-115187658-1"
@@ -43,35 +44,29 @@ paginate = 5
 
 [[menu.main]]
     parent     = "About"
-    name       = "Portfolio"
-    url        = "/portfolio"
-    weight     = 2
-
-[[menu.main]]
-    parent     = "About"
     name       = "This site"
     url        = "/about_site"
-    weight     = 3
-
-[[menu.main]]
-    identifier = "Science"
-    name       = "/Science"
     weight     = 2
 
 [[menu.main]]
-    parent     = "Science"
+    identifier = "Work"
+    name       = "/Work"
+    weight     = 2
+
+[[menu.main]]
+    parent     = "Work"
     name       = "Research"
     url        = "research"
     weight     = 1
 
 [[menu.main]]
-    parent     = "Science"
+    parent     = "Work"
     name       = "CV and Publications"
     url        = "publications"
     weight     = 2
 
 [[menu.main]]
-    parent     = "Science"
+    parent     = "Work"
     name       = "Visualization Gallery"
     url        = "gallery"
     weight     = 3
@@ -83,21 +78,27 @@ paginate = 5
 
 [[menu.main]]
     parent     = "Update"
+    name       = "Code"
+    url        = "code"
+    weight     = 1
+
+[[menu.main]]
+    parent     = "Update"
     name       = "Blog"
     url        = "/"
-    weight     = 1
+    weight     = 2
 
 [[menu.main]]
     parent     = "Update"
     name       = "Notes"
     url        = "/micro/"
-    weight     = 2
+    weight     = 3
 
 [[menu.main]]
     parent     = "Update"
-    name       = "Resources"
+    name       = "References"
     url        = "https://github.com/hsinhaoyu/resources"
-    weight     = 3
+    weight     = 4
 
 
 [[menu.main]]

@@ -6,14 +6,32 @@
     <description>Recent content on Cortically Magnified</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Oct 2021 21:52:18 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 Jan 2022 17:06:28 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What can we learn from the Simpson&#39;s Paradox?</title>
+      <link>https://www.hhyu.org/posts/simpsons/</link>
+      <pubDate>Fri, 28 Jan 2022 17:06:28 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/simpsons/</guid>
+      <description>The Simpson&amp;rsquo;s Paradox is one of the most well-known paradoxes in statistics. A quick google will find plenty of blog posts (many from the data science community, about this puzzling phenomenon). It is clearly a topic of real-world importance. There seem to be some important lessons that we are supposed to learn from it. But what are those lessons? Is it nothing more than a cautionary tale about how easy it is for data analyses to go wrong?</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.hhyu.org/micro/dylan/</link>
+      <pubDate>Sun, 07 Nov 2021 09:23:23 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/micro/dylan/</guid>
+      <description>It took me a while to figure out why I like Bob Dylan&amp;rsquo;s Subterranean Homesick Blues music video. It&amp;rsquo;s because I like watching the words falling down one by one.</description>
+    </item>
+    
     <item>
       <title></title>
       <link>https://www.hhyu.org/micro/brain_sea/</link>
       <pubDate>Fri, 15 Oct 2021 21:52:18 +1100</pubDate>
       
       <guid>https://www.hhyu.org/micro/brain_sea/</guid>
-      <description>This is an illustration of the &amp;ldquo;Brain Sea&amp;rdquo;. I found it near the end of a comic book by the Taiwanese artist Push. What is the Brain Sea? In Mandarin Chinese, &amp;ldquo;Brain Sea&amp;rdquo; is a common expression that refers to the mind. This is the end scene of the &amp;ldquo;Nine Life Man&amp;rdquo; saga. The protagonist, who has been reincarnated into countless life forms in the 3 volume saga, asks the ultimate question: what is the point of all this?</description>
+      <description>This is an illustration of the &amp;ldquo;Brain Sea&amp;rdquo;. I found it near the end of a comic book by the Taiwanese artist Push. What is the Brain Sea? In Mandarin Chinese, &amp;ldquo;Brain Sea&amp;rdquo; (腦海) is a common expression that refers to the mind. This is the end scene of the &amp;ldquo;Nine Lives Man&amp;rdquo; saga, where the protagonist (who has been reincarnated into countless life forms in the 3-volume Sci-Fi series) asks the ultimate question: What is the point of all this?</description>
     </item>
     
     <item>
@@ -123,18 +141,8 @@ Publication:
       <pubDate>Mon, 18 Jan 2021 09:45:28 +1100</pubDate>
       
       <guid>https://www.hhyu.org/about/</guid>
-      <description>I received my Ph.D. from the Department of Cognitive Science of University of California San Diego.For my undergraduate degree, I studied Applied Mathematics at the National Chiao Tung University in Hsin-Chu, Taiwan.
-I have had several different roles in science and research:
-As an industry researcher in medical AI: I use machine learning and statistical methods to build AI applications in ophthalmology. I also have experience in managing data sharing and collaboration with academic researchers.</description>
-    </item>
-    
-    <item>
-      <title>Portfolio</title>
-      <link>https://www.hhyu.org/portfolio/</link>
-      <pubDate>Mon, 18 Jan 2021 09:45:28 +1100</pubDate>
-      
-      <guid>https://www.hhyu.org/portfolio/</guid>
-      <description>As an industry researcher in AI:  I use machine learning and statistical methods to build AI applications in ophthalmology. I have also filed two patents in medical AI. This paper, published in the clinical journal Ophthalmology Glaucoma, uses deep convolutional neural networks to assess the visual functions of glaucoma patients based on OCT scans of the retina.  The souce code, written in Python and Keras, Will be released as an open source package by IBM Research.</description>
+      <description>I am a data scientist and an AI/machine learning researcher in the technology industry. Prior to switching to the industry, I was a neuroscientist with expertise in the visual cortex.
+I received my Ph.D. from the Department of Cognitive Science of University of California San Diego.For my undergraduate degree, I studied Applied Mathematics at the National Chiao Tung University in Hsin-Chu, Taiwan.</description>
     </item>
     
     <item>
@@ -247,7 +255,8 @@ The CD was just one of those random things that I had.</description>
       <pubDate>Thu, 17 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.hhyu.org/about_site/</guid>
-      <description>I started this site in 2018 to collect all my content in one place. The title &amp;ldquo;Cortically Magnified&amp;rdquo; is a play on &amp;ldquo;cortical magnification&amp;rdquo; - a concept in visual neuroscience. Roughly speaking, it measures the amount of resource in the visual cortex that is devoted to the processing of information in a small patch of the visual field. I have measured cortical magnification functions several times in my career as a neuroscientist.</description>
+      <description>I started this site in 2018 to collect all my content in one place. The title &amp;ldquo;Cortically Magnified&amp;rdquo; is a play on &amp;ldquo;cortical magnification&amp;rdquo; - a concept in visual neuroscience.
+ The site is made with the Hugo static website generator, using a customized theme derived from the Pickles theme. I am working on supporting IndieWeb - an alternative approach to social networking based on open protocols. As of January 2021, this site supports IndieAuth authentication and service discovery.</description>
     </item>
     
     <item>
@@ -536,15 +545,6 @@ But it got me thinking, clock hands don&amp;rsquo;t have to rotate around the ce
       
       <guid>https://www.hhyu.org/posts/calvino_sand/</guid>
       <description>Collection of Sand is a collection of book reviews, exhibition reviews and travelogues that Italo Calvino wrote in the 70&amp;rsquo;s and 80&amp;rsquo;s. The quality varies. The best of them are unsurprisingly ekphrastic essays where Calvino described gardens, historical sites, and paintings in exquisite details. Those where he tried to regurgitate scientific or historical knowledge from academic books are less inspiring. But still, it is the variety of things that Calvino cared to write about that charms.</description>
-    </item>
-    
-    <item>
-      <title>Hsin-Hao&#39;s UCSD CogSci office door photo archive</title>
-      <link>https://www.hhyu.org/photo_archive/</link>
-      <pubDate>Sat, 18 Jan 2020 09:45:28 +1100</pubDate>
-      
-      <guid>https://www.hhyu.org/photo_archive/</guid>
-      <description>                                         </description>
     </item>
     
     <item>
@@ -1080,6 +1080,15 @@ Chibi Maruko-Chan is a popular Japanese cartoon for children. It is about the li
       <guid>https://www.hhyu.org/teaching/</guid>
       <description>The followings are for students who want to learn more about the topics that I talk about in lectures. They are optional readings. You won&amp;rsquo;t be tested on them.
 PHY3111: Sensation and Movement (2014, 2015)  Colour Vision Prac class: Recording Electrophysiological Signals (cockroach recordings)  PHY3012: Integrative Neuroscience - Neuron to Brain (2015)  Plasticity in the visual system in development  RAD2092: Radiologic Biology 4 and Sectional Anatomy (2012-)  Organization of the Cerebral Cortex The Eye and the Retina Physiology of Visual Pathways  PSY3310: Introduction to Computational Neuroscience (2016, 2017)  Human vision as frequency filters The neural basis of frequency processing  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.hhyu.org/code/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.hhyu.org/code/</guid>
+      <description>Web programming  Parallel Timelines: A webapp for comparing multiple lines of historical events in parallel. Written in NodeJS and React.  Data analysis  Bayesian regression: use Bayesian methods to analyze a dataset in visual neuroscience. Written in R and the Bayesian package JAGS. This GitHub repo is a sample project that demonstrates the values of data science in education. I wrote an article about it.  </description>
     </item>
     
   </channel>

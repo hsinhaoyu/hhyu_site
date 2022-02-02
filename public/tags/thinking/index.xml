@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>thinking on Cortically Magnified</title>
+    <link>https://www.hhyu.org/tags/thinking/</link>
+    <description>Recent content in thinking on Cortically Magnified</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 28 Jan 2022 17:06:28 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/tags/thinking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What can we learn from the Simpson&#39;s Paradox?</title>
+      <link>https://www.hhyu.org/posts/simpsons/</link>
+      <pubDate>Fri, 28 Jan 2022 17:06:28 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/simpsons/</guid>
+      <description>The Simpson&amp;rsquo;s Paradox is one of the most well-known paradoxes in statistics. A quick google will find plenty of blog posts (many from the data science community, about this puzzling phenomenon). It is clearly a topic of real-world importance. There seem to be some important lessons that we are supposed to learn from it. But what are those lessons? Is it nothing more than a cautionary tale about how easy it is for data analyses to go wrong?</description>
+    </item>
+    
+  </channel>
+</rss>

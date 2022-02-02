@@ -82,13 +82,42 @@
 <div class="box" >
   <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
     <div class="img">
+      <img itemprop="thumbnail" src="/blog/bob.jpg" />
+    </div>
+    <a href="blog/bob.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+<p>It took me a while to figure out why I like Bob Dylan&rsquo;s Subterranean Homesick Blues <a href="https://www.youtube.com/watch?v=MGxjIBEZvx0">music video</a>. It&rsquo;s because I like watching the words falling down one by one.</p>
+
+  </div>
+  <p class="c-article__meta">
+      <a class="u-url" href="https://www.hhyu.org/micro/dylan/">
+<time class="micro dt-published" datetime="2021-11-07T09:23:23&#43;11:00">
+  Nov 7, 2021
+</time>
+</a>
+
+  </p>
+</article>
+
+    
+        
+        
+        <article class="c-article p-list-article-micro">
+  <div class="c-article__micro">
+    
+<link rel="stylesheet" href="/css/hugo-easy-gallery.css" />
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
       <img itemprop="thumbnail" src="/blog/push.jpg" />
     </div>
     <a href="blog/push.jpg" itemprop="contentUrl"></a>
   </figure>
 </div>
 
-<p>This is an illustration of the &ldquo;Brain Sea&rdquo;. I found it near the end of a comic book by the Taiwanese artist <a href="https://pushcomic.pixnet.net/blog">Push</a>. What is the Brain Sea? In Mandarin Chinese, &ldquo;Brain Sea&rdquo; is a common expression that refers to the mind. This is the end scene of the &ldquo;Nine Life Man&rdquo; saga. The protagonist, who has been reincarnated into countless life forms in the 3 volume saga, asks the ultimate question: what is the point of all this? The answer is that it&rsquo;s all in the brain sea of Push, the comic book author. The next page we see the author finishing the final panel, and he thinks to himself: &ldquo;What a crappy ending. Who will buy this very serious buy also very silly book?&rdquo;</p>
+<p>This is an illustration of the &ldquo;Brain Sea&rdquo;. I found it near the end of a comic book by the Taiwanese artist <a href="https://pushcomic.pixnet.net/blog">Push</a>. What is the Brain Sea? In Mandarin Chinese, &ldquo;Brain Sea&rdquo; (腦海) is a common expression that refers to the mind. This is the end scene of the &ldquo;Nine Lives Man&rdquo; saga, where the protagonist (who has been reincarnated into countless life forms in the 3-volume Sci-Fi series) asks the ultimate question: What is the point of all this? The answer is that it&rsquo;s all in the brain sea of Push, the comic book author. The next page shows the author finishing the final panel, and he thinks to himself: &ldquo;What a crappy ending! Who will buy this very serious but also very silly book?&rdquo;</p>
 
   </div>
   <p class="c-article__meta">
@@ -262,35 +291,6 @@
 </article>
 
     
-        
-        
-        <article class="c-article p-list-article-micro">
-  <div class="c-article__micro">
-    <p>My wife and I have a box of CDs that we hadn’t opened in maybe 10 years. We moved them across three continents because we don’t want to get rid of them, but with streaming services, we had very little reason to take them out of the box. We don’t even have a CD player in the house anymore. But there are treasures. We finally decided to take them out during the break. I can stream Frank Zappa’s Yellow Shark anytime I want, but it’s very hard to find this booklet. It’s a really good booklet with pictures, stories, and even some sheet music.</p>
-
-<link rel="stylesheet" href="/css/hugo-easy-gallery.css" />
-<div class="box" >
-  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <div class="img">
-      <img itemprop="thumbnail" src="/blog/yellowshark.jpg" />
-    </div>
-    <a href="/blog/yellowshark.jpg" itemprop="contentUrl"></a>
-  </figure>
-</div>
-
-
-  </div>
-  <p class="c-article__meta">
-      <a class="u-url" href="https://www.hhyu.org/micro/yellowshark/">
-<time class="micro dt-published" datetime="2021-01-05T17:56:15&#43;11:00">
-  Jan 5, 2021
-</time>
-</a>
-
-  </p>
-</article>
-
-    
 
 <nav class="c-pagination p-pagination">
   <div class="c-pagination__ctrl">
@@ -303,7 +303,7 @@
       
     </div>
   </div>
-  <span class="c-pagination__count p-pagination__count">Page 1 of 7</span>
+  <span class="c-pagination__count p-pagination__count">Page 1 of 8</span>
 </nav>
 
 
@@ -345,8 +345,6 @@
             
               <li class="p-menu__listitem p-menu__child"><a href="/about">Me</a></li>
             
-              <li class="p-menu__listitem p-menu__child"><a href="/portfolio">Portfolio</a></li>
-            
               <li class="p-menu__listitem p-menu__child"><a href="/about_site">This site</a></li>
             
           </ul>
@@ -355,7 +353,7 @@
     
       
         <li class="p-menu__listitem p-menu__parent">
-          <span>/Science</span>
+          <span>/Work</span>
           <ul>
             
               <li class="p-menu__listitem p-menu__child"><a href="/research">Research</a></li>
@@ -373,11 +371,13 @@
           <span>/Updates</span>
           <ul>
             
+              <li class="p-menu__listitem p-menu__child"><a href="/code">Code</a></li>
+            
               <li class="p-menu__listitem p-menu__child"><a href="/">Blog</a></li>
             
               <li class="p-menu__listitem p-menu__child"><a href="/micro/">Notes</a></li>
             
-              <li class="p-menu__listitem p-menu__child"><a href="https://github.com/hsinhaoyu/resources">Resources</a></li>
+              <li class="p-menu__listitem p-menu__child"><a href="https://github.com/hsinhaoyu/resources">References</a></li>
             
           </ul>
         </li>
@@ -429,6 +429,15 @@
   </li>
   
   
+  <li class="c-links__item">
+    <a href="https://gitlab.com/hsinhaoyu" target="_blank">
+      <svg viewBox="0 0 64 64" class="c-links__icon">
+        <title>gitlab</title>
+        <use xlink:href="#icon-gitlab"></use>
+      </svg>
+    </a>
+  </li>
+  
   
   
   
@@ -461,7 +470,7 @@
           
         
         &nbsp;&bull;&nbsp;
-        2021
+        2022
 
         
           &nbsp;&bull;&nbsp;
