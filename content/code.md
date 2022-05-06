@@ -10,3 +10,5 @@
 Inspired by the [Programs to Read](https://www-cs-faculty.stanford.edu/~knuth/programs.html) section of Professor Donald Knuth's website, I am enthusiastic about writing programs that can also be read as essays.
 
 - [Why Functional Programming Matters](https://github.com/hsinhaoyu/why_functional) - An intermediate-level tutorial on Python's generators, based on John Hughes' classic paper "Why Function Programming Matters", which was written in the lazy functional language Miranda.
+
+- [Continued fraction arithmetic](https://github.com/hsinhaoyu/cont_frac) - A Python implementation of Bill Gospher's algorithm for performing arithmetic operations on continued fractions. I also wrote an [article](https://hsinhaoyu.github.io/cont_frac/) to explain the logic. 

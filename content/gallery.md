@@ -8,6 +8,8 @@ One the things that I enjoy the most in science is to communicate the findings i
 {{< load-photoswipe >}}
 {{<gallery>}}
 
+  {{<figure link="/gallery/cont_frac.png" caption="Bill Gospher's algorithm" alt="In 1977, mathematician Bill Gospher developed an algorithm for doing computation with continued fractions. I wrote some code to illustrate how it works. (c) Hsin-Hao Yu">}}
+
   {{<figure link="/gallery/lgn_rf.png" caption="A 'receptive field' map" alt="This image communicates 3 pieces of information about data collected in the visual cortex: the shape of the receptive field (shaded in blue), the fine details about the neuronal responses (individual histograms), and result of a model fitted to the data (the oval-shaped contour). Published in Yu et al. (2013) The Journal of Neuroscience 33, 12479-12489." >}}
 
   {{<figure link="/gallery/folding2.png" caption="The unfolding of the elastic net" alt="This image illustrates the dynamics of a computational model to explain the formation of maps in the visual cortex. Published in Yu et al. (2020) Science Advances 6, EAAZ8673 " >}}
@@ -65,10 +67,6 @@ This movie illustrates the evolution of a self-organization model defined on a n
 {{< youtube BTSUjf6xQKQ >}}
 
 Fourier analysis says that you don't necessarily need Leonardo da Vinci's mastery of the brush to paint Mona Lisa. All that you need is knowing how to paint stripes. This video demonstrates that by adding up Fourier components, you can reconstruct the Mona Lisa. I made this for a lecture in computational neuroscience. See this [post](/posts/fourierdemonstration/).
-
-{{< youtube uNfnykBJge0 >}}
-
-This animation illustrates how image motion looks like in the 3D Fourier space.
 
 {{< youtube bkenhyLFjRQ >}}
 
