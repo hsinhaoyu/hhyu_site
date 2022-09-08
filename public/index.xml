@@ -13,7 +13,7 @@
       <pubDate>Fri, 28 Jan 2022 17:06:28 +1100</pubDate>
       
       <guid>https://www.hhyu.org/posts/simpsons/</guid>
-      <description>The Simpson&amp;rsquo;s Paradox is one of the most well-known paradoxes in statistics. A quick google will find plenty of blog posts (many from the data science community, about this puzzling phenomenon). It is clearly a topic of real-world importance. There seem to be some important lessons that we are supposed to learn from it. But what are those lessons? Is it nothing more than a cautionary tale about how easy it is for data analyses to go wrong?</description>
+      <description>The Simpson&amp;rsquo;s Paradox is one of the most well-known paradoxes in statistics. A quick google will find plenty of blog posts (many from the data science community) about this puzzling phenomenon. It is clearly a topic of real-world significance. There seem to be some important lessons that we are supposed to learn from it. But what are those lessons? Is it nothing more than a cautionary tale about how easy it is for data analyses to go wrong?</description>
     </item>
     
     <item>
@@ -619,7 +619,7 @@ From 2014-2017, I wrote a series of articles for the Chinese speaking communitie
       
       <guid>https://www.hhyu.org/gallery/</guid>
       <description>One the things that I enjoy the most in science is to communicate the findings in beautiful figures. I believe scientific figures should be effective (i.e., leave an impression) and efficient (i.e., highlight the main story). Here are some examples of the images that I have created (or helped to create) for research and teaching. Click on the images for brief explanations.
-                                A &amp;#39;receptive field&amp;#39; map</description>
+                                Bill Gospher&amp;#39;s algorithm</description>
     </item>
     
     <item>
@@ -1088,7 +1088,8 @@ PHY3111: Sensation and Movement (2014, 2015)  Colour Vision Prac class: Recordin
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.hhyu.org/code/</guid>
-      <description>Web programming  Parallel Timelines: A webapp for comparing multiple lines of historical events in parallel. Written in NodeJS and React.  Data analysis  Bayesian regression: use Bayesian methods to analyze a dataset in visual neuroscience. Written in R and the Bayesian package JAGS. This GitHub repo is a sample project that demonstrates the values of data science in education. I wrote an article about it.  </description>
+      <description>Personal projects Web apps  Parallel Timelines: A webapp for comparing multiple lines of historical events in parallel. Written in NodeJS and React.  Data analysis   Bayesian regression: An application of Bayesian methods in visual neuroscience. I used Bayesian regression to characterize the scaling relationship between receptive field size and eccentricity. Written in R and the Bayesian package JAGS.
+  The allometry of mammalian brains: I wrote a general-audience article to debunk a myth surrounding the size of brains.</description>
     </item>
     
   </channel>
