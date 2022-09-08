@@ -146,6 +146,16 @@ I received my Ph.D. from the Department of Cognitive Science of University of Ca
     </item>
     
     <item>
+      <title>Personal Projects</title>
+      <link>https://www.hhyu.org/code/</link>
+      <pubDate>Mon, 18 Jan 2021 09:45:28 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/code/</guid>
+      <description>Personal projects Web apps  Parallel Timelines: A webapp for comparing multiple lines of historical events in parallel. Written in NodeJS and React.  Data analysis   Bayesian regression: An application of Bayesian methods in visual neuroscience. I used Bayesian regression to characterize the scaling relationship between receptive field size and eccentricity. Written in R and the Bayesian package JAGS.
+  The allometry of mammalian brains: I wrote a general-audience article to debunk a myth surrounding the size of brains.</description>
+    </item>
+    
+    <item>
       <title></title>
       <link>https://www.hhyu.org/micro/frame_cut_frame/</link>
       <pubDate>Fri, 15 Jan 2021 10:01:53 +1100</pubDate>
@@ -1080,16 +1090,6 @@ Chibi Maruko-Chan is a popular Japanese cartoon for children. It is about the li
       <guid>https://www.hhyu.org/teaching/</guid>
       <description>The followings are for students who want to learn more about the topics that I talk about in lectures. They are optional readings. You won&amp;rsquo;t be tested on them.
 PHY3111: Sensation and Movement (2014, 2015)  Colour Vision Prac class: Recording Electrophysiological Signals (cockroach recordings)  PHY3012: Integrative Neuroscience - Neuron to Brain (2015)  Plasticity in the visual system in development  RAD2092: Radiologic Biology 4 and Sectional Anatomy (2012-)  Organization of the Cerebral Cortex The Eye and the Retina Physiology of Visual Pathways  PSY3310: Introduction to Computational Neuroscience (2016, 2017)  Human vision as frequency filters The neural basis of frequency processing  </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://www.hhyu.org/code/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.hhyu.org/code/</guid>
-      <description>Personal projects Web apps  Parallel Timelines: A webapp for comparing multiple lines of historical events in parallel. Written in NodeJS and React.  Data analysis   Bayesian regression: An application of Bayesian methods in visual neuroscience. I used Bayesian regression to characterize the scaling relationship between receptive field size and eccentricity. Written in R and the Bayesian package JAGS.
-  The allometry of mammalian brains: I wrote a general-audience article to debunk a myth surrounding the size of brains.</description>
     </item>
     
   </channel>

@@ -1,11 +1,16 @@
-# Personal projects
+---
+title: "Personal Projects"
+date: 2021-01-18T09:45:28+11:00
+draft: false
+---
+
 #### Web apps
 
 - [Parallel Timelines](https://gitlab.com/hsinhaoyu/timelinedb): A webapp for comparing multiple lines of historical events in parallel. Written in NodeJS and React.
 
 #### Data analysis
 
-- [Bayesian regression]((https://github.com/hsinhaoyu/bayesian-rf)): An application of Bayesian methods in visual neuroscience. I used Bayesian regression to characterize the scaling relationship between receptive field size and eccentricity. Written in R and the Bayesian package JAGS.
+- [Bayesian regression](https://github.com/hsinhaoyu/bayesian-rf): An application of Bayesian methods in visual neuroscience. I used Bayesian regression to characterize the scaling relationship between receptive field size and eccentricity. Written in R and the Bayesian package JAGS.
 
 - [The allometry of mammalian brains](https://github.com/hsinhaoyu/koala_brain_analysis): I wrote a general-audience [article](https://www.hhyu.org/posts/koala/) to debunk a myth surrounding the size of brains. This is the R source code for the analysis.
 

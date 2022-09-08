@@ -243,6 +243,11 @@
   </url>
   
   <url>
+    <loc>https://www.hhyu.org/code/</loc>
+    <lastmod>2021-01-18T09:45:28+11:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.hhyu.org/micro/frame_cut_frame/</loc>
     <lastmod>2021-01-15T10:01:53+11:00</lastmod>
   </url>
@@ -985,11 +990,6 @@
   <url>
     <loc>https://www.hhyu.org/teaching/</loc>
     <lastmod>2008-01-01T13:20:52+11:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.hhyu.org/code/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
