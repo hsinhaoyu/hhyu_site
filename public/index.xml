@@ -121,7 +121,7 @@
       <pubDate>Mon, 18 Jan 2021 14:50:45 +1100</pubDate>
       
       <guid>https://www.hhyu.org/publications/</guid>
-      <description>For industry cv, see here. For academic cv, see here. For full list of publications, see Google Scholar For my peer reviews, see Publons  Recent presentations  2020: IBM Research Australia Seminar: Title: The traveling salesman in the brain: modeling the formation of topographical maps in the visual cortex using self-organization principles. 2019: New Advances in Biocomplexity Workshop (University of Sydney). Title: Artificial Intelligence and the eye: a window into health 2018: Monash University Machine Learning Symposium.</description>
+      <description>For industry cv, see here. For academic cv, see here. For full list of publications, see Google Scholar For my peer reviews, see Publons Recent presentations 2020: IBM Research Australia Seminar: Title: The traveling salesman in the brain: modeling the formation of topographical maps in the visual cortex using self-organization principles. 2019: New Advances in Biocomplexity Workshop (University of Sydney). Title: Artificial Intelligence and the eye: a window into health 2018: Monash University Machine Learning Symposium.</description>
     </item>
     
     <item>
@@ -132,7 +132,7 @@
       <guid>https://www.hhyu.org/research/</guid>
       <description>1. AI applications in ophthalmology At clinics, monitoring the progression of glaucoma traditionally relies on visual field tests, which is unreliable and time consuming. In collaboration with clinical researchers at NYU, I investigated methods to infer visual field functions directly from scans of the retina, using 3D convolutional neural networks.
 Publication:
- Yu et al. (in press) Estimating global visual field indices in glaucoma by combining macula and optic disc OCT scans using 3-dimensional convolutional neural networks Ophthalmology Glaucoma [link]  2.</description>
+Yu et al. (in press) Estimating global visual field indices in glaucoma by combining macula and optic disc OCT scans using 3-dimensional convolutional neural networks Ophthalmology Glaucoma [link] 2.</description>
     </item>
     
     <item>
@@ -151,8 +151,8 @@ I received my Ph.D. from the Department of Cognitive Science of University of Ca
       <pubDate>Mon, 18 Jan 2021 09:45:28 +1100</pubDate>
       
       <guid>https://www.hhyu.org/code/</guid>
-      <description>Personal projects Web apps  Parallel Timelines: A webapp for comparing multiple lines of historical events in parallel. Written in NodeJS and React.  Data analysis   Bayesian regression: An application of Bayesian methods in visual neuroscience. I used Bayesian regression to characterize the scaling relationship between receptive field size and eccentricity. Written in R and the Bayesian package JAGS.
-  The allometry of mammalian brains: I wrote a general-audience article to debunk a myth surrounding the size of brains.</description>
+      <description>Web apps Parallel Timelines: A webapp for comparing multiple lines of historical events in parallel. Written in NodeJS and React. Data analysis Bayesian regression: An application of Bayesian methods in visual neuroscience. I used Bayesian regression to characterize the scaling relationship between receptive field size and eccentricity. Written in R and the Bayesian package JAGS.
+The allometry of mammalian brains: I wrote a general-audience article to debunk a myth surrounding the size of brains.</description>
     </item>
     
     <item>
@@ -171,8 +171,7 @@ The CD was just one of those random things that I had.</description>
       <pubDate>Tue, 12 Jan 2021 23:19:29 +1100</pubDate>
       
       <guid>https://www.hhyu.org/micro/hyperbolic_spirals/</guid>
-      <description>I found this in a box in the garage that hadn&amp;rsquo;t been opened in many years. I made it when I was a PhD student at UC San Diego. It&amp;rsquo;s a set of visual stimuli that I designed for a brain mapping experiment.
-    </description>
+      <description>I found this in a box in the garage that hadn&amp;rsquo;t been opened in many years. I made it when I was a PhD student at UC San Diego. It&amp;rsquo;s a set of visual stimuli that I designed for a brain mapping experiment.</description>
     </item>
     
     <item>
@@ -226,8 +225,7 @@ The CD was just one of those random things that I had.</description>
       <pubDate>Fri, 01 Jan 2021 17:56:15 +1100</pubDate>
       
       <guid>https://www.hhyu.org/micro/finger_lime_jam/</guid>
-      <description>I bought this jam made from the native Australian plant finger lime Citrus australasica. I wasn’t expecting much because with enough sugar, all jams taste alike. But this is very different. At the first taste, it’s like a citrus but then the citrus taste is replaced by something very bitter. It’s weird. I will have no problem finishing this jar.
-    </description>
+      <description>I bought this jam made from the native Australian plant finger lime Citrus australasica. I wasn’t expecting much because with enough sugar, all jams taste alike. But this is very different. At the first taste, it’s like a citrus but then the citrus taste is replaced by something very bitter. It’s weird. I will have no problem finishing this jar.</description>
     </item>
     
     <item>
@@ -246,7 +244,7 @@ The CD was just one of those random things that I had.</description>
       
       <guid>https://www.hhyu.org/micro/new_rose_hotel/</guid>
       <description>Europe was a dead museum
- from William Gibson&amp;rsquo;s New Rose Hotel. Clearly an homage to William S. Burroughs.</description>
+from William Gibson&amp;rsquo;s New Rose Hotel. Clearly an homage to William S. Burroughs.</description>
     </item>
     
     <item>
@@ -256,7 +254,7 @@ The CD was just one of those random things that I had.</description>
       
       <guid>https://www.hhyu.org/micro/countzero_turing/</guid>
       <description>So maybe you’ll get the Turing machine after your ass
- Count Zero by William Gibson.</description>
+Count Zero by William Gibson.</description>
     </item>
     
     <item>
@@ -266,7 +264,7 @@ The CD was just one of those random things that I had.</description>
       
       <guid>https://www.hhyu.org/about_site/</guid>
       <description>I started this site in 2018 to collect all my content in one place. The title &amp;ldquo;Cortically Magnified&amp;rdquo; is a play on &amp;ldquo;cortical magnification&amp;rdquo; - a concept in visual neuroscience.
- The site is made with the Hugo static website generator, using a customized theme derived from the Pickles theme. I am working on supporting IndieWeb - an alternative approach to social networking based on open protocols. As of January 2021, this site supports IndieAuth authentication and service discovery.</description>
+The site is made with the Hugo static website generator, using a customized theme derived from the Pickles theme. I am working on supporting IndieWeb - an alternative approach to social networking based on open protocols. As of January 2021, this site supports IndieAuth authentication and service discovery.</description>
     </item>
     
     <item>
@@ -367,8 +365,7 @@ In macOS, the Emacs executable is /Applications/Emacs.app/Contents/MacOS/Emacs. 
       <pubDate>Tue, 24 Nov 2020 18:16:00 +1100</pubDate>
       
       <guid>https://www.hhyu.org/micro/granger/</guid>
-      <description>I walked past Melbourne University’s Grainger Museum, which is dedicated to the Australian composer Percy Grainger. Kudos to the Wiggles for adapting one of his compositions into a children’s song.
-    </description>
+      <description>I walked past Melbourne University’s Grainger Museum, which is dedicated to the Australian composer Percy Grainger. Kudos to the Wiggles for adapting one of his compositions into a children’s song.</description>
     </item>
     
     <item>
@@ -377,8 +374,7 @@ In macOS, the Emacs executable is /Applications/Emacs.app/Contents/MacOS/Emacs. 
       <pubDate>Mon, 23 Nov 2020 18:41:32 +1100</pubDate>
       
       <guid>https://www.hhyu.org/micro/cbd_again/</guid>
-      <description>First time on Melbourne train since the pandemic!! I hadn’t seen this view since the middle of March.
-    </description>
+      <description>First time on Melbourne train since the pandemic!! I hadn’t seen this view since the middle of March.</description>
     </item>
     
     <item>
@@ -497,8 +493,7 @@ Dec 4th 2020 update: I also learned that William Gaddis worked for Kodak and IBM
       <pubDate>Sat, 24 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.hhyu.org/micro/bowles/</guid>
-      <description> In other parts of Africa, you are aware of the earth beneath your feet, of the vegetation and the animals; all power seems concentrated in the earth. In North Africa the earth becomes the less important part of the landscape because you find yourself constantly raising your eyes to look at the sky. In the arid landscape the sky is the final arbiter. - Paul Bowles
- </description>
+      <description>In other parts of Africa, you are aware of the earth beneath your feet, of the vegetation and the animals; all power seems concentrated in the earth. In North Africa the earth becomes the less important part of the landscape because you find yourself constantly raising your eyes to look at the sky. In the arid landscape the sky is the final arbiter. - Paul Bowles</description>
     </item>
     
     <item>
@@ -544,8 +539,7 @@ But it got me thinking, clock hands don&amp;rsquo;t have to rotate around the ce
       <pubDate>Sun, 12 Apr 2020 10:56:04 +1000</pubDate>
       
       <guid>https://www.hhyu.org/micro/diderot/</guid>
-      <description> The loom for making stockings is one of the most complicated and rigorously logical machines that we have&amp;hellip; one could consider it as just one single piece of reasoning whose conclusion is the making of the stockings - Denis Diderot, quoted in Italo Calvino&amp;rsquo;s Collection of Sand.
- </description>
+      <description>The loom for making stockings is one of the most complicated and rigorously logical machines that we have&amp;hellip; one could consider it as just one single piece of reasoning whose conclusion is the making of the stockings - Denis Diderot, quoted in Italo Calvino&amp;rsquo;s Collection of Sand.</description>
     </item>
     
     <item>
@@ -629,7 +623,9 @@ From 2014-2017, I wrote a series of articles for the Chinese speaking communitie
       
       <guid>https://www.hhyu.org/gallery/</guid>
       <description>One the things that I enjoy the most in science is to communicate the findings in beautiful figures. I believe scientific figures should be effective (i.e., leave an impression) and efficient (i.e., highlight the main story). Here are some examples of the images that I have created (or helped to create) for research and teaching. Click on the images for brief explanations.
-                                Bill Gospher&amp;#39;s algorithm</description>
+Bill Gospher&amp;#39;s algorithm
+A &amp;#39;receptive field&amp;#39; map
+The unfolding of the elastic net</description>
     </item>
     
     <item>
@@ -638,8 +634,7 @@ From 2014-2017, I wrote a series of articles for the Chinese speaking communitie
       <pubDate>Fri, 09 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>https://www.hhyu.org/micro/tori_amos/</guid>
-      <description> I don’t believe you are leaving cause me and Charles Manson like the same ice cream - Tori Amos, Tears in Your Hands
- </description>
+      <description>I don’t believe you are leaving cause me and Charles Manson like the same ice cream - Tori Amos, Tears in Your Hands</description>
     </item>
     
     <item>
@@ -693,8 +688,7 @@ From 2014-2017, I wrote a series of articles for the Chinese speaking communitie
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://www.hhyu.org/micro/turing/</guid>
-      <description> Turing once dreamed that he was a Turing machine. When he woke up, he wondered if it was him who dreamed of being a Turing machine, or if it was a Turning machine which dreamed that it was Turing - a koan from a programming book published in Taiwan)
- </description>
+      <description>Turing once dreamed that he was a Turing machine. When he woke up, he wondered if it was him who dreamed of being a Turing machine, or if it was a Turning machine which dreamed that it was Turing - a koan from a programming book published in Taiwan)</description>
     </item>
     
     <item>
@@ -703,7 +697,7 @@ From 2014-2017, I wrote a series of articles for the Chinese speaking communitie
       <pubDate>Sun, 17 Dec 2017 22:45:48 +1100</pubDate>
       
       <guid>https://www.hhyu.org/micro/poincare/</guid>
-      <description>In a recent trip to Paris, my wife and I visited the Montparnasse Cemetery, hoping to find the tomb of the mathematician Évariste Galois. We were disappointed to learn that although Galois was indeed buried in the cemetery, he was buried in a common grave and the burial site can no longer be identified. However, we were delighted to have found the family tomb of Henri Poincaré.</description>
+      <description>In a recent trip to Paris, my wife and I visited the Montparnasse Cemetery, hoping to find the tomb of the mathematician Évariste Galois. We were disappointed to learn that although Galois was indeed buried in the cemetery, he was buried in a common grave and the burial site can no longer be identified. However, we were delighted to have found the family tomb of Henri Poincaré. Apparently, mathematicians have developed the tradition of leaving their used Paris Metro tickets on the stone.</description>
     </item>
     
     <item>
@@ -731,7 +725,7 @@ From 2014-2017, I wrote a series of articles for the Chinese speaking communitie
       
       <guid>https://www.hhyu.org/posts/chinese_punning/</guid>
       <description>The Economist is probably not the best place to look for rigorous scholarship on comparative punnology, but a recent article did ask a very good question: Why English is such a great language for puns? I am not sure if the superiority of English in punning is that obvious, but the argument seems to be convincing:
- For English is unusually good for puns. It has a large vocabulary and a rich stock of homophones from which puns can be made.</description>
+For English is unusually good for puns. It has a large vocabulary and a rich stock of homophones from which puns can be made.</description>
     </item>
     
     <item>
@@ -759,8 +753,7 @@ From 2014-2017, I wrote a series of articles for the Chinese speaking communitie
       
       <guid>https://www.hhyu.org/micro/vax/</guid>
       <description>On university corridors, you inevitably see old equipments lying around. But which department threw out an entire freaking VAX?
-    Those must be the famous &amp;ldquo;blinkenlights&amp;rdquo;&amp;hellip;
-    </description>
+Those must be the famous &amp;ldquo;blinkenlights&amp;rdquo;&amp;hellip;</description>
     </item>
     
     <item>
@@ -770,7 +763,7 @@ From 2014-2017, I wrote a series of articles for the Chinese speaking communitie
       
       <guid>https://www.hhyu.org/micro/framauromap/</guid>
       <description>This is the famous world map by the 15th century monk Fra Mauro. I saw it in Museo Galileo in Florence. Unfortunately it was a replica. The real thing is in Venice. I found it very difficult to recognize landmarks on the map because the orientation is very different from our modern convention. North is down. South is up.
-         Here’s a puzzle: What’s this?</description>
+Here’s a puzzle: What’s this? Anglia is England. Scotia is Scotland.</description>
     </item>
     
     <item>
@@ -780,7 +773,8 @@ From 2014-2017, I wrote a series of articles for the Chinese speaking communitie
       
       <guid>https://www.hhyu.org/posts/photoshop/</guid>
       <description>The unusually thick glasses on the windows of the Old Art building in Melbourne University seem to be hand-polished, whose uneven surfaces naturally distort the view into an American expressionist painting.
-     The historic building of the Drum Theatre in Dandenong, Victoria was reflected on a modern office building across the road. The reflective windows reconfigured the image into an incongruent mosaic.</description>
+The historic building of the Drum Theatre in Dandenong, Victoria was reflected on a modern office building across the road. The reflective windows reconfigured the image into an incongruent mosaic. You might call it photographic cubism.
+This is a serendipitous photographic tribute to Metamorphosis II by M.</description>
     </item>
     
     <item>
@@ -789,7 +783,7 @@ From 2014-2017, I wrote a series of articles for the Chinese speaking communitie
       <pubDate>Fri, 10 Nov 2017 23:45:36 +1100</pubDate>
       
       <guid>https://www.hhyu.org/micro/2ds/</guid>
-      <description>I received a Nintendo 2DS as a gift. The 2DS is a downgraded version of the Nintendo 3DS handheld game console. To cut price (2DS retails at about $150 AUD), Nintendo removed the 3D display but interestingly it still has a pair of front facing cameras. The photos are saved into the .MPO format, and can be loaded and processed by many programs running on computers.</description>
+      <description>I received a Nintendo 2DS as a gift. The 2DS is a downgraded version of the Nintendo 3DS handheld game console. To cut price (2DS retails at about $150 AUD), Nintendo removed the 3D display but interestingly it still has a pair of front facing cameras. The photos are saved into the .MPO format, and can be loaded and processed by many programs running on computers. I used the XstereO Player on a Macbook Pro to create the Red/green stereogram.</description>
     </item>
     
     <item>
@@ -808,7 +802,7 @@ From 2014-2017, I wrote a series of articles for the Chinese speaking communitie
       
       <guid>https://www.hhyu.org/posts/charles_ives/</guid>
       <description>Charles Ives (1874–1954) is the quintessential American composer. Some of his compositions are as American as cherry pie. Take the Country Band March (1905), for example. It brings you straight to the turn-of-the century America:
-  It’s a collage of folk tunes, patriotic songs, and marching band music, but you only hear a melody briefly, and then it’s either interrupted rudely or mutated gracefully into another. Very often two or three motifs are played simultaneously so you can’t decide which one to follow.</description>
+It’s a collage of folk tunes, patriotic songs, and marching band music, but you only hear a melody briefly, and then it’s either interrupted rudely or mutated gracefully into another. Very often two or three motifs are played simultaneously so you can’t decide which one to follow.</description>
     </item>
     
     <item>
@@ -827,7 +821,7 @@ From 2014-2017, I wrote a series of articles for the Chinese speaking communitie
       
       <guid>https://www.hhyu.org/micro/elm/</guid>
       <description>Have I neglected the backyard garden this much in the last few weeks? This morning when I opened the backdoor, I was surprised to see the grounds covered by mysterious coin-shaped objects. They were clearly seeds — seeds wearing papery, gossamer skirts. Sure, I have seen them before, but not so many all at once.
-         They parachuted from my neighbor’s golden elm tree - an elm native to northern America.</description>
+They parachuted from my neighbor’s golden elm tree - an elm native to northern America. These seeds grow in densely-packed clusters.</description>
     </item>
     
     <item>
@@ -836,9 +830,8 @@ From 2014-2017, I wrote a series of articles for the Chinese speaking communitie
       <pubDate>Fri, 10 Nov 2017 19:08:07 +1100</pubDate>
       
       <guid>https://www.hhyu.org/posts/lens/</guid>
-      <description>     The lens is the component in the eye that reflects light. They are not always shape liked pancakes or magnifying glasses. In small mammals, the lens is very often looks like the chewy tapioca balls in Asian boba milk tea.
-             Primate lenses are more like magnifying glasses:
-         </description>
+      <description>The lens is the component in the eye that reflects light. They are not always shape liked pancakes or magnifying glasses. In small mammals, the lens is very often looks like the chewy tapioca balls in Asian boba milk tea.
+Primate lenses are more like magnifying glasses:</description>
     </item>
     
     <item>
@@ -857,7 +850,7 @@ From 2014-2017, I wrote a series of articles for the Chinese speaking communitie
       
       <guid>https://www.hhyu.org/posts/panorama/</guid>
       <description>Along the River During the Qingming Festival (清明上河圖) is a 12th-century classic Chinese painting depicting the imperial capital on a particularly busy day. Painted on a long scroll, the &amp;ldquo;panorama&amp;rdquo; is too wide to be appreciated in its entirity. The viewers are invited to view only a small section of the painting at the time and immerse themselves in the details.
-    I have been interested in duplicating this effect with photography.</description>
+I have been interested in duplicating this effect with photography.</description>
     </item>
     
     <item>
@@ -866,7 +859,7 @@ From 2014-2017, I wrote a series of articles for the Chinese speaking communitie
       <pubDate>Fri, 10 Nov 2017 00:59:52 +1100</pubDate>
       
       <guid>https://www.hhyu.org/posts/akihabara/</guid>
-      <description>During a trip to Tokyo in 2013, I found an opportunity to visit the Akihabara district. This area is world famous for its high concentration of shops selling the latest models of computers, game consoles, gadgets, and other geeky items.</description>
+      <description>During a trip to Tokyo in 2013, I found an opportunity to visit the Akihabara district. This area is world famous for its high concentration of shops selling the latest models of computers, game consoles, gadgets, and other geeky items. I was, however, pleasantly surprised that, like almost everywhere else in Tokyo, traces of postwar Japan are never too distant away. Hidden behind tall buildings are two narrow lanes of traditional shops selling electronics parts.</description>
     </item>
     
     <item>
@@ -894,7 +887,7 @@ Chibi Maruko-Chan is a popular Japanese cartoon for children. It is about the li
       <pubDate>Tue, 04 Oct 2016 01:29:16 +1100</pubDate>
       
       <guid>https://www.hhyu.org/posts/quandong/</guid>
-      <description>There is a desert quandong tree (Santalum acuminatum), a native Australian plant, on campus. I walked past it for months without paying any attention to it until it started to bear fruits. Its bell-like fruits look like decorations of the Christmas tree.</description>
+      <description>There is a desert quandong tree (Santalum acuminatum), a native Australian plant, on campus. I walked past it for months without paying any attention to it until it started to bear fruits. Its bell-like fruits look like decorations of the Christmas tree. The color is eye-catching. As you can see from the photo on the left below, a drop of bright red first appears to at the top of the fruit.</description>
     </item>
     
     <item>
@@ -922,7 +915,8 @@ Chibi Maruko-Chan is a popular Japanese cartoon for children. It is about the li
       
       <guid>https://www.hhyu.org/posts/marmosetv1/</guid>
       <description>I created this figure to illustrate the retinotopic map of the primary visual cortex of the marmoset. The eccentricity contours are plotted in red, and polar angles are in blue. It&amp;rsquo;s very easy to create it in 3D so that you can rotate it around and see it from different angles. This is how you do it:
-  Download ParaView, the open source 3D data visualization package.</description>
+Download ParaView, the open source 3D data visualization package.
+Download the published retinotopic data (Chaplin, Yu &amp;amp; Rosa, 2013).</description>
     </item>
     
     <item>
@@ -940,8 +934,7 @@ Chibi Maruko-Chan is a popular Japanese cartoon for children. It is about the li
       <pubDate>Thu, 16 Jul 2015 00:00:00 +0000</pubDate>
       
       <guid>https://www.hhyu.org/micro/don_quixote/</guid>
-      <description> The reason of the unreason with which my reason is afflicted so weakens my reason that with reason I murmur at your beauty - Don Quixote
- </description>
+      <description>The reason of the unreason with which my reason is afflicted so weakens my reason that with reason I murmur at your beauty - Don Quixote</description>
     </item>
     
     <item>
@@ -977,8 +970,7 @@ Chibi Maruko-Chan is a popular Japanese cartoon for children. It is about the li
       <pubDate>Sat, 25 Oct 2014 00:00:00 +0000</pubDate>
       
       <guid>https://www.hhyu.org/micro/pynchon3/</guid>
-      <description> Really. Hey, like Godzilla always sez to Mothra — why don’t we go eat some place? — Inherent Vice by Thomas Pynchon
- </description>
+      <description>Really. Hey, like Godzilla always sez to Mothra — why don’t we go eat some place? — Inherent Vice by Thomas Pynchon</description>
     </item>
     
     <item>
@@ -996,8 +988,7 @@ Chibi Maruko-Chan is a popular Japanese cartoon for children. It is about the li
       <pubDate>Tue, 07 Oct 2014 00:00:00 +0000</pubDate>
       
       <guid>https://www.hhyu.org/micro/pynchon2/</guid>
-      <description> No worries, it’s on the house, as the TV antenna man always sez — Thomas Pynchon in Inherent Vice
- </description>
+      <description>No worries, it’s on the house, as the TV antenna man always sez — Thomas Pynchon in Inherent Vice</description>
     </item>
     
     <item>
@@ -1015,8 +1006,7 @@ Chibi Maruko-Chan is a popular Japanese cartoon for children. It is about the li
       <pubDate>Tue, 04 Mar 2008 18:26:53 +1100</pubDate>
       
       <guid>https://www.hhyu.org/micro/ground-squirrel/</guid>
-      <description>I took these photos for a research project while I was a student at UC San Diego. They are the skull and the brain of the California ground squirrel (Spermophilus beecheyi)
-         </description>
+      <description>I took these photos for a research project while I was a student at UC San Diego. They are the skull and the brain of the California ground squirrel (Spermophilus beecheyi)</description>
     </item>
     
     <item>
@@ -1025,7 +1015,7 @@ Chibi Maruko-Chan is a popular Japanese cartoon for children. It is about the li
       <pubDate>Tue, 01 Jan 2008 14:32:20 +1100</pubDate>
       
       <guid>https://www.hhyu.org/posts/edupsy3310-fourier/</guid>
-      <description>Demonstrations:  The reconstruction of Mona Lisa video. A blog post I wrote about the Fourier transform trick. Youtube video: Nobel laureates David Hubel and Torsten Wiesel recording neurons in cat&amp;rsquo;s V1.  Suggested readings: Fourier transform  An introduction to two-dimensional fast Fourier transforms and their applications by Rzeszotarski et al. (1983). Fourier transforms and frequency-domain processing (Chapter 5 of Fundamentals of Digital Image Processing: A Practical Approach with Examples in Matlab by Solomon &amp;amp; Breckon, 2011)  Suggested readings: programming  See this web page from UCSB.</description>
+      <description>Demonstrations: The reconstruction of Mona Lisa video. A blog post I wrote about the Fourier transform trick. Youtube video: Nobel laureates David Hubel and Torsten Wiesel recording neurons in cat&amp;rsquo;s V1. Suggested readings: Fourier transform An introduction to two-dimensional fast Fourier transforms and their applications by Rzeszotarski et al. (1983). Fourier transforms and frequency-domain processing (Chapter 5 of Fundamentals of Digital Image Processing: A Practical Approach with Examples in Matlab by Solomon &amp;amp; Breckon, 2011) Suggested readings: programming See this web page from UCSB.</description>
     </item>
     
     <item>
@@ -1034,7 +1024,7 @@ Chibi Maruko-Chan is a popular Japanese cartoon for children. It is about the li
       <pubDate>Tue, 01 Jan 2008 14:26:30 +1100</pubDate>
       
       <guid>https://www.hhyu.org/posts/edurad2092-visual-cortex/</guid>
-      <description> Central disorders of vision in humans by Girkin &amp;amp; Miller (2001): a review of what happens if different parts of the visual cortex are damaged. &amp;ldquo;Superimposed hemifields in primary visual cortex of achiasmic individuals&amp;rdquo; by Sinha &amp;amp; Meng (2012, Neuron 75): Newton vs. Descartes on the organization of the optic chiasm. Youtube video demonstrating how Hubel &amp;amp; Wiesel mapped V1 receptive fields.  </description>
+      <description> Central disorders of vision in humans by Girkin &amp;amp; Miller (2001): a review of what happens if different parts of the visual cortex are damaged. &amp;ldquo;Superimposed hemifields in primary visual cortex of achiasmic individuals&amp;rdquo; by Sinha &amp;amp; Meng (2012, Neuron 75): Newton vs. Descartes on the organization of the optic chiasm. Youtube video demonstrating how Hubel &amp;amp; Wiesel mapped V1 receptive fields. </description>
     </item>
     
     <item>
@@ -1043,7 +1033,7 @@ Chibi Maruko-Chan is a popular Japanese cartoon for children. It is about the li
       <pubDate>Tue, 01 Jan 2008 14:23:49 +1100</pubDate>
       
       <guid>https://www.hhyu.org/posts/edurad2092-eye/</guid>
-      <description> Animal Eyes by Land &amp;amp; Nilsson is a very nice little book about the fascinating variety of eye structures found in nature. Youtube video about the &amp;ldquo;connectome&amp;rdquo; of the retina  </description>
+      <description> Animal Eyes by Land &amp;amp; Nilsson is a very nice little book about the fascinating variety of eye structures found in nature. Youtube video about the &amp;ldquo;connectome&amp;rdquo; of the retina </description>
     </item>
     
     <item>
@@ -1052,7 +1042,7 @@ Chibi Maruko-Chan is a popular Japanese cartoon for children. It is about the li
       <pubDate>Tue, 01 Jan 2008 14:13:23 +1100</pubDate>
       
       <guid>https://www.hhyu.org/posts/edurad2092-cortex/</guid>
-      <description>General  Is the human cortex exceptionally large? See Herculano-Houzel (2009) The human brain in numbers: a linearly scaled-up primate brain. Frontiers in Neuroscience 3, e31. [Tenor sings opera during craniotomy](Tenor sings opera during craniotomy): I just think this is quite fascinating.  &amp;ldquo;Language areas&amp;rdquo;  The history of Broca&amp;rsquo;s area: Dronkers et al. (2007) Neuroimaging of Language: Why hasn&amp;rsquo;t a clear picture emerged? Fedorenko &amp;amp; Kanwisher (2009) Language and Linguistics Compass 3, 10.</description>
+      <description>General Is the human cortex exceptionally large? See Herculano-Houzel (2009) The human brain in numbers: a linearly scaled-up primate brain. Frontiers in Neuroscience 3, e31. [Tenor sings opera during craniotomy](Tenor sings opera during craniotomy): I just think this is quite fascinating. &amp;ldquo;Language areas&amp;rdquo; The history of Broca&amp;rsquo;s area: Dronkers et al. (2007) Neuroimaging of Language: Why hasn&amp;rsquo;t a clear picture emerged? Fedorenko &amp;amp; Kanwisher (2009) Language and Linguistics Compass 3, 10.</description>
     </item>
     
     <item>
@@ -1061,7 +1051,7 @@ Chibi Maruko-Chan is a popular Japanese cartoon for children. It is about the li
       <pubDate>Tue, 01 Jan 2008 14:02:22 +1100</pubDate>
       
       <guid>https://www.hhyu.org/posts/eduphy3012-plasticity/</guid>
-      <description>Interesting  A man with only half a brain A study of a man who recovered vision after decades of being blind: Fine et al. (2003) Long-term deprivation affects visual perception and cortex. Nat. Neurosci. 6, p915. How Utter Darkness Could Heal Lazy Eye: related to ocular dominance critical period. Giving blind people sight illuminates the brain’s secrets  General review  Anderson et al (2011) Do children really recover better?</description>
+      <description>Interesting A man with only half a brain A study of a man who recovered vision after decades of being blind: Fine et al. (2003) Long-term deprivation affects visual perception and cortex. Nat. Neurosci. 6, p915. How Utter Darkness Could Heal Lazy Eye: related to ocular dominance critical period. Giving blind people sight illuminates the brain’s secrets General review Anderson et al (2011) Do children really recover better? Neurobehavioural plasticity after early brain insult.</description>
     </item>
     
     <item>
@@ -1070,7 +1060,7 @@ Chibi Maruko-Chan is a popular Japanese cartoon for children. It is about the li
       <pubDate>Tue, 01 Jan 2008 13:56:48 +1100</pubDate>
       
       <guid>https://www.hhyu.org/posts/eduphy3111-prac/</guid>
-      <description>More about extracellular recording  Wikipedia entry about single-unit recording Extracellular single-unit Recording Methods: a paper by Humphrey &amp;amp; Schmidt  </description>
+      <description>More about extracellular recording Wikipedia entry about single-unit recording Extracellular single-unit Recording Methods: a paper by Humphrey &amp;amp; Schmidt </description>
     </item>
     
     <item>
@@ -1079,7 +1069,7 @@ Chibi Maruko-Chan is a popular Japanese cartoon for children. It is about the li
       <pubDate>Tue, 01 Jan 2008 13:33:14 +1100</pubDate>
       
       <guid>https://www.hhyu.org/posts/eduphy3111-color/</guid>
-      <description>Interesting articles  Impossible colours: You can experience colours that you have never seen before. Some women are tetrachromatic. They can see more colours than most people can. The rainbow does not contain all the colours that we can see. For example, magenta.  Dressgate  Disrobing the dress:A very detailed webpage about the dress. Lessons from the dress: by vision scientist Pascal Wallisch. The science of why no one agrees on the color of this dress: an article on Wired.</description>
+      <description>Interesting articles Impossible colours: You can experience colours that you have never seen before. Some women are tetrachromatic. They can see more colours than most people can. The rainbow does not contain all the colours that we can see. For example, magenta. Dressgate Disrobing the dress:A very detailed webpage about the dress. Lessons from the dress: by vision scientist Pascal Wallisch. The science of why no one agrees on the color of this dress: an article on Wired.</description>
     </item>
     
     <item>
@@ -1089,7 +1079,7 @@ Chibi Maruko-Chan is a popular Japanese cartoon for children. It is about the li
       
       <guid>https://www.hhyu.org/teaching/</guid>
       <description>The followings are for students who want to learn more about the topics that I talk about in lectures. They are optional readings. You won&amp;rsquo;t be tested on them.
-PHY3111: Sensation and Movement (2014, 2015)  Colour Vision Prac class: Recording Electrophysiological Signals (cockroach recordings)  PHY3012: Integrative Neuroscience - Neuron to Brain (2015)  Plasticity in the visual system in development  RAD2092: Radiologic Biology 4 and Sectional Anatomy (2012-)  Organization of the Cerebral Cortex The Eye and the Retina Physiology of Visual Pathways  PSY3310: Introduction to Computational Neuroscience (2016, 2017)  Human vision as frequency filters The neural basis of frequency processing  </description>
+PHY3111: Sensation and Movement (2014, 2015) Colour Vision Prac class: Recording Electrophysiological Signals (cockroach recordings) PHY3012: Integrative Neuroscience - Neuron to Brain (2015) Plasticity in the visual system in development RAD2092: Radiologic Biology 4 and Sectional Anatomy (2012-) Organization of the Cerebral Cortex The Eye and the Retina Physiology of Visual Pathways PSY3310: Introduction to Computational Neuroscience (2016, 2017) Human vision as frequency filters The neural basis of frequency processing </description>
     </item>
     
   </channel>

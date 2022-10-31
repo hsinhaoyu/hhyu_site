@@ -32,7 +32,7 @@
   
   
   
-  <meta name="generator" content="Hugo 0.79.0" />
+  <meta name="generator" content="Hugo 0.104.3" />
   
   
 
@@ -114,14 +114,14 @@ Preparations
 <p>
 By default, org-mode in Emacs only allows the evaluation of LISP code blocks. For interacting with the Unix shell and Python, I inserted the following to my Emacs configuration script:</p>
 <div class="src src-emacs-lisp">
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp">  <span style="color:#080;font-style:italic">;; Do not ask for confirmation when evaluation a block</span>
-  (<span style="color:#a2f">setq</span> <span style="color:#b8860b">org-confirm-babel-evaluate</span> <span style="color:#800">nil</span>)
-
-  (<span style="color:#b8860b">org-babel-do-load-languages</span>
-   <span style="color:#b8860b">&#39;org-babel-load-languages</span>
-   <span style="color:#666">&#39;</span>((<span style="color:#b8860b">emacs-lisp</span> <span style="color:#666">.</span> <span style="color:#800">t</span>)
-     (<span style="color:#b8860b">shell</span> <span style="color:#666">.</span> <span style="color:#800">t</span>)
-     (<span style="color:#b8860b">python</span> <span style="color:#666">.</span> <span style="color:#800">t</span>)))</code></pre></div>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="display:flex;"><span>  <span style="color:#080;font-style:italic">;; Do not ask for confirmation when evaluation a block</span>
+</span></span><span style="display:flex;"><span>  (<span style="color:#a2f">setq</span> <span style="color:#b8860b">org-confirm-babel-evaluate</span> <span style="color:#800">nil</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  (<span style="color:#b8860b">org-babel-do-load-languages</span>
+</span></span><span style="display:flex;"><span>   <span style="color:#b8860b">&#39;org-babel-load-languages</span>
+</span></span><span style="display:flex;"><span>   <span style="color:#666">&#39;</span>((<span style="color:#b8860b">emacs-lisp</span> <span style="color:#666">.</span> <span style="color:#800">t</span>)
+</span></span><span style="display:flex;"><span>     (<span style="color:#b8860b">shell</span> <span style="color:#666">.</span> <span style="color:#800">t</span>)
+</span></span><span style="display:flex;"><span>     (<span style="color:#b8860b">python</span> <span style="color:#666">.</span> <span style="color:#800">t</span>)))</span></span></code></pre></div>
 </div>
 </div>
 </div>
@@ -141,7 +141,7 @@ To store it in a code block, I used the  <code class="verbatim">#+BEGIN_EXAMPLE<
 <p>
 The following is a shell script block. I use the <code class="verbatim">:stdin source_text</code> directive to send the text to <code class="verbatim">STDIO</code>. To operate on <code class="verbatim">STDIO</code> from a shell script, the easiest way is to read from the <code class="verbatim">/dev/stdin</code> file:</p>
 <div class="src src-shell">
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">cat /dev/stdin</code></pre></div>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>cat /dev/stdin</span></span></code></pre></div>
 </div>
 <pre class="example">
 apple orange User24 banana User300 User5s cherry strawberry
@@ -158,10 +158,10 @@ Simple pattern matching with <code class="verbatim">grep</code>
 <p>
 How to extract all the user IDs (<code class="verbatim">User24</code>, <code class="verbatim">User300</code>, <code class="verbatim">User5</code>, <code class="verbatim">=User65=</code>) from the string? In Python, it&#39;s just:</p>
 <div class="src src-python">
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">  <span style="color:#a2f;font-weight:bold">import</span> <span style="color:#00f;font-weight:bold">re</span>
-  res <span style="color:#666">=</span> re<span style="color:#666">.</span>findall(<span style="color:#b44">r</span><span style="color:#b44">&#39;User\d+&#39;</span>, <span style="color:#a2f">str</span>)
-  <span style="color:#a2f;font-weight:bold">for</span> r <span style="color:#a2f;font-weight:bold">in</span> res:
-    <span style="color:#a2f;font-weight:bold">print</span>(r)</code></pre></div>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>  <span style="color:#a2f;font-weight:bold">import</span> <span style="color:#00f;font-weight:bold">re</span>
+</span></span><span style="display:flex;"><span>  res <span style="color:#666">=</span> re<span style="color:#666">.</span>findall(<span style="color:#b44">r</span><span style="color:#b44">&#39;User\d+&#39;</span>, <span style="color:#a2f">str</span>)
+</span></span><span style="display:flex;"><span>  <span style="color:#a2f;font-weight:bold">for</span> r <span style="color:#a2f;font-weight:bold">in</span> res:
+</span></span><span style="display:flex;"><span>    <span style="color:#a2f">print</span>(r)</span></span></code></pre></div>
 </div>
 <pre class="example">
 User24
@@ -172,7 +172,7 @@ User65
 <p>
 To do the same in the Unix shell, <code class="verbatim">grep</code> is the closest to Python&#39;s <code class="verbatim">re.findall()</code>. It took me a couple of minutes to figure out that I had to use the extended version of <code class="verbatim">grep</code>, <code class="verbatim">egrep</code>, because the <code class="verbatim">+</code> pattern is unavailable in <code class="verbatim">grep</code>:</p>
 <div class="src src-shell">
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">cat /dev/stdin | egrep -o <span style="color:#b44">&#39;User\d+&#39;</span></code></pre></div>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>cat /dev/stdin | egrep -o <span style="color:#b44">&#39;User\d+&#39;</span></span></span></code></pre></div>
 </div>
 <pre class="example">
 User24
@@ -185,7 +185,7 @@ The <code class="verbatim">-o</code> option (<code class="verbatim">o</code> sta
 <p>
 Without the <code class="verbatim">-o</code> flag, <code class="verbatim">(e)grep</code> prints the entire line if there is a match in the line. This behavior is useful for identifying lines in a file that matches the pattern, but it&#39;s not useful for extracting useful pieces in a line.</p>
 <div class="src src-shell">
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">cat /dev/stdin | egrep <span style="color:#b44">&#39;User\d+&#39;</span></code></pre></div>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>cat /dev/stdin | egrep <span style="color:#b44">&#39;User\d+&#39;</span></span></span></code></pre></div>
 </div>
 <pre class="example">
 apple orange User24 banana User300 User5s cherry strawberry
@@ -202,12 +202,12 @@ Simple pattern matching with <code class="verbatim">awk</code>
 <div id="outline-text-headline-4" class="outline-text-2">
 <p>This was the first time that I used <code class="verbatim">awk</code>. I was hoping for an elegant one-liner (what was I thinking?), but it turned out that for each line (<code class="verbatim">$0</code>), I had to loop through all matches, print out the match, and then update <code class="verbatim">$0</code> to become the rest of the line. Yuck! If I have to do this, I might as well use Python.</p>
 <div class="src src-awk">
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-awk" data-lang="awk">  {
-      <span style="color:#a2f;font-weight:bold">while</span> (<span style="color:#a2f;font-weight:bold">match</span>(<span style="color:#666">$</span><span style="color:#666">0</span>, <span style="color:#b44">&#34;User[0-9]+&#34;</span>)) {
-          <span style="color:#a2f;font-weight:bold">print</span> <span style="color:#a2f;font-weight:bold">substr</span>(<span style="color:#666">$</span><span style="color:#666">0</span>, <span style="color:#a2f">RSTART</span>, <span style="color:#a2f">RLENGTH</span>);
-          <span style="color:#666">$</span><span style="color:#666">0</span> <span style="color:#666">=</span> <span style="color:#a2f;font-weight:bold">substr</span>(<span style="color:#666">$</span><span style="color:#666">0</span>, <span style="color:#a2f">RSTART</span> <span style="color:#666">+</span> <span style="color:#a2f">RLENGTH</span>);
-      }
-  }</code></pre></div>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-awk" data-lang="awk"><span style="display:flex;"><span>  {
+</span></span><span style="display:flex;"><span>      <span style="color:#a2f;font-weight:bold">while</span> (<span style="color:#a2f;font-weight:bold">match</span>(<span style="color:#666">$</span><span style="color:#666">0</span>, <span style="color:#b44">&#34;User[0-9]+&#34;</span>)) {
+</span></span><span style="display:flex;"><span>          <span style="color:#a2f;font-weight:bold">print</span> <span style="color:#a2f;font-weight:bold">substr</span>(<span style="color:#666">$</span><span style="color:#666">0</span>, <span style="color:#a2f">RSTART</span>, <span style="color:#a2f">RLENGTH</span>);
+</span></span><span style="display:flex;"><span>          <span style="color:#666">$</span><span style="color:#666">0</span> <span style="color:#666">=</span> <span style="color:#a2f;font-weight:bold">substr</span>(<span style="color:#666">$</span><span style="color:#666">0</span>, <span style="color:#a2f">RSTART</span> <span style="color:#666">+</span> <span style="color:#a2f">RLENGTH</span>);
+</span></span><span style="display:flex;"><span>      }
+</span></span><span style="display:flex;"><span>  }</span></span></code></pre></div>
 </div>
 <pre class="example">
 User24
@@ -232,10 +232,10 @@ Some of the substrings that begin with <code class="verbatim">User</code> are fi
 <p>
 With Python&#39;s <code class="verbatim">re.findall()</code>, this can easily be done by creating a capture group in the pattern with parentheses:</p>
 <div class="src src-python">
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">  <span style="color:#a2f;font-weight:bold">import</span> <span style="color:#00f;font-weight:bold">re</span>
-  res<span style="color:#666">=</span>re<span style="color:#666">.</span>findall(<span style="color:#b44">r</span><span style="color:#b44">&#39;(User\d+).[a-z]{3,4}&#39;</span>, <span style="color:#a2f">str</span>)
-  <span style="color:#a2f;font-weight:bold">for</span> r <span style="color:#a2f;font-weight:bold">in</span> res:
-    <span style="color:#a2f;font-weight:bold">print</span>(r)</code></pre></div>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>  <span style="color:#a2f;font-weight:bold">import</span> <span style="color:#00f;font-weight:bold">re</span>
+</span></span><span style="display:flex;"><span>  res<span style="color:#666">=</span>re<span style="color:#666">.</span>findall(<span style="color:#b44">r</span><span style="color:#b44">&#39;(User\d+).[a-z]{3,4}&#39;</span>, <span style="color:#a2f">str</span>)
+</span></span><span style="display:flex;"><span>  <span style="color:#a2f;font-weight:bold">for</span> r <span style="color:#a2f;font-weight:bold">in</span> res:
+</span></span><span style="display:flex;"><span>    <span style="color:#a2f">print</span>(r)</span></span></code></pre></div>
 </div>
 <pre class="example">
 User24
@@ -246,7 +246,7 @@ User31
 <p>
 With <code class="verbatim">grep</code>, it&#39;s easy to pick up the filenames…</p>
 <div class="src src-shell">
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">cat /dev/stdin | egrep -o <span style="color:#b44">&#39;User\d+.[a-z]{3,4}&#39;</span></code></pre></div>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>cat /dev/stdin | egrep -o <span style="color:#b44">&#39;User\d+.[a-z]{3,4}&#39;</span></span></span></code></pre></div>
 </div>
 <pre class="example">
 User24.txt
@@ -257,9 +257,9 @@ User31.text
 <p>
 … but it is not easy to take them apart. That&#39;s where <code class="verbatim">sed</code> comes in! I couldn&#39;t solve this problem with <code class="verbatim">sed</code> alone, because <code class="verbatim">sed</code> is not good at picking up multiple matches in the same line. But since <code class="verbatim">grep</code> very helpfully puts each match in is own line, it&#39;s perfect for <code class="verbatim">sed</code>. It&#39;s time to try the famous <code class="verbatim">sed</code> command <code class="verbatim">s/</code> (&#34;substitute&#34;):</p>
 <div class="src src-shell">
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">  <span style="color:#b8860b">sedre</span><span style="color:#666">=</span><span style="color:#b44">&#39;(User[0-9]+).[a-z]{3,4}&#39;</span>
-  <span style="color:#b8860b">action</span><span style="color:#666">=</span><span style="color:#b44">&#39;\1&#39;</span>
-  cat /dev/stdin | egrep -o <span style="color:#b44">&#34;</span><span style="color:#b8860b">$sedre</span><span style="color:#b44">&#34;</span> | sed -n -E <span style="color:#b44">&#34;s/</span><span style="color:#b8860b">$sedre</span><span style="color:#b44">/</span><span style="color:#b8860b">$action</span><span style="color:#b44">/p&#34;</span></code></pre></div>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>  <span style="color:#b8860b">sedre</span><span style="color:#666">=</span><span style="color:#b44">&#39;(User[0-9]+).[a-z]{3,4}&#39;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#b8860b">action</span><span style="color:#666">=</span><span style="color:#b44">&#39;\1&#39;</span>
+</span></span><span style="display:flex;"><span>  cat /dev/stdin | egrep -o <span style="color:#b44">&#34;</span><span style="color:#b8860b">$sedre</span><span style="color:#b44">&#34;</span> | sed -n -E <span style="color:#b44">&#34;s/</span><span style="color:#b8860b">$sedre</span><span style="color:#b44">/</span><span style="color:#b8860b">$action</span><span style="color:#b44">/p&#34;</span></span></span></code></pre></div>
 </div>
 <pre class="example">
 User24
@@ -270,21 +270,11 @@ User31
 <p>
 It&#39;s a nice one-liner, bit there are a some details to unpack:</p>
 <ol>
-<li>
-<p>The syntax of the <code class="verbatim">s/</code> command is <code class="verbatim">s/pattern/action/options</code>. I defined two variables (<code class="verbatim">sedre</code> and <code class="verbatim">action</code>) to make this structure more obvious, but it wasn&#39;t necessary.</p>
-</li>
-<li>
-<p>I asked <code class="verbatim">sed</code> to print only the lines that matched. This isn&#39;t necessary because every line from <code class="verbatim">egrep</code> should match, but it&#39;s useful for debugging. This is done with the <code class="verbatim">-n</code> flag, and with the <code class="verbatim">p</code> (&#34;print&#34;) option in last part of the <code class="verbatim">/s</code> command.</p>
-</li>
-<li>
-<p>I turned on the <code class="verbatim">-E</code> flag, to use extended regular expressions.</p>
-</li>
-<li>
-<p>I created a capture group in the pattern <code class="verbatim">sedre</code> with parentheses. Normally, the parentheses need to be escaped (i.e., <code class="verbatim">\(</code> and <code class="verbatim">\</code>)), but with the <code class="verbatim">-E</code> flag on, they shouldn&#39;t be escaped.</p>
-</li>
-<li>
-<p>In the <code class="verbatim">action</code> part of the <code class="verbatim">s/</code> command, I used <code class="verbatim">\1</code> to refer to the first (and only) group in the pattern.</p>
-</li>
+<li>The syntax of the <code class="verbatim">s/</code> command is <code class="verbatim">s/pattern/action/options</code>. I defined two variables (<code class="verbatim">sedre</code> and <code class="verbatim">action</code>) to make this structure more obvious, but it wasn&#39;t necessary.</li>
+<li>I asked <code class="verbatim">sed</code> to print only the lines that matched. This isn&#39;t necessary because every line from <code class="verbatim">egrep</code> should match, but it&#39;s useful for debugging. This is done with the <code class="verbatim">-n</code> flag, and with the <code class="verbatim">p</code> (&#34;print&#34;) option in last part of the <code class="verbatim">/s</code> command.</li>
+<li>I turned on the <code class="verbatim">-E</code> flag, to use extended regular expressions.</li>
+<li>I created a capture group in the pattern <code class="verbatim">sedre</code> with parentheses. Normally, the parentheses need to be escaped (i.e., <code class="verbatim">\(</code> and <code class="verbatim">\</code>)), but with the <code class="verbatim">-E</code> flag on, they shouldn&#39;t be escaped.</li>
+<li>In the <code class="verbatim">action</code> part of the <code class="verbatim">s/</code> command, I used <code class="verbatim">\1</code> to refer to the first (and only) group in the pattern.</li>
 </ol>
 <p>I was planning to solve this with <code class="verbatim">awk</code>, because <code class="verbatim">awk</code> is supposed to be good at extracting bits and pieces of information from texts. But <code class="verbatim">awk</code> is really designed for processing tabular data. For unstructured texts, <code class="verbatim">awk</code> is worse than Python, so I decided not to bother.</p>
 </div>

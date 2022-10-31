@@ -14,7 +14,7 @@
       
       <guid>https://www.hhyu.org/about_site/</guid>
       <description>I started this site in 2018 to collect all my content in one place. The title &amp;ldquo;Cortically Magnified&amp;rdquo; is a play on &amp;ldquo;cortical magnification&amp;rdquo; - a concept in visual neuroscience.
- The site is made with the Hugo static website generator, using a customized theme derived from the Pickles theme. I am working on supporting IndieWeb - an alternative approach to social networking based on open protocols. As of January 2021, this site supports IndieAuth authentication and service discovery.</description>
+The site is made with the Hugo static website generator, using a customized theme derived from the Pickles theme. I am working on supporting IndieWeb - an alternative approach to social networking based on open protocols. As of January 2021, this site supports IndieAuth authentication and service discovery.</description>
     </item>
     
   </channel>

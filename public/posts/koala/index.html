@@ -32,7 +32,7 @@
   
   
   
-  <meta name="generator" content="Hugo 0.79.0" />
+  <meta name="generator" content="Hugo 0.104.3" />
   
   
 
@@ -139,7 +139,7 @@
   </figure>
 </div>
 
-<p>The figure above on the left is remarkable. The variation in the size of mammals' brain is huge. The largest mammal brain (that of the sperm whale) is 100,000x the weight of the smallest (that of the pygmy mouse). You might think that it is a reflection of the ecological niche, lifestyle, and intelligence of the individual animals. But this figure shows that there is not a lot of room for those factors, because as high as 96% of the variation is explained by bodyweight. The biological basis of this relationship has not been fully answered by scientists, but it&rsquo;s generally thought to be related to scaling of metabolic rates with body size.</p>
+<p>The figure above on the left is remarkable. The variation in the size of mammals&rsquo; brain is huge. The largest mammal brain (that of the sperm whale) is 100,000x the weight of the smallest (that of the pygmy mouse). You might think that it is a reflection of the ecological niche, lifestyle, and intelligence of the individual animals. But this figure shows that there is not a lot of room for those factors, because as high as 96% of the variation is explained by bodyweight. The biological basis of this relationship has not been fully answered by scientists, but it&rsquo;s generally thought to be related to scaling of metabolic rates with body size.</p>
 <p>Something about this figure confuses many people. Because the trend is depicted as a straight solid line, it&rsquo;s easy to get the impression that the mean ratio between brain size and body size is a constant, which implies that there is a single number that can be used as a threshold to decide if an animal&rsquo;s brain is big or not. That is the basis of many &ldquo;koala is dumb&rdquo; posts on the Internet. However, take note that the figure is plotted in log-log scale, which is necessary for plotting data with very wide distributions. Unlike the linear scale that we are more familiar with in our everyday life, two consecutive ticks on the x- and the y- axis represent a common ratio rather than a common interval. In reality, the relationship between x and y is a nonlinear power function. In the notebook, I transformed the straight line into the linear scale, and then calculated the brain size/body size ratio. The result shows that the averaged ratio declines rapidly with body size. This reinforces the point that you can&rsquo;t use this ratio to compare brains, unless the two animals you are comparing have similar body size.</p>
 <p>In the figure above on the right, I arbitrarily picked a handful of points corresponding to some familiar animals. The blue band illustrates a range that covers 95% of points in the dataset. You can see that human and dolphin are outliers - which is in better agreement with our notion of &ldquo;big brained&rdquo; animals (see the notebook for more details). The koala lies below the solid line, meaning that the size of its brain is below the average value for a mammal of its size. So, it&rsquo;s not wrong to say that the koala has a small brain, but it&rsquo;s not freakishly small. For comparison, the magnitude of deviation from the mean value is not that different that of the rat (<em>Rattus rattus</em>), which I don&rsquo;t think is considered a particularly dumb animal. Rats don&rsquo;t sleep all day, don&rsquo;t eat toxic leaves, and they live in complex societies. But their brains are not that much bigger the koala brain.</p>
 <h3 id="comparing-the-koala-to-other-marsupials">Comparing the koala to other marsupials</h3>
@@ -156,7 +156,7 @@
 </div>
 
 <p>As before, we built a statistical model for just the marsupials (the red band in the right panel above). You can see that the size of the koala brain is close to the expected value for marsupials. There is no evidence that it is exceptionally small. Wikipedia&rsquo;s statement that the koala brain is 60% smaller than that of a typical diprotodont is not supported by our data (see the notebook for calculations).</p>
-<p>Does this mean that marsupials are dumber than placental mammals? Not necessarily, because the residuals might be associated with factors unrelated to intelligence. An <a href="https://www.karger.com/Article/Fulltext/377666">analysis published in 2015</a> suggests that marsupials' smaller brain is constrained by energy consumption rather than behavioral complexity.</p>
+<p>Does this mean that marsupials are dumber than placental mammals? Not necessarily, because the residuals might be associated with factors unrelated to intelligence. An <a href="https://www.karger.com/Article/Fulltext/377666">analysis published in 2015</a> suggests that marsupials&rsquo; smaller brain is constrained by energy consumption rather than behavioral complexity.</p>
 <h3 id="conclusions">Conclusions</h3>
 <p>Let&rsquo;s review what&rsquo;s wrong with Wikipedia&rsquo;s statement about the koala brain:</p>
 <ul>
