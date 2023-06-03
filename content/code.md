@@ -16,7 +16,7 @@ draft: false
 
 
 #### Literate programs
-Inspired by the [Programs to Read](https://www-cs-faculty.stanford.edu/~knuth/programs.html) section of Professor Donald Knuth's website, I am enthusiastic about [literate programming](https://en.wikipedia.org/wiki/Literate_programming) - the art and science of developing computer programs an integral part of writing.
+Inspired by the [Programs to Read](https://www-cs-faculty.stanford.edu/~knuth/programs.html) section of Professor Donald Knuth's website, I am enthusiastic about [literate programming](https://en.wikipedia.org/wiki/Literate_programming) - the art and science of developing computer programs as an integral part of writing.
 
 - [Why Functional Programming Matters](https://github.com/hsinhaoyu/why_functional) - An intermediate-level tutorial on Python's generators, based on John Hughes' classic paper "Why Function Programming Matters", which was written in the lazy functional language Miranda.
 
