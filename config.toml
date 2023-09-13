@@ -90,13 +90,13 @@ paginate = 5
 
 [[menu.main]]
     parent     = "Update"
-    name       = "Notes"
+    name       = "Microblog"
     url        = "/micro/"
     weight     = 3
 
 [[menu.main]]
     parent     = "Update"
-    name       = "References"
+    name       = "Resources"
     url        = "https://github.com/hsinhaoyu/resources"
     weight     = 4
 

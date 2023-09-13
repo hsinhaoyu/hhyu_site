@@ -6,7 +6,16 @@
     <description>Recent content in emacs on Cortically Magnified</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Aug 2021 10:11:05 +1000</lastBuildDate><atom:link href="https://www.hhyu.org/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 12 Sep 2023 22:42:10 +1000</lastBuildDate><atom:link href="https://www.hhyu.org/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mixing code and markups in LilyPond (or, coding for guitarists)</title>
+      <link>https://www.hhyu.org/posts/lilypond_first/</link>
+      <pubDate>Tue, 12 Sep 2023 22:42:10 +1000</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/lilypond_first/</guid>
+      <description>I wrote this post primarily from the perspective of a beginner guitarist trying to solve a practical problem, but the way I approached it naturally landed on functional programming and literate programming. So, you might want to stay around even if you are not interested in playing the guitar. This post is mostly about my experience of learning a very interesting music markup language LilyPond, which has a symbiotic relationship with the GNU Guile Scheme.</description>
+    </item>
+    
     <item>
       <title>Heh, Emacs LISP function! Lemme give you a piece of advice!</title>
       <link>https://www.hhyu.org/posts/elisp_advice/</link>

@@ -6,7 +6,106 @@
     <description>Recent content in Tags on Cortically Magnified</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 28 Jan 2022 17:06:28 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 13 Sep 2023 08:42:16 +1000</lastBuildDate><atom:link href="https://www.hhyu.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>guitar-diary</title>
+      <link>https://www.hhyu.org/tags/guitar-diary/</link>
+      <pubDate>Wed, 13 Sep 2023 08:42:16 +1000</pubDate>
+      
+      <guid>https://www.hhyu.org/tags/guitar-diary/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>music</title>
+      <link>https://www.hhyu.org/tags/music/</link>
+      <pubDate>Wed, 13 Sep 2023 08:42:16 +1000</pubDate>
+      
+      <guid>https://www.hhyu.org/tags/music/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>emacs</title>
+      <link>https://www.hhyu.org/tags/emacs/</link>
+      <pubDate>Tue, 12 Sep 2023 22:42:10 +1000</pubDate>
+      
+      <guid>https://www.hhyu.org/tags/emacs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LISP</title>
+      <link>https://www.hhyu.org/tags/lisp/</link>
+      <pubDate>Tue, 12 Sep 2023 22:42:10 +1000</pubDate>
+      
+      <guid>https://www.hhyu.org/tags/lisp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>literate-programming</title>
+      <link>https://www.hhyu.org/tags/literate-programming/</link>
+      <pubDate>Tue, 12 Sep 2023 22:42:10 +1000</pubDate>
+      
+      <guid>https://www.hhyu.org/tags/literate-programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>magic</title>
+      <link>https://www.hhyu.org/tags/magic/</link>
+      <pubDate>Sat, 03 Jun 2023 20:48:35 +1000</pubDate>
+      
+      <guid>https://www.hhyu.org/tags/magic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>psychology</title>
+      <link>https://www.hhyu.org/tags/psychology/</link>
+      <pubDate>Sat, 03 Jun 2023 20:48:35 +1000</pubDate>
+      
+      <guid>https://www.hhyu.org/tags/psychology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>joke</title>
+      <link>https://www.hhyu.org/tags/joke/</link>
+      <pubDate>Mon, 31 Oct 2022 20:10:37 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/tags/joke/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pun</title>
+      <link>https://www.hhyu.org/tags/pun/</link>
+      <pubDate>Mon, 31 Oct 2022 20:10:37 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/tags/pun/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>book</title>
+      <link>https://www.hhyu.org/tags/book/</link>
+      <pubDate>Mon, 31 Oct 2022 17:07:44 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/tags/book/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>thomas pynchon</title>
+      <link>https://www.hhyu.org/tags/thomas-pynchon/</link>
+      <pubDate>Mon, 31 Oct 2022 17:07:44 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/tags/thomas-pynchon/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>causality</title>
       <link>https://www.hhyu.org/tags/causality/</link>
@@ -98,15 +197,6 @@
     </item>
     
     <item>
-      <title>emacs</title>
-      <link>https://www.hhyu.org/tags/emacs/</link>
-      <pubDate>Sun, 22 Aug 2021 10:11:05 +1000</pubDate>
-      
-      <guid>https://www.hhyu.org/tags/emacs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>hack</title>
       <link>https://www.hhyu.org/tags/hack/</link>
       <pubDate>Sun, 22 Aug 2021 10:11:05 +1000</pubDate>
@@ -116,29 +206,11 @@
     </item>
     
     <item>
-      <title>LISP</title>
-      <link>https://www.hhyu.org/tags/lisp/</link>
-      <pubDate>Sun, 22 Aug 2021 10:11:05 +1000</pubDate>
-      
-      <guid>https://www.hhyu.org/tags/lisp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>programming</title>
       <link>https://www.hhyu.org/tags/programming/</link>
       <pubDate>Sun, 22 Aug 2021 10:11:05 +1000</pubDate>
       
       <guid>https://www.hhyu.org/tags/programming/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>book</title>
-      <link>https://www.hhyu.org/tags/book/</link>
-      <pubDate>Mon, 16 Aug 2021 23:20:53 +1000</pubDate>
-      
-      <guid>https://www.hhyu.org/tags/book/</guid>
       <description></description>
     </item>
     
@@ -197,29 +269,11 @@
     </item>
     
     <item>
-      <title>joke</title>
-      <link>https://www.hhyu.org/tags/joke/</link>
-      <pubDate>Tue, 23 Mar 2021 22:50:36 +1100</pubDate>
-      
-      <guid>https://www.hhyu.org/tags/joke/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>movie</title>
       <link>https://www.hhyu.org/tags/movie/</link>
       <pubDate>Tue, 23 Mar 2021 22:50:36 +1100</pubDate>
       
       <guid>https://www.hhyu.org/tags/movie/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>thomas pynchon</title>
-      <link>https://www.hhyu.org/tags/thomas-pynchon/</link>
-      <pubDate>Tue, 23 Mar 2021 22:50:36 +1100</pubDate>
-      
-      <guid>https://www.hhyu.org/tags/thomas-pynchon/</guid>
       <description></description>
     </item>
     
@@ -269,15 +323,6 @@
     </item>
     
     <item>
-      <title>music</title>
-      <link>https://www.hhyu.org/tags/music/</link>
-      <pubDate>Fri, 15 Jan 2021 10:01:53 +1100</pubDate>
-      
-      <guid>https://www.hhyu.org/tags/music/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>history</title>
       <link>https://www.hhyu.org/tags/history/</link>
       <pubDate>Tue, 12 Jan 2021 08:53:25 +1100</pubDate>
@@ -310,15 +355,6 @@
       <pubDate>Tue, 05 Jan 2021 16:04:13 +1100</pubDate>
       
       <guid>https://www.hhyu.org/tags/note-taking/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>literate programming</title>
-      <link>https://www.hhyu.org/tags/literate-programming/</link>
-      <pubDate>Tue, 05 Jan 2021 14:16:59 +1100</pubDate>
-      
-      <guid>https://www.hhyu.org/tags/literate-programming/</guid>
       <description></description>
     </item>
     
@@ -562,15 +598,6 @@
       <pubDate>Tue, 21 Nov 2017 23:35:30 +1100</pubDate>
       
       <guid>https://www.hhyu.org/tags/chinese/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>pun</title>
-      <link>https://www.hhyu.org/tags/pun/</link>
-      <pubDate>Tue, 21 Nov 2017 23:35:30 +1100</pubDate>
-      
-      <guid>https://www.hhyu.org/tags/pun/</guid>
       <description></description>
     </item>
     

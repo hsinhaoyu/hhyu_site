@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>guitar-diary on Cortically Magnified</title>
+    <link>https://www.hhyu.org/tags/guitar-diary/</link>
+    <description>Recent content in guitar-diary on Cortically Magnified</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 13 Sep 2023 08:42:16 +1000</lastBuildDate><atom:link href="https://www.hhyu.org/tags/guitar-diary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://www.hhyu.org/micro/bill_frisell_anthology/</link>
+      <pubDate>Wed, 13 Sep 2023 08:42:16 +1000</pubDate>
+      
+      <guid>https://www.hhyu.org/micro/bill_frisell_anthology/</guid>
+      <description>Many years ago, I got myself Bill Frisell: An Anthology - a collection of music written by guitarist Bill Frisell. I can&amp;rsquo;t really read music, so to me, it had been a coded book, which I keep in my collection as an object of curiosity. But there is something fascinating about it that even a non-musician can feel. It just seems &amp;hellip; profound. What amazes me about Bill Frisell&amp;rsquo;s written music is that each piece is just a couple of pages of simple notes and chords.</description>
+    </item>
+    
+    <item>
+      <title>Mixing code and markups in LilyPond (or, coding for guitarists)</title>
+      <link>https://www.hhyu.org/posts/lilypond_first/</link>
+      <pubDate>Tue, 12 Sep 2023 22:42:10 +1000</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/lilypond_first/</guid>
+      <description>I wrote this post primarily from the perspective of a beginner guitarist trying to solve a practical problem, but the way I approached it naturally landed on functional programming and literate programming. So, you might want to stay around even if you are not interested in playing the guitar. This post is mostly about my experience of learning a very interesting music markup language LilyPond, which has a symbiotic relationship with the GNU Guile Scheme.</description>
+    </item>
+    
+  </channel>
+</rss>

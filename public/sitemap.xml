@@ -2,22 +2,76 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.hhyu.org/tags/causality/</loc>
-    <lastmod>2022-01-28T17:06:28+11:00</lastmod>
+    <loc>https://www.hhyu.org/micro/bill_frisell_anthology/</loc>
+    <lastmod>2023-09-13T08:42:16+10:00</lastmod>
   </url><url>
     <loc>https://www.hhyu.org/</loc>
+    <lastmod>2023-09-13T08:42:16+10:00</lastmod>
+  </url><url>
+    <loc>https://www.hhyu.org/tags/guitar-diary/</loc>
+    <lastmod>2023-09-13T08:42:16+10:00</lastmod>
+  </url><url>
+    <loc>https://www.hhyu.org/micro/</loc>
+    <lastmod>2023-09-13T08:42:16+10:00</lastmod>
+  </url><url>
+    <loc>https://www.hhyu.org/tags/music/</loc>
+    <lastmod>2023-09-13T08:42:16+10:00</lastmod>
+  </url><url>
+    <loc>https://www.hhyu.org/tags/</loc>
+    <lastmod>2023-09-13T08:42:16+10:00</lastmod>
+  </url><url>
+    <loc>https://www.hhyu.org/tags/emacs/</loc>
+    <lastmod>2023-09-12T22:42:10+10:00</lastmod>
+  </url><url>
+    <loc>https://www.hhyu.org/tags/lisp/</loc>
+    <lastmod>2023-09-12T22:42:10+10:00</lastmod>
+  </url><url>
+    <loc>https://www.hhyu.org/tags/literate-programming/</loc>
+    <lastmod>2023-09-12T22:42:10+10:00</lastmod>
+  </url><url>
+    <loc>https://www.hhyu.org/posts/lilypond_first/</loc>
+    <lastmod>2023-09-12T22:42:10+10:00</lastmod>
+  </url><url>
+    <loc>https://www.hhyu.org/posts/</loc>
+    <lastmod>2023-09-12T22:42:10+10:00</lastmod>
+  </url><url>
+    <loc>https://www.hhyu.org/micro/next_big_thing/</loc>
+    <lastmod>2023-09-12T22:37:08+10:00</lastmod>
+  </url><url>
+    <loc>https://www.hhyu.org/micro/teller/</loc>
+    <lastmod>2023-06-03T20:48:35+10:00</lastmod>
+  </url><url>
+    <loc>https://www.hhyu.org/tags/magic/</loc>
+    <lastmod>2023-06-03T20:48:35+10:00</lastmod>
+  </url><url>
+    <loc>https://www.hhyu.org/tags/psychology/</loc>
+    <lastmod>2023-06-03T20:48:35+10:00</lastmod>
+  </url><url>
+    <loc>https://www.hhyu.org/micro/cherry_garcia/</loc>
+    <lastmod>2022-10-31T20:10:37+11:00</lastmod>
+  </url><url>
+    <loc>https://www.hhyu.org/tags/joke/</loc>
+    <lastmod>2022-10-31T20:10:37+11:00</lastmod>
+  </url><url>
+    <loc>https://www.hhyu.org/tags/pun/</loc>
+    <lastmod>2022-10-31T20:10:37+11:00</lastmod>
+  </url><url>
+    <loc>https://www.hhyu.org/micro/hsi_ho/</loc>
+    <lastmod>2022-10-31T17:07:44+11:00</lastmod>
+  </url><url>
+    <loc>https://www.hhyu.org/tags/book/</loc>
+    <lastmod>2022-10-31T17:07:44+11:00</lastmod>
+  </url><url>
+    <loc>https://www.hhyu.org/tags/thomas-pynchon/</loc>
+    <lastmod>2022-10-31T17:07:44+11:00</lastmod>
+  </url><url>
+    <loc>https://www.hhyu.org/tags/causality/</loc>
     <lastmod>2022-01-28T17:06:28+11:00</lastmod>
   </url><url>
     <loc>https://www.hhyu.org/tags/data-science/</loc>
     <lastmod>2022-01-28T17:06:28+11:00</lastmod>
   </url><url>
-    <loc>https://www.hhyu.org/posts/</loc>
-    <lastmod>2022-01-28T17:06:28+11:00</lastmod>
-  </url><url>
     <loc>https://www.hhyu.org/tags/statistics/</loc>
-    <lastmod>2022-01-28T17:06:28+11:00</lastmod>
-  </url><url>
-    <loc>https://www.hhyu.org/tags/</loc>
     <lastmod>2022-01-28T17:06:28+11:00</lastmod>
   </url><url>
     <loc>https://www.hhyu.org/tags/thinking/</loc>
@@ -30,9 +84,6 @@
     <lastmod>2021-11-07T09:23:23+11:00</lastmod>
   </url><url>
     <loc>https://www.hhyu.org/tags/doodle/</loc>
-    <lastmod>2021-11-07T09:23:23+11:00</lastmod>
-  </url><url>
-    <loc>https://www.hhyu.org/micro/</loc>
     <lastmod>2021-11-07T09:23:23+11:00</lastmod>
   </url><url>
     <loc>https://www.hhyu.org/micro/brain_sea/</loc>
@@ -56,25 +107,16 @@
     <loc>https://www.hhyu.org/tags/physics/</loc>
     <lastmod>2021-08-27T20:47:54+10:00</lastmod>
   </url><url>
-    <loc>https://www.hhyu.org/tags/emacs/</loc>
-    <lastmod>2021-08-22T10:11:05+10:00</lastmod>
-  </url><url>
     <loc>https://www.hhyu.org/tags/hack/</loc>
     <lastmod>2021-08-22T10:11:05+10:00</lastmod>
   </url><url>
     <loc>https://www.hhyu.org/posts/elisp_advice/</loc>
     <lastmod>2021-08-22T10:11:05+10:00</lastmod>
   </url><url>
-    <loc>https://www.hhyu.org/tags/lisp/</loc>
-    <lastmod>2021-08-22T10:11:05+10:00</lastmod>
-  </url><url>
     <loc>https://www.hhyu.org/tags/programming/</loc>
     <lastmod>2021-08-22T10:11:05+10:00</lastmod>
   </url><url>
     <loc>https://www.hhyu.org/micro/borges-chesteron/</loc>
-    <lastmod>2021-08-16T23:20:53+10:00</lastmod>
-  </url><url>
-    <loc>https://www.hhyu.org/tags/book/</loc>
     <lastmod>2021-08-16T23:20:53+10:00</lastmod>
   </url><url>
     <loc>https://www.hhyu.org/tags/chesterton/</loc>
@@ -104,13 +146,7 @@
     <loc>https://www.hhyu.org/micro/pynchon_godzilla/</loc>
     <lastmod>2021-03-23T22:50:36+11:00</lastmod>
   </url><url>
-    <loc>https://www.hhyu.org/tags/joke/</loc>
-    <lastmod>2021-03-23T22:50:36+11:00</lastmod>
-  </url><url>
     <loc>https://www.hhyu.org/tags/movie/</loc>
-    <lastmod>2021-03-23T22:50:36+11:00</lastmod>
-  </url><url>
-    <loc>https://www.hhyu.org/tags/thomas-pynchon/</loc>
     <lastmod>2021-03-23T22:50:36+11:00</lastmod>
   </url><url>
     <loc>https://www.hhyu.org/tags/orgmode/</loc>
@@ -152,9 +188,6 @@
     <loc>https://www.hhyu.org/micro/frame_cut_frame/</loc>
     <lastmod>2021-01-15T10:01:53+11:00</lastmod>
   </url><url>
-    <loc>https://www.hhyu.org/tags/music/</loc>
-    <lastmod>2021-01-15T10:01:53+11:00</lastmod>
-  </url><url>
     <loc>https://www.hhyu.org/micro/hyperbolic_spirals/</loc>
     <lastmod>2021-01-12T23:19:29+11:00</lastmod>
   </url><url>
@@ -181,9 +214,6 @@
   </url><url>
     <loc>https://www.hhyu.org/tags/note-taking/</loc>
     <lastmod>2021-01-05T16:04:13+11:00</lastmod>
-  </url><url>
-    <loc>https://www.hhyu.org/tags/literate-programming/</loc>
-    <lastmod>2021-01-05T14:16:59+11:00</lastmod>
   </url><url>
     <loc>https://www.hhyu.org/posts/literate_config/</loc>
     <lastmod>2021-01-05T14:16:59+11:00</lastmod>
@@ -429,9 +459,6 @@
     <lastmod>2017-12-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.hhyu.org/tags/chinese/</loc>
-    <lastmod>2017-11-21T23:35:30+11:00</lastmod>
-  </url><url>
-    <loc>https://www.hhyu.org/tags/pun/</loc>
     <lastmod>2017-11-21T23:35:30+11:00</lastmod>
   </url><url>
     <loc>https://www.hhyu.org/posts/chinese_punning/</loc>
