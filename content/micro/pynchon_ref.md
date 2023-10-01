@@ -12,4 +12,4 @@ The second book I am reading is the [The Cuckoo's Egg](https://en.wikipedia.org/
 
 It's very interesting to me that Thomas Pynchon (rather than, say, William Gibson) is the author that people turn to when they talk about hackers and phone phreaks.
 
-
+PS: I am now reading [The Hacker Crackdown](https://www.mit.edu/hacker/hacker.html) by Bruce Sterling. Guess what? It also makes a reference to Thomas Pynchon!
