@@ -8,6 +8,6 @@ Guitar learning diary: As I learn to play the guitar, I realised that I might be
 
 However, today, when I listened to the _My Buffalo Girl_ track on Bill Frisell's _Good Dog, Happy Man_ album, I noticed that he played an interesting chord that sounded dissonant but musical at the same time. I looked it up in the _Bill Frisell: An Anthology_ songbook, and what do you know? It's a dominant 9 chord!
 
-This happened to me before. I was interested in Miles Davis' _So What_, so I tried to play a couple of bars of Miles' solo. It was mostly an exercise to learn the Dorian mode. Then, for no apparent reason, I thought about Bill Frisell's _Monroe_ (again, from the _Good Dog, Happy Man_ album) and tried to play it. It took me a while to discovered that _Monroe_ is in Dorian mode!
+This happened to me before. I was interested in Miles Davis' _So What_, so I tried to play a couple of bars of Miles' solo. It was mostly an exercise to learn the Dorian mode. Then, for no apparent reason, I thought about Bill Frisell's _Monroe_ (again, from the _Good Dog, Happy Man_ album) and tried to play it. It took me a while to discover that _Monroe_ is in Dorian mode!
 
-I am not sure if these are all coincidences. But I suspect that an interesting psychological phenomenon is in the play.
+I am not sure if these are all coincidental, but I suspect that an interesting psychological phenomenon is in the play.
