@@ -101,15 +101,16 @@
   <section id="js-article" class="p-article__body e-content">
     <p>I wrote this post primarily from the perspective of a beginner guitarist trying to solve a practical problem, but the way I approached it naturally landed on functional programming and literate programming. So, you might want to stay around even if you are not interested in playing the guitar. This post is mostly about my experience of learning a very interesting music markup language <a href="https://lilypond.org">LilyPond</a>, which has a symbiotic relationship with the <a href="https://www.gnu.org/software/guile/">GNU Guile Scheme</a>.</p>
 <p>Like many beginner guitarists, I have been maintaining a dictionary of guitar chords. In the beginning, I simply drew the diagrams in a notebook, but lately I started to realize that I need a better system to edit them, organize them and rearrangement them&hellip; like snippets of code. So I naturally looked into LilyPond. It was like&hellip; I could code in Scheme as part of my guitar practice? Where do I sign up?</p>
+<h2 id="chord-diagrams">Chord diagrams</h2>
 <p>Basically, I want to produce diagrams like this:</p>
 
 <link rel="stylesheet" href="/css/hugo-easy-gallery.css" />
-<div class="box" >
+<div class="box" style="max-width:60%">
   <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
     <div class="img">
-      <img itemprop="thumbnail" src="/blog/chords_version3.cropped.png" />
+      <img itemprop="thumbnail" src="/blog/lilypond/chords_version3.cropped.png" />
     </div>
-    <a href="/blog/chords_version3.cropped.png" itemprop="contentUrl"></a>
+    <a href="/blog/lilypond/chords_version3.cropped.png" itemprop="contentUrl"></a>
   </figure>
 </div>
 
@@ -234,6 +235,47 @@ chordB = #&#39;(
   \my-chord &#34;C/B♭&#34; \chordB
 }</code></pre>
 <p>In Scheme mode, we define a Scheme function <code>my-chord</code>, which can be used as a markup <code>\my-chord</code>. Interestingly, although I said that the function <code>my-chord</code> is written in Scheme, the code doesn&rsquo;t quite follow the Scheme syntax. That is because inside Scheme mode, we use <code>#</code> again to turn into markup mode in Scheme (e.g., <code>#:override '(size . 2)</code> is a markup). I was going to say that the ability to switch from one language to another seamlessly is unique, but then I realized that <a href="https://en.wikipedia.org/wiki/JSX_(JavaScript)">JSX</a> in web programming uses a similar pattern. But the idea is done more elegantly in LilyPond.</p>
+<h2 id="scale-diagrams">Scale diagrams</h2>
+<p>With some minor tweaks (code <a href="https://github.com/hsinhaoyu/lilypond_exp/blob/main/scales/dorian_vs_minor_penatonic.ly">here</a>), I can also create scale diagrams like this:</p>
+
+
+<div class="box" style="max-width:80%">
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="/blog/lilypond/dorian_vs_minor_penatonic.cropped.png" />
+    </div>
+    <a href="/blog/lilypond/dorian_vs_minor_penatonic.cropped.png" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+<h2 id="lilypond-with-org-roam">LilyPond with org-roam</h2>
+<p>But the point of this exercise is not to just to create diagrams. What&rsquo;s more important is a system to collect them and organize them. I have been using Emacs&rsquo; <a href="https://www.orgroam.com">org-roam package</a> as a repository of my notes. Since <code>org-roam</code>&rsquo;s own markup language allows code blocks to be embedded and executed in its documents, I can easily incorporate scale and chord diagrams into my notes. This way, they can be commented on, can be searched, and can be associated with notes using tags. The following, for example, is a journal entry:</p>
+
+
+<div class="box" style="max-width:100%">
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="/blog/lilypond/org_with_lilypond.png" />
+    </div>
+    <a href="/blog/lilypond/org_with_lilypond.png" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+<p>The ability to execute code in free-form texts is enormously powerful, allowing us to integrate any kind of information with texts. That&rsquo;s why markup languages are so interesting to me.</p>
+<p>(A side note: In my setup, the Lilypond codeblock actually produced a full page image. The <code>#(ly:set-option 'crop #t)</code> that I put in the first line asks LilyPond to crop the image, but it the cropped image has a different filename. The filename returned by the codeblock is still the full size image. I wrote some elisp code to automatically replace the returned filename with the filename of the cropped image. However, it was not really necessary. I realized that I just have to manually edit the filename. I don&rsquo;t produce many LilyPond diagrams so it&rsquo;s not a real problem.)</p>
+<h2 id="lilypond-with-latex">LilyPond with LaTeX</h2>
+<p>See? I don&rsquo;t like just one form of information by itself. I am naturally multimodal. So after I used LilyPond to typeset a guitar tab (Bill Frisell&rsquo;s <em>Monroe</em>; see <a href="https://github.com/hsinhaoyu/lilypond_exp/tree/main/monroe">here</a> for the LilyPond code for the tab), I wanted to add some notes and diagrams to the tab. Luckily, it&rsquo;s very easy to embed LilyPond code in yet another markup language, LaTeX! I think that&rsquo;s enough markup languages for one post.</p>
+
+
+<div class="box" style="max-width:100%">
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="/blog/lilypond/latex_with_lilypond.png" />
+    </div>
+    <a href="/blog/lilypond/latex_with_lilypond.png" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
 
   </section>
   <footer>
@@ -242,6 +284,7 @@ chordB = #&#39;(
       <div class="c-pagination__ctrl">
         <div class="c-pagination__newer">
           
+          <a href="https://www.hhyu.org/posts/2023_10_04_ellery_queen_greek_coffin/">Newer</a>
           
         </div>
         <div class="c-pagination__older">
@@ -323,9 +366,9 @@ chordB = #&#39;(
             
               <li class="p-menu__listitem p-menu__child"><a href="/">Blog</a></li>
             
-              <li class="p-menu__listitem p-menu__child"><a href="/micro/">Notes</a></li>
+              <li class="p-menu__listitem p-menu__child"><a href="/micro/">Microblog</a></li>
             
-              <li class="p-menu__listitem p-menu__child"><a href="https://github.com/hsinhaoyu/resources">References</a></li>
+              <li class="p-menu__listitem p-menu__child"><a href="https://github.com/hsinhaoyu/resources">Resources</a></li>
             
           </ul>
         </li>

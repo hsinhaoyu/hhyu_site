@@ -2,25 +2,79 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.hhyu.org/micro/bill_frisell_anthology/</loc>
-    <lastmod>2023-09-13T08:42:16+10:00</lastmod>
+    <loc>https://www.hhyu.org/tags/book/</loc>
+    <lastmod>2023-10-09T22:54:13+11:00</lastmod>
+  </url><url>
+    <loc>https://www.hhyu.org/tags/color/</loc>
+    <lastmod>2023-10-09T22:54:13+11:00</lastmod>
   </url><url>
     <loc>https://www.hhyu.org/</loc>
-    <lastmod>2023-09-13T08:42:16+10:00</lastmod>
+    <lastmod>2023-10-09T22:54:13+11:00</lastmod>
   </url><url>
-    <loc>https://www.hhyu.org/tags/guitar-diary/</loc>
-    <lastmod>2023-09-13T08:42:16+10:00</lastmod>
+    <loc>https://www.hhyu.org/posts/2023_10_09_more_colorblindness/</loc>
+    <lastmod>2023-10-09T22:54:13+11:00</lastmod>
   </url><url>
-    <loc>https://www.hhyu.org/micro/</loc>
-    <lastmod>2023-09-13T08:42:16+10:00</lastmod>
+    <loc>https://www.hhyu.org/tags/mystery/</loc>
+    <lastmod>2023-10-09T22:54:13+11:00</lastmod>
   </url><url>
-    <loc>https://www.hhyu.org/tags/music/</loc>
-    <lastmod>2023-09-13T08:42:16+10:00</lastmod>
+    <loc>https://www.hhyu.org/posts/</loc>
+    <lastmod>2023-10-09T22:54:13+11:00</lastmod>
+  </url><url>
+    <loc>https://www.hhyu.org/tags/psychology/</loc>
+    <lastmod>2023-10-09T22:54:13+11:00</lastmod>
   </url><url>
     <loc>https://www.hhyu.org/tags/</loc>
-    <lastmod>2023-09-13T08:42:16+10:00</lastmod>
+    <lastmod>2023-10-09T22:54:13+11:00</lastmod>
+  </url><url>
+    <loc>https://www.hhyu.org/tags/vision/</loc>
+    <lastmod>2023-10-09T22:54:13+11:00</lastmod>
+  </url><url>
+    <loc>https://www.hhyu.org/micro/2023_10_08_brains_25cents/</loc>
+    <lastmod>2023-10-08T20:16:58+11:00</lastmod>
+  </url><url>
+    <loc>https://www.hhyu.org/tags/bill-frisell/</loc>
+    <lastmod>2023-10-08T20:16:58+11:00</lastmod>
+  </url><url>
+    <loc>https://www.hhyu.org/tags/doodle/</loc>
+    <lastmod>2023-10-08T20:16:58+11:00</lastmod>
+  </url><url>
+    <loc>https://www.hhyu.org/micro/</loc>
+    <lastmod>2023-10-08T20:16:58+11:00</lastmod>
+  </url><url>
+    <loc>https://www.hhyu.org/posts/2023_10_04_ellery_queen_greek_coffin/</loc>
+    <lastmod>2023-10-07T07:47:33+11:00</lastmod>
+  </url><url>
+    <loc>https://www.hhyu.org/tags/philosophy/</loc>
+    <lastmod>2023-10-07T07:47:33+11:00</lastmod>
+  </url><url>
+    <loc>https://www.hhyu.org/micro/10_04_2023_guitar_diary/</loc>
+    <lastmod>2023-10-04T10:19:13+11:00</lastmod>
+  </url><url>
+    <loc>https://www.hhyu.org/tags/guitar-learning/</loc>
+    <lastmod>2023-10-04T10:19:13+11:00</lastmod>
+  </url><url>
+    <loc>https://www.hhyu.org/tags/jazz/</loc>
+    <lastmod>2023-10-04T10:19:13+11:00</lastmod>
+  </url><url>
+    <loc>https://www.hhyu.org/tags/music-theory/</loc>
+    <lastmod>2023-10-04T10:19:13+11:00</lastmod>
+  </url><url>
+    <loc>https://www.hhyu.org/micro/penn_teller_heaven/</loc>
+    <lastmod>2023-10-01T16:46:35+11:00</lastmod>
+  </url><url>
+    <loc>https://www.hhyu.org/tags/magic/</loc>
+    <lastmod>2023-10-01T16:46:35+11:00</lastmod>
+  </url><url>
+    <loc>https://www.hhyu.org/micro/pynchon_ref/</loc>
+    <lastmod>2023-09-22T08:38:55+10:00</lastmod>
+  </url><url>
+    <loc>https://www.hhyu.org/tags/thomas-pynchon/</loc>
+    <lastmod>2023-09-22T08:38:55+10:00</lastmod>
   </url><url>
     <loc>https://www.hhyu.org/tags/emacs/</loc>
+    <lastmod>2023-09-12T22:42:10+10:00</lastmod>
+  </url><url>
+    <loc>https://www.hhyu.org/tags/guitar-diary/</loc>
     <lastmod>2023-09-12T22:42:10+10:00</lastmod>
   </url><url>
     <loc>https://www.hhyu.org/tags/lisp/</loc>
@@ -32,19 +86,10 @@
     <loc>https://www.hhyu.org/posts/lilypond_first/</loc>
     <lastmod>2023-09-12T22:42:10+10:00</lastmod>
   </url><url>
-    <loc>https://www.hhyu.org/posts/</loc>
-    <lastmod>2023-09-12T22:42:10+10:00</lastmod>
-  </url><url>
     <loc>https://www.hhyu.org/micro/next_big_thing/</loc>
     <lastmod>2023-09-12T22:37:08+10:00</lastmod>
   </url><url>
     <loc>https://www.hhyu.org/micro/teller/</loc>
-    <lastmod>2023-06-03T20:48:35+10:00</lastmod>
-  </url><url>
-    <loc>https://www.hhyu.org/tags/magic/</loc>
-    <lastmod>2023-06-03T20:48:35+10:00</lastmod>
-  </url><url>
-    <loc>https://www.hhyu.org/tags/psychology/</loc>
     <lastmod>2023-06-03T20:48:35+10:00</lastmod>
   </url><url>
     <loc>https://www.hhyu.org/micro/cherry_garcia/</loc>
@@ -57,12 +102,6 @@
     <lastmod>2022-10-31T20:10:37+11:00</lastmod>
   </url><url>
     <loc>https://www.hhyu.org/micro/hsi_ho/</loc>
-    <lastmod>2022-10-31T17:07:44+11:00</lastmod>
-  </url><url>
-    <loc>https://www.hhyu.org/tags/book/</loc>
-    <lastmod>2022-10-31T17:07:44+11:00</lastmod>
-  </url><url>
-    <loc>https://www.hhyu.org/tags/thomas-pynchon/</loc>
     <lastmod>2022-10-31T17:07:44+11:00</lastmod>
   </url><url>
     <loc>https://www.hhyu.org/tags/causality/</loc>
@@ -81,9 +120,6 @@
     <lastmod>2022-01-28T17:06:28+11:00</lastmod>
   </url><url>
     <loc>https://www.hhyu.org/micro/dylan/</loc>
-    <lastmod>2021-11-07T09:23:23+11:00</lastmod>
-  </url><url>
-    <loc>https://www.hhyu.org/tags/doodle/</loc>
     <lastmod>2021-11-07T09:23:23+11:00</lastmod>
   </url><url>
     <loc>https://www.hhyu.org/micro/brain_sea/</loc>
@@ -123,9 +159,6 @@
     <lastmod>2021-08-16T23:20:53+10:00</lastmod>
   </url><url>
     <loc>https://www.hhyu.org/tags/jorge-luis-borges/</loc>
-    <lastmod>2021-08-16T23:20:53+10:00</lastmod>
-  </url><url>
-    <loc>https://www.hhyu.org/tags/mystery/</loc>
     <lastmod>2021-08-16T23:20:53+10:00</lastmod>
   </url><url>
     <loc>https://www.hhyu.org/tags/art-appreciation/</loc>
@@ -186,6 +219,9 @@
     <lastmod>2021-01-18T09:45:28+11:00</lastmod>
   </url><url>
     <loc>https://www.hhyu.org/micro/frame_cut_frame/</loc>
+    <lastmod>2021-01-15T10:01:53+11:00</lastmod>
+  </url><url>
+    <loc>https://www.hhyu.org/tags/music/</loc>
     <lastmod>2021-01-15T10:01:53+11:00</lastmod>
   </url><url>
     <loc>https://www.hhyu.org/micro/hyperbolic_spirals/</loc>
@@ -348,12 +384,6 @@
     <lastmod>2020-11-01T23:23:13+11:00</lastmod>
   </url><url>
     <loc>https://www.hhyu.org/tags/art/</loc>
-    <lastmod>2020-11-01T23:23:13+11:00</lastmod>
-  </url><url>
-    <loc>https://www.hhyu.org/tags/color/</loc>
-    <lastmod>2020-11-01T23:23:13+11:00</lastmod>
-  </url><url>
-    <loc>https://www.hhyu.org/tags/vision/</loc>
     <lastmod>2020-11-01T23:23:13+11:00</lastmod>
   </url><url>
     <loc>https://www.hhyu.org/micro/feynmann/</loc>
