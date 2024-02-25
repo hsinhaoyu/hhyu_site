@@ -6,7 +6,16 @@
     <description>Recent content in statistics on Cortically Magnified</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 28 Jan 2022 17:06:28 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/tags/statistics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Feb 2024 19:42:23 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/tags/statistics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How extreme is it? An introduction to extreme statistics</title>
+      <link>https://www.hhyu.org/posts/extreme_example/</link>
+      <pubDate>Wed, 21 Feb 2024 19:42:23 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/extreme_example/</guid>
+      <description>It recent years, it has became very obvious that extreme weather is a clear and present danger. On a personal level, just last week, my house in Melbourne was without power for more than 8 hours, due to a large-scale blackout in Victoria caused by strong winds and high temperatures. More shockingly, Two days ago, Carnarvon in Western Australia experienced a 49.9°C day, which is said to be the world&amp;rsquo;s hottest temperature recorded this year.</description>
+    </item>
+    
     <item>
       <title>What can we learn from the Simpson&#39;s Paradox?</title>
       <link>https://www.hhyu.org/posts/simpsons/</link>

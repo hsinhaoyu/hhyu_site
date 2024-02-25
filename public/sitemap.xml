@@ -2,13 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.hhyu.org/tags/climate/</loc>
+    <lastmod>2024-02-21T19:42:23+11:00</lastmod>
+  </url><url>
+    <loc>https://www.hhyu.org/</loc>
+    <lastmod>2024-02-21T19:42:23+11:00</lastmod>
+  </url><url>
+    <loc>https://www.hhyu.org/tags/data-science/</loc>
+    <lastmod>2024-02-21T19:42:23+11:00</lastmod>
+  </url><url>
+    <loc>https://www.hhyu.org/posts/extreme_example/</loc>
+    <lastmod>2024-02-21T19:42:23+11:00</lastmod>
+  </url><url>
+    <loc>https://www.hhyu.org/posts/</loc>
+    <lastmod>2024-02-21T19:42:23+11:00</lastmod>
+  </url><url>
+    <loc>https://www.hhyu.org/tags/statistics/</loc>
+    <lastmod>2024-02-21T19:42:23+11:00</lastmod>
+  </url><url>
+    <loc>https://www.hhyu.org/tags/</loc>
+    <lastmod>2024-02-21T19:42:23+11:00</lastmod>
+  </url><url>
+    <loc>https://www.hhyu.org/micro/2023_10_26_zak/</loc>
+    <lastmod>2023-10-26T22:50:32+11:00</lastmod>
+  </url><url>
+    <loc>https://www.hhyu.org/tags/doodle/</loc>
+    <lastmod>2023-10-26T22:50:32+11:00</lastmod>
+  </url><url>
+    <loc>https://www.hhyu.org/micro/</loc>
+    <lastmod>2023-10-26T22:50:32+11:00</lastmod>
+  </url><url>
     <loc>https://www.hhyu.org/tags/book/</loc>
     <lastmod>2023-10-09T22:54:13+11:00</lastmod>
   </url><url>
     <loc>https://www.hhyu.org/tags/color/</loc>
-    <lastmod>2023-10-09T22:54:13+11:00</lastmod>
-  </url><url>
-    <loc>https://www.hhyu.org/</loc>
     <lastmod>2023-10-09T22:54:13+11:00</lastmod>
   </url><url>
     <loc>https://www.hhyu.org/posts/2023_10_09_more_colorblindness/</loc>
@@ -17,13 +44,7 @@
     <loc>https://www.hhyu.org/tags/mystery/</loc>
     <lastmod>2023-10-09T22:54:13+11:00</lastmod>
   </url><url>
-    <loc>https://www.hhyu.org/posts/</loc>
-    <lastmod>2023-10-09T22:54:13+11:00</lastmod>
-  </url><url>
     <loc>https://www.hhyu.org/tags/psychology/</loc>
-    <lastmod>2023-10-09T22:54:13+11:00</lastmod>
-  </url><url>
-    <loc>https://www.hhyu.org/tags/</loc>
     <lastmod>2023-10-09T22:54:13+11:00</lastmod>
   </url><url>
     <loc>https://www.hhyu.org/tags/vision/</loc>
@@ -33,12 +54,6 @@
     <lastmod>2023-10-08T20:16:58+11:00</lastmod>
   </url><url>
     <loc>https://www.hhyu.org/tags/bill-frisell/</loc>
-    <lastmod>2023-10-08T20:16:58+11:00</lastmod>
-  </url><url>
-    <loc>https://www.hhyu.org/tags/doodle/</loc>
-    <lastmod>2023-10-08T20:16:58+11:00</lastmod>
-  </url><url>
-    <loc>https://www.hhyu.org/micro/</loc>
     <lastmod>2023-10-08T20:16:58+11:00</lastmod>
   </url><url>
     <loc>https://www.hhyu.org/posts/2023_10_04_ellery_queen_greek_coffin/</loc>
@@ -105,12 +120,6 @@
     <lastmod>2022-10-31T17:07:44+11:00</lastmod>
   </url><url>
     <loc>https://www.hhyu.org/tags/causality/</loc>
-    <lastmod>2022-01-28T17:06:28+11:00</lastmod>
-  </url><url>
-    <loc>https://www.hhyu.org/tags/data-science/</loc>
-    <lastmod>2022-01-28T17:06:28+11:00</lastmod>
-  </url><url>
-    <loc>https://www.hhyu.org/tags/statistics/</loc>
     <lastmod>2022-01-28T17:06:28+11:00</lastmod>
   </url><url>
     <loc>https://www.hhyu.org/tags/thinking/</loc>
