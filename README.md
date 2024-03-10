@@ -8,8 +8,10 @@ hugo new micro/filename.md
 
 ## added figure
 ```sh
-{{< figure src="/blog/spiral.gif" >}}
+{{< figure src="/blog/spiral.gif" width="80%">}}
 ```
+
+The image should be public/blog/spiral.gif
 
 ## change style of code block
 ```sh
