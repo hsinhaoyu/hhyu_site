@@ -23,3 +23,22 @@ The image should be public/blog/spiral.gif
 ```sh
 hugo --cleanDestinationDir
 ```
+
+## update the site
+```
+git add --all
+git push
+```
+
+## recreate the hugo site
+```
+git clone git@github.com:hsinhaoyu/hhyu_site.git
+```
+
+This is not enough because it doesn't clone the themes.
+
+Inside the cloned directory, go to `themes/` and then
+
+```
+git clone git@github.com:hsinhaoyu/hugo_theme_pickles.git pickles_hhyu
+```

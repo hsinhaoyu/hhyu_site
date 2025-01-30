@@ -4,9 +4,9 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
   
-  <title>How extreme is it? An introduction to extreme statistics</title>
-  <meta property="og:title" content="How extreme is it? An introduction to extreme statistics" />
-  <meta name="twitter:title" content="How extreme is it? An introduction to extreme statistics" />
+  <title>How unexpected was the 49.9°C temperature recorded recently? An introduction to extreme statistics</title>
+  <meta property="og:title" content="How unexpected was the 49.9°C temperature recorded recently? An introduction to extreme statistics" />
+  <meta name="twitter:title" content="How unexpected was the 49.9°C temperature recorded recently? An introduction to extreme statistics" />
   
 
   
@@ -73,7 +73,7 @@
 
 <article class="p-article h-entry">
   <header>
-    <h1 class="p-name">How extreme is it? An introduction to extreme statistics</h1>
+    <h1 class="p-name">How unexpected was the 49.9°C temperature recorded recently? An introduction to extreme statistics</h1>
     <div>
       
         <div class="c-time">
@@ -97,7 +97,194 @@
   </header>
   
   <section id="js-article" class="p-article__body e-content">
-    <p>It recent years, it has became very obvious that extreme weather is a clear and present danger.  On a personal level, just last week, my house in Melbourne was without power for more than 8 hours, due to a large-scale <a href="https://www.abc.net.au/news/2024-02-14/victoria-melbourne-power-outage-storms-how-did-it-happen/103464714">blackout in Victoria</a> caused by strong winds and high temperatures.  More shockingly, Two days ago, Carnarvon in Western Australia experienced a <a href="https://www.abc.net.au/news/2024-02-19/wa-weather-heatwave-continues-as-flood-warning-issued-kimberley/103485184">49.9°C day</a>, which is said to be the world&rsquo;s hottest temperature recorded this year.  All of us know intuitively that the 49.9°C temperature was very unusual, but can we quantify how extreme it was?  In this article, I will try to answer this question, by turning into a branch of statistics that is all about the extremes.  We are living in a time where assessing the risks of extreme events has become inescapable. Therefore, it&rsquo;s a good time to develop the basic concepts and vocabulary that can help us to reason quantitatively about extremes.</p>
+    <p>It has become very obvious that extreme weather is a clear and present danger. Globally, 2023 was the <a href="https://climate.copernicus.eu/copernicus-2023-hottest-year-record">hottest year</a> ever recorded, and <a href="https://www.theguardian.com/environment/2024/jan/08/global-temperature-over-1-5-c-climate-change">some scientists</a> are predicting that 2024 will be humanity&rsquo;s first year beyond the 1.5°C threshold above pre-industrial average temperature. On a personal level, just last week, my house in Melbourne was without power for more than 8 hours, due to a large-scale <a href="https://www.abc.net.au/news/2024-02-14/victoria-melbourne-power-outage-storms-how-did-it-happen/103464714">blackout in Victoria</a> caused by strong winds and high temperatures.  More shockingly, two days ago (18 February 2024), Carnarvon in Western Australia experienced a <a href="https://www.abc.net.au/news/2024-02-19/wa-weather-heatwave-continues-as-flood-warning-issued-kimberley/103485184">49.9°C day</a>, which is said to be the world&rsquo;s hottest temperature recorded this year (as of Feb 2024).</p>
+<p>All of us know intuitively that the 49.9°C temperature was very unusual, but can we quantify how unexpected it was?  In this article, I will try to answer this question with the help of a branch of statistics called <a href="https://en.wikipedia.org/wiki/Extreme_value_theory">Extreme Value Theory</a>, which is all about the extremes.</p>
+<p>Extreme Value Theory has been considered a highly specialized topic in statistics.  It&rsquo;s seldom covered in introductory-level statistics classes.  However, given the high level of unpredictability that we are facing, I think it&rsquo;s a good time to present this topic in an accessible way so that everybody can develop the basic concepts and vocabulary to reason and communicate about extreme events.</p>
+<h3 id="what-does-extreme-mean-its-not-just-very-low-probability">What does &ldquo;extreme&rdquo; mean? It&rsquo;s not just very low probability</h3>
+<p>The word <em>extreme</em> has become a familiar one in news headlines.  What does it mean?  Does it simply mean a very low probability?  Let me be clear up front that the word does not have a single meaning.  Depending on the context, it can mean different things.  In many situations, extreme events can indeed refer to events that are very unlikely to happen.  However, in this article, we&rsquo;ll be thinking about the extremes from a different perspective.  Under Extreme Value Theory, the extreme is defined as the largest value in a fixed block of measures [1].  For example, the highest wind speed of a certain location in a year - that is the annual extreme in wind speed.  Similarly, the highest temperature measured by a weather station in a year, the highest number of burgers served in a day in a fast food restaurant, the highest payoff of a casino in a year, the longest waiting time for a customer service call in a year&hellip; these are all extremes.</p>
+<p>Why are we emphasizing this particular definition, rather than on events of low probabilities?  One reason is that if the extremes are defined as events with very low probabilities, we&rsquo;ll have to decide how low the probability has to be considered extreme.  That is not always easy.  The definition that we use here bypasses that issue.  We would still want to know the probability of the extreme reaching a certain level, so in the end, we&rsquo;ll still be calculating probabilities, but we won&rsquo;t argue what counts as extremes [2].</p>
+<p>Let&rsquo;s make this more concrete: the extreme of Melbourne temperature in 2025 (i.e., the highest temperature that will be recorded in the entire year of 2025) is unknown, but we want to infer the probability that the extreme will be as high as 45°C. That is the type of question that we&rsquo;ll try to answer in this article.</p>
+<p>There is a second motivation for this <em>block maximum</em> definition: we often want to estimate the risk associated with extreme conditions within a block of measures, because investments for safeguarding them are typically allocated, not continuously but in blocks.  It&rsquo;s therefore useful that the extreme in this definition is relative to a certain block (typically a time frame) of interest.  For example, if a wind turbine is designed to operate for 10 years, we&rsquo;d want to know the highest wind speed in 10 years.</p>
+<h3 id="why-do-we-need-a-theory-for-the-extreme">Why do we need a theory for the extreme?</h3>
+<p>Why is there a theory about extreme events?  Isn&rsquo;t the statistics that we learn in college general enough?  The fundamental reason is that although many people are comfortable with associating a probability with an event, we typically don&rsquo;t have a good intuition about the probability of the maximum in a block.  For example, I have been living in Melbourne for many years.  Given a day, I more or less have some idea about the weather (Melbourne is infamous for its unpredictable weather, but I am not completely clueless).  However, when I plotted the distribution of the annual maximum temperature, I was still puzzled.  Even the shape of the distribution appeared to be unexpected.</p>
+<p>The reason why we need Extreme Value Theory is that the statistical distribution of the extreme has its particular flavor.  Most people are not aware of this fact, because we tend to assume that the distribution of the extreme has the same shape of the distribution of non-extreme events, just narrower and moved to the right.</p>
+<p>We&rsquo;ll see more examples in the coming sections, but you can experience this mathematical fact in a fun way.  If you roll a die, what is the probability of getting a 6? It&rsquo;s 1/6.  It&rsquo;s a uniform distribution, so the probability of getting any value from 1 to 6 is 1/6.  However, if you roll two dice, and take the maximum of the two, what is the probability of getting a 6?  It&rsquo;s about 1/3.  I encourage you to try this yourself because you&rsquo;d be surprised by how often you get a 6 [3].  The distributions are plotted below:</p>
+
+<link rel="stylesheet" href="/css/hugo-easy-gallery.css" />
+<div class="box" style="max-width:70%">
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="/blog/extreme_example/fig0.png" />
+    </div>
+    <a href="/blog/extreme_example/fig0.png" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+<p>The uniform distribution on the left has been turned into an increasing function on the right.  It&rsquo;s not too difficult to understand why the extreme of the two dice would have a distribution of the shape plotted on the right, but for more complicated cases, we need to turn to Extreme Value Theory.  Let&rsquo;s see a real-world example.</p>
+<h3 id="modeling-the-extreme-requires-a-specialized-family-of-statistical-distributions">Modeling the extreme requires a specialized family of statistical distributions</h3>
+<p>From the <a href="http://www.bom.gov.au/climate/data/">Bureau of Meteorology</a> of the Australian Government, I downloaded over 50 years of temperature data of Carnarvon [4]. In the figure below, I took the data just for the summer season (December, January, and February) and plotted the empirical distribution of daily maximum temperature (top) and annual maximum temperature (below). Both are distributions of extreme events, except that they are plotted in two different time scales of interest.</p>
+
+
+<div class="box" style="max-width:80%">
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="/blog/extreme_example/fig1.png" />
+    </div>
+    <a href="/blog/extreme_example/fig1.png" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+<p>First, observe the shapes.  The distribution on the top is clearly not a Normal distribution, but it&rsquo;s not obvious if the one on the bottom is normally distributed.  Statistical tests did not indicate a violation of normality (p-value = 0.95 according to <code>scipy.stats.normaltest</code>), although the small number of samples (N = 75) might make it difficult to detect any deviations (sample kurtosis is -0.026, which is not quite the kurtosis = 3 that we expect from the Normal distribution).</p>
+<p>In addition, note that the two distributions have very different shapes.  This reinforces the observation we made in the previous section: depending on the size of the block, the distribution of the extreme can be very different.  They are not just the shifted or scaled version of each other.</p>
+<p>The shapes of the two histograms above are not arbitrary.  Extreme Value Theory shows that with enough samples, the distribution of block maximum can be approximated by a family of functions called the <a href="https://en.wikipedia.org/wiki/Generalized_extreme_value_distribution">Generalized Extreme Value (GEV)</a> distribution.  Unlike the Normal distribution, which always has the familiar bell-curve shape, the shape of the GEV distribution is determined by the shape parameter ξ.  The following animation illustrates the density function of the GEV distribution, given different ξ.  You can verify yourself that the two distributions illustrated in the figure above are indeed approximated by GEV distributions with appropriate ξ.</p>
+
+
+<div class="box" style="max-width:60%">
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="/blog/extreme_example/fig2.gif" />
+    </div>
+    <a href="/blog/extreme_example/fig2.gif" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+<p>To see the significance of the GEV distribution, recall why the Normal distribution is so important in classical inferential statistics.  The <a href="https://en.wikipedia.org/wiki/Central_limit_theorem">Central Limit Theorem</a> states (roughly) that the mean of a large number of random variables, which might not be Normally distributed, can be approximated by the Normal distribution.  The implication is that as long as we are studying the average of samples, the Normal distribution is universally applicable.  But if it&rsquo;s the maximum, rather than the mean, that we are after, we need to use the GEV distribution.</p>
+<p>Before we move on to fitting the GEV distribution to temperature data, I think it&rsquo;s worthwhile to say a few more things about the distribution, because we can gain some important insights about the nature of extremes.  First, if ξ is negative, the function is bounded from above, meaning that for values larger than a certain bound, the probability is 0.  Likewise, if ξ is positive, the distribution is bounded below.  This is very different from the Normal distribution, whose density is never 0.  The only unbounded GEV is when ξ = 0.  This is the distribution of the maximum of identically distributed Normal variables.  Interestingly, the block maximum of Normal variables is not Normally distributed.</p>
+<p>The GEV distribution has 3 parameters.  In addition to the shape parameter ξ, the other two parameters are the location and the scale parameter.  They are similar to the mean and variance of the Normal distribution.</p>
+<h3 id="the-2024-summer-of-carnarvon-has-been-unprecedentedly-hot">The 2024 summer of Carnarvon has been unprecedentedly hot</h3>
+<p>I used the <a href="https://cran.r-project.org/web/packages/extRemes/index.html"><code>extRemes</code> package</a> for R to fit a GEV distribution to the annual maximum temperature data from Carnarvon.  The fitted parameters are (42.75, 2.26, -0.253) for the (location, scale, shape) parameters [5].  It&rsquo;s a function slightly skewed toward the right.  The density function is plotted below in red:</p>
+
+
+<div class="box" style="max-width:85%">
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="/blog/extreme_example/fig3.png" />
+    </div>
+    <a href="/blog/extreme_example/fig3.png" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+<p>We can see that the 49.9°C maximum temperature of 2024 is at the very right end of the distribution.  How unlikely was it?  In the vocabulary of Extreme Value Theorem, probabilities are very often reported in terms of &ldquo;return level&rdquo;, which is just a more intuitive way to express percentiles.  Since 1 data point in the dataset represents the maximum of a year, the 50% percentile is the temperature expected to be exceeded in 1 year out of two years. Likewise, the 95% percentile is the temperature expected to be exceeded in 1 year out of 20 years, and the 99% percentile is the temperature expected to be exceeded in one year out of 100 years.  It&rsquo;s important to remember that return levels in this context are summary statistics of the historical data.  <strong>They are not forecasts of the future</strong>.</p>
+<p>The estimated 2-year, 20-year, and 100-year return values are tabulated below. I have also plotted the mean estimates as dotted vertical lines in the figure above.</p>
+<table>
+<thead>
+<tr>
+<th>Return level</th>
+<th>95% lower CI</th>
+<th>Estimated</th>
+<th>95% upper CI</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2 year</td>
+<td>42.98</td>
+<td>43.54</td>
+<td>44.11</td>
+</tr>
+<tr>
+<td>20 year</td>
+<td>46.71</td>
+<td>47.47</td>
+<td>48.22</td>
+</tr>
+<tr>
+<td>100 year</td>
+<td>47.84</td>
+<td>48.89</td>
+<td>49.94</td>
+</tr>
+</tbody>
+</table>
+<p>This table tells us how unexpected the 49.9°C recorded on 18 February 2024 was: It&rsquo;s 1°C above the estimated 100-year return level (!), and it is barely within the 95% confidence interval of the estimate.  The plot below illustrates that this record is unprecedented in history.</p>
+
+
+<div class="box" style="max-width:85%">
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="/blog/extreme_example/fig4.png" />
+    </div>
+    <a href="/blog/extreme_example/fig4.png" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+<h3 id="the-2024-summer-of-perth-has-been-the-hottest-in-decades">The 2024 summer of Perth has been the hottest in decades</h3>
+<p><a href="https://en.wikipedia.org/wiki/Carnarvon,_Western_Australia">Carnarvon</a> is a small town in Western Australia with a population of 4,000. It is about  900 kilometers from Perth, the capital city of Western Australia.  For comparison, we can also take a look at the temperatures of Perth [6].  The parameters of the fitted GEV distribution are (location, scale, shape) = (41.47, 1.62, -0.26).</p>
+
+
+<div class="box" style="max-width:75%">
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="/blog/extreme_example/fig5.png" />
+    </div>
+    <a href="/blog/extreme_example/fig5.png" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+
+
+<div class="box" style="max-width:80%">
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="/blog/extreme_example/fig6.png" />
+    </div>
+    <a href="/blog/extreme_example/fig6.png" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+<p>The two figures above suggest that the summer of 2024 was scorchingly hot in Perth - the maximum temperature (44.6°C) was slightly below the 20-year return level, ranking 3rd in this 80+ years dataset.  However, it was not unprecedented. The hottest temperature in this dataset was the 46.7°C of 1991.  The 46.7°C record was above the 95% upper confidence interval of the 100-year return level, so we might say that the temperature of 1991 was perhaps as unexpected as the 49.9°C of Carnarvon 2024.</p>
+<table>
+<thead>
+<tr>
+<th>Return level</th>
+<th>95% lower CI</th>
+<th>Estimated</th>
+<th>95% upper CI</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2 year</td>
+<td>41.65</td>
+<td>42.04</td>
+<td>42.42</td>
+</tr>
+<tr>
+<td>20 year</td>
+<td>44.34</td>
+<td>44.84</td>
+<td>44.35</td>
+</tr>
+<tr>
+<td>100 year</td>
+<td>45.19</td>
+<td>45.85</td>
+<td>46.51</td>
+</tr>
+</tbody>
+</table>
+<p>The annual maximum was not the only way in which weather can be extreme.  To quantify the accumulative effects of consecutive hot days, I calculated the median temperature of a 4-day rolling window and then calculated the annual maximum of each summer.</p>
+
+
+<div class="box" style="max-width:80%">
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="/blog/extreme_example/fig7.png" />
+    </div>
+    <a href="/blog/extreme_example/fig7.png" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+<p>The value of this 4-day median in 2024 (43.1°C) is between the 20-year and the 100-year return level (42.6°C and 44.0°C respectively), suggesting that the residents of Perth endured a rare summer heatwave.  The last time anything like this happened was more than half a century ago.</p>
+<h3 id="final-thoughts">Final thoughts</h3>
+<p>We have barely scratched the surface of Extreme Value Theory.  The most obvious issue with the analyses presented above is that we reduced an entire year worth of data to just one data point, before we fit the data to the GEV distribution.  In doing so, we have ignored any pattern in a year that might inform us about the extremes.  In datasets with very long history, it might be fine, or even desirable, to operate at the annual level; but very often, it would be very useful to take advantage of the daily resolution of the dataset.  Making inferencing about the extremes at different scales is an important part of the theory (among others) that is not covered in this article.  I hope that you&rsquo;ll find this article interesting enough to go deeper into Extreme Value Theory.</p>
+<h3 id="notes">Notes</h3>
+<p>[1] Extreme Value Theory is not all about the maximum. It can also deal with the second-largest value, the third-largest value&hellip; and so on.  It can deal with the minimum as well.  But for simplicity, we&rsquo;ll limit ourselves to the maximum here.</p>
+<p>[2] The words that we choose to use when we reason and communicate about extremes are important.  It&rsquo;s easy to use a language that does not correspond to the statistical concepts.  For example, I am familiar with the definition of extreme used in this article, but when I started this article, I still gave it the title &ldquo;How extreme is it?&rdquo; It&rsquo;s hard to resist using this title because it&rsquo;s short and easy to understand, but according to our definition, it&rsquo;s not meaningful. We can ask &ldquo;How unexpected is the extreme being 49.9°C?&rdquo;, but we cannot ask &ldquo;How extreme is 49.9°C?&rdquo;</p>
+<p>[3] The fact that taking the maximum of two dice gives you a biased die can be very useful for tabletop games.  I have played a game that uses this trick to allow the player to move 6 squares more often than 1 square.</p>
+<p>[4] The data was taken from the Carnarvon Airport.  The data before 1950 appeared to be unreliable, so I decided to exclude them from this analysis.  I chose not to filter the data with the &ldquo;Quality&rdquo; column in the dataset.</p>
+<p>[5] The skewness of the fitted distribution is 0.0776034, indicating that the tail is on the side of high temperature.  Excessive kurtosis is -0.257, which is also a slight deviation from the Normal distribution.</p>
+<p>[6] The dataset used was from the Perth Airport rather than from the metropolitan area of Perth because the Perth Airport has a very complete set of historical readings.</p>
 
   </section>
   <footer>
