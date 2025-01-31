@@ -27,6 +27,7 @@ hugo --cleanDestinationDir
 ## update the site
 ```
 git add --all
+git commit -m "message"
 git push
 ```
 
