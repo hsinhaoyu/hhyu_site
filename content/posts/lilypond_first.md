@@ -151,9 +151,9 @@ chordB = #'(
 In Scheme mode, we define a Scheme function `my-chord`, which can be used as a markup `\my-chord`. Interestingly, although I said that the function `my-chord` is written in Scheme, the code doesn't quite follow the Scheme syntax. That is because inside Scheme mode, we use `#` again to turn into markup mode in Scheme (e.g., `#:override '(size . 2)` is a markup). I was going to say that the ability to switch from one language to another seamlessly is unique, but then I realized that [JSX](https://en.wikipedia.org/wiki/JSX_(JavaScript)) in web programming uses a similar pattern. But the idea is done more elegantly in LilyPond.
 
 ## Scale diagrams
-With some minor tweaks (code [here](https://github.com/hsinhaoyu/lilypond_exp/blob/main/scales/dorian_vs_minor_penatonic.ly)), I can also create scale diagrams like this:
+With some minor tweaks (code [here](https://github.com/hsinhaoyu/lilypond_exp/blob/main/scales/dorian_vs_minor_pentatonic.ly)), I can also create scale diagrams like this:
 
-{{< figure src="/blog/lilypond/dorian_vs_minor_penatonic.cropped.png" width="80%" >}}
+{{< figure src="/blog/lilypond/dorian_vs_minor_pentatonic.cropped.png" width="80%" >}}
 
 ## LilyPond with org-roam
 But the point of this exercise is not to just to create diagrams. What's more important is a system to collect them and organize them. I have been using Emacs' [org-roam package](https://www.orgroam.com) as a repository of my notes. Since `org-roam`'s own markup language allows code blocks to be embedded and executed in its documents, I can easily incorporate scale and chord diagrams into my notes. This way, they can be commented on, can be searched, and can be associated with notes using tags. The following, for example, is a journal entry:
