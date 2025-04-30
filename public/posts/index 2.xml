@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Cortically Magnified</title>
+    <link>https://www.hhyu.org/posts/</link>
+    <description>Recent content in Posts on Cortically Magnified</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 21 Feb 2024 19:42:23 +1100</lastBuildDate><atom:link href="https://www.hhyu.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How unexpected was the 49.9°C temperature recorded recently? An introduction to extreme statistics</title>
+      <link>https://www.hhyu.org/posts/extreme_example/</link>
+      <pubDate>Wed, 21 Feb 2024 19:42:23 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/extreme_example/</guid>
+      <description>It has become very obvious that extreme weather is a clear and present danger. Globally, 2023 was the hottest year ever recorded, and some scientists are predicting that 2024 will be humanity&amp;rsquo;s first year beyond the 1.5°C threshold above pre-industrial average temperature. On a personal level, just last week, my house in Melbourne was without power for more than 8 hours, due to a large-scale blackout in Victoria caused by strong winds and high temperatures.</description>
+    </item>
+    
+    <item>
+      <title>More detective stories involving perceptual psychology</title>
+      <link>https://www.hhyu.org/posts/2023_10_09_more_colorblindness/</link>
+      <pubDate>Mon, 09 Oct 2023 22:54:13 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/2023_10_09_more_colorblindness/</guid>
+      <description>In a previous blog post, I reviewed Ellery Queen&amp;rsquo;s classic detective novel The Greek Coffin Mystery (1932), which manages to involve color blindness in its puzzles. But I am not done yet! I have a couple more.
+On one hand, it feels to me that color blindness is gimmicky as a plot device. A mystery writer must be quite desperate for new ideas if she or he has to turn to perceptual psychology (or any branch of specialized knowledge, for that matter).</description>
+    </item>
+    
+    <item>
+      <title>A vision scientist&#39;s review of The Greek Coffin Mystery by Ellery Queen (1932)</title>
+      <link>https://www.hhyu.org/posts/2023_10_04_ellery_queen_greek_coffin/</link>
+      <pubDate>Sat, 07 Oct 2023 07:47:33 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/2023_10_04_ellery_queen_greek_coffin/</guid>
+      <description>I don&amp;rsquo;t think mystery novels by Ellery Queen are popular in western countries anymore, but they are still read in Asia. When I was a PhD student, every time I had to travel from my home country Taiwan to the USA, I would buy an Ellery Queen novel at the airport bookstore. This way, I could land in LAX with a solved mystery. Ellery Queen novels are substantial books with very complex plots - perfect for long flights because uninterrupted concentration is needed to tackle them.</description>
+    </item>
+    
+    <item>
+      <title>Mixing code and markups in LilyPond (or, coding for guitarists)</title>
+      <link>https://www.hhyu.org/posts/lilypond_first/</link>
+      <pubDate>Tue, 12 Sep 2023 22:42:10 +1000</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/lilypond_first/</guid>
+      <description>I wrote this post primarily from the perspective of a beginner guitarist trying to solve a practical problem, but the way I approached it naturally landed on functional programming and literate programming. So, you might want to stay around even if you are not interested in playing the guitar. This post is mostly about my experience of learning a very interesting music markup language LilyPond, which has a symbiotic relationship with the GNU Guile Scheme.</description>
+    </item>
+    
+    <item>
+      <title>What can we learn from the Simpson&#39;s Paradox?</title>
+      <link>https://www.hhyu.org/posts/simpsons/</link>
+      <pubDate>Fri, 28 Jan 2022 17:06:28 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/simpsons/</guid>
+      <description>The Simpson&amp;rsquo;s Paradox is one of the most well-known paradoxes in statistics. A quick google will find plenty of blog posts (many from the data science community) about this puzzling phenomenon. It is clearly a topic of real-world significance. There seem to be some important lessons that we are supposed to learn from it. But what are those lessons? Is it nothing more than a cautionary tale about how easy it is for data analyses to go wrong?</description>
+    </item>
+    
+    <item>
+      <title>A mind-boggling analogy between machine learning and quantum physics</title>
+      <link>https://www.hhyu.org/posts/fermion/</link>
+      <pubDate>Fri, 27 Aug 2021 20:47:54 +1000</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/fermion/</guid>
+      <description>A recent paper published in PNAS titled &amp;ldquo;The Fermi-Dirac distribution provides a calibrated probabilistic output for binary classifiers&amp;rdquo; caught my attention, because it describes a surprising relationship between machine learning and quantum physics. In fact, surprising is an understatement. Mind-boggling is more like it. According to the analogy developed by the authors, positive samples in binary classification problems are like&amp;hellip; fermions?! What?! I decided that I should try to understand the gist of this paper, at least to the extent that I can.</description>
+    </item>
+    
+    <item>
+      <title>Heh, Emacs LISP function! Lemme give you a piece of advice!</title>
+      <link>https://www.hhyu.org/posts/elisp_advice/</link>
+      <pubDate>Sun, 22 Aug 2021 10:11:05 +1000</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/elisp_advice/</guid>
+      <description>Did you know that in some programming languages, you can give a function a piece of advice? The basic idea is this: if you are using an application or a library written by somebody else, what can you do if you need to modify the behavior of a particular function? You could modify its source code, if your version improves it for everybody. However, if you only want to customize it for your personal needs, a more lightweight solution might be desirable.</description>
+    </item>
+    
+    <item>
+      <title>Beautiful ideas in programming: generators and continuations</title>
+      <link>https://www.hhyu.org/posts/generator_and_continuation/</link>
+      <pubDate>Fri, 16 Jul 2021 17:30:25 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/generator_and_continuation/</guid>
+      <description>In this post, I&amp;rsquo;ll summarize what I&amp;rsquo;ve learned from an attempt to gain a deeper understanding of two important concepts in programming: Python&amp;rsquo;s generators and Scheme&amp;rsquo;s continuation. The aim is not to teach Python or Scheme programming. Rather, what I want to do is to demonstrate that generators are special cases of a much more powerful construct - continuations. Continuations allow programmers to invent new control structures, and it is the foundation upon which iterators, generators, coroutines, and many other useful constructs can be built.</description>
+    </item>
+    
+    <item>
+      <title>Simple exercises with grep, sed and awk in org-mode</title>
+      <link>https://www.hhyu.org/posts/shell_regexp/</link>
+      <pubDate>Tue, 23 Mar 2021 22:33:51 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/shell_regexp/</guid>
+      <description>For text processing, I had never bothered to learn classic Unix tools such as sed and awk, because I can always use Python&amp;#39;s regular expression library. The syntax of sed and awk just appeared to be too arcane to me. However, recently I realize that for many simple ad-hoc tasks, even writing a Python script is too much overhead. This motivated me to learn to use regular expressions directly in the command line.</description>
+    </item>
+    
+    <item>
+      <title>Use basic data science skills to debunk a myth about koalas!</title>
+      <link>https://www.hhyu.org/posts/koala/</link>
+      <pubDate>Fri, 05 Feb 2021 20:20:25 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/koala/</guid>
+      <description>Did you know that the koala is the dumbest animal in the world? According to an Internet meme, koalas have really tiny brains because the eucalyptus leaves that they eat are toxic and poor in nutrition. That seems plausible to me, but you shouldn&amp;rsquo;t believe in Internet memes. Let&amp;rsquo;s turn to the most authoritative source of knowledge in the world, the Wikipedia, instead. This is what the Wikipedia has to say about koala&amp;rsquo;s brain:</description>
+    </item>
+    
+    <item>
+      <title>Writing the Emacs configuration script in org-mode: a simple example of literate programming</title>
+      <link>https://www.hhyu.org/posts/literate_config/</link>
+      <pubDate>Tue, 05 Jan 2021 14:16:59 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/literate_config/</guid>
+      <description>Program like writers do Programming is traditionally seen as an exercise that translates human thoughts into a format that computers can understand. As a result, the ideas behind the program can become obscured and fragmented in the source code. This is why reading code requires so much mental effort. For me, reading code often feels like solving a puzzle, or reading modernist/postmodernist novels where events are narrated out of sequence. The concept of literate programming was introduced by Donald Knuth in the 80&amp;rsquo;s to address this issue.</description>
+    </item>
+    
+    <item>
+      <title>How this website was built - a tutorial</title>
+      <link>https://www.hhyu.org/posts/website_tutorial/</link>
+      <pubDate>Thu, 17 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/website_tutorial/</guid>
+      <description>I started this website in 2018, because I wanted to collect all my content in one single place. I decided to built it with simple tools, so I could understand how everything works, and fix problems if needed. It&amp;rsquo;s a hobby like how some people like to build their own kitchens. Lots of tutorials are available on building personal websites, but I still want to write my own, because when I got started, I could never find one that explained every step needed to build a complete website.</description>
+    </item>
+    
+    <item>
+      <title>How I run emacs in client/server mode under macOS</title>
+      <link>https://www.hhyu.org/posts/emacs_clientserver/</link>
+      <pubDate>Mon, 30 Nov 2020 13:21:26 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/emacs_clientserver/</guid>
+      <description>Many articles are available about running Emacs in client/server mode. However, when I tried to do it in my particular environment (macOS 11.0.1 Big Sur, using zsh), some tweaks were still needed. So I figured that it&amp;rsquo;s probably useful to document my setup.
+In macOS, the Emacs executable is /Applications/Emacs.app/Contents/MacOS/Emacs. To run Emacs in its regular (non-server) operation mode, I defined two shell commands in .zshrc: emacs runs Emacs in GUI mode in a macOS window, whereas emacsnw runs Emacs in text mode within the terminal.</description>
+    </item>
+    
+    <item>
+      <title>So, I designed a clock face</title>
+      <link>https://www.hhyu.org/posts/clockface/</link>
+      <pubDate>Mon, 22 Jun 2020 18:19:51 +1000</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/clockface/</guid>
+      <description>I got the idea from a photo of a clock that I found randomly on eBay. I thought that it was a novelty clock with a very unusual industrial design, but after a little while, I realized that what happened was that the seller took the hands part, and placed them haphazardly on the clock face.
+But it got me thinking, clock hands don&amp;rsquo;t have to rotate around the center, if they are mounted on rotating discs.</description>
+    </item>
+    
+    <item>
+      <title>Notes for Collection of Sand - essays by Italo Calvino</title>
+      <link>https://www.hhyu.org/posts/calvino_sand/</link>
+      <pubDate>Sat, 11 Apr 2020 08:49:22 +1000</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/calvino_sand/</guid>
+      <description>Collection of Sand is a collection of book reviews, exhibition reviews and travelogues that Italo Calvino wrote in the 70&amp;rsquo;s and 80&amp;rsquo;s. The quality varies. The best of them are unsurprisingly ekphrastic essays where Calvino described gardens, historical sites, and paintings in exquisite details. Those where he tried to regurgitate scientific or historical knowledge from academic books are less inspiring. But still, it is the variety of things that Calvino cared to write about that charms.</description>
+    </item>
+    
+    <item>
+      <title>Who did the first computer simulation of a biological neuron?</title>
+      <link>https://www.hhyu.org/posts/hodgkinhuxley/</link>
+      <pubDate>Wed, 18 Sep 2019 20:42:52 +1000</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/hodgkinhuxley/</guid>
+      <description>Nobel laureates Alan Hodgkin and Andrew Huxley are sometimes called the fathers of computational neuroscience, because they developed the first mathematical theory to explain how neurons communicate with each other with electrical signals. I read in a textbook that when they published their model in 1952, all the numerical calculations were done manually, because the computer at Cambridge was not working. It was &amp;ldquo;computational&amp;rdquo; all right, but it was the labour intensive variety.</description>
+    </item>
+    
+    <item>
+      <title>Let&#39;s make some spirals</title>
+      <link>https://www.hhyu.org/posts/spirals/</link>
+      <pubDate>Thu, 07 Jun 2018 15:18:22 +1000</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/spirals/</guid>
+      <description>Disk point picking is an elementary problem in geometry. To evenly distribute points on a disk, an intuitive idea is to sample pairs of numbers in polar coordinate (radius and angle) randomly from uniform distributions. After all, &amp;ldquo;uniformly&amp;rdquo; is just another word for &amp;ldquo;evenly&amp;rdquo;, isn&amp;rsquo;t it? But it doesn&amp;rsquo;t work. When the points are sampled this way, the density of the dots fall off linearly with the distance to the origin.</description>
+    </item>
+    
+    <item>
+      <title>Gradient descent on a non-Euclidean surface</title>
+      <link>https://www.hhyu.org/posts/elastic/</link>
+      <pubDate>Fri, 23 Mar 2018 12:23:25 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/elastic/</guid>
+      <description>&lt;h3 id=&#34;is-the-salesman-travelling-on-foot-or-on-an-airplane&#34;&gt;Is the salesman travelling on foot or on an airplane?&lt;/h3&gt;
+&lt;p&gt;This article describes an experiment to develop a version of the elastic net algorithm that works on spherical surfaces. I needed it for a computational neuroscience problem, but for those who are mainly interested in machine learning, it also serves a simple and intuitive demonstration of using gradient descent on non-Euclidian surfaces. The Tensorflow source code is available on &lt;a href=&#34;https://github.com/hsinhaoyu/spherical_elastic_net&#34;&gt;GitHub&lt;/a&gt;. I also made a youtube &lt;a href=&#34;https://www.youtube.com/watch?v=uoZcTG_i2jQ&amp;amp;feature=youtu.be&#34;&gt;video&lt;/a&gt; showing the algorithm in action.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Punning is no fun in Chinese</title>
+      <link>https://www.hhyu.org/posts/chinese_punning/</link>
+      <pubDate>Tue, 21 Nov 2017 23:35:30 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/chinese_punning/</guid>
+      <description>The Economist is probably not the best place to look for rigorous scholarship on comparative punnology, but a recent article did ask a very good question: Why English is such a great language for puns? I am not sure if the superiority of English in punning is that obvious, but the argument seems to be convincing:
+For English is unusually good for puns. It has a large vocabulary and a rich stock of homophones from which puns can be made.</description>
+    </item>
+    
+    <item>
+      <title>Serendipitous photoshopping</title>
+      <link>https://www.hhyu.org/posts/photoshop/</link>
+      <pubDate>Fri, 10 Nov 2017 23:55:20 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/photoshop/</guid>
+      <description>The unusually thick glasses on the windows of the Old Art building in Melbourne University seem to be hand-polished, whose uneven surfaces naturally distort the view into an American expressionist painting.
+The historic building of the Drum Theatre in Dandenong, Victoria was reflected on a modern office building across the road. The reflective windows reconfigured the image into an incongruent mosaic. You might call it photographic cubism.
+This is a serendipitous photographic tribute to Metamorphosis II by M.</description>
+    </item>
+    
+    <item>
+      <title>The ingenious sundial of Professor Moppert</title>
+      <link>https://www.hhyu.org/posts/sundial/</link>
+      <pubDate>Fri, 10 Nov 2017 22:06:25 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/sundial/</guid>
+      <description>&lt;p&gt;Installed on the northern wall of the Monash University student centre (Melbourne) is a curious geometrical object. If you don’t pay close attention, you might think it’s just a decorative sculpture. But it is actually a functional sundial — conceived and constructed by the mathematician Carl Moppert in the 80’s. This design appears to be unique. I browsed through many photos on Instagram tagged with #sundial, and I couldn’t find another one that looks quite like it.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Several places in the music of Charles Ives</title>
+      <link>https://www.hhyu.org/posts/charles_ives/</link>
+      <pubDate>Fri, 10 Nov 2017 21:38:21 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/charles_ives/</guid>
+      <description>Charles Ives (1874–1954) is the quintessential American composer. Some of his compositions are as American as cherry pie. Take the Country Band March (1905), for example. It brings you straight to the turn-of-the century America:
+It’s a collage of folk tunes, patriotic songs, and marching band music, but you only hear a melody briefly, and then it’s either interrupted rudely or mutated gracefully into another. Very often two or three motifs are played simultaneously so you can’t decide which one to follow.</description>
+    </item>
+    
+    <item>
+      <title>A magic trick based on Fourier transform</title>
+      <link>https://www.hhyu.org/posts/fourierdemonstration/</link>
+      <pubDate>Fri, 10 Nov 2017 19:40:13 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/fourierdemonstration/</guid>
+      <description>Fourier analysis says that complex patterns can be created by adding up a large number of patterns as simple as sinusoidal waves. To make the idea more concrete, I like to use the following analogy in teaching: Imagine that you lived in the early 19th century. If you wanted to listen to a symphony, the only way to make it happen was to hire a few dozen highly-trained musicians to perform it for you.</description>
+    </item>
+    
+    <item>
+      <title>The lens</title>
+      <link>https://www.hhyu.org/posts/lens/</link>
+      <pubDate>Fri, 10 Nov 2017 19:08:07 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/lens/</guid>
+      <description>The lens is the component in the eye that reflects light. They are not always shape liked pancakes or magnifying glasses. In small mammals, the lens is very often looks like the chewy tapioca balls in Asian boba milk tea.
+Primate lenses are more like magnifying glasses:</description>
+    </item>
+    
+    <item>
+      <title>Panoramic</title>
+      <link>https://www.hhyu.org/posts/panorama/</link>
+      <pubDate>Fri, 10 Nov 2017 01:38:22 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/panorama/</guid>
+      <description>Along the River During the Qingming Festival (清明上河圖) is a 12th-century classic Chinese painting depicting the imperial capital on a particularly busy day. Painted on a long scroll, the &amp;ldquo;panorama&amp;rdquo; is too wide to be appreciated in its entirity. The viewers are invited to view only a small section of the painting at the time and immerse themselves in the details.
+I have been interested in duplicating this effect with photography.</description>
+    </item>
+    
+    <item>
+      <title>The old man and the vacuum tubes</title>
+      <link>https://www.hhyu.org/posts/akihabara/</link>
+      <pubDate>Fri, 10 Nov 2017 00:59:52 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/akihabara/</guid>
+      <description>During a trip to Tokyo in 2013, I found an opportunity to visit the Akihabara district. This area is world famous for its high concentration of shops selling the latest models of computers, game consoles, gadgets, and other geeky items. I was, however, pleasantly surprised that, like almost everywhere else in Tokyo, traces of postwar Japan are never too distant away. Hidden behind tall buildings are two narrow lanes of traditional shops selling electronics parts.</description>
+    </item>
+    
+    <item>
+      <title>Norwegian wood(s) in Asia</title>
+      <link>https://www.hhyu.org/posts/norwegian/</link>
+      <pubDate>Fri, 10 Nov 2017 00:28:23 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/norwegian/</guid>
+      <description>&amp;ldquo;Once I had a girl, or should I say, she once had me&amp;rdquo; sang John Lennon in Norwegian Wood (This Bird Has Flown), the second track of the classic Beatles album Rubber Soul. Released in 1965, this innovative composition, widely considered a Rock and Roll canon heralding the maturation of the relatively young art form, immortalized John Lennon&amp;rsquo;s extramarital affair with an unidentified woman, popularized the use of the sitar in Western music, and unintentionally led to the creation of one of the most clichéd imageries in Asia.</description>
+    </item>
+    
+    <item>
+      <title>Curb your nostalgic Japanese childhood enthusiasm</title>
+      <link>https://www.hhyu.org/posts/maruko/</link>
+      <pubDate>Fri, 10 Nov 2017 00:09:14 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/maruko/</guid>
+      <description>You don’t have to be a New York Jew to be neurotic. Being a Japanese little girl will do.
+Chibi Maruko-Chan is a popular Japanese cartoon for children. It is about the life of a Japanese girl in elementary school. On the surface it’s a typical saccharine sweet Japanese show about growing up. Maruko is as adorable as can be. Her nickname Maruko means “chubby” and her last name means &amp;ldquo;cherry&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>The seeds of quandong</title>
+      <link>https://www.hhyu.org/posts/quandong/</link>
+      <pubDate>Tue, 04 Oct 2016 01:29:16 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/quandong/</guid>
+      <description>There is a desert quandong tree (Santalum acuminatum), a native Australian plant, on campus. I walked past it for months without paying any attention to it until it started to bear fruits. Its bell-like fruits look like decorations of the Christmas tree. The color is eye-catching. As you can see from the photo on the left below, a drop of bright red first appears to at the top of the fruit.</description>
+    </item>
+    
+    <item>
+      <title>How many photons get into your eyes?</title>
+      <link>https://www.hhyu.org/posts/photons/</link>
+      <pubDate>Sat, 20 Aug 2016 20:31:41 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/photons/</guid>
+      <description>A recent paper shows that our vision is so sensitive to light that human subjects can detect the presence of one single photon shot into their retinas. While scientists have been trying to establish the lower limit of visual sensitivity for a very long time, and it is generally accepted that a small number of photons are sufficient for detection since the 40’s, new advances in quantum optics finally allow us to manipulate light at single photon precision, and it is the first time that direct evidence for single photon sensitivity is demonstrated in a psychological experiment.</description>
+    </item>
+    
+    <item>
+      <title>The marmoset visual area DM for dummies</title>
+      <link>https://www.hhyu.org/posts/areadm/</link>
+      <pubDate>Mon, 16 May 2016 20:07:26 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/areadm/</guid>
+      <description>The visuotopic map of the marmoset dorsomedial visual cortex (area DM; see references) is sufficiently complex that it is probably worthwhile to design a few visual aides to make it more intuitive. The figure above is my first attempt. In this figure, DM is divided into three segments, with the most medial segment representing central upper visual field (nose and eye of Sir Isaac Newton), the middle segment representing the entire lower visual field, and the medial segment representing the peripheral upper visual field (the forehead and hair of Newton).</description>
+    </item>
+    
+    <item>
+      <title>The retinotopic map of marmoset V1</title>
+      <link>https://www.hhyu.org/posts/marmosetv1/</link>
+      <pubDate>Sat, 07 May 2016 18:51:42 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/marmosetv1/</guid>
+      <description>I created this figure to illustrate the retinotopic map of the primary visual cortex of the marmoset. The eccentricity contours are plotted in red, and polar angles are in blue. It&amp;rsquo;s very easy to create it in 3D so that you can rotate it around and see it from different angles. This is how you do it:
+Download ParaView, the open source 3D data visualization package.
+Download the published retinotopic data (Chaplin, Yu &amp;amp; Rosa, 2013).</description>
+    </item>
+    
+    <item>
+      <title>Mangarevan arithmetic</title>
+      <link>https://www.hhyu.org/posts/mangarevan/</link>
+      <pubDate>Wed, 06 Apr 2016 18:37:27 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/mangarevan/</guid>
+      <description>PNAS recently published a cognitive anthropology paper titled Mangarevan invention of binary steps for easier calculation. The paper describes an arithmetic system that had been used for hundreds of years by islanders living in Mangareva (a small island in French Polynesia) for the purpose of “counting a small group of highly valued objects such as turtles, fish, coconuts, octopuses, and breadfruits”. This system is not too different from the decimal system that we’re using today, except that a number in the Mangarevan language can contain a small segment of binary code, which employs four numerals to represent 10 multiplied by the first four powers of 2.</description>
+    </item>
+    
+    <item>
+      <title>Polar opposite</title>
+      <link>https://www.hhyu.org/posts/polar-opposite/</link>
+      <pubDate>Wed, 04 Mar 2009 17:28:52 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/polar-opposite/</guid>
+      <description>This figure illustrates the direction tuning curves of two motion sensitive neurons recorded in the primary visual cortex. The two neurons were so close to each other that their activities could be picked up by the same electrode. Interestingly they preferred polar opposite directions.</description>
+    </item>
+    
+    <item>
+      <title>Teaching Material: PSY3310/Human vision as frequency filters</title>
+      <link>https://www.hhyu.org/posts/edupsy3310-fourier/</link>
+      <pubDate>Tue, 01 Jan 2008 14:32:20 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/edupsy3310-fourier/</guid>
+      <description>Demonstrations: The reconstruction of Mona Lisa video. A blog post I wrote about the Fourier transform trick. Youtube video: Nobel laureates David Hubel and Torsten Wiesel recording neurons in cat&amp;rsquo;s V1. Suggested readings: Fourier transform An introduction to two-dimensional fast Fourier transforms and their applications by Rzeszotarski et al. (1983). Fourier transforms and frequency-domain processing (Chapter 5 of Fundamentals of Digital Image Processing: A Practical Approach with Examples in Matlab by Solomon &amp;amp; Breckon, 2011) Suggested readings: programming See this web page from UCSB.</description>
+    </item>
+    
+    <item>
+      <title>Teaching Material: RAD2092/Physiology of Visual Pathways</title>
+      <link>https://www.hhyu.org/posts/edurad2092-visual-cortex/</link>
+      <pubDate>Tue, 01 Jan 2008 14:26:30 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/edurad2092-visual-cortex/</guid>
+      <description> Central disorders of vision in humans by Girkin &amp;amp; Miller (2001): a review of what happens if different parts of the visual cortex are damaged. &amp;ldquo;Superimposed hemifields in primary visual cortex of achiasmic individuals&amp;rdquo; by Sinha &amp;amp; Meng (2012, Neuron 75): Newton vs. Descartes on the organization of the optic chiasm. Youtube video demonstrating how Hubel &amp;amp; Wiesel mapped V1 receptive fields. </description>
+    </item>
+    
+    <item>
+      <title>Teaching Material: RAD2092/The eye and the retina</title>
+      <link>https://www.hhyu.org/posts/edurad2092-eye/</link>
+      <pubDate>Tue, 01 Jan 2008 14:23:49 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/edurad2092-eye/</guid>
+      <description> Animal Eyes by Land &amp;amp; Nilsson is a very nice little book about the fascinating variety of eye structures found in nature. Youtube video about the &amp;ldquo;connectome&amp;rdquo; of the retina </description>
+    </item>
+    
+    <item>
+      <title>Teaching Material: RAD2092/The Cerebral Cortex</title>
+      <link>https://www.hhyu.org/posts/edurad2092-cortex/</link>
+      <pubDate>Tue, 01 Jan 2008 14:13:23 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/edurad2092-cortex/</guid>
+      <description>General Is the human cortex exceptionally large? See Herculano-Houzel (2009) The human brain in numbers: a linearly scaled-up primate brain. Frontiers in Neuroscience 3, e31. [Tenor sings opera during craniotomy](Tenor sings opera during craniotomy): I just think this is quite fascinating. &amp;ldquo;Language areas&amp;rdquo; The history of Broca&amp;rsquo;s area: Dronkers et al. (2007) Neuroimaging of Language: Why hasn&amp;rsquo;t a clear picture emerged? Fedorenko &amp;amp; Kanwisher (2009) Language and Linguistics Compass 3, 10.</description>
+    </item>
+    
+    <item>
+      <title>Teaching Material: PHY3012/Plasticity in the visual system in development</title>
+      <link>https://www.hhyu.org/posts/eduphy3012-plasticity/</link>
+      <pubDate>Tue, 01 Jan 2008 14:02:22 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/eduphy3012-plasticity/</guid>
+      <description>Interesting A man with only half a brain A study of a man who recovered vision after decades of being blind: Fine et al. (2003) Long-term deprivation affects visual perception and cortex. Nat. Neurosci. 6, p915. How Utter Darkness Could Heal Lazy Eye: related to ocular dominance critical period. Giving blind people sight illuminates the brain’s secrets General review Anderson et al (2011) Do children really recover better? Neurobehavioural plasticity after early brain insult.</description>
+    </item>
+    
+    <item>
+      <title>Teaching Material: PHY3111/Prac</title>
+      <link>https://www.hhyu.org/posts/eduphy3111-prac/</link>
+      <pubDate>Tue, 01 Jan 2008 13:56:48 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/eduphy3111-prac/</guid>
+      <description>More about extracellular recording Wikipedia entry about single-unit recording Extracellular single-unit Recording Methods: a paper by Humphrey &amp;amp; Schmidt </description>
+    </item>
+    
+    <item>
+      <title>Teaching Material: PHY3111/Color Vision</title>
+      <link>https://www.hhyu.org/posts/eduphy3111-color/</link>
+      <pubDate>Tue, 01 Jan 2008 13:33:14 +1100</pubDate>
+      
+      <guid>https://www.hhyu.org/posts/eduphy3111-color/</guid>
+      <description>Interesting articles Impossible colours: You can experience colours that you have never seen before. Some women are tetrachromatic. They can see more colours than most people can. The rainbow does not contain all the colours that we can see. For example, magenta. Dressgate Disrobing the dress:A very detailed webpage about the dress. Lessons from the dress: by vision scientist Pascal Wallisch. The science of why no one agrees on the color of this dress: an article on Wired.</description>
+    </item>
+    
+  </channel>
+</rss>
