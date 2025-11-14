@@ -21,3 +21,6 @@ Inspired by the [Programs to Read](https://www-cs-faculty.stanford.edu/~knuth/pr
 - [Why Functional Programming Matters](https://github.com/hsinhaoyu/why_functional) - An intermediate-level tutorial on Python's generators, based on John Hughes' classic paper "Why Function Programming Matters", which was written in the lazy functional language Miranda.
 
 - [Continued fraction arithmetic](https://github.com/hsinhaoyu/cont_frac) - A Python implementation of Bill Gosper's algorithm for performing arithmetic operations on continued fractions. I also wrote an [article](https://hsinhaoyu.github.io/cont_frac/) to explain the logic. 
+
+#### Utilities
+- [Emacs Org-roam dailies feed](https://github.com/hsinhaoyu/org-roam-dailies-feed): A simple utility for browsing journal entries written in [Emacs Org-roam dailies](https://www.orgroam.com/manual.html#org_002droam_002ddailies) as a continuous feed.
